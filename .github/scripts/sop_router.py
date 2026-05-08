@@ -5,11 +5,7 @@ SOP Router - reads sop.yaml, detects changed files, calls the right Hermes webho
 import os
 import sys
 import json
-import hmac
-import hashlib
 import subprocess
-import urllib.request
-import urllib.error
 import yaml  # pip install pyyaml
 
 
@@ -41,37 +37,38 @@ def matches_any(files: list[str], pattern: str) -> bool:
     return any(matches_pattern(f, pattern) for f in files)
 
 
-def make_signature(payload_bytes: bytes, secret: str) -> str:
-    """Generate HMAC-SHA256 signature."""
-    sig = hmac.new(secret.encode(), payload_bytes, hashlib.sha256).hexdigest()
-    return f"sha256={sig}"
-
-
 def call_webhook(route: str, payload: dict, base_url: str, secret: str) -> bool:
-    """POST payload to Hermes webhook."""
+    """POST payload to Hermes webhook using curl (bypasses Cloudflare bot checks)."""
     url = f"{base_url}/{route}"
-    payload_bytes = json.dumps(payload).encode("utf-8")
+    payload_str = json.dumps(payload)
+    run_id = payload.get("run_id", "unknown")
 
-    headers = {
-        "Content-Type": "application/json",
-        "X-Webhook-Signature": make_signature(payload_bytes, secret),
-        "X-Request-ID": payload.get("run_id", "unknown"),
-    }
+    result = subprocess.run([
+        "curl", "-sS",
+        "-X", "POST", url,
+        "-H", "Content-Type: application/json",
+        "-H", f"X-Gitlab-Token: {secret}",
+        "-H", f"X-Request-ID: {run_id}",
+        "-H", "User-Agent: curl/7.81.0",
+        "-d", payload_str,
+        "-w", "\nHTTP_STATUS:%{http_code}",
+        "--max-time", "30",
+    ], capture_output=True, text=True)
 
-    req = urllib.request.Request(url, data=payload_bytes, headers=headers, method="POST")
+    output = result.stdout
+    print(f"[sop_router] POST {url}\n{output[-300:]}")
 
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            status = resp.status
-            body = resp.read().decode("utf-8")
-            print(f"[sop_router] POST {url} → {status}: {body[:200]}")
-            return status < 300
-    except urllib.error.HTTPError as e:
-        print(f"[sop_router] HTTP error {e.code}: {e.read().decode()}")
+    if result.returncode != 0:
+        print(f"[sop_router] curl error: {result.stderr}")
         return False
-    except Exception as e:
-        print(f"[sop_router] Error calling webhook: {e}")
-        return False
+
+    # Extract HTTP status from output
+    for line in output.split("\n"):
+        if line.startswith("HTTP_STATUS:"):
+            code = int(line.split(":")[1])
+            return 200 <= code < 300
+
+    return False
 
 
 def main():

@@ -18,10 +18,13 @@ jobs:
         with:
           fetch-depth: 2
 
+      - name: Install pyyaml
+        run: pip install pyyaml --quiet
+
       - name: Run SOP Router
         env:
           HERMES_WEBHOOK_BASE: https://hermes-webhooks.vyibc.com/webhooks
-          HERMES_SOP_SECRET: ${{ secrets.HERMES_SOP_SECRET }}
+          HERMES_SOP_SECRET: ${{ vars.HERMES_WEBHOOK_TOKEN != '' && vars.HERMES_WEBHOOK_TOKEN || secrets.HERMES_WEBHOOK_TOKEN }}
           BEFORE_SHA: ${{ github.event.before }}
           AFTER_SHA: ${{ github.sha }}
           RUN_ID: gh-${{ github.run_id }}-${{ github.run_attempt }}
