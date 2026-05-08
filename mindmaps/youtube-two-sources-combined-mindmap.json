@@ -1,0 +1,113 @@
+{
+  "name": "AI 智能体新动态：GPT-5.5 与 Hermes Agent",
+  "children": [
+    {
+      "name": "GPT-5.5 Instant 发布",
+      "children": [
+        {
+          "name": "核心升级点",
+          "children": [
+            {
+              "name": "降低幻觉率：更靠谱、能纠错"
+            },
+            {
+              "name": "对话更自然：减少废话与机械格式"
+            },
+            {
+              "name": "记忆力增强：新增 Memory Sources 个人助理化"
+            },
+            {
+              "name": "硬核能力提升：数学、科学、多模态图表理解"
+            }
+          ]
+        },
+        {
+          "name": "用户体验与开发者",
+          "children": [
+            {
+              "name": "免费用户可用：每 5 小时额度限制"
+            },
+            {
+              "name": "API 策略优化：统一调用 chat-latest 简化维护"
+            },
+            {
+              "name": "联网搜索：智能判断是否需要实时检索"
+            }
+          ]
+        },
+        {
+          "name": "实测表现",
+          "children": [
+            {
+              "name": "结构化输出：结论先行、简洁明了"
+            },
+            {
+              "name": "执行力：生成可执行视频框架、代码调试"
+            },
+            {
+              "name": "高风险处理：医疗建议更谨慎、防误导"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hermes Agent vs OpenClaw",
+      "children": [
+        {
+          "name": "核心架构差异",
+          "children": [
+            {
+              "name": "OpenClaw：Gateway 网关中心化控制"
+            },
+            {
+              "name": "Hermes：执行循环驱动，具备自我进化闭环"
+            }
+          ]
+        },
+        {
+          "name": "能力与特性",
+          "children": [
+            {
+              "name": "自我提升：自动生成复用性技能（Skills）"
+            },
+            {
+              "name": "分层记忆：核心笔记、SQLite 历史、用户画像、程序性记忆"
+            },
+            {
+              "name": "高兼容性：支持 Docker/VPS，对接主流 IM 如 Telegram"
+            },
+            {
+              "name": "安全防御：五层纵深防御模型，默认安全配置"
+            }
+          ]
+        },
+        {
+          "name": "部署与迁移",
+          "children": [
+            {
+              "name": "安装：一键脚本，支持 WSL2"
+            },
+            {
+              "name": "无缝迁移：自动检测并导入 OpenClaw 配置与记忆"
+            }
+          ]
+        },
+        {
+          "name": "争议：EvoMap 抄袭风波",
+          "children": [
+            {
+              "name": "架构高度借鉴"
+            },
+            {
+              "name": "代码无雷同（嫌疑洗代码）"
+            },
+            {
+              "name": "Nous Research 团队否认"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
