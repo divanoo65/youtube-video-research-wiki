@@ -1,0 +1,129 @@
+{
+  "name": "Hermes Agent 集成 NotebookLM",
+  "children": [
+    {
+      "name": "核心价值",
+      "children": [
+        {
+          "name": "外挂强大知识库"
+        },
+        {
+          "name": "节省 Token 消耗"
+        },
+        {
+          "name": "多设备同步"
+        },
+        {
+          "name": "自然语言操控"
+        },
+        {
+          "name": "打造知识飞轮"
+        }
+      ]
+    },
+    {
+      "name": "主要功能",
+      "children": [
+        {
+          "name": "内容生成",
+          "children": [
+            {
+              "name": "自动生成幻灯片 (PPT)"
+            },
+            {
+              "name": "生成讲解视频"
+            },
+            {
+              "name": "生成音频播客"
+            },
+            {
+              "name": "生成思维导图 (Mindmap)"
+            }
+          ]
+        },
+        {
+          "name": "知识管理",
+          "children": [
+            {
+              "name": "列出/切换笔记"
+            },
+            {
+              "name": "添加论文/文档链接"
+            },
+            {
+              "name": "创建新笔记本"
+            },
+            {
+              "name": "多文档跨度研究"
+            }
+          ]
+        },
+        {
+          "name": "互动学习",
+          "children": [
+            {
+              "name": "深度论文解析"
+            },
+            {
+              "name": "生成测试题 (Quiz)"
+            },
+            {
+              "name": "多语言查询优化"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "技术架构",
+      "children": [
+        {
+          "name": "用户交互层 (聊天软件/命令行)"
+        },
+        {
+          "name": "Hermes 核心层 (意图解析/Skill调度)"
+        },
+        {
+          "name": "NotebookLM-Py 项目 (开源集成工具)"
+        },
+        {
+          "name": "谷歌 NotebookLM 云端 (底层服务)"
+        }
+      ]
+    },
+    {
+      "name": "安装与配置",
+      "children": [
+        {
+          "name": "使用仓库链接自动安装"
+        },
+        {
+          "name": "修复 Cookie 过期 Bug"
+        },
+        {
+          "name": "命令行账号登录"
+        },
+        {
+          "name": "Cookie 导入登录"
+        }
+      ]
+    },
+    {
+      "name": "应用场景",
+      "children": [
+        {
+          "name": "学术研究与论文分析"
+        },
+        {
+          "name": "自媒体内容创作"
+        },
+        {
+          "name": "自动化 AI 简报"
+        },
+        {
+          "name": "多 Agent 协作"
+        }
+      ]
+    }
+  ]
+}
