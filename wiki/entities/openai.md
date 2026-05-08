@@ -41,15 +41,8 @@ confidence: high
 4. 优化了开发者生态
 
 ## 关联页面
-
-- [[GPT-5.5 Instant]]
-- [[ChatGPT]]
-- [[GPT-5.5 Instant 发布与性能深度分析]]
+- [[krEDel3aGGw-gpt-5-5-instant]]
+- [[gpt-5-5-instant]]
 - [[幻觉率下降]]
-- [[对话更自然]]
-- [[记忆能力增强]]
-- [[硬实力提升]]
-- [[API策略调整]]
+- [[基本信息]]
 
----
-*本页面基于 YouTube视频分析自动生成，来源: `raw/notebooklm-analysis/krEDel3aGGw_report.md`*
