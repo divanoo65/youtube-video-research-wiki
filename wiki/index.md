@@ -1,31 +1,22 @@
 # Wiki Index
 
-> Content catalog. Every wiki page listed under its type with a one-line summary.
-> Read this first to find relevant pages for any query.
-> Last updated: 2026-05-08 | Total pages: 5
+> YouTube 视频研究知识图谱。所有 wiki 页面按类型分类索引。
+> Last updated: 2026-05-08 | Total pages: 0
 
 ## Sources
-<!-- Alphabetical within section -->
-[[krEDel3aGGw-gpt-5-5-instant.md]] GPT-5.5 Instant 发布与性能深度分析
+<!-- 视频来源摘要页，字母序 -->
 
 ## Entities
-<!-- Alphabetical within section -->
-[[gpt-5-5-instant.md]] GPT-5.5 Instant
-[[openai.md]] OpenAI
+<!-- 实体页（人物、产品、组织、模型），字母序 -->
 
 ## Concepts
-<!-- Alphabetical within section -->
-[[基本信息.md]] 基本信息
-[[幻觉率下降.md]] 幻觉率下降
+<!-- 概念页（技术方法、框架、趋势），字母序 -->
 
 ## Comparisons
-<!-- Alphabetical within section -->
-
+<!-- 对比分析页 -->
 
 ## Overview
-<!-- Alphabetical within section -->
-
+<!-- 主题总览页 -->
 
 ## Queries
-<!-- Alphabetical within section -->
-
+<!-- 重要问答沉淀 -->
