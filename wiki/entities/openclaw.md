@@ -1,1 +1,39 @@
----\ncreated: 2026-05-09\nupdated: 2026-05-09\ntitle: OpenClaw\ntype: entity\ntags: [ai-agent, opensource]\nsources: [raw/notebooklm-analysis/NbldZVdusKo_b2e25f66-64ec-4549-87e3-c43184c449dc_20260509T010844Z_report.md]\nsummary: 早期个人 AI 助手的标杆，以中心化 Gateway 网关架构和强大的本地执行能力定义了个人 AI 助手的标准。\nlayer: L1\nconfidence: high\nreasoning: 直接来自视频内容和报告描述\n---\n\n# OpenClaw\n\n## 基本信息与定位\n早期个人 AI 助手的标杆，由社区开发，以中心化 Gateway 网关架构著称，提供强大的本地执行能力。\n\n## 核心能力/特征\n- **中心化 Gateway 网关**：所有会话、路由、工具调用均由 Gateway 统一分发，提供极高的稳定性、可审计性与可控性。\n- **强大的本地执行能力**：支持本地工具调用和脚本执行。\n- **模块化技能观**：技能被视为开发者编写的模块化工具或工作流指令，按工作区加载。\n- **Markdown 记忆体系**：以 Markdown 文件为载体，结构清晰、便于手动编辑。\n- **局部身份定义**：SOUL.md 与工作区文件并列，切换工作区即意味着切换一整套身份与上下文。\n\n## 关键事件或里程碑\n- 定义了早期个人 AI 助手的标准\n\n## 与其他实体的关系\n[[Hermes Agent]] - 竞争对手/参照标的\n[[Nous Research]] - Hermes Agent 的开发团队\n[[Gateway 网关]] - 其核心架构组件\n[[SOUL.md]] - 身份定义文件\n\n## 出现的视频来源\n[[NbldZVdusKo-hermes-openclaw-comparison]]\n\n---\n*本页面内容基于 YouTube 视频 https://www.youtube.com/watch?v=NbldZVdusKo 的 NotebookLM 分析报告生成。*\n
+---
+created: 2026-05-09
+updated: 2026-05-09
+title: OpenClaw
+type: entity
+tags: [ai-agent, opensource]
+sources: [raw/notebooklm-analysis/NbldZVdusKo_b2e25f66-64ec-4549-87e3-c43184c449dc_20260509T010844Z_report.md]
+summary: 早期个人 AI 助手的标杆，以中心化 Gateway 网关架构和强大的本地执行能力定义了个人 AI 助手的标准。
+layer: L1
+confidence: high
+reasoning: 直接来自视频内容和报告描述
+---
+
+# OpenClaw
+
+## 基本信息与定位
+早期个人 AI 助手的标杆，由社区开发，以中心化 Gateway 网关架构著称，提供强大的本地执行能力。
+
+## 核心能力/特征
+- **中心化 Gateway 网关**：所有会话、路由、工具调用均由 Gateway 统一分发，提供极高的稳定性、可审计性与可控性。
+- **强大的本地执行能力**：支持本地工具调用和脚本执行。
+- **模块化技能观**：技能被视为开发者编写的模块化工具或工作流指令，按工作区加载。
+- **Markdown 记忆体系**：以 Markdown 文件为载体，结构清晰、便于手动编辑。
+- **局部身份定义**：SOUL.md 与工作区文件并列，切换工作区即意味着切换一整套身份与上下文。
+
+## 关键事件或里程碑
+- 定义了早期个人 AI 助手的标准
+
+## 与其他实体的关系
+[[Hermes Agent]] - 竞争对手/参照标的
+[[Nous Research]] - Hermes Agent 的开发团队
+[[Gateway 网关]] - 其核心架构组件
+[[SOUL.md]] - 身份定义文件
+
+## 出现的视频来源
+[[NbldZVdusKo-hermes-openclaw-comparison]]
+
+---
+*本页面内容基于 YouTube 视频 https://www.youtube.com/watch?v=NbldZVdusKo 的 NotebookLM 分析报告生成。*
