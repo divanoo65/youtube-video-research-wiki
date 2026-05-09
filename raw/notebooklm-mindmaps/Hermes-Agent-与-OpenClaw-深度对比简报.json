@@ -1,0 +1,561 @@
+{
+  "nodes": [
+    {
+      "id": "86a03313",
+      "type": "text",
+      "text": "{'name': 'Hermes Agent 与 OpenClaw 对比分析', 'children': [{'name': '研发背景与团队', 'children': [{'name': 'Nous Research 团队'}, {'name': '核心理念：开源、去中心化、用户可控'}, {'name': '技术积累：Hermes 系列模型、DisTrO 分布式框架'}]}, {'name': '架构逻辑差异', 'children': [{'name': 'OpenClaw: 中心化控制', 'children': [{'name': '以 Gateway 为中枢'}, {'name': '模块化、高稳定性、行为可追踪'}]}, {'name': 'Hermes: 闭环执行循环', 'children': [{'name': '以 Agent 执行循环为引擎'}, {'name': '天生支持自我进化与决策优化'}]}]}, {'name': '核心功能特性', 'children': [{'name': '自我提升与技能生成', 'children': [{'name': '自动抽象程序化知识'}, {'name': 'Skill Hub 扩展与自主管理'}]}, {'name': '分层记忆体系', 'children': [{'name': '核心持久记忆 (MEMORY.md/USER.md)'}, {'name': '会话历史记忆 (SQLite/FTS5)'}, {'name': '扩展记忆层 (Honcho)'}, {'name': '程序性记忆 (Skills)'}]}, {'name': '身份锚定 (SOUL.md)', 'children': [{'name': 'Hermes: 全局核心身份'}, {'name': 'OpenClaw: 绑定特定工作区'}]}]}, {'name': '部署与兼容性', 'children': [{'name': '极强可移植性 (Local, VPS, Docker, SSH)'}, {'name': '多消息平台支持 (Telegram, Discord, Slack 等)'}, {'name': '模型无关性 (OpenAI, OpenRouter, 自定义等)'}, {'name': 'TUI 专业交互环境'}]}, {'name': '自动化与安全性', 'children': [{'name': '内置 Cron 计划任务系统'}, {'name': '五层纵深防御模型 (容器隔离、凭证过滤等)'}]}, {'name': '应用场景', 'children': [{'name': '个人每日简报机器人'}, {'name': '运维与工程助手'}, {'name': '企业内部 API/数据聚合'}, {'name': '智能体研究与数据生成'}]}, {'name': '现状与争议', 'children': [{'name': 'OpenClaw 用户无缝迁移支持'}, {'name': '涉及 EvoMap 抄袭风波争议'}]}]}",
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b63a4e83",
+      "type": "text",
+      "text": "{'name': '研发背景与团队', 'children': [{'name': 'Nous Research 团队'}, {'name': '核心理念：开源、去中心化、用户可控'}, {'name': '技术积累：Hermes 系列模型、DisTrO 分布式框架'}]}",
+      "x": 250,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b167fc43",
+      "type": "text",
+      "text": "{'name': 'Nous Research 团队'}",
+      "x": 500,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "31fafe96",
+      "type": "text",
+      "text": "{'name': '核心理念：开源、去中心化、用户可控'}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "3ccb8bd7",
+      "type": "text",
+      "text": "{'name': '技术积累：Hermes 系列模型、DisTrO 分布式框架'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "5dac2972",
+      "type": "text",
+      "text": "{'name': '架构逻辑差异', 'children': [{'name': 'OpenClaw: 中心化控制', 'children': [{'name': '以 Gateway 为中枢'}, {'name': '模块化、高稳定性、行为可追踪'}]}, {'name': 'Hermes: 闭环执行循环', 'children': [{'name': '以 Agent 执行循环为引擎'}, {'name': '天生支持自我进化与决策优化'}]}]}",
+      "x": 250,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "5f8228e0",
+      "type": "text",
+      "text": "{'name': 'OpenClaw: 中心化控制', 'children': [{'name': '以 Gateway 为中枢'}, {'name': '模块化、高稳定性、行为可追踪'}]}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "cacd75a1",
+      "type": "text",
+      "text": "{'name': '以 Gateway 为中枢'}",
+      "x": 750,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "1039ff11",
+      "type": "text",
+      "text": "{'name': '模块化、高稳定性、行为可追踪'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "8efc59a5",
+      "type": "text",
+      "text": "{'name': 'Hermes: 闭环执行循环', 'children': [{'name': '以 Agent 执行循环为引擎'}, {'name': '天生支持自我进化与决策优化'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "a14780d0",
+      "type": "text",
+      "text": "{'name': '以 Agent 执行循环为引擎'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "151f2a90",
+      "type": "text",
+      "text": "{'name': '天生支持自我进化与决策优化'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "941d7002",
+      "type": "text",
+      "text": "{'name': '核心功能特性', 'children': [{'name': '自我提升与技能生成', 'children': [{'name': '自动抽象程序化知识'}, {'name': 'Skill Hub 扩展与自主管理'}]}, {'name': '分层记忆体系', 'children': [{'name': '核心持久记忆 (MEMORY.md/USER.md)'}, {'name': '会话历史记忆 (SQLite/FTS5)'}, {'name': '扩展记忆层 (Honcho)'}, {'name': '程序性记忆 (Skills)'}]}, {'name': '身份锚定 (SOUL.md)', 'children': [{'name': 'Hermes: 全局核心身份'}, {'name': 'OpenClaw: 绑定特定工作区'}]}]}",
+      "x": 250,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "da5ddf34",
+      "type": "text",
+      "text": "{'name': '自我提升与技能生成', 'children': [{'name': '自动抽象程序化知识'}, {'name': 'Skill Hub 扩展与自主管理'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e69219b7",
+      "type": "text",
+      "text": "{'name': '自动抽象程序化知识'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "81038124",
+      "type": "text",
+      "text": "{'name': 'Skill Hub 扩展与自主管理'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "36d4f17d",
+      "type": "text",
+      "text": "{'name': '分层记忆体系', 'children': [{'name': '核心持久记忆 (MEMORY.md/USER.md)'}, {'name': '会话历史记忆 (SQLite/FTS5)'}, {'name': '扩展记忆层 (Honcho)'}, {'name': '程序性记忆 (Skills)'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "aeaead68",
+      "type": "text",
+      "text": "{'name': '核心持久记忆 (MEMORY.md/USER.md)'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "fa4b3125",
+      "type": "text",
+      "text": "{'name': '会话历史记忆 (SQLite/FTS5)'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "3b2f8594",
+      "type": "text",
+      "text": "{'name': '扩展记忆层 (Honcho)'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e25210d6",
+      "type": "text",
+      "text": "{'name': '程序性记忆 (Skills)'}",
+      "x": 750,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "6ee607dc",
+      "type": "text",
+      "text": "{'name': '身份锚定 (SOUL.md)', 'children': [{'name': 'Hermes: 全局核心身份'}, {'name': 'OpenClaw: 绑定特定工作区'}]}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "47425e3e",
+      "type": "text",
+      "text": "{'name': 'Hermes: 全局核心身份'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b758983d",
+      "type": "text",
+      "text": "{'name': 'OpenClaw: 绑定特定工作区'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "0ee5e368",
+      "type": "text",
+      "text": "{'name': '部署与兼容性', 'children': [{'name': '极强可移植性 (Local, VPS, Docker, SSH)'}, {'name': '多消息平台支持 (Telegram, Discord, Slack 等)'}, {'name': '模型无关性 (OpenAI, OpenRouter, 自定义等)'}, {'name': 'TUI 专业交互环境'}]}",
+      "x": 250,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "2ae5e054",
+      "type": "text",
+      "text": "{'name': '极强可移植性 (Local, VPS, Docker, SSH)'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "982031d4",
+      "type": "text",
+      "text": "{'name': '多消息平台支持 (Telegram, Discord, Slack 等)'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "7713b8bb",
+      "type": "text",
+      "text": "{'name': '模型无关性 (OpenAI, OpenRouter, 自定义等)'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "2c1567ce",
+      "type": "text",
+      "text": "{'name': 'TUI 专业交互环境'}",
+      "x": 500,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "079ac4aa",
+      "type": "text",
+      "text": "{'name': '自动化与安全性', 'children': [{'name': '内置 Cron 计划任务系统'}, {'name': '五层纵深防御模型 (容器隔离、凭证过滤等)'}]}",
+      "x": 250,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b536b1ba",
+      "type": "text",
+      "text": "{'name': '内置 Cron 计划任务系统'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "2b3dc42f",
+      "type": "text",
+      "text": "{'name': '五层纵深防御模型 (容器隔离、凭证过滤等)'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "27f688bf",
+      "type": "text",
+      "text": "{'name': '应用场景', 'children': [{'name': '个人每日简报机器人'}, {'name': '运维与工程助手'}, {'name': '企业内部 API/数据聚合'}, {'name': '智能体研究与数据生成'}]}",
+      "x": 250,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "ef0bd2b2",
+      "type": "text",
+      "text": "{'name': '个人每日简报机器人'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "1741b126",
+      "type": "text",
+      "text": "{'name': '运维与工程助手'}",
+      "x": 500,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "8c7aa280",
+      "type": "text",
+      "text": "{'name': '企业内部 API/数据聚合'}",
+      "x": 500,
+      "y": 560,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "dc72900b",
+      "type": "text",
+      "text": "{'name': '智能体研究与数据生成'}",
+      "x": 500,
+      "y": 640,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "5d892f50",
+      "type": "text",
+      "text": "{'name': '现状与争议', 'children': [{'name': 'OpenClaw 用户无缝迁移支持'}, {'name': '涉及 EvoMap 抄袭风波争议'}]}",
+      "x": 250,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "5c65e01e",
+      "type": "text",
+      "text": "{'name': 'OpenClaw 用户无缝迁移支持'}",
+      "x": 500,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "045ea6b2",
+      "type": "text",
+      "text": "{'name': '涉及 EvoMap 抄袭风波争议'}",
+      "x": 500,
+      "y": 560,
+      "width": 200,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "23c013f9",
+      "fromNode": "86a03313",
+      "toNode": "b63a4e83"
+    },
+    {
+      "id": "719124c3",
+      "fromNode": "b63a4e83",
+      "toNode": "b167fc43"
+    },
+    {
+      "id": "37ea9578",
+      "fromNode": "b63a4e83",
+      "toNode": "31fafe96"
+    },
+    {
+      "id": "d628376f",
+      "fromNode": "b63a4e83",
+      "toNode": "3ccb8bd7"
+    },
+    {
+      "id": "025c3a39",
+      "fromNode": "86a03313",
+      "toNode": "5dac2972"
+    },
+    {
+      "id": "ed15a635",
+      "fromNode": "5dac2972",
+      "toNode": "5f8228e0"
+    },
+    {
+      "id": "88611cef",
+      "fromNode": "5f8228e0",
+      "toNode": "cacd75a1"
+    },
+    {
+      "id": "6f2afee7",
+      "fromNode": "5f8228e0",
+      "toNode": "1039ff11"
+    },
+    {
+      "id": "955ace28",
+      "fromNode": "5dac2972",
+      "toNode": "8efc59a5"
+    },
+    {
+      "id": "261415e5",
+      "fromNode": "8efc59a5",
+      "toNode": "a14780d0"
+    },
+    {
+      "id": "d363c701",
+      "fromNode": "8efc59a5",
+      "toNode": "151f2a90"
+    },
+    {
+      "id": "c4fc1df6",
+      "fromNode": "86a03313",
+      "toNode": "941d7002"
+    },
+    {
+      "id": "5e6c7eb0",
+      "fromNode": "941d7002",
+      "toNode": "da5ddf34"
+    },
+    {
+      "id": "6e2799a6",
+      "fromNode": "da5ddf34",
+      "toNode": "e69219b7"
+    },
+    {
+      "id": "df28972b",
+      "fromNode": "da5ddf34",
+      "toNode": "81038124"
+    },
+    {
+      "id": "04fc291f",
+      "fromNode": "941d7002",
+      "toNode": "36d4f17d"
+    },
+    {
+      "id": "eab27374",
+      "fromNode": "36d4f17d",
+      "toNode": "aeaead68"
+    },
+    {
+      "id": "cf019056",
+      "fromNode": "36d4f17d",
+      "toNode": "fa4b3125"
+    },
+    {
+      "id": "22d854d1",
+      "fromNode": "36d4f17d",
+      "toNode": "3b2f8594"
+    },
+    {
+      "id": "cb154085",
+      "fromNode": "36d4f17d",
+      "toNode": "e25210d6"
+    },
+    {
+      "id": "c3f32c2a",
+      "fromNode": "941d7002",
+      "toNode": "6ee607dc"
+    },
+    {
+      "id": "de74a3ab",
+      "fromNode": "6ee607dc",
+      "toNode": "47425e3e"
+    },
+    {
+      "id": "41c9e196",
+      "fromNode": "6ee607dc",
+      "toNode": "b758983d"
+    },
+    {
+      "id": "3a582945",
+      "fromNode": "86a03313",
+      "toNode": "0ee5e368"
+    },
+    {
+      "id": "9b83d8cb",
+      "fromNode": "0ee5e368",
+      "toNode": "2ae5e054"
+    },
+    {
+      "id": "f8bcbfdd",
+      "fromNode": "0ee5e368",
+      "toNode": "982031d4"
+    },
+    {
+      "id": "71914fce",
+      "fromNode": "0ee5e368",
+      "toNode": "7713b8bb"
+    },
+    {
+      "id": "c96c664e",
+      "fromNode": "0ee5e368",
+      "toNode": "2c1567ce"
+    },
+    {
+      "id": "5769367e",
+      "fromNode": "86a03313",
+      "toNode": "079ac4aa"
+    },
+    {
+      "id": "660de666",
+      "fromNode": "079ac4aa",
+      "toNode": "b536b1ba"
+    },
+    {
+      "id": "fec08512",
+      "fromNode": "079ac4aa",
+      "toNode": "2b3dc42f"
+    },
+    {
+      "id": "bb7784b9",
+      "fromNode": "86a03313",
+      "toNode": "27f688bf"
+    },
+    {
+      "id": "a4445ddb",
+      "fromNode": "27f688bf",
+      "toNode": "ef0bd2b2"
+    },
+    {
+      "id": "fc6f31e2",
+      "fromNode": "27f688bf",
+      "toNode": "1741b126"
+    },
+    {
+      "id": "751aa01f",
+      "fromNode": "27f688bf",
+      "toNode": "8c7aa280"
+    },
+    {
+      "id": "a1699fea",
+      "fromNode": "27f688bf",
+      "toNode": "dc72900b"
+    },
+    {
+      "id": "3a1beef7",
+      "fromNode": "86a03313",
+      "toNode": "5d892f50"
+    },
+    {
+      "id": "60340e2b",
+      "fromNode": "5d892f50",
+      "toNode": "5c65e01e"
+    },
+    {
+      "id": "55be5a6a",
+      "fromNode": "5d892f50",
+      "toNode": "045ea6b2"
+    }
+  ]
+}
