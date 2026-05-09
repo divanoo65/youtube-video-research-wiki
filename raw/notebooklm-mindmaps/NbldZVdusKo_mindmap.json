@@ -1,0 +1,137 @@
+{
+  "name": "Hermes Agent 与 OpenClaw 深度对比",
+  "children": [
+    {
+      "name": "核心架构与控制中枢",
+      "children": [
+        {
+          "name": "OpenClaw: Gateway 中心化网关",
+          "children": [
+            {
+              "name": "统一分发与管控"
+            },
+            {
+              "name": "稳定性与可审计性高"
+            }
+          ]
+        },
+        {
+          "name": "Hermes: 执行循环同步编排",
+          "children": [
+            {
+              "name": "自我进化闭环驱动"
+            },
+            {
+              "name": "各模块围绕循环集成"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "部署与兼容性",
+      "children": [
+        {
+          "name": "极强可移植性 (VPS/Docker/SSH/GPU)"
+        },
+        {
+          "name": "多消息平台支持 (Telegram/Discord/CLI等)"
+        },
+        {
+          "name": "模型无关性 (主流API/自定义端点)"
+        },
+        {
+          "name": "专业 TUI 交互界面"
+        }
+      ]
+    },
+    {
+      "name": "技能与知识生成",
+      "children": [
+        {
+          "name": "OpenClaw: 人为编写插件扩展"
+        },
+        {
+          "name": "Hermes: 程序化知识自生成",
+          "children": [
+            {
+              "name": "执行经验自动转化为技能"
+            },
+            {
+              "name": "动态记忆层 (~/.hermes/skills/)"
+            },
+            {
+              "name": "遵循 agentskills.io 标准"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "分层记忆体系",
+      "children": [
+        {
+          "name": "核心持久记忆 (MEMORY.md/USER.md, 1300 token)"
+        },
+        {
+          "name": "会话历史记忆 (SQLite FTS5 全文索引)"
+        },
+        {
+          "name": "扩展记忆层 (Honcho 长期用户画像)"
+        },
+        {
+          "name": "程序性记忆 (自动生成的工作流)"
+        }
+      ]
+    },
+    {
+      "name": "自动化与安全性",
+      "children": [
+        {
+          "name": "自动化能力",
+          "children": [
+            {
+              "name": "内置 cron 计划任务系统"
+            },
+            {
+              "name": "自然语言指定定时任务"
+            }
+          ]
+        },
+        {
+          "name": "五层安全防御模型",
+          "children": [
+            {
+              "name": "容器隔离与危险命令审批"
+            },
+            {
+              "name": "MCP 凭证过滤与 SSRF 防护"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "应用场景与上手",
+      "children": [
+        {
+          "name": "个人简报、工程运维助手、分诊助手"
+        },
+        {
+          "name": "一键安装脚本 (需 WSL2/Git)"
+        },
+        {
+          "name": "支持从 OpenClaw 无缝迁移"
+        }
+      ]
+    },
+    {
+      "name": "相关争议",
+      "children": [
+        {
+          "name": "涉嫌抄袭 EvoMap 架构风波"
+        }
+      ]
+    }
+  ]
+}
