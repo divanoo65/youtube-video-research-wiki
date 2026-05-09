@@ -1,0 +1,29 @@
+{
+  "pipeline_id": "pipe-9d1532f",
+  "stage_b": {
+    "run_id": "gh-25607722626-1",
+    "start_time": "2026-05-09T17:48:25Z",
+    "end_time": "2026-05-09T17:50:30Z",
+    "duration_s": 125,
+    "api_calls": "unknown",
+    "videos_processed": 2,
+    "reports_generated": 2,
+    "mindmaps_generated": 2
+  },
+  "stage_c": {
+    "run_id": "gh-25607783221-1",
+    "start_time": "2026-05-09T17:52:10Z",
+    "end_time": "2026-05-09T17:58:30Z",
+    "duration_s": 380,
+    "api_calls": 2,
+    "reports_processed": 2,
+    "pages_created": 15,
+    "sources": 2,
+    "entities": 6,
+    "concepts": 6,
+    "comparisons": 1,
+    "overviews": 0,
+    "status": "success",
+    "note": "JSON truncated for 2nd report, recovered from raw response"
+  }
+}
