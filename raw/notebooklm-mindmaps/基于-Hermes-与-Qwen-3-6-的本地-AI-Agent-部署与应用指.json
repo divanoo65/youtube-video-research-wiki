@@ -3,7 +3,7 @@
     {
       "id": "47f298d4",
       "type": "text",
-      "text": "{'name': '本地最强 Agent 组合 (Hermes + Qwen)', 'children': [{'name': '核心优势', 'children': [{'name': '完全免费 (零成本)'}, {'name': '数据隐私安全 (本地化)'}, {'name': 'Token 自由'}, {'name': '24小时在线助手'}, {'name': '支持手机远程对话'}]}, {'name': '基础环境部署', 'children': [{'name': '安装 WSL (Ubuntu 24.04)'}, {'name': '更新 N 卡驱动'}, {'name': '安装 Python & Pip'}, {'name': '安装 CUDA 工具包'}]}, {'name': '本地大模型 (LLM) 运行', 'children': [{'name': '方案选择', 'children': [{'name': 'Llama-cpp (更稳定/省显存)'}, {'name': 'Qwen 3.6 模型 (0.8B 至 27B)'}]}, {'name': '模型下载 (ModelScope 镜像)'}, {'name': '启动 Web 服务 (端口 8080)'}, {'name': '关闭深度思考模式 (加速 Agent 对接)'}]}, {'name': 'Hermes Agent 安装配置', 'children': [{'name': '安装最新版 Hermes'}, {'name': '自定义配置', 'children': [{'name': '设置 Base URL (本地地址:8080/v1)'}, {'name': 'API KEY (随机填写)'}, {'name': '设置上下文长度'}]}]}, {'name': '远程访问与自动化', 'children': [{'name': '对接 Telegram', 'children': [{'name': 'BotFather 创建机器人'}, {'name': '获取并配置 TOKEN'}, {'name': '绑定个人 ID'}]}, {'name': '开机自启动脚本'}, {'name': 'Linux 子系统自动运行设置'}]}, {'name': '应用场景', 'children': [{'name': '代码编写 (PHP/UI等)'}, {'name': '自动化/定时任务'}, {'name': '逻辑推理与中文理解'}, {'name': '移动端远程调用'}]}]}",
+      "text": "本地最强 Agent 组合 (Hermes + Qwen)",
       "x": 0,
       "y": 0,
       "width": 200,
@@ -12,7 +12,7 @@
     {
       "id": "d639dc98",
       "type": "text",
-      "text": "{'name': '核心优势', 'children': [{'name': '完全免费 (零成本)'}, {'name': '数据隐私安全 (本地化)'}, {'name': 'Token 自由'}, {'name': '24小时在线助手'}, {'name': '支持手机远程对话'}]}",
+      "text": "核心优势",
       "x": 250,
       "y": 0,
       "width": 200,
@@ -21,7 +21,7 @@
     {
       "id": "0f094663",
       "type": "text",
-      "text": "{'name': '完全免费 (零成本)'}",
+      "text": "完全免费 (零成本)",
       "x": 500,
       "y": 0,
       "width": 200,
@@ -30,7 +30,7 @@
     {
       "id": "284fa46e",
       "type": "text",
-      "text": "{'name': '数据隐私安全 (本地化)'}",
+      "text": "数据隐私安全 (本地化)",
       "x": 500,
       "y": 80,
       "width": 200,
@@ -39,7 +39,7 @@
     {
       "id": "60df6463",
       "type": "text",
-      "text": "{'name': 'Token 自由'}",
+      "text": "Token 自由",
       "x": 500,
       "y": 160,
       "width": 200,
@@ -48,7 +48,7 @@
     {
       "id": "ade2ef41",
       "type": "text",
-      "text": "{'name': '24小时在线助手'}",
+      "text": "24小时在线助手",
       "x": 500,
       "y": 240,
       "width": 200,
@@ -57,7 +57,7 @@
     {
       "id": "e156732f",
       "type": "text",
-      "text": "{'name': '支持手机远程对话'}",
+      "text": "支持手机远程对话",
       "x": 500,
       "y": 320,
       "width": 200,
@@ -66,7 +66,7 @@
     {
       "id": "5bc59467",
       "type": "text",
-      "text": "{'name': '基础环境部署', 'children': [{'name': '安装 WSL (Ubuntu 24.04)'}, {'name': '更新 N 卡驱动'}, {'name': '安装 Python & Pip'}, {'name': '安装 CUDA 工具包'}]}",
+      "text": "基础环境部署",
       "x": 250,
       "y": 80,
       "width": 200,
@@ -75,7 +75,7 @@
     {
       "id": "ba37139b",
       "type": "text",
-      "text": "{'name': '安装 WSL (Ubuntu 24.04)'}",
+      "text": "安装 WSL (Ubuntu 24.04)",
       "x": 500,
       "y": 80,
       "width": 200,
@@ -84,7 +84,7 @@
     {
       "id": "51129936",
       "type": "text",
-      "text": "{'name': '更新 N 卡驱动'}",
+      "text": "更新 N 卡驱动",
       "x": 500,
       "y": 160,
       "width": 200,
@@ -93,7 +93,7 @@
     {
       "id": "9740f478",
       "type": "text",
-      "text": "{'name': '安装 Python & Pip'}",
+      "text": "安装 Python & Pip",
       "x": 500,
       "y": 240,
       "width": 200,
@@ -102,7 +102,7 @@
     {
       "id": "1fe8f3a7",
       "type": "text",
-      "text": "{'name': '安装 CUDA 工具包'}",
+      "text": "安装 CUDA 工具包",
       "x": 500,
       "y": 320,
       "width": 200,
@@ -111,7 +111,7 @@
     {
       "id": "df07edb3",
       "type": "text",
-      "text": "{'name': '本地大模型 (LLM) 运行', 'children': [{'name': '方案选择', 'children': [{'name': 'Llama-cpp (更稳定/省显存)'}, {'name': 'Qwen 3.6 模型 (0.8B 至 27B)'}]}, {'name': '模型下载 (ModelScope 镜像)'}, {'name': '启动 Web 服务 (端口 8080)'}, {'name': '关闭深度思考模式 (加速 Agent 对接)'}]}",
+      "text": "本地大模型 (LLM) 运行",
       "x": 250,
       "y": 160,
       "width": 200,
@@ -120,7 +120,7 @@
     {
       "id": "44ecd79c",
       "type": "text",
-      "text": "{'name': '方案选择', 'children': [{'name': 'Llama-cpp (更稳定/省显存)'}, {'name': 'Qwen 3.6 模型 (0.8B 至 27B)'}]}",
+      "text": "方案选择",
       "x": 500,
       "y": 160,
       "width": 200,
@@ -129,7 +129,7 @@
     {
       "id": "3e209a18",
       "type": "text",
-      "text": "{'name': 'Llama-cpp (更稳定/省显存)'}",
+      "text": "Llama-cpp (更稳定/省显存)",
       "x": 750,
       "y": 160,
       "width": 200,
@@ -138,7 +138,7 @@
     {
       "id": "61140d0c",
       "type": "text",
-      "text": "{'name': 'Qwen 3.6 模型 (0.8B 至 27B)'}",
+      "text": "Qwen 3.6 模型 (0.8B 至 27B)",
       "x": 750,
       "y": 240,
       "width": 200,
@@ -147,7 +147,7 @@
     {
       "id": "6a88a116",
       "type": "text",
-      "text": "{'name': '模型下载 (ModelScope 镜像)'}",
+      "text": "模型下载 (ModelScope 镜像)",
       "x": 500,
       "y": 240,
       "width": 200,
@@ -156,7 +156,7 @@
     {
       "id": "7ef2e9b2",
       "type": "text",
-      "text": "{'name': '启动 Web 服务 (端口 8080)'}",
+      "text": "启动 Web 服务 (端口 8080)",
       "x": 500,
       "y": 320,
       "width": 200,
@@ -165,7 +165,7 @@
     {
       "id": "1e78ae87",
       "type": "text",
-      "text": "{'name': '关闭深度思考模式 (加速 Agent 对接)'}",
+      "text": "关闭深度思考模式 (加速 Agent 对接)",
       "x": 500,
       "y": 400,
       "width": 200,
@@ -174,7 +174,7 @@
     {
       "id": "d0346a31",
       "type": "text",
-      "text": "{'name': 'Hermes Agent 安装配置', 'children': [{'name': '安装最新版 Hermes'}, {'name': '自定义配置', 'children': [{'name': '设置 Base URL (本地地址:8080/v1)'}, {'name': 'API KEY (随机填写)'}, {'name': '设置上下文长度'}]}]}",
+      "text": "Hermes Agent 安装配置",
       "x": 250,
       "y": 240,
       "width": 200,
@@ -183,7 +183,7 @@
     {
       "id": "ab51573c",
       "type": "text",
-      "text": "{'name': '安装最新版 Hermes'}",
+      "text": "安装最新版 Hermes",
       "x": 500,
       "y": 240,
       "width": 200,
@@ -192,7 +192,7 @@
     {
       "id": "eb5641dd",
       "type": "text",
-      "text": "{'name': '自定义配置', 'children': [{'name': '设置 Base URL (本地地址:8080/v1)'}, {'name': 'API KEY (随机填写)'}, {'name': '设置上下文长度'}]}",
+      "text": "自定义配置",
       "x": 500,
       "y": 320,
       "width": 200,
@@ -201,7 +201,7 @@
     {
       "id": "4b66c07a",
       "type": "text",
-      "text": "{'name': '设置 Base URL (本地地址:8080/v1)'}",
+      "text": "设置 Base URL (本地地址:8080/v1)",
       "x": 750,
       "y": 320,
       "width": 200,
@@ -210,7 +210,7 @@
     {
       "id": "3d50b22a",
       "type": "text",
-      "text": "{'name': 'API KEY (随机填写)'}",
+      "text": "API KEY (随机填写)",
       "x": 750,
       "y": 400,
       "width": 200,
@@ -219,7 +219,7 @@
     {
       "id": "1b2a4e78",
       "type": "text",
-      "text": "{'name': '设置上下文长度'}",
+      "text": "设置上下文长度",
       "x": 750,
       "y": 480,
       "width": 200,
@@ -228,7 +228,7 @@
     {
       "id": "905c6a51",
       "type": "text",
-      "text": "{'name': '远程访问与自动化', 'children': [{'name': '对接 Telegram', 'children': [{'name': 'BotFather 创建机器人'}, {'name': '获取并配置 TOKEN'}, {'name': '绑定个人 ID'}]}, {'name': '开机自启动脚本'}, {'name': 'Linux 子系统自动运行设置'}]}",
+      "text": "远程访问与自动化",
       "x": 250,
       "y": 320,
       "width": 200,
@@ -237,7 +237,7 @@
     {
       "id": "25e08379",
       "type": "text",
-      "text": "{'name': '对接 Telegram', 'children': [{'name': 'BotFather 创建机器人'}, {'name': '获取并配置 TOKEN'}, {'name': '绑定个人 ID'}]}",
+      "text": "对接 Telegram",
       "x": 500,
       "y": 320,
       "width": 200,
@@ -246,7 +246,7 @@
     {
       "id": "35f4eb64",
       "type": "text",
-      "text": "{'name': 'BotFather 创建机器人'}",
+      "text": "BotFather 创建机器人",
       "x": 750,
       "y": 320,
       "width": 200,
@@ -255,7 +255,7 @@
     {
       "id": "de9fa690",
       "type": "text",
-      "text": "{'name': '获取并配置 TOKEN'}",
+      "text": "获取并配置 TOKEN",
       "x": 750,
       "y": 400,
       "width": 200,
@@ -264,7 +264,7 @@
     {
       "id": "63ed45e7",
       "type": "text",
-      "text": "{'name': '绑定个人 ID'}",
+      "text": "绑定个人 ID",
       "x": 750,
       "y": 480,
       "width": 200,
@@ -273,7 +273,7 @@
     {
       "id": "f3340ca5",
       "type": "text",
-      "text": "{'name': '开机自启动脚本'}",
+      "text": "开机自启动脚本",
       "x": 500,
       "y": 400,
       "width": 200,
@@ -282,7 +282,7 @@
     {
       "id": "3468d2e4",
       "type": "text",
-      "text": "{'name': 'Linux 子系统自动运行设置'}",
+      "text": "Linux 子系统自动运行设置",
       "x": 500,
       "y": 480,
       "width": 200,
@@ -291,7 +291,7 @@
     {
       "id": "e7226478",
       "type": "text",
-      "text": "{'name': '应用场景', 'children': [{'name': '代码编写 (PHP/UI等)'}, {'name': '自动化/定时任务'}, {'name': '逻辑推理与中文理解'}, {'name': '移动端远程调用'}]}",
+      "text": "应用场景",
       "x": 250,
       "y": 400,
       "width": 200,
@@ -300,7 +300,7 @@
     {
       "id": "1d73558c",
       "type": "text",
-      "text": "{'name': '代码编写 (PHP/UI等)'}",
+      "text": "代码编写 (PHP/UI等)",
       "x": 500,
       "y": 400,
       "width": 200,
@@ -309,7 +309,7 @@
     {
       "id": "4608e4f6",
       "type": "text",
-      "text": "{'name': '自动化/定时任务'}",
+      "text": "自动化/定时任务",
       "x": 500,
       "y": 480,
       "width": 200,
@@ -318,7 +318,7 @@
     {
       "id": "56ec0c38",
       "type": "text",
-      "text": "{'name': '逻辑推理与中文理解'}",
+      "text": "逻辑推理与中文理解",
       "x": 500,
       "y": 560,
       "width": 200,
@@ -327,7 +327,7 @@
     {
       "id": "cb50e210",
       "type": "text",
-      "text": "{'name': '移动端远程调用'}",
+      "text": "移动端远程调用",
       "x": 500,
       "y": 640,
       "width": 200,
