@@ -9,21 +9,39 @@ import subprocess
 import yaml  # pip install pyyaml
 
 
+def decode_git_path(path: str) -> str:
+    """Decode git's quoted paths (used for non-ASCII filenames like Chinese)."""
+    path = path.strip()
+    if path.startswith('"') and path.endswith('"'):
+        # Git encodes non-ASCII as octal escapes inside double quotes
+        path = path[1:-1]
+        # Decode octal escape sequences: \346\234\254 → bytes → utf-8
+        import re
+        def replace_octal(m):
+            return bytes([int(m.group(0)[1:], 8)]).decode('latin-1')
+        path = re.sub(r'\\[0-7]{3}', replace_octal, path)
+    return path
+
+
 def get_changed_files(before_sha: str, after_sha: str) -> list[str]:
-    """Get list of changed files between two commits."""
+    """Get list of changed files between two commits, handles Chinese filenames."""
+    # Use -c core.quotepath=false to prevent git from quoting non-ASCII paths
+    git_env = {**os.environ, 'GIT_CONFIG_NOSYSTEM': '1'}
+    cmd_args = ["-c", "core.quotepath=false", "diff", "--name-only"]
+
     try:
         result = subprocess.run(
-            ["git", "diff", "--name-only", f"{before_sha}..{after_sha}"],
-            capture_output=True, text=True, check=True
+            ["git"] + cmd_args + [f"{before_sha}..{after_sha}"],
+            capture_output=True, text=True, check=True, env=git_env
         )
-        return [f.strip() for f in result.stdout.strip().split("\n") if f.strip()]
+        files = [decode_git_path(f) for f in result.stdout.strip().split("\n") if f.strip()]
+        return files
     except subprocess.CalledProcessError:
-        # Fallback: compare with parent
         result = subprocess.run(
-            ["git", "diff", "--name-only", "HEAD~1..HEAD"],
-            capture_output=True, text=True, check=True
+            ["git"] + cmd_args + ["HEAD~1..HEAD"],
+            capture_output=True, text=True, check=True, env=git_env
         )
-        return [f.strip() for f in result.stdout.strip().split("\n") if f.strip()]
+        return [decode_git_path(f) for f in result.stdout.strip().split("\n") if f.strip()]
 
 
 def matches_pattern(filepath: str, pattern: str) -> bool:
