@@ -1,15 +1,15 @@
 ---
 task_id: T-9MCjT-eUrTs
-run_id: gh-25605796425-1
+run_id: gh-25605869621-1
 stage: stage_c
-start_time: 2026-05-09T16:23:33Z
-end_time: 2026-05-09T16:26:27Z
-duration_s: 173
+start_time: 2026-05-09T16:24:35Z
+end_time: 2026-05-09T16:27:27Z
+duration_s: 171
 api_calls: 1
 reports_processed: 1
-pages_created: 10
-prompt_tokens: 4781
-completion_tokens: 9509
+pages_created: 8
+prompt_tokens: 5845
+completion_tokens: 10578
 status: success
 ---
-Reports: 1 | Pages: 10 | Time: 173s
+Reports: 1 | Pages: 8 | Time: 171s
