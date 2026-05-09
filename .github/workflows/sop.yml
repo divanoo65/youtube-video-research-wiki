@@ -4,7 +4,9 @@ on:
   push:
     branches: [main]
     paths:
-      - 'raw/**'
+      - 'raw/youtube-links/**'
+      - 'raw/notebooklm-analysis/**'
+      - 'raw/notebooklm-mindmaps/**'
 
 concurrency:
   group: sop-pipeline-${{ github.repository }}
