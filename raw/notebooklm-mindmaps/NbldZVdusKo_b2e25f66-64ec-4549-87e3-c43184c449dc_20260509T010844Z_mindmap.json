@@ -1,0 +1,181 @@
+{
+  "name": "Hermes Agent 与 OpenClaw 对比分析",
+  "children": [
+    {
+      "name": "研发背景",
+      "children": [
+        {
+          "name": "Nous Research 团队",
+          "children": [
+            {
+              "name": "开源优先与去中心化"
+            },
+            {
+              "name": "DisTrO 分布式训练"
+            },
+            {
+              "name": "大规模仿真环境"
+            }
+          ]
+        },
+        {
+          "name": "核心理念：自进化与知识生成"
+        }
+      ]
+    },
+    {
+      "name": "架构差异",
+      "children": [
+        {
+          "name": "OpenClaw: 中心化 Gateway",
+          "children": [
+            {
+              "name": "后台守护进程"
+            },
+            {
+              "name": "统一分发与管控"
+            },
+            {
+              "name": "高稳定性与可审计性"
+            }
+          ]
+        },
+        {
+          "name": "Hermes: 闭环执行循环",
+          "children": [
+            {
+              "name": "同步编排引擎"
+            },
+            {
+              "name": "模块围绕循环集成"
+            },
+            {
+              "name": "天生支持自我优化"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "功能特性",
+      "children": [
+        {
+          "name": "多环境兼容性",
+          "children": [
+            {
+              "name": "计算与交互解耦"
+            },
+            {
+              "name": "主流消息应用接入"
+            },
+            {
+              "name": "模型无关性"
+            }
+          ]
+        },
+        {
+          "name": "交互体验",
+          "children": [
+            {
+              "name": "专业 TUI 界面"
+            },
+            {
+              "name": "语音交互支持"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "核心亮点：自我提升",
+      "children": [
+        {
+          "name": "程序化知识生成",
+          "children": [
+            {
+              "name": "自动生成新技能"
+            },
+            {
+              "name": "Skills Hub 扩展"
+            },
+            {
+              "name": "跨会话持续学习"
+            }
+          ]
+        },
+        {
+          "name": "分层记忆体系",
+          "children": [
+            {
+              "name": "核心持久层 (MEMORY.md)"
+            },
+            {
+              "name": "会话历史层 (SQLite/FTS5)"
+            },
+            {
+              "name": "扩展画像层 (Honcho)"
+            },
+            {
+              "name": "程序性记忆层 (Skills)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "安全性与自动化",
+      "children": [
+        {
+          "name": "五层纵深防御",
+          "children": [
+            {
+              "name": "容器隔离"
+            },
+            {
+              "name": "危险命令审批"
+            },
+            {
+              "name": "SSRF 防护"
+            }
+          ]
+        },
+        {
+          "name": "自动化能力",
+          "children": [
+            {
+              "name": "内置 Cron 系统"
+            },
+            {
+              "name": "自然语言调度"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "部署与迁移",
+      "children": [
+        {
+          "name": "一键安装脚本"
+        },
+        {
+          "name": "OpenClaw 无缝迁移工具"
+        },
+        {
+          "name": "WSL2 支持 (Windows)"
+        }
+      ]
+    },
+    {
+      "name": "争议事件",
+      "children": [
+        {
+          "name": "EvoMap 抄袭风波"
+        },
+        {
+          "name": "架构借鉴争议"
+        }
+      ]
+    }
+  ]
+}
