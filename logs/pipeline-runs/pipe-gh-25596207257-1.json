@@ -1,0 +1,20 @@
+{
+  "run_id": "gh-25596207257-1",
+  "stage_d_start": "2026-05-09T08:12:27Z",
+  "stage_a": {
+    "status": "completed",
+    "youtube_links": 3
+  },
+  "stage_b": {
+    "status": "not_executed",
+    "reason": "Stage B (NotebookLM) not run for this pipeline"
+  },
+  "stage_c": {
+    "status": "not_executed",
+    "reason": "Stage C (Knowledge Graph) not run for this pipeline"
+  },
+  "stage_d": {
+    "status": "completed",
+    "tg_notification": true
+  }
+}
