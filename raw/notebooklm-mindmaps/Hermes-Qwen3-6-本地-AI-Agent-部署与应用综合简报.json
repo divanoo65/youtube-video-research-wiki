@@ -1,0 +1,491 @@
+{
+  "nodes": [
+    {
+      "id": "ea2993f2",
+      "type": "text",
+      "text": "{'name': 'Hermes + Qwen3.6 本地 Agent 部署', 'children': [{'name': '核心优势', 'children': [{'name': '零成本 TOKEN 自由'}, {'name': '数据隐私安全'}, {'name': '24小时在线助手'}, {'name': '手机远程对话'}]}, {'name': '环境准备', 'children': [{'name': 'Windows PowerShell 管理员模式'}, {'name': '安装 WSL (Linux 子系统)'}, {'name': '安装 Ubuntu 24.04'}, {'name': '更新 N 卡驱动'}, {'name': '安装 Python 与 pip'}]}, {'name': '部署本地模型 (Llama-cpp)', 'children': [{'name': '安装 CUDA 工具包'}, {'name': '编译 Llama-cpp'}, {'name': '下载 Qwen 模型 (27B/9B/4B 等)'}, {'name': '关闭深度思考模式 (提升速度)'}]}, {'name': '安装 Hermes Agent', 'children': [{'name': '基础配置', 'children': [{'name': '自定义模型模式'}, {'name': '设置 Base URL (8080端口)'}, {'name': '设置自定义 API KEY'}]}, {'name': '对接 Telegram', 'children': [{'name': 'BotFather 创建机器人'}, {'name': '获取并填写 TOKEN'}, {'name': '绑定个人 Telegram ID'}]}]}, {'name': '自动化与运行', 'children': [{'name': '设置随系统自动启动'}, {'name': '创建启动脚本'}, {'name': '执行定时任务'}]}, {'name': '应用场景', 'children': [{'name': '代码编写 (如 PHP 站点)'}, {'name': '中文理解与推理'}, {'name': '远程 AI 操控'}, {'name': '自动化 Agent 任务'}]}]}",
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e0dfad20",
+      "type": "text",
+      "text": "{'name': '核心优势', 'children': [{'name': '零成本 TOKEN 自由'}, {'name': '数据隐私安全'}, {'name': '24小时在线助手'}, {'name': '手机远程对话'}]}",
+      "x": 250,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e88e6044",
+      "type": "text",
+      "text": "{'name': '零成本 TOKEN 自由'}",
+      "x": 500,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "3ce80fb0",
+      "type": "text",
+      "text": "{'name': '数据隐私安全'}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c9fc9fae",
+      "type": "text",
+      "text": "{'name': '24小时在线助手'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "a71bdace",
+      "type": "text",
+      "text": "{'name': '手机远程对话'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "dc27ad92",
+      "type": "text",
+      "text": "{'name': '环境准备', 'children': [{'name': 'Windows PowerShell 管理员模式'}, {'name': '安装 WSL (Linux 子系统)'}, {'name': '安装 Ubuntu 24.04'}, {'name': '更新 N 卡驱动'}, {'name': '安装 Python 与 pip'}]}",
+      "x": 250,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d1cb565e",
+      "type": "text",
+      "text": "{'name': 'Windows PowerShell 管理员模式'}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "05adb834",
+      "type": "text",
+      "text": "{'name': '安装 WSL (Linux 子系统)'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f52b582d",
+      "type": "text",
+      "text": "{'name': '安装 Ubuntu 24.04'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "406cdd80",
+      "type": "text",
+      "text": "{'name': '更新 N 卡驱动'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c81ded7e",
+      "type": "text",
+      "text": "{'name': '安装 Python 与 pip'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "7acbd83e",
+      "type": "text",
+      "text": "{'name': '部署本地模型 (Llama-cpp)', 'children': [{'name': '安装 CUDA 工具包'}, {'name': '编译 Llama-cpp'}, {'name': '下载 Qwen 模型 (27B/9B/4B 等)'}, {'name': '关闭深度思考模式 (提升速度)'}]}",
+      "x": 250,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "993d2dce",
+      "type": "text",
+      "text": "{'name': '安装 CUDA 工具包'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "db480170",
+      "type": "text",
+      "text": "{'name': '编译 Llama-cpp'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "45c117f5",
+      "type": "text",
+      "text": "{'name': '下载 Qwen 模型 (27B/9B/4B 等)'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "5a4317eb",
+      "type": "text",
+      "text": "{'name': '关闭深度思考模式 (提升速度)'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "1e5468d9",
+      "type": "text",
+      "text": "{'name': '安装 Hermes Agent', 'children': [{'name': '基础配置', 'children': [{'name': '自定义模型模式'}, {'name': '设置 Base URL (8080端口)'}, {'name': '设置自定义 API KEY'}]}, {'name': '对接 Telegram', 'children': [{'name': 'BotFather 创建机器人'}, {'name': '获取并填写 TOKEN'}, {'name': '绑定个人 Telegram ID'}]}]}",
+      "x": 250,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b28f51fb",
+      "type": "text",
+      "text": "{'name': '基础配置', 'children': [{'name': '自定义模型模式'}, {'name': '设置 Base URL (8080端口)'}, {'name': '设置自定义 API KEY'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "a8119484",
+      "type": "text",
+      "text": "{'name': '自定义模型模式'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "0b9cd7fd",
+      "type": "text",
+      "text": "{'name': '设置 Base URL (8080端口)'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "dece778b",
+      "type": "text",
+      "text": "{'name': '设置自定义 API KEY'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "406cfb13",
+      "type": "text",
+      "text": "{'name': '对接 Telegram', 'children': [{'name': 'BotFather 创建机器人'}, {'name': '获取并填写 TOKEN'}, {'name': '绑定个人 Telegram ID'}]}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f5ca42cc",
+      "type": "text",
+      "text": "{'name': 'BotFather 创建机器人'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "0a54a1d1",
+      "type": "text",
+      "text": "{'name': '获取并填写 TOKEN'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "8afef8e7",
+      "type": "text",
+      "text": "{'name': '绑定个人 Telegram ID'}",
+      "x": 750,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "1777caae",
+      "type": "text",
+      "text": "{'name': '自动化与运行', 'children': [{'name': '设置随系统自动启动'}, {'name': '创建启动脚本'}, {'name': '执行定时任务'}]}",
+      "x": 250,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "4e0cd2b0",
+      "type": "text",
+      "text": "{'name': '设置随系统自动启动'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d23a3693",
+      "type": "text",
+      "text": "{'name': '创建启动脚本'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "5ef10452",
+      "type": "text",
+      "text": "{'name': '执行定时任务'}",
+      "x": 500,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c7e384ae",
+      "type": "text",
+      "text": "{'name': '应用场景', 'children': [{'name': '代码编写 (如 PHP 站点)'}, {'name': '中文理解与推理'}, {'name': '远程 AI 操控'}, {'name': '自动化 Agent 任务'}]}",
+      "x": 250,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "eea86e41",
+      "type": "text",
+      "text": "{'name': '代码编写 (如 PHP 站点)'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "adf6fe02",
+      "type": "text",
+      "text": "{'name': '中文理解与推理'}",
+      "x": 500,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "2e3f988f",
+      "type": "text",
+      "text": "{'name': '远程 AI 操控'}",
+      "x": 500,
+      "y": 560,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c8a8b7d5",
+      "type": "text",
+      "text": "{'name': '自动化 Agent 任务'}",
+      "x": 500,
+      "y": 640,
+      "width": 200,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "f0636726",
+      "fromNode": "ea2993f2",
+      "toNode": "e0dfad20"
+    },
+    {
+      "id": "3db90aa4",
+      "fromNode": "e0dfad20",
+      "toNode": "e88e6044"
+    },
+    {
+      "id": "08622585",
+      "fromNode": "e0dfad20",
+      "toNode": "3ce80fb0"
+    },
+    {
+      "id": "3b9654d5",
+      "fromNode": "e0dfad20",
+      "toNode": "c9fc9fae"
+    },
+    {
+      "id": "8c24b8cb",
+      "fromNode": "e0dfad20",
+      "toNode": "a71bdace"
+    },
+    {
+      "id": "ba09f9b4",
+      "fromNode": "ea2993f2",
+      "toNode": "dc27ad92"
+    },
+    {
+      "id": "bf1ed2f9",
+      "fromNode": "dc27ad92",
+      "toNode": "d1cb565e"
+    },
+    {
+      "id": "bdb2d024",
+      "fromNode": "dc27ad92",
+      "toNode": "05adb834"
+    },
+    {
+      "id": "af97d96e",
+      "fromNode": "dc27ad92",
+      "toNode": "f52b582d"
+    },
+    {
+      "id": "570744c0",
+      "fromNode": "dc27ad92",
+      "toNode": "406cdd80"
+    },
+    {
+      "id": "8c9cddb0",
+      "fromNode": "dc27ad92",
+      "toNode": "c81ded7e"
+    },
+    {
+      "id": "665e20fd",
+      "fromNode": "ea2993f2",
+      "toNode": "7acbd83e"
+    },
+    {
+      "id": "da1df7a0",
+      "fromNode": "7acbd83e",
+      "toNode": "993d2dce"
+    },
+    {
+      "id": "b92f75d5",
+      "fromNode": "7acbd83e",
+      "toNode": "db480170"
+    },
+    {
+      "id": "d9e8b7e5",
+      "fromNode": "7acbd83e",
+      "toNode": "45c117f5"
+    },
+    {
+      "id": "5559f3c8",
+      "fromNode": "7acbd83e",
+      "toNode": "5a4317eb"
+    },
+    {
+      "id": "0a9e9259",
+      "fromNode": "ea2993f2",
+      "toNode": "1e5468d9"
+    },
+    {
+      "id": "96c753fb",
+      "fromNode": "1e5468d9",
+      "toNode": "b28f51fb"
+    },
+    {
+      "id": "c3a2ccd5",
+      "fromNode": "b28f51fb",
+      "toNode": "a8119484"
+    },
+    {
+      "id": "7145123c",
+      "fromNode": "b28f51fb",
+      "toNode": "0b9cd7fd"
+    },
+    {
+      "id": "ddbe33cf",
+      "fromNode": "b28f51fb",
+      "toNode": "dece778b"
+    },
+    {
+      "id": "9ce96a34",
+      "fromNode": "1e5468d9",
+      "toNode": "406cfb13"
+    },
+    {
+      "id": "5cdc7166",
+      "fromNode": "406cfb13",
+      "toNode": "f5ca42cc"
+    },
+    {
+      "id": "5426c201",
+      "fromNode": "406cfb13",
+      "toNode": "0a54a1d1"
+    },
+    {
+      "id": "ab487672",
+      "fromNode": "406cfb13",
+      "toNode": "8afef8e7"
+    },
+    {
+      "id": "25743338",
+      "fromNode": "ea2993f2",
+      "toNode": "1777caae"
+    },
+    {
+      "id": "1a7dba76",
+      "fromNode": "1777caae",
+      "toNode": "4e0cd2b0"
+    },
+    {
+      "id": "4cf819c9",
+      "fromNode": "1777caae",
+      "toNode": "d23a3693"
+    },
+    {
+      "id": "71c4625c",
+      "fromNode": "1777caae",
+      "toNode": "5ef10452"
+    },
+    {
+      "id": "507f9daa",
+      "fromNode": "ea2993f2",
+      "toNode": "c7e384ae"
+    },
+    {
+      "id": "968cbae3",
+      "fromNode": "c7e384ae",
+      "toNode": "eea86e41"
+    },
+    {
+      "id": "f347e877",
+      "fromNode": "c7e384ae",
+      "toNode": "adf6fe02"
+    },
+    {
+      "id": "9c3147f0",
+      "fromNode": "c7e384ae",
+      "toNode": "2e3f988f"
+    },
+    {
+      "id": "87b60eeb",
+      "fromNode": "c7e384ae",
+      "toNode": "c8a8b7d5"
+    }
+  ]
+}
