@@ -24,10 +24,14 @@ def decode_git_path(path: str) -> str:
 
 
 def get_changed_files(before_sha: str, after_sha: str) -> list[str]:
-    """Get list of changed files between two commits, handles Chinese filenames."""
-    # Use -c core.quotepath=false to prevent git from quoting non-ASCII paths
+    """Get ADDED/MODIFIED files only (not deleted) between two commits.
+    Handles Chinese filenames via core.quotepath=false.
+    Using --diff-filter=AM excludes deleted files, preventing spurious triggers
+    when cleanup commits delete raw/ files.
+    """
     git_env = {**os.environ, 'GIT_CONFIG_NOSYSTEM': '1'}
-    cmd_args = ["-c", "core.quotepath=false", "diff", "--name-only"]
+    # --diff-filter=AM: only Added or Modified, skip Deleted
+    cmd_args = ["-c", "core.quotepath=false", "diff", "--name-only", "--diff-filter=AM"]
 
     try:
         result = subprocess.run(
