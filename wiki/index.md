@@ -1,16 +1,22 @@
 # Wiki Index
 
 > YouTube 视频研究知识图谱。所有 wiki 页面按类型分类索引。
-> Last updated: 2026-05-08 | Total pages: 0
+> Last updated: 2026-05-09 | Total pages: 14
 
 ## Sources
-<!-- 视频来源摘要页，字母序 -->
+
+- [[NbldZVdusKo-智能体架构的范式转移-Hermes-Agent-与-OpenClaw-深度技术简报]] - 
 
 ## Entities
-<!-- 实体页（人物、产品、组织、模型），字母序 -->
+
+- [[Hermes-Agent]] - 
+- [[Nous-Research]] - 
+- [[OpenClaw]] - 
 
 ## Concepts
-<!-- 概念页（技术方法、框架、趋势），字母序 -->
+
+- [[ACP协议]] - 
+- [[执行循环驱动架构]] - 
 
 ## Comparisons
 <!-- 对比分析页 -->
