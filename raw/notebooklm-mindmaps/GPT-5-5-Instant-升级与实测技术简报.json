@@ -1,0 +1,519 @@
+{
+  "nodes": [
+    {
+      "id": "3d66f564",
+      "type": "text",
+      "text": "{'name': 'GPT-5.5 Instant 免费开放实测', 'children': [{'name': '核心特点', 'children': [{'name': '全员免费'}, {'name': '响应速度提升'}, {'name': '回答更加自然'}, {'name': '多模态能力增强'}]}, {'name': '模型重大变化', 'children': [{'name': '降低幻觉率', 'children': [{'name': '识别逻辑错误'}, {'name': '重新推导计算'}]}, {'name': '对话去机械化', 'children': [{'name': '减少客套废话'}, {'name': '回答更直接'}]}, {'name': '增强记忆功能', 'children': [{'name': '参考历史记录'}, {'name': '个性化建议'}]}, {'name': 'API 策略调整', 'children': [{'name': '统一名称为 chat-latest'}, {'name': '降低维护成本'}]}]}, {'name': '实测表现', 'children': [{'name': '结构化总结', 'children': [{'name': '结论先行'}, {'name': '字数控制精准'}]}, {'name': '内容创作', 'children': [{'name': '视频框架搭建'}, {'name': '爆款标题生成'}]}, {'name': '逻辑判别', 'children': [{'name': '多维度对比分析'}]}, {'name': '风险管控', 'children': [{'name': '医疗咨询谨慎建议'}, {'name': '提供应急预案'}]}, {'name': '联网能力', 'children': [{'name': '主动查证实时信息'}, {'name': '附带参考来源'}]}, {'name': '视觉识别', 'children': [{'name': '解读系统报错截图'}, {'name': '提供修复步骤'}]}]}]}",
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d7bb7f53",
+      "type": "text",
+      "text": "{'name': '核心特点', 'children': [{'name': '全员免费'}, {'name': '响应速度提升'}, {'name': '回答更加自然'}, {'name': '多模态能力增强'}]}",
+      "x": 250,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "93c8c5e4",
+      "type": "text",
+      "text": "{'name': '全员免费'}",
+      "x": 500,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "bb304df2",
+      "type": "text",
+      "text": "{'name': '响应速度提升'}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "0a43e779",
+      "type": "text",
+      "text": "{'name': '回答更加自然'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "5a5a6760",
+      "type": "text",
+      "text": "{'name': '多模态能力增强'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "a8528c55",
+      "type": "text",
+      "text": "{'name': '模型重大变化', 'children': [{'name': '降低幻觉率', 'children': [{'name': '识别逻辑错误'}, {'name': '重新推导计算'}]}, {'name': '对话去机械化', 'children': [{'name': '减少客套废话'}, {'name': '回答更直接'}]}, {'name': '增强记忆功能', 'children': [{'name': '参考历史记录'}, {'name': '个性化建议'}]}, {'name': 'API 策略调整', 'children': [{'name': '统一名称为 chat-latest'}, {'name': '降低维护成本'}]}]}",
+      "x": 250,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b5615f8d",
+      "type": "text",
+      "text": "{'name': '降低幻觉率', 'children': [{'name': '识别逻辑错误'}, {'name': '重新推导计算'}]}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b1f0dcaa",
+      "type": "text",
+      "text": "{'name': '识别逻辑错误'}",
+      "x": 750,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c9071fba",
+      "type": "text",
+      "text": "{'name': '重新推导计算'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "0befb8bd",
+      "type": "text",
+      "text": "{'name': '对话去机械化', 'children': [{'name': '减少客套废话'}, {'name': '回答更直接'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c9e07c79",
+      "type": "text",
+      "text": "{'name': '减少客套废话'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "3a7ed105",
+      "type": "text",
+      "text": "{'name': '回答更直接'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "57025167",
+      "type": "text",
+      "text": "{'name': '增强记忆功能', 'children': [{'name': '参考历史记录'}, {'name': '个性化建议'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b91f312e",
+      "type": "text",
+      "text": "{'name': '参考历史记录'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "83286993",
+      "type": "text",
+      "text": "{'name': '个性化建议'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e9110d3c",
+      "type": "text",
+      "text": "{'name': 'API 策略调整', 'children': [{'name': '统一名称为 chat-latest'}, {'name': '降低维护成本'}]}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "1c872c42",
+      "type": "text",
+      "text": "{'name': '统一名称为 chat-latest'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "6109eb0e",
+      "type": "text",
+      "text": "{'name': '降低维护成本'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "09ca8b17",
+      "type": "text",
+      "text": "{'name': '实测表现', 'children': [{'name': '结构化总结', 'children': [{'name': '结论先行'}, {'name': '字数控制精准'}]}, {'name': '内容创作', 'children': [{'name': '视频框架搭建'}, {'name': '爆款标题生成'}]}, {'name': '逻辑判别', 'children': [{'name': '多维度对比分析'}]}, {'name': '风险管控', 'children': [{'name': '医疗咨询谨慎建议'}, {'name': '提供应急预案'}]}, {'name': '联网能力', 'children': [{'name': '主动查证实时信息'}, {'name': '附带参考来源'}]}, {'name': '视觉识别', 'children': [{'name': '解读系统报错截图'}, {'name': '提供修复步骤'}]}]}",
+      "x": 250,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "6a90c8ef",
+      "type": "text",
+      "text": "{'name': '结构化总结', 'children': [{'name': '结论先行'}, {'name': '字数控制精准'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "35a73a91",
+      "type": "text",
+      "text": "{'name': '结论先行'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "af8186f2",
+      "type": "text",
+      "text": "{'name': '字数控制精准'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "407ec30b",
+      "type": "text",
+      "text": "{'name': '内容创作', 'children': [{'name': '视频框架搭建'}, {'name': '爆款标题生成'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "0d014b09",
+      "type": "text",
+      "text": "{'name': '视频框架搭建'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "5f4f33ef",
+      "type": "text",
+      "text": "{'name': '爆款标题生成'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "56429f6e",
+      "type": "text",
+      "text": "{'name': '逻辑判别', 'children': [{'name': '多维度对比分析'}]}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f8f496e9",
+      "type": "text",
+      "text": "{'name': '多维度对比分析'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "5268705c",
+      "type": "text",
+      "text": "{'name': '风险管控', 'children': [{'name': '医疗咨询谨慎建议'}, {'name': '提供应急预案'}]}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c8a83e80",
+      "type": "text",
+      "text": "{'name': '医疗咨询谨慎建议'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "318ff2cd",
+      "type": "text",
+      "text": "{'name': '提供应急预案'}",
+      "x": 750,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "4c474aa8",
+      "type": "text",
+      "text": "{'name': '联网能力', 'children': [{'name': '主动查证实时信息'}, {'name': '附带参考来源'}]}",
+      "x": 500,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "49924229",
+      "type": "text",
+      "text": "{'name': '主动查证实时信息'}",
+      "x": 750,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "faac2a1d",
+      "type": "text",
+      "text": "{'name': '附带参考来源'}",
+      "x": 750,
+      "y": 560,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "ce58a418",
+      "type": "text",
+      "text": "{'name': '视觉识别', 'children': [{'name': '解读系统报错截图'}, {'name': '提供修复步骤'}]}",
+      "x": 500,
+      "y": 560,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e2893e43",
+      "type": "text",
+      "text": "{'name': '解读系统报错截图'}",
+      "x": 750,
+      "y": 560,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "0622ecd5",
+      "type": "text",
+      "text": "{'name': '提供修复步骤'}",
+      "x": 750,
+      "y": 640,
+      "width": 200,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "39c13503",
+      "fromNode": "3d66f564",
+      "toNode": "d7bb7f53"
+    },
+    {
+      "id": "81652afe",
+      "fromNode": "d7bb7f53",
+      "toNode": "93c8c5e4"
+    },
+    {
+      "id": "01f83ce9",
+      "fromNode": "d7bb7f53",
+      "toNode": "bb304df2"
+    },
+    {
+      "id": "1f5cb4ea",
+      "fromNode": "d7bb7f53",
+      "toNode": "0a43e779"
+    },
+    {
+      "id": "ae2a3d46",
+      "fromNode": "d7bb7f53",
+      "toNode": "5a5a6760"
+    },
+    {
+      "id": "d594eb9f",
+      "fromNode": "3d66f564",
+      "toNode": "a8528c55"
+    },
+    {
+      "id": "3830816b",
+      "fromNode": "a8528c55",
+      "toNode": "b5615f8d"
+    },
+    {
+      "id": "e12095a8",
+      "fromNode": "b5615f8d",
+      "toNode": "b1f0dcaa"
+    },
+    {
+      "id": "66e0b015",
+      "fromNode": "b5615f8d",
+      "toNode": "c9071fba"
+    },
+    {
+      "id": "96e1c0d4",
+      "fromNode": "a8528c55",
+      "toNode": "0befb8bd"
+    },
+    {
+      "id": "5e281ae9",
+      "fromNode": "0befb8bd",
+      "toNode": "c9e07c79"
+    },
+    {
+      "id": "8696df76",
+      "fromNode": "0befb8bd",
+      "toNode": "3a7ed105"
+    },
+    {
+      "id": "a7a3598f",
+      "fromNode": "a8528c55",
+      "toNode": "57025167"
+    },
+    {
+      "id": "67d60ba7",
+      "fromNode": "57025167",
+      "toNode": "b91f312e"
+    },
+    {
+      "id": "5cd27a01",
+      "fromNode": "57025167",
+      "toNode": "83286993"
+    },
+    {
+      "id": "78640a00",
+      "fromNode": "a8528c55",
+      "toNode": "e9110d3c"
+    },
+    {
+      "id": "df418f69",
+      "fromNode": "e9110d3c",
+      "toNode": "1c872c42"
+    },
+    {
+      "id": "b780782f",
+      "fromNode": "e9110d3c",
+      "toNode": "6109eb0e"
+    },
+    {
+      "id": "cf7ffa0d",
+      "fromNode": "3d66f564",
+      "toNode": "09ca8b17"
+    },
+    {
+      "id": "de11a620",
+      "fromNode": "09ca8b17",
+      "toNode": "6a90c8ef"
+    },
+    {
+      "id": "9862269f",
+      "fromNode": "6a90c8ef",
+      "toNode": "35a73a91"
+    },
+    {
+      "id": "ed495c14",
+      "fromNode": "6a90c8ef",
+      "toNode": "af8186f2"
+    },
+    {
+      "id": "b286f487",
+      "fromNode": "09ca8b17",
+      "toNode": "407ec30b"
+    },
+    {
+      "id": "ff2311b4",
+      "fromNode": "407ec30b",
+      "toNode": "0d014b09"
+    },
+    {
+      "id": "e77fb404",
+      "fromNode": "407ec30b",
+      "toNode": "5f4f33ef"
+    },
+    {
+      "id": "17106b67",
+      "fromNode": "09ca8b17",
+      "toNode": "56429f6e"
+    },
+    {
+      "id": "28985e0a",
+      "fromNode": "56429f6e",
+      "toNode": "f8f496e9"
+    },
+    {
+      "id": "6d1b311c",
+      "fromNode": "09ca8b17",
+      "toNode": "5268705c"
+    },
+    {
+      "id": "836b109c",
+      "fromNode": "5268705c",
+      "toNode": "c8a83e80"
+    },
+    {
+      "id": "52fd80cc",
+      "fromNode": "5268705c",
+      "toNode": "318ff2cd"
+    },
+    {
+      "id": "625d9220",
+      "fromNode": "09ca8b17",
+      "toNode": "4c474aa8"
+    },
+    {
+      "id": "8e2f7368",
+      "fromNode": "4c474aa8",
+      "toNode": "49924229"
+    },
+    {
+      "id": "a84a9327",
+      "fromNode": "4c474aa8",
+      "toNode": "faac2a1d"
+    },
+    {
+      "id": "284ef8c8",
+      "fromNode": "09ca8b17",
+      "toNode": "ce58a418"
+    },
+    {
+      "id": "37f31f88",
+      "fromNode": "ce58a418",
+      "toNode": "e2893e43"
+    },
+    {
+      "id": "3f01820b",
+      "fromNode": "ce58a418",
+      "toNode": "0622ecd5"
+    }
+  ]
+}
