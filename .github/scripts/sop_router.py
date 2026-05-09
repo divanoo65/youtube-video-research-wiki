@@ -140,6 +140,20 @@ def main():
         return
 
     stage_name = matched_stage["stage"]
+
+    # Guard: Stage D (tg-notify) should only trigger when Stage C just completed.
+    # Check that the triggering commit came from Stage C (message contains "wiki graph").
+    # This prevents reset commits or manual index.md edits from spuriously triggering Stage D.
+    if stage_name == "tg-notify":
+        import subprocess as _sp
+        commit_msg = _sp.run(
+            ["git", "log", "-1", "--format=%s", after_sha],
+            capture_output=True, text=True
+        ).stdout.strip()
+        if "wiki graph" not in commit_msg.lower():
+            print(f"[sop_router] Stage D guard: commit '{commit_msg}' is not from Stage C, skipping.")
+            return
+        print(f"[sop_router] Stage D guard: confirmed Stage C commit, proceeding.")
     webhook_route = matched_stage["webhook_route"]
     stage_params = matched_stage.get("params", {})
 
