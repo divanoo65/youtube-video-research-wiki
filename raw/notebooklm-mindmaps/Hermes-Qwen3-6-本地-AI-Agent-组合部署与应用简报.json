@@ -1,0 +1,379 @@
+{
+  "nodes": [
+    {
+      "id": "140b617c",
+      "type": "text",
+      "text": "{'name': '本地最强 Agent 组合 (Hermes + Qwen)', 'children': [{'name': '核心特性', 'children': [{'name': '完全免费开源'}, {'name': '零月费 TOKEN 自由'}, {'name': '数据隐私安全'}, {'name': '24小时在线 AI 助手'}]}, {'name': '部署环境准备', 'children': [{'name': '安装 WSL (Ubuntu 24.04)'}, {'name': '配置显卡驱动 (Nvidia N卡)'}, {'name': '安装 Python 和 pip'}, {'name': '安装 CUDA 工具包'}]}, {'name': '本地模型部署 (Llama-cpp)', 'children': [{'name': '选择模型 (Qwen 3.6/3.5)'}, {'name': '下载模型 (HuggingFace/ModelScope)'}, {'name': '启动模型服务 (端口 8080)'}, {'name': '可选：关闭深度思考模式'}]}, {'name': 'Hermes Agent 安装配置', 'children': [{'name': '安装 Hermes 客户端'}, {'name': '对接本地 API (V1 路径)'}, {'name': '设置上下文长度与显示名称'}, {'name': '配置 Telegram 机器人 TOKEN'}, {'name': '绑定个人 Telegram ID'}]}, {'name': '进阶应用与优化', 'children': [{'name': '设置开机自动启动脚本'}, {'name': '远程手机端对话控制'}, {'name': '执行自动化/定时任务'}, {'name': '代码编写与逻辑推理'}]}]}",
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "03588ebe",
+      "type": "text",
+      "text": "{'name': '核心特性', 'children': [{'name': '完全免费开源'}, {'name': '零月费 TOKEN 自由'}, {'name': '数据隐私安全'}, {'name': '24小时在线 AI 助手'}]}",
+      "x": 250,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "3848ffb7",
+      "type": "text",
+      "text": "{'name': '完全免费开源'}",
+      "x": 500,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f5deb9c7",
+      "type": "text",
+      "text": "{'name': '零月费 TOKEN 自由'}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "1a17af4b",
+      "type": "text",
+      "text": "{'name': '数据隐私安全'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "0e9287a8",
+      "type": "text",
+      "text": "{'name': '24小时在线 AI 助手'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c7db8c48",
+      "type": "text",
+      "text": "{'name': '部署环境准备', 'children': [{'name': '安装 WSL (Ubuntu 24.04)'}, {'name': '配置显卡驱动 (Nvidia N卡)'}, {'name': '安装 Python 和 pip'}, {'name': '安装 CUDA 工具包'}]}",
+      "x": 250,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "af0bbebd",
+      "type": "text",
+      "text": "{'name': '安装 WSL (Ubuntu 24.04)'}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "9e98a84d",
+      "type": "text",
+      "text": "{'name': '配置显卡驱动 (Nvidia N卡)'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c49c488e",
+      "type": "text",
+      "text": "{'name': '安装 Python 和 pip'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "cf037256",
+      "type": "text",
+      "text": "{'name': '安装 CUDA 工具包'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "2cb0f428",
+      "type": "text",
+      "text": "{'name': '本地模型部署 (Llama-cpp)', 'children': [{'name': '选择模型 (Qwen 3.6/3.5)'}, {'name': '下载模型 (HuggingFace/ModelScope)'}, {'name': '启动模型服务 (端口 8080)'}, {'name': '可选：关闭深度思考模式'}]}",
+      "x": 250,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "af5494ea",
+      "type": "text",
+      "text": "{'name': '选择模型 (Qwen 3.6/3.5)'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "82350527",
+      "type": "text",
+      "text": "{'name': '下载模型 (HuggingFace/ModelScope)'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f221666a",
+      "type": "text",
+      "text": "{'name': '启动模型服务 (端口 8080)'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e4238fba",
+      "type": "text",
+      "text": "{'name': '可选：关闭深度思考模式'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "89da1642",
+      "type": "text",
+      "text": "{'name': 'Hermes Agent 安装配置', 'children': [{'name': '安装 Hermes 客户端'}, {'name': '对接本地 API (V1 路径)'}, {'name': '设置上下文长度与显示名称'}, {'name': '配置 Telegram 机器人 TOKEN'}, {'name': '绑定个人 Telegram ID'}]}",
+      "x": 250,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "8916a10f",
+      "type": "text",
+      "text": "{'name': '安装 Hermes 客户端'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d3dd7997",
+      "type": "text",
+      "text": "{'name': '对接本地 API (V1 路径)'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "039917bd",
+      "type": "text",
+      "text": "{'name': '设置上下文长度与显示名称'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "ac92e2cd",
+      "type": "text",
+      "text": "{'name': '配置 Telegram 机器人 TOKEN'}",
+      "x": 500,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "a2d33963",
+      "type": "text",
+      "text": "{'name': '绑定个人 Telegram ID'}",
+      "x": 500,
+      "y": 560,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b6dec00c",
+      "type": "text",
+      "text": "{'name': '进阶应用与优化', 'children': [{'name': '设置开机自动启动脚本'}, {'name': '远程手机端对话控制'}, {'name': '执行自动化/定时任务'}, {'name': '代码编写与逻辑推理'}]}",
+      "x": 250,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "22bf3ca0",
+      "type": "text",
+      "text": "{'name': '设置开机自动启动脚本'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "fc0ed763",
+      "type": "text",
+      "text": "{'name': '远程手机端对话控制'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "cc21fc88",
+      "type": "text",
+      "text": "{'name': '执行自动化/定时任务'}",
+      "x": 500,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e3a14c9e",
+      "type": "text",
+      "text": "{'name': '代码编写与逻辑推理'}",
+      "x": 500,
+      "y": 560,
+      "width": 200,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "2f154ad5",
+      "fromNode": "140b617c",
+      "toNode": "03588ebe"
+    },
+    {
+      "id": "0d6231e2",
+      "fromNode": "03588ebe",
+      "toNode": "3848ffb7"
+    },
+    {
+      "id": "2dc7b367",
+      "fromNode": "03588ebe",
+      "toNode": "f5deb9c7"
+    },
+    {
+      "id": "a6d7131c",
+      "fromNode": "03588ebe",
+      "toNode": "1a17af4b"
+    },
+    {
+      "id": "c5439ea1",
+      "fromNode": "03588ebe",
+      "toNode": "0e9287a8"
+    },
+    {
+      "id": "38df6155",
+      "fromNode": "140b617c",
+      "toNode": "c7db8c48"
+    },
+    {
+      "id": "b8832eb5",
+      "fromNode": "c7db8c48",
+      "toNode": "af0bbebd"
+    },
+    {
+      "id": "efa997ec",
+      "fromNode": "c7db8c48",
+      "toNode": "9e98a84d"
+    },
+    {
+      "id": "30141296",
+      "fromNode": "c7db8c48",
+      "toNode": "c49c488e"
+    },
+    {
+      "id": "7a71489a",
+      "fromNode": "c7db8c48",
+      "toNode": "cf037256"
+    },
+    {
+      "id": "0412275c",
+      "fromNode": "140b617c",
+      "toNode": "2cb0f428"
+    },
+    {
+      "id": "c9bd983a",
+      "fromNode": "2cb0f428",
+      "toNode": "af5494ea"
+    },
+    {
+      "id": "937df332",
+      "fromNode": "2cb0f428",
+      "toNode": "82350527"
+    },
+    {
+      "id": "be5b3d25",
+      "fromNode": "2cb0f428",
+      "toNode": "f221666a"
+    },
+    {
+      "id": "2b1934df",
+      "fromNode": "2cb0f428",
+      "toNode": "e4238fba"
+    },
+    {
+      "id": "9acadc3b",
+      "fromNode": "140b617c",
+      "toNode": "89da1642"
+    },
+    {
+      "id": "b545bd03",
+      "fromNode": "89da1642",
+      "toNode": "8916a10f"
+    },
+    {
+      "id": "04b82c93",
+      "fromNode": "89da1642",
+      "toNode": "d3dd7997"
+    },
+    {
+      "id": "393c662b",
+      "fromNode": "89da1642",
+      "toNode": "039917bd"
+    },
+    {
+      "id": "75f82e21",
+      "fromNode": "89da1642",
+      "toNode": "ac92e2cd"
+    },
+    {
+      "id": "2603c98c",
+      "fromNode": "89da1642",
+      "toNode": "a2d33963"
+    },
+    {
+      "id": "b376223c",
+      "fromNode": "140b617c",
+      "toNode": "b6dec00c"
+    },
+    {
+      "id": "69fe2c78",
+      "fromNode": "b6dec00c",
+      "toNode": "22bf3ca0"
+    },
+    {
+      "id": "f7220906",
+      "fromNode": "b6dec00c",
+      "toNode": "fc0ed763"
+    },
+    {
+      "id": "71d97637",
+      "fromNode": "b6dec00c",
+      "toNode": "cc21fc88"
+    },
+    {
+      "id": "8004f2db",
+      "fromNode": "b6dec00c",
+      "toNode": "e3a14c9e"
+    }
+  ]
+}
