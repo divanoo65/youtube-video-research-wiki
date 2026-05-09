@@ -1,151 +1,198 @@
 ---
-created: 2026-05-08
-updated: 2026-05-08
+created: 2026-05-09
+updated: 2026-05-09
 type: guide
 tags: [schema, wiki, knowledge-management, youtube-research]
 ---
 
 ## 0. 目标与边界
 
-> 核心目标：将 YouTube 视频内容转化为可复利、可追溯、可审计的知识层。
+> 核心目标：将 YouTube 视频内容转化为**可复利、可游走、可审计**的知识图谱。
+> 衡量标准：从任意一个节点出发，沿 wikilinks 至少可以游走 3 步不断链。
 
-- 目标：维护 `wiki/` 目录，将视频洞察沉淀为结构化知识图谱。
-- 边界：
-  - `raw/` 是唯一事实来源，**只读不改**。
-  - 仅在 `wiki/`、`index.md`、`log.md` 内进行知识层维护。
+- `raw/` 是唯一事实来源，**只读不改**。
+- 知识层维护仅在 `wiki/`、`index.md`、`log.md` 内进行。
 
 ---
 
 ## 1. 三层模型（强约束）
 
-### L1 Fact Layer（事实层）
-- 仅允许写入可由 `raw/notebooklm-analysis/` 或 `raw/notebooklm-mindmaps/` 直接支持的事实。
-- 每条关键事实必须可追溯到对应的视频来源页。
-- 禁止把推测写成事实。
+### L1 事实层
+- 只写入可由 `raw/notebooklm-analysis/` 直接支持的事实。
+- 每条关键断言必须能回溯到具体的 source 页。
+- **禁止把推测写成事实。**
 
-### L2 Inference Layer（推断层）
-- 允许基于多个 L1 事实做归纳/推断（跨视频综合）。
-- 必须显式标注：`confidence: high|medium|low` + `reasoning: 推理依据`
+### L2 推断层
+- 基于 2 个以上 L1 事实的归纳或跨视频综合。
+- 必须标注：`confidence: high|medium|low` + `reasoning: 推理依据（一句话）`
+- 典型场景：某个趋势在多个视频中反复出现，可以 L2 归纳。
 
-### L3 Question Layer（问题层）
-- 记录未决问题、假设、证据缺口。
-- 指导下一轮视频采集方向，不作为既定事实。
-
----
-
-## 2. 目录结构约定
-
-| 目录 | 用途 |
-|------|------|
-| `raw/youtube-links/` | 输入的 YouTube 链接文件 |
-| `raw/notebooklm-analysis/` | NotebookLM 生成的研究报告（只读） |
-| `raw/notebooklm-mindmaps/` | NotebookLM 生成的思维导图 JSON（只读） |
-| `wiki/sources/` | 每个视频的来源摘要页 |
-| `wiki/entities/` | 人物、组织、产品、模型等实体页 |
-| `wiki/concepts/` | 技术方法、理论、框架等概念页 |
-| `wiki/comparisons/` | 对比分析页（多视频/多实体对比） |
-| `wiki/overview/` | 主题总览与综合分析页 |
-| `wiki/queries/` | 重要问答沉淀 |
+### L3 问题层
+- 记录尚未被现有视频回答的问题、假设、证据缺口。
+- 指导下一轮视频选题，不作为既定事实。
 
 ---
 
-## 3. 页面格式（frontmatter）
+## 2. 目录结构
 
-所有 wiki 页面必须包含：
+| 目录 | 用途 | 命名规范 |
+|------|------|--------|
+| `raw/youtube-links/` | 输入的 YouTube 链接文件 | `{video-id}.md` |
+| `raw/notebooklm-analysis/` | NotebookLM 生成的研究报告（只读）| `{中文标题}.md` |
+| `raw/notebooklm-mindmaps/` | NotebookLM 生成的思维导图（只读）| `{中文标题}.json` |
+| `wiki/sources/` | 每个视频的来源摘要页 | `{中文标题}.md` |
+| `wiki/entities/` | 人物、产品、组织、AI 模型 | `{实体名}.md`（小写 slug）|
+| `wiki/concepts/` | 技术方法、框架、行业趋势 | `{概念名}.md`（中文可直接用）|
+| `wiki/comparisons/` | 两个或多个实体/方案的对比分析 | `{A}-vs-{B}.md` |
+| `wiki/overview/` | 跨视频的主题综合分析 | `{主题名}.md` |
+| `wiki/queries/` | 重要问答沉淀 | `{问题-slug}.md` |
+
+---
+
+## 3. Frontmatter 规范（必填字段）
 
 ```yaml
 ---
-title: 页面标题
+title: 页面标题（必填）
 type: source|entity|concept|comparison|overview|query
 tags: [tag1, tag2]
-summary: 一句话核心内容（必填）
-sources: [raw/notebooklm-analysis/xxx_report.md]
+summary: 一句话核心内容
+sources: [raw/notebooklm-analysis/xxx.md]
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 layer: L1|L2|L3
-confidence: high|medium|low
-reasoning: 推理依据（L2/L3 必填）
+confidence: high|medium|low  # L2/L3 必填
+reasoning: 推理依据           # L2/L3 必填
 ---
 ```
 
-**强约束**：`type/tags/summary/sources/updated/layer` 必填；L2/L3 时 `confidence+reasoning` 必填。
+**硬性约束：** `title/type/tags/summary/sources/layer` 缺一不可。
 
 ---
 
-## 4. 页面类型规范
+## 4. 五种页面类型规范
 
-### 4.1 Source Summary（视频来源摘要页）
-路径：`wiki/sources/{video-id}-{slug}.md`
-必含：
-- 视频信息（标题、URL、发布者、日期）
-- 执行摘要（3-5句）
-- 核心要点（5-10条 bullet）
-- 关键引言（原文+背景分析）
-- 关联实体链接 `[[entity-name]]`
-- 关联概念链接 `[[concept-name]]`
+### 4.1 Source 页（`wiki/sources/`）
+**每个视频必须有且仅有一个 source 页。**
 
-### 4.2 Entity Page（实体页）
-路径：`wiki/entities/{slug}.md`
-覆盖：人物、组织、产品、AI模型、工具、框架
-必含：
-- 基本信息与定位
-- 核心能力/特征
-- 关键事件或里程碑
-- 与其他实体的关系 `[[other-entity]]`
-- 出现的视频来源 `[[source-page]]`
+必须包含：
+- 视频元数据（标题、URL、发布者）
+- 执行摘要（3-5 句，核心价值主张）
+- 核心要点（5-10 条，具体而非泛泛）
+- 关键引言（原话 + 背景分析）
+- 关联实体：`[[实体名]]`（凡在视频中提到的关键实体）
+- 关联概念：`[[概念名]]`（凡在视频中介绍的核心概念）
 
-### 4.3 Concept Page（概念页）
-路径：`wiki/concepts/{slug}.md`
-覆盖：技术方法、理论框架、设计模式、行业趋势
-必含：
-- 定义与核心含义
-- 应用场景与步骤
-- 在本库视频中的具体例子
-- 关联概念 `[[related-concept]]`
-- 关联实体 `[[related-entity]]`
+### 4.2 Entity 页（`wiki/entities/`）
+**只为在本库视频中有实质性描述的实体创建页面。**
 
-### 4.4 Comparison Page（对比页）
-路径：`wiki/comparisons/{slug}.md`
-必含：对象简介、相同点、不同点、结论与适用条件
+必须包含：
+- 基本定位（一句话）
+- 核心特征/能力（列表，具体）
+- **关系网络**（与其他实体的关系，`[[wikilink]]`，至少 2 条）
+- 出现的视频来源（`[[source页标题]]`，至少 1 条）
 
----
+### 4.3 Concept 页（`wiki/concepts/`）
+**只为在本库中有足够描述的概念创建，避免创建只有定义没有例子的空洞页面。**
 
-## 5. 增量构建工作流（Webhook 触发）
+必须包含：
+- 定义（精确，不超过 3 句）
+- 在本库的具体例子（引用本库实际内容，非泛泛而谈）
+- 关联概念：`[[xxx]]`（至少 2 条）
+- 关联实体：`[[xxx]]`（至少 1 条）
 
-### 触发条件
-- `raw/notebooklm-analysis/` 或 `raw/notebooklm-mindmaps/` 有新文件
+### 4.4 Comparison 页（`wiki/comparisons/`）
+**触发条件：同一视频或不同视频中，两个实体被直接对比时，必须创建。**
 
-### 执行步骤
-1. 读取本文件（TheSchema.md）、`index.md`、`log.md` 最近记录。
-2. 用 `git diff before..sha` 找到新增/变更的 `raw/**/*.md` 文件。
-3. 若无变化：`skipped:no_raw_changes`，停止。
-4. 对每个新的分析报告：
-   a. 创建 `wiki/sources/{video-id}-{slug}.md`（L1，从报告提炼）
-   b. 创建/更新 `wiki/entities/` 相关实体页（L1/L2）
-   c. 创建/更新 `wiki/concepts/` 相关概念页（L1/L2）
-   d. 如有跨视频对比价值，创建 `wiki/comparisons/`
-5. 更新 `index.md`（按 type 分类，字母序，带 summary）
-6. 追加 `log.md`（run_id、日期、新增文件列表）
-7. git add + commit + push
-8. 发送 Telegram 摘要
+必须包含：
+- 对比维度表格（维度 | A | B）
+- 核心差异分析
+- 适用场景结论
+- 双向链接到被比较的 entity 页：`[[实体A]]` `[[实体B]]`
+
+### 4.5 Overview 页（`wiki/overview/`）
+**触发条件：同一主题的 source 页达到 2 个或以上时，必须创建或更新。**
+
+必须包含：
+- 主题范围与边界
+- 跨视频综合发现（L2 推断，附 reasoning）
+- 开放问题/L3（指导后续视频选题）
+- 引用所有相关 source 页：`[[source1]]` `[[source2]]`
 
 ---
 
-## 6. 质量门禁（必过）
+## 5. 链接健康规则（硬性约束，每次构建必须执行）
 
-1. **可追溯性**：每个 wiki 页面的 `sources` 必须指向存在的 `raw/` 文件。
-2. **层级一致性**：L1 事实直接来自原文；L2 推断标注 confidence+reasoning。
-3. **内链健康**：每个页面至少 2 个 `[[wikilink]]` 出链；禁止孤立页。
-4. **Frontmatter 完整**：缺字段的页面必须在 log 中记录。
-5. **内容密度**：source 页 ≥ 300 字，entity/concept 页 ≥ 200 字。
-6. **日志完整**：每次执行写 `logs/webhook-runs/{run_id}.md`。
+1. **死链检测**：扫描所有 `[[wikilink]]`，确认目标文件存在。
+   - 目标文件不存在 → 立即创建该页面，或删除该链接
+   - **禁止带死链提交**
+
+2. **孤立页检测**：每个 wiki 页面至少被 1 个其他页面引用。
+   - 孤立页在 log 中记录，下次构建时处理。
+
+3. **Sources 字段验证**：`sources:` 列出的文件必须真实存在于 `raw/`。
+
+---
+
+## 6. 增量构建工作流（执行顺序不可调换）
+
+**Step 1 — 定向阅读**
+```
+读 TheSchema.md → 读 index.md → 读 log.md（最近 10 条）
+```
+
+**Step 2 — 处理每个新报告**
+1. 创建/更新 source 页（每视频一个，唯一）
+2. 创建/更新 entity 页（查 index 确认是否已存在，存在则更新不重建）
+3. 创建/更新 concept 页（同上）
+4. **检查 comparison 触发**：本视频是否有两个实体直接对比？→ 创建 comparison 页
+5. **检查 overview 触发**：同主题 source 页是否已有 2+ 个？→ 创建或更新 overview 页
+
+**Step 3 — 链接健康检查**
+扫描所有新建/修改页面的 wikilinks，修复死链。
+
+**Step 4 — 更新 index.md 和 log.md**
+- index.md：按 type 分类，字母序，每条带 summary，更新 Last updated 和总页数
+- log.md：追加本次运行记录（run_id、新增文件列表）
+
+**Step 5 — 质量核查（必须全部通过再提交）**
+- [ ] 每个新页面 frontmatter 6 个必填字段齐全
+- [ ] 每个新页面至少 2 个有效出链 wikilinks（目标文件存在）
+- [ ] source 页内容 ≥ 400 字
+- [ ] entity/concept 页内容 ≥ 200 字
+- [ ] sources 字段文件存在于 raw/
+- [ ] 无死链
+
+**Step 6 — 提交**
+```bash
+git add wiki/ index.md log.md logs/
+git commit -m "chore: update llm wiki graph [run:{run_id}]"
+git push origin main
+```
 
 ---
 
 ## 7. 命名规范
 
-- source 页：`{video-id}-{短标题-slug}.md`（如 `NbldZVdusKo-claude-code-demo.md`）
-- entity 页：`{实体名-slug}.md`（如 `claude-sonnet.md`、`openai.md`）
-- concept 页：`{概念-slug}.md`（如 `prompt-engineering.md`、`rag.md`）
-- 内链：`[[page-slug]]` 或 `[[page-slug|显示文字]]`
-- 所有内容使用中文，frontmatter 字段名用英文。
+- **raw 分析文件**：直接用中文语义标题，不加 video_id 前缀
+  - ✅ `零成本本地AI-Agent部署指南.md`
+  - ❌ `Kh8tGD5liwo-零成本本地AI-Agent部署指南.md`
+- **wiki 文件**：同上，语义化中文名
+- **内链**：`[[文件名（不含扩展名）]]` 或 `[[文件名|显示文字]]`
+- 所有内容使用**中文**，frontmatter 字段名用英文
+
+---
+
+## 8. Telegram 通知格式（Stage C 成功 push 后发送）
+
+```
+[YOUTUBE-WIKI-RUN]
+run_id: {run_id}
+新增 source: {n} 个 — {标题列表}
+新增 entity: {n} 个 — {名称列表}
+新增 concept: {n} 个 — {名称列表}
+新增 comparison: {n} 个（如有）
+新增 overview: {n} 个（如有）
+commit: {hash}
+log: logs/webhook-runs/{run_id}.md
+```
