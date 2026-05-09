@@ -36,3 +36,8 @@ new files:
 - wiki/entities/gpt-5-5-instant.md
 - wiki/concepts/幻觉率下降.md
 
+
+## [2026-05-09] ingest | YouTube wiki processing for krEDel3aGGw
+- Updated source page: wiki/sources/krEDel3aGGw-gpt-5-5-instant-release-performance-analysis.md
+- Updated entity page: wiki/entities/gpt-5-5-instant.md
+- Updated concept page: wiki/concepts/幻觉率下降.md

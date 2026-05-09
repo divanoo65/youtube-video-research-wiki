@@ -1,7 +1,7 @@
 # Wiki Index
 
 > YouTube 视频研究知识图谱。所有 wiki 页面按类型分类索引。
-> Last updated: 2026-05-09 | Total pages: 15
+> Last updated: 2026-05-09 | Total pages: 12
 
 > Last updated: 2026-05-09 | Total pages: 15
 
