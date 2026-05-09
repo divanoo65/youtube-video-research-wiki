@@ -1,0 +1,561 @@
+{
+  "nodes": [
+    {
+      "id": "f6db7eba",
+      "type": "text",
+      "text": "{'name': 'Hermes Agent 高级玩法', 'children': [{'name': 'Ollama 云端免费模型', 'children': [{'name': '优势', 'children': [{'name': '一键部署'}, {'name': '不占本地资源'}, {'name': '免费额度'}]}, {'name': '部署步骤', 'children': [{'name': '下载并安装 Ollama'}, {'name': '运行集成命令'}, {'name': '选择云端模型 (如 MXM 2.7)'}, {'name': '登录账号并连接设备'}]}]}, {'name': 'Open WebUI 美化与交互', 'children': [{'name': '核心功能', 'children': [{'name': 'Markdown 格式解析'}, {'name': '历史对话侧边栏保存'}, {'name': '代码块运行与流式输出'}, {'name': '支持手机端访问'}, {'name': '文件与网页引用'}]}, {'name': '配置过程', 'children': [{'name': '安装 Open WebUI 容器/命令'}, {'name': '修改 Hermes 配置文件'}, {'name': '启用 API 服务与设置密码'}, {'name': 'WebUI 管理员设置中添加连接'}, {'name': '输入本地 IP 及端口 8642/v1'}]}]}, {'name': '主副模型省 Token 配置', 'children': [{'name': '策略核心', 'children': [{'name': '主模型处理复杂任务'}, {'name': '副模型处理简单辅助任务'}]}, {'name': '辅助任务分类', 'children': [{'name': '批准与压缩'}, {'name': 'MCP 调用'}, {'name': 'Session 搜索'}, {'name': '视觉与网页工具'}]}, {'name': '推荐配置', 'children': [{'name': '副模型推荐: Gemini 1.5 Flash'}, {'name': '修改配置文件中的各任务模型 ID'}]}]}, {'name': '工具与稳定性', 'children': [{'name': '稳定性碾压 Opencloud/小龙虾'}, {'name': '名称澄清: 官方中文名“赫美斯”'}, {'name': '内网穿透实现公网访问'}]}]}",
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f6990b2c",
+      "type": "text",
+      "text": "{'name': 'Ollama 云端免费模型', 'children': [{'name': '优势', 'children': [{'name': '一键部署'}, {'name': '不占本地资源'}, {'name': '免费额度'}]}, {'name': '部署步骤', 'children': [{'name': '下载并安装 Ollama'}, {'name': '运行集成命令'}, {'name': '选择云端模型 (如 MXM 2.7)'}, {'name': '登录账号并连接设备'}]}]}",
+      "x": 250,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "35870053",
+      "type": "text",
+      "text": "{'name': '优势', 'children': [{'name': '一键部署'}, {'name': '不占本地资源'}, {'name': '免费额度'}]}",
+      "x": 500,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c87054a0",
+      "type": "text",
+      "text": "{'name': '一键部署'}",
+      "x": 750,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "37033435",
+      "type": "text",
+      "text": "{'name': '不占本地资源'}",
+      "x": 750,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "6c0321d4",
+      "type": "text",
+      "text": "{'name': '免费额度'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "7511eec8",
+      "type": "text",
+      "text": "{'name': '部署步骤', 'children': [{'name': '下载并安装 Ollama'}, {'name': '运行集成命令'}, {'name': '选择云端模型 (如 MXM 2.7)'}, {'name': '登录账号并连接设备'}]}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f00bc2e9",
+      "type": "text",
+      "text": "{'name': '下载并安装 Ollama'}",
+      "x": 750,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "eb4c02c9",
+      "type": "text",
+      "text": "{'name': '运行集成命令'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "a22ea46e",
+      "type": "text",
+      "text": "{'name': '选择云端模型 (如 MXM 2.7)'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "09641edc",
+      "type": "text",
+      "text": "{'name': '登录账号并连接设备'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "ada71e3a",
+      "type": "text",
+      "text": "{'name': 'Open WebUI 美化与交互', 'children': [{'name': '核心功能', 'children': [{'name': 'Markdown 格式解析'}, {'name': '历史对话侧边栏保存'}, {'name': '代码块运行与流式输出'}, {'name': '支持手机端访问'}, {'name': '文件与网页引用'}]}, {'name': '配置过程', 'children': [{'name': '安装 Open WebUI 容器/命令'}, {'name': '修改 Hermes 配置文件'}, {'name': '启用 API 服务与设置密码'}, {'name': 'WebUI 管理员设置中添加连接'}, {'name': '输入本地 IP 及端口 8642/v1'}]}]}",
+      "x": 250,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "a154462f",
+      "type": "text",
+      "text": "{'name': '核心功能', 'children': [{'name': 'Markdown 格式解析'}, {'name': '历史对话侧边栏保存'}, {'name': '代码块运行与流式输出'}, {'name': '支持手机端访问'}, {'name': '文件与网页引用'}]}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "64066942",
+      "type": "text",
+      "text": "{'name': 'Markdown 格式解析'}",
+      "x": 750,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "5f70ecae",
+      "type": "text",
+      "text": "{'name': '历史对话侧边栏保存'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "5699329e",
+      "type": "text",
+      "text": "{'name': '代码块运行与流式输出'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "178b875e",
+      "type": "text",
+      "text": "{'name': '支持手机端访问'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "9d7eccc9",
+      "type": "text",
+      "text": "{'name': '文件与网页引用'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d8eb55b7",
+      "type": "text",
+      "text": "{'name': '配置过程', 'children': [{'name': '安装 Open WebUI 容器/命令'}, {'name': '修改 Hermes 配置文件'}, {'name': '启用 API 服务与设置密码'}, {'name': 'WebUI 管理员设置中添加连接'}, {'name': '输入本地 IP 及端口 8642/v1'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "df565e7b",
+      "type": "text",
+      "text": "{'name': '安装 Open WebUI 容器/命令'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "352488e7",
+      "type": "text",
+      "text": "{'name': '修改 Hermes 配置文件'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "21a92cec",
+      "type": "text",
+      "text": "{'name': '启用 API 服务与设置密码'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "28c677fd",
+      "type": "text",
+      "text": "{'name': 'WebUI 管理员设置中添加连接'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "536e392a",
+      "type": "text",
+      "text": "{'name': '输入本地 IP 及端口 8642/v1'}",
+      "x": 750,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b06f1e5d",
+      "type": "text",
+      "text": "{'name': '主副模型省 Token 配置', 'children': [{'name': '策略核心', 'children': [{'name': '主模型处理复杂任务'}, {'name': '副模型处理简单辅助任务'}]}, {'name': '辅助任务分类', 'children': [{'name': '批准与压缩'}, {'name': 'MCP 调用'}, {'name': 'Session 搜索'}, {'name': '视觉与网页工具'}]}, {'name': '推荐配置', 'children': [{'name': '副模型推荐: Gemini 1.5 Flash'}, {'name': '修改配置文件中的各任务模型 ID'}]}]}",
+      "x": 250,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "ced61883",
+      "type": "text",
+      "text": "{'name': '策略核心', 'children': [{'name': '主模型处理复杂任务'}, {'name': '副模型处理简单辅助任务'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f776d1b6",
+      "type": "text",
+      "text": "{'name': '主模型处理复杂任务'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d9d1ee11",
+      "type": "text",
+      "text": "{'name': '副模型处理简单辅助任务'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "7aef156e",
+      "type": "text",
+      "text": "{'name': '辅助任务分类', 'children': [{'name': '批准与压缩'}, {'name': 'MCP 调用'}, {'name': 'Session 搜索'}, {'name': '视觉与网页工具'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d92877b1",
+      "type": "text",
+      "text": "{'name': '批准与压缩'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d3ff6a58",
+      "type": "text",
+      "text": "{'name': 'MCP 调用'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "6d0c2932",
+      "type": "text",
+      "text": "{'name': 'Session 搜索'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "6a41e3ca",
+      "type": "text",
+      "text": "{'name': '视觉与网页工具'}",
+      "x": 750,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "331dd7d2",
+      "type": "text",
+      "text": "{'name': '推荐配置', 'children': [{'name': '副模型推荐: Gemini 1.5 Flash'}, {'name': '修改配置文件中的各任务模型 ID'}]}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "378c2524",
+      "type": "text",
+      "text": "{'name': '副模型推荐: Gemini 1.5 Flash'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "54c40306",
+      "type": "text",
+      "text": "{'name': '修改配置文件中的各任务模型 ID'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "82f69997",
+      "type": "text",
+      "text": "{'name': '工具与稳定性', 'children': [{'name': '稳定性碾压 Opencloud/小龙虾'}, {'name': '名称澄清: 官方中文名“赫美斯”'}, {'name': '内网穿透实现公网访问'}]}",
+      "x": 250,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b3d1fefe",
+      "type": "text",
+      "text": "{'name': '稳定性碾压 Opencloud/小龙虾'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "9802b3ef",
+      "type": "text",
+      "text": "{'name': '名称澄清: 官方中文名“赫美斯”'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "86fffc22",
+      "type": "text",
+      "text": "{'name': '内网穿透实现公网访问'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "fb430534",
+      "fromNode": "f6db7eba",
+      "toNode": "f6990b2c"
+    },
+    {
+      "id": "5fee4f7c",
+      "fromNode": "f6990b2c",
+      "toNode": "35870053"
+    },
+    {
+      "id": "d131d829",
+      "fromNode": "35870053",
+      "toNode": "c87054a0"
+    },
+    {
+      "id": "8c437bf9",
+      "fromNode": "35870053",
+      "toNode": "37033435"
+    },
+    {
+      "id": "e93cde6b",
+      "fromNode": "35870053",
+      "toNode": "6c0321d4"
+    },
+    {
+      "id": "ccce8cc6",
+      "fromNode": "f6990b2c",
+      "toNode": "7511eec8"
+    },
+    {
+      "id": "741b42fb",
+      "fromNode": "7511eec8",
+      "toNode": "f00bc2e9"
+    },
+    {
+      "id": "df057c94",
+      "fromNode": "7511eec8",
+      "toNode": "eb4c02c9"
+    },
+    {
+      "id": "0ca4f96f",
+      "fromNode": "7511eec8",
+      "toNode": "a22ea46e"
+    },
+    {
+      "id": "bad52b52",
+      "fromNode": "7511eec8",
+      "toNode": "09641edc"
+    },
+    {
+      "id": "180397b1",
+      "fromNode": "f6db7eba",
+      "toNode": "ada71e3a"
+    },
+    {
+      "id": "60d0cb60",
+      "fromNode": "ada71e3a",
+      "toNode": "a154462f"
+    },
+    {
+      "id": "6a1fedfa",
+      "fromNode": "a154462f",
+      "toNode": "64066942"
+    },
+    {
+      "id": "a9a54759",
+      "fromNode": "a154462f",
+      "toNode": "5f70ecae"
+    },
+    {
+      "id": "e059a21f",
+      "fromNode": "a154462f",
+      "toNode": "5699329e"
+    },
+    {
+      "id": "7d7b549a",
+      "fromNode": "a154462f",
+      "toNode": "178b875e"
+    },
+    {
+      "id": "beb6326c",
+      "fromNode": "a154462f",
+      "toNode": "9d7eccc9"
+    },
+    {
+      "id": "8ee1b9d6",
+      "fromNode": "ada71e3a",
+      "toNode": "d8eb55b7"
+    },
+    {
+      "id": "f494ac97",
+      "fromNode": "d8eb55b7",
+      "toNode": "df565e7b"
+    },
+    {
+      "id": "024a16d2",
+      "fromNode": "d8eb55b7",
+      "toNode": "352488e7"
+    },
+    {
+      "id": "bc138044",
+      "fromNode": "d8eb55b7",
+      "toNode": "21a92cec"
+    },
+    {
+      "id": "1d10d40d",
+      "fromNode": "d8eb55b7",
+      "toNode": "28c677fd"
+    },
+    {
+      "id": "65a10052",
+      "fromNode": "d8eb55b7",
+      "toNode": "536e392a"
+    },
+    {
+      "id": "156c2172",
+      "fromNode": "f6db7eba",
+      "toNode": "b06f1e5d"
+    },
+    {
+      "id": "5b0c671d",
+      "fromNode": "b06f1e5d",
+      "toNode": "ced61883"
+    },
+    {
+      "id": "3a504e1b",
+      "fromNode": "ced61883",
+      "toNode": "f776d1b6"
+    },
+    {
+      "id": "d8e67a1c",
+      "fromNode": "ced61883",
+      "toNode": "d9d1ee11"
+    },
+    {
+      "id": "cd4a49d2",
+      "fromNode": "b06f1e5d",
+      "toNode": "7aef156e"
+    },
+    {
+      "id": "4d75b8e4",
+      "fromNode": "7aef156e",
+      "toNode": "d92877b1"
+    },
+    {
+      "id": "7c979871",
+      "fromNode": "7aef156e",
+      "toNode": "d3ff6a58"
+    },
+    {
+      "id": "77fb48d9",
+      "fromNode": "7aef156e",
+      "toNode": "6d0c2932"
+    },
+    {
+      "id": "092f4724",
+      "fromNode": "7aef156e",
+      "toNode": "6a41e3ca"
+    },
+    {
+      "id": "db1c30ef",
+      "fromNode": "b06f1e5d",
+      "toNode": "331dd7d2"
+    },
+    {
+      "id": "ea300d9a",
+      "fromNode": "331dd7d2",
+      "toNode": "378c2524"
+    },
+    {
+      "id": "66ea9dee",
+      "fromNode": "331dd7d2",
+      "toNode": "54c40306"
+    },
+    {
+      "id": "25ceb8fc",
+      "fromNode": "f6db7eba",
+      "toNode": "82f69997"
+    },
+    {
+      "id": "50f94c4c",
+      "fromNode": "82f69997",
+      "toNode": "b3d1fefe"
+    },
+    {
+      "id": "f34b4a6b",
+      "fromNode": "82f69997",
+      "toNode": "9802b3ef"
+    },
+    {
+      "id": "8f6c2cb7",
+      "fromNode": "82f69997",
+      "toNode": "86fffc22"
+    }
+  ]
+}

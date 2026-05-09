@@ -1,0 +1,13 @@
+{
+  "pipeline_id": "pipe-60868b8",
+  "stage_b": {
+    "run_id": "gh-25608727086-1",
+    "start_time": "2026-05-09T18:34:26Z",
+    "end_time": "2026-05-09T18:36:06Z",
+    "duration_s": 100,
+    "api_calls": "unknown",
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 1
+  }
+}
