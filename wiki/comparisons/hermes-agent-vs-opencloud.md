@@ -32,4 +32,4 @@ Hermes Agent 在稳定性上远超 OpenCloud，后者每次更新都会引入大
 
 ## 双向链接
 
-[[hermes-agent]] [[opencloud]]
+[[hermes-agent]]
