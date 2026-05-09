@@ -1,0 +1,136 @@
+{
+  "name": "Hermes + Qwen3.6 本地 Agent 部署",
+  "children": [
+    {
+      "name": "核心优势",
+      "children": [
+        {
+          "name": "零成本"
+        },
+        {
+          "name": "Token 自由"
+        },
+        {
+          "name": "隐私安全"
+        },
+        {
+          "name": "全天候在线"
+        }
+      ]
+    },
+    {
+      "name": "环境准备",
+      "children": [
+        {
+          "name": "开启 PowerShell 管理员模式"
+        },
+        {
+          "name": "安装 Linux 子系统 (WSL)"
+        },
+        {
+          "name": "安装 Ubuntu 24.04"
+        },
+        {
+          "name": "更新显卡驱动 (N卡)"
+        }
+      ]
+    },
+    {
+      "name": "模型部署",
+      "children": [
+        {
+          "name": "安装依赖",
+          "children": [
+            {
+              "name": "Python & pip"
+            },
+            {
+              "name": "CUDA 工具包"
+            }
+          ]
+        },
+        {
+          "name": "Llama-cpp 方案",
+          "children": [
+            {
+              "name": "一键安装命令"
+            },
+            {
+              "name": "重新编译路径"
+            }
+          ]
+        },
+        {
+          "name": "下载与运行",
+          "children": [
+            {
+              "name": "选择版本 (Qwen3.6 27B/9B/4B/2B)"
+            },
+            {
+              "name": "启动 Web UI (8080端口)"
+            },
+            {
+              "name": "关闭深度思考模式"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hermes Agent 配置",
+      "children": [
+        {
+          "name": "安装最新版 Hermes"
+        },
+        {
+          "name": "设置自定义 Base URL"
+        },
+        {
+          "name": "对接本地 API Key"
+        },
+        {
+          "name": "Telegram 远程控制",
+          "children": [
+            {
+              "name": "BotFather 获取 Token"
+            },
+            {
+              "name": "设置 Telegram ID"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "自动化与优化",
+      "children": [
+        {
+          "name": "设置开机自动启动"
+        },
+        {
+          "name": "创建启动脚本"
+        },
+        {
+          "name": "配置随系统启动模式"
+        }
+      ]
+    },
+    {
+      "name": "应用场景",
+      "children": [
+        {
+          "name": "代码编写 (PHP+数据库)"
+        },
+        {
+          "name": "UI 设计"
+        },
+        {
+          "name": "远程对话"
+        },
+        {
+          "name": "定时任务执行"
+        }
+      ]
+    }
+  ]
+}

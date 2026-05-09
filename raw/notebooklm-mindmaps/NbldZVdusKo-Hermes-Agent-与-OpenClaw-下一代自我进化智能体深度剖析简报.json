@@ -1,0 +1,138 @@
+{
+  "name": "Hermes Agent 与 OpenClaw 深度对比",
+  "children": [
+    {
+      "name": "核心架构与控制中枢",
+      "children": [
+        {
+          "name": "OpenClaw: Gateway 中心化网关",
+          "children": [
+            {
+              "name": "统一分发与管控"
+            },
+            {
+              "name": "高稳定性与可审计性"
+            }
+          ]
+        },
+        {
+          "name": "Hermes: 执行循环驱动",
+          "children": [
+            {
+              "name": "同步编排引擎"
+            },
+            {
+              "name": "天生支持自我进化"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "技能机制与知识生成",
+      "children": [
+        {
+          "name": "OpenClaw: 模块化工具/技能",
+          "children": [
+            {
+              "name": "人类开发者编写"
+            },
+            {
+              "name": "插件式扩展"
+            }
+          ]
+        },
+        {
+          "name": "Hermes: 程序化知识生成",
+          "children": [
+            {
+              "name": "执行经验自动转技能"
+            },
+            {
+              "name": "跨会话持续学习"
+            },
+            {
+              "name": "Skills Hub 扩展"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "分层记忆体系 (Hermes)",
+      "children": [
+        {
+          "name": "第一层：核心持久记忆 (MEMORY.md/USER.md)"
+        },
+        {
+          "name": "第二层：会话历史 (SQLite 全文索引)"
+        },
+        {
+          "name": "第三层：扩展记忆 (Honcho 用户画像)"
+        },
+        {
+          "name": "第四层：程序性记忆 (学会怎么做)"
+        }
+      ]
+    },
+    {
+      "name": "部署与兼容性",
+      "children": [
+        {
+          "name": "高度可移植性 (Local/VPS/Docker/SSH)"
+        },
+        {
+          "name": "模型无关性 (支持 OpenAI/OpenRouter/各类国产模型)"
+        },
+        {
+          "name": "多终端交互 (TG/Discord/CLI/TUI)"
+        },
+        {
+          "name": "OpenClaw 迁移工具 (自动检测配置并转换)"
+        }
+      ]
+    },
+    {
+      "name": "自动化与安全性",
+      "children": [
+        {
+          "name": "内置 Cron 计划任务系统"
+        },
+        {
+          "name": "五层纵深防御模型"
+        },
+        {
+          "name": "危险命令审批与容器隔离"
+        }
+      ]
+    },
+    {
+      "name": "应用场景",
+      "children": [
+        {
+          "name": "个人每日简报机器人"
+        },
+        {
+          "name": "工程运维助手"
+        },
+        {
+          "name": "研究型数据生成 (运行轨迹记录)"
+        },
+        {
+          "name": "企业内部 API/文档对接"
+        }
+      ]
+    },
+    {
+      "name": "负面争议",
+      "children": [
+        {
+          "name": "EvoMap 抄袭风波"
+        },
+        {
+          "name": "架构设计借鉴争议"
+        }
+      ]
+    }
+  ]
+}
