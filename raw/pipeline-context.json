@@ -11,17 +11,16 @@
     "mindmaps_generated": 1
   },
   "stage_c": {
-    "run_id": "gh-25603047513-1",
-    "start_time": "2026-05-09T14:33:00Z",
-    "end_time": "2026-05-09T14:35:29Z",
-    "duration_s": 149,
+    "run_id": "gh-25603588753-1",
+    "start_time": "2026-05-09T14:37:33Z",
+    "end_time": "2026-05-09T14:38:38Z",
+    "duration_s": 64,
     "api_calls": 1,
-    "pages_created": 15,
+    "pages_created": 13,
     "sources": 1,
-    "entities": 6,
-    "concepts": 6,
+    "entities": 5,
+    "concepts": 5,
     "comparisons": 1,
-    "overviews": 1,
-    "note": "Added 2 entity pages post-build for gemini-2.0-flash and minimax-m2.7"
+    "overviews": 1
   }
 }
