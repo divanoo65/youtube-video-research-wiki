@@ -1,0 +1,144 @@
+{
+  "name": "Hermes Agent 与 OpenClaw 对比分析",
+  "children": [
+    {
+      "name": "核心架构与控制中枢",
+      "children": [
+        {
+          "name": "OpenClaw: Gateway中心化控制",
+          "children": [
+            {
+              "name": "会话管理与路由"
+            },
+            {
+              "name": "工具调用调度"
+            },
+            {
+              "name": "高稳定性与可审计性"
+            }
+          ]
+        },
+        {
+          "name": "Hermes: Agent执行循环驱动",
+          "children": [
+            {
+              "name": "同步编排引擎"
+            },
+            {
+              "name": "模块围绕执行循环集成"
+            },
+            {
+              "name": "天生支持自我进化"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "自我提升与技能机制",
+      "children": [
+        {
+          "name": "程序化知识生成",
+          "children": [
+            {
+              "name": "自动抽象工作流为技能"
+            },
+            {
+              "name": "跨会话持续学习"
+            },
+            {
+              "name": "Skills Hub 扩展"
+            }
+          ]
+        },
+        {
+          "name": "能力进化",
+          "children": [
+            {
+              "name": "从记住事实到记住方法"
+            },
+            {
+              "name": "自我评估与修正"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "分层记忆体系",
+      "children": [
+        {
+          "name": "第一层：核心持久记忆 (MEMORY.md/USER.md)"
+        },
+        {
+          "name": "第二层：会话历史记忆 (SQLite/FTS5索引)"
+        },
+        {
+          "name": "第三层：扩展记忆层 (Honcho用户画像)"
+        },
+        {
+          "name": "第四层：程序性记忆 (自动生成技能)"
+        }
+      ]
+    },
+    {
+      "name": "身份定义 (SOUL.md)",
+      "children": [
+        {
+          "name": "Hermes: 全局核心身份 (不绑定目录)"
+        },
+        {
+          "name": "OpenClaw: 工作区绑定身份 (随环境切换)"
+        }
+      ]
+    },
+    {
+      "name": "部署与兼容性",
+      "children": [
+        {
+          "name": "模型无关性 (支持各类API与端点)"
+        },
+        {
+          "name": "多环境支持 (CLI, VPS, Docker, WSL2)"
+        },
+        {
+          "name": "多平台交互 (Telegram, Discord, Slack等)"
+        },
+        {
+          "name": "TUI 专业交互界面"
+        }
+      ]
+    },
+    {
+      "name": "自动化与安全性",
+      "children": [
+        {
+          "name": "内置 Cron 计划任务系统"
+        },
+        {
+          "name": "五层纵深防御安全模型"
+        },
+        {
+          "name": "危险命令审批与容器隔离"
+        }
+      ]
+    },
+    {
+      "name": "研发团队与背景",
+      "children": [
+        {
+          "name": "Nous Research (互联网原生社群)"
+        },
+        {
+          "name": "去中心化与开源优先理念"
+        },
+        {
+          "name": "技术积累 (DisTrO, WorldSim, Hermes 4)"
+        },
+        {
+          "name": "争议：涉及 EvoMap 抄袭风波"
+        }
+      ]
+    }
+  ]
+}
