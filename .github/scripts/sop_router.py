@@ -149,10 +149,12 @@ def main():
     notify = sop.get("notify", {}).get("telegram", {})
     notebooklm_params = stage_params.get("notebooklm", {})
 
+    effective_repo = repo or sop.get("repo", "")
     payload = {
         "stage": stage_name,
         "wiki_local_path": sop.get("wiki_local_path", ""),
-        "repo": repo or sop.get("repo", ""),
+        "repo": effective_repo,
+        "repo_url": f"https://github.com/{effective_repo}",
         "sha": after_sha,
         "before": before_sha,
         "run_id": run_id,

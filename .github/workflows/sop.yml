@@ -7,6 +7,7 @@ on:
       - 'raw/youtube-links/**'
       - 'raw/notebooklm-analysis/**'
       - 'raw/notebooklm-mindmaps/**'
+      - 'index.md'
 
 concurrency:
   group: sop-pipeline-${{ github.repository }}

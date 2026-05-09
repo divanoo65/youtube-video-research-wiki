@@ -10,8 +10,8 @@ notify:
 
 terminal_paths:
   - wiki/**
-  - index.md
   - log.md
+  - logs/pipeline-runs/**
 
 pipeline:
   - stage: notebooklm-research
@@ -30,3 +30,9 @@ pipeline:
     webhook_route: sop-wiki-build
     params:
       build_mode: incremental
+
+  - stage: tg-notify
+    trigger: index.md
+    webhook_route: sop-tg-notify
+    params:
+      build_mode: notify
