@@ -55,13 +55,13 @@ Codex Chrome 插件是 AI 代理从文本交互向“计算机使用（Computer 
 
 ## 关联实体
 
-- [[codex-chrome|Codex Chrome]] — 本报告核心评测的浏览器插件
+- [[Codex-Chrome插件|Codex Chrome]] — 本报告核心评测的浏览器插件
 - [[gpt-5.5|GPT-5.5]] — 驱动Codex的AI模型
 
 ## 关联概念
 
 - [[多标签并行处理]]
 - [[后台静默运行]]
-- [[computer-use]]
+- [[计算机使用]]
 - [[DOM渲染数据获取]]
 - [[MCP模型上下文协议]]

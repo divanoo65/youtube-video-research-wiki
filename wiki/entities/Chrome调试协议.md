@@ -1,9 +1,9 @@
 ---
-title: Chrome DevTools Protocol (CDP)
+title: Chrome 调试协议（CDP）
 type: entity
 tags: [protocol, chrome, automation, debugging]
 summary: Chrome 浏览器暴露的调试协议，允许外部工具通过 WebSocket 连接控制浏览器的标签页、DOM、网络请求、输入模拟等底层功能，是 Codex 插件实现计算机使用的核心技术通道。
-sources: [raw/notebooklm-analysis/Codex-Chrome-插件技术简报-AI-浏览器自动化的深度评测与分析.md]
+sources: [raw/notebooklm-analysis/Codex-Chrome-插件功能实测与深度解析简报.md]
 created: 2026-05-09
 updated: 2026-05-09
 layer: L1
@@ -32,8 +32,8 @@ Chrome DevTools Protocol（简称 CDP）是 Google 为 Chrome 浏览器开放的
 
 ## 关系网络
 
-- **被 [[codex-chrome-plugin]] 使用**：插件通过 CDP 连接实现底层浏览器控制。
-- **作为 [[computer-use]] 的技术基础**：CDP 提供了操控浏览器的具体手段。
+- **被 [[Codex-Chrome插件]] 使用**：插件通过 CDP 连接实现底层浏览器控制。
+- **作为 [[计算机使用]] 的技术基础**：CDP 提供了操控浏览器的具体手段。
 - **由 Chrome 浏览器提供**：是 Chrome 内置协议，非第三方工具。
 
 ## 关键事件/里程碑
@@ -43,4 +43,4 @@ Chrome DevTools Protocol（简称 CDP）是 Google 为 Chrome 浏览器开放的
 
 ## 出现的视频来源
 
-- [[Codex-Chrome-插件功能实测与深度解析简报]]
+- [[sources/Codex-Chrome-插件功能实测与深度解析简报]]

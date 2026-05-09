@@ -23,29 +23,31 @@ def decode_git_path(path: str) -> str:
     return path
 
 
-def get_changed_files(before_sha: str, after_sha: str) -> list[str]:
-    """Get ADDED/MODIFIED files only (not deleted) between two commits.
-    Handles Chinese filenames via core.quotepath=false.
-    Using --diff-filter=AM excludes deleted files, preventing spurious triggers
-    when cleanup commits delete raw/ files.
-    """
+def _run_git_diff(diff_filter: str, before_sha: str, after_sha: str) -> list[str]:
     git_env = {**os.environ, 'GIT_CONFIG_NOSYSTEM': '1'}
-    # --diff-filter=AM: only Added or Modified, skip Deleted
-    cmd_args = ["-c", "core.quotepath=false", "diff", "--name-only", "--diff-filter=AM"]
-
+    cmd_args = ["-c", "core.quotepath=false", "diff", "--name-only", f"--diff-filter={diff_filter}"]
     try:
         result = subprocess.run(
             ["git"] + cmd_args + [f"{before_sha}..{after_sha}"],
             capture_output=True, text=True, check=True, env=git_env
         )
-        files = [decode_git_path(f) for f in result.stdout.strip().split("\n") if f.strip()]
-        return files
+        return [decode_git_path(f) for f in result.stdout.strip().split("\n") if f.strip()]
     except subprocess.CalledProcessError:
         result = subprocess.run(
             ["git"] + cmd_args + ["HEAD~1..HEAD"],
             capture_output=True, text=True, check=True, env=git_env
         )
         return [decode_git_path(f) for f in result.stdout.strip().split("\n") if f.strip()]
+
+
+def get_changed_files(before_sha: str, after_sha: str) -> list[str]:
+    """Get ADDED/MODIFIED files only (not deleted) between two commits."""
+    return _run_git_diff("AM", before_sha, after_sha)
+
+
+def get_added_files(before_sha: str, after_sha: str) -> list[str]:
+    """Get only ADDED files (not modified/deleted) between two commits."""
+    return _run_git_diff("A", before_sha, after_sha)
 
 
 def matches_pattern(filepath: str, pattern: str) -> bool:
@@ -106,9 +108,11 @@ def main():
     with open("sop.yaml", "r") as f:
         sop = yaml.safe_load(f)
 
-    # Get changed files
+    # Get changed files (AM = Added+Modified for analysis; A-only for youtube-links to prevent re-trigger)
     changed = get_changed_files(before_sha, after_sha)
-    print(f"[sop_router] Changed files: {changed}")
+    added_only = get_added_files(before_sha, after_sha)
+    print(f"[sop_router] Changed files (AM): {changed}")
+    print(f"[sop_router] Added-only files (A): {added_only}")
 
     if not changed:
         print("[sop_router] No changed files, stopping.")
@@ -126,14 +130,20 @@ def main():
         return
 
     # Find matching stage
+    # youtube-links: only trigger on truly Added files (prevent re-trigger when file is modified)
     pipeline = sop.get("pipeline", [])
     matched_stage = None
 
     for stage in pipeline:
         trigger = stage.get("trigger", "")
-        if matches_any(changed, trigger):
-            matched_stage = stage
-            break
+        if "youtube-links" in trigger:
+            if matches_any(added_only, trigger):
+                matched_stage = stage
+                break
+        else:
+            if matches_any(changed, trigger):
+                matched_stage = stage
+                break
 
     if not matched_stage:
         print(f"[sop_router] No stage matched for changed files: {changed}")

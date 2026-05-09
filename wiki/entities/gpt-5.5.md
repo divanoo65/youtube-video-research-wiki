@@ -31,8 +31,8 @@ GPT-5.5 是 OpenAI 在 GPT-4.5 基础上进一步迭代的 AI 语言模型（注
 
 ## 关系网络
 
-- [[codex-chrome|Codex Chrome]] — GPT-5.5 是 Codex 的核心引擎，Codex 集成该模型实现浏览器自动化。
-- [[computer-use]] — GPT-5.5 代表了 OpenAI 在 Computer Use 方向的最新产品化成果。
+- [[Codex-Chrome插件|Codex Chrome]] — GPT-5.5 是 Codex 的核心引擎，Codex 集成该模型实现浏览器自动化。
+- [[计算机使用]] — GPT-5.5 代表了 OpenAI 在 Computer Use 方向的最新产品化成果。
 - Deep Research（可选概念）— 依托的技术之一。
 
 ## 关键事件/里程碑
@@ -41,4 +41,4 @@ GPT-5.5 是 OpenAI 在 GPT-4.5 基础上进一步迭代的 AI 语言模型（注
 
 ## 出现的视频来源
 
-- [[Codex-Chrome-插件功能实测与深度解析简报]]
+- [[sources/Codex-Chrome-插件功能实测与深度解析简报]]
