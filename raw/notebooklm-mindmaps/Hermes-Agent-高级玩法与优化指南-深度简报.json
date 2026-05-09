@@ -1,0 +1,617 @@
+{
+  "nodes": [
+    {
+      "id": "e9989119",
+      "type": "text",
+      "text": "{'name': 'Hermes Agent 高级玩法', 'children': [{'name': 'Ollama 结合', 'children': [{'name': '内置集成', 'children': [{'name': '一键傻瓜式配置'}]}, {'name': '云端免费模型', 'children': [{'name': 'Minimax-M2.7'}, {'name': '不占本地资源'}]}, {'name': '部署步骤', 'children': [{'name': '下载安装Ollama'}, {'name': '运行集成命令'}, {'name': '设备连接认证'}]}]}, {'name': 'Open WebUI 界面优化', 'children': [{'name': '核心优势', 'children': [{'name': '原生支持交互'}, {'name': 'Markdown格式解析'}, {'name': '保存对话历史'}, {'name': '支持流式输出'}]}, {'name': '高级功能', 'children': [{'name': '运行Python代码'}, {'name': '对话检索'}, {'name': '移动端适配'}, {'name': '文件图片引用'}]}, {'name': '配置流程', 'children': [{'name': '修改配置文件'}, {'name': '启用API服务'}, {'name': '设置API密钥'}, {'name': 'WebUI后台添加连接'}]}]}, {'name': '省Token配置技巧', 'children': [{'name': '核心思路', 'children': [{'name': '主副模型分离'}, {'name': '主模型处理复杂任务'}, {'name': '副模型处理辅助任务'}]}, {'name': '辅助任务细分', 'children': [{'name': '任务批准'}, {'name': '文本压缩'}, {'name': 'MCP调用'}, {'name': '会话搜索'}, {'name': '网页抓取'}]}, {'name': '推荐方案', 'children': [{'name': '副模型选用Gemini 1.5 Flash'}]}]}, {'name': '产品对比', 'children': [{'name': '稳定性', 'children': [{'name': '碾压OpenCloud(小龙虾)'}, {'name': '更新不引入Bug'}]}]}]}",
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f3cab790",
+      "type": "text",
+      "text": "{'name': 'Ollama 结合', 'children': [{'name': '内置集成', 'children': [{'name': '一键傻瓜式配置'}]}, {'name': '云端免费模型', 'children': [{'name': 'Minimax-M2.7'}, {'name': '不占本地资源'}]}, {'name': '部署步骤', 'children': [{'name': '下载安装Ollama'}, {'name': '运行集成命令'}, {'name': '设备连接认证'}]}]}",
+      "x": 250,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "729baa69",
+      "type": "text",
+      "text": "{'name': '内置集成', 'children': [{'name': '一键傻瓜式配置'}]}",
+      "x": 500,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "4c7a2123",
+      "type": "text",
+      "text": "{'name': '一键傻瓜式配置'}",
+      "x": 750,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "31680b78",
+      "type": "text",
+      "text": "{'name': '云端免费模型', 'children': [{'name': 'Minimax-M2.7'}, {'name': '不占本地资源'}]}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "6697ed6c",
+      "type": "text",
+      "text": "{'name': 'Minimax-M2.7'}",
+      "x": 750,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "7cedda1c",
+      "type": "text",
+      "text": "{'name': '不占本地资源'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "63891db9",
+      "type": "text",
+      "text": "{'name': '部署步骤', 'children': [{'name': '下载安装Ollama'}, {'name': '运行集成命令'}, {'name': '设备连接认证'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "54fd6935",
+      "type": "text",
+      "text": "{'name': '下载安装Ollama'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "4afff997",
+      "type": "text",
+      "text": "{'name': '运行集成命令'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "2a62bdb8",
+      "type": "text",
+      "text": "{'name': '设备连接认证'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c7162c78",
+      "type": "text",
+      "text": "{'name': 'Open WebUI 界面优化', 'children': [{'name': '核心优势', 'children': [{'name': '原生支持交互'}, {'name': 'Markdown格式解析'}, {'name': '保存对话历史'}, {'name': '支持流式输出'}]}, {'name': '高级功能', 'children': [{'name': '运行Python代码'}, {'name': '对话检索'}, {'name': '移动端适配'}, {'name': '文件图片引用'}]}, {'name': '配置流程', 'children': [{'name': '修改配置文件'}, {'name': '启用API服务'}, {'name': '设置API密钥'}, {'name': 'WebUI后台添加连接'}]}]}",
+      "x": 250,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "670b5461",
+      "type": "text",
+      "text": "{'name': '核心优势', 'children': [{'name': '原生支持交互'}, {'name': 'Markdown格式解析'}, {'name': '保存对话历史'}, {'name': '支持流式输出'}]}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "aefb735f",
+      "type": "text",
+      "text": "{'name': '原生支持交互'}",
+      "x": 750,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "4988d216",
+      "type": "text",
+      "text": "{'name': 'Markdown格式解析'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "a9178ba2",
+      "type": "text",
+      "text": "{'name': '保存对话历史'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "069fd2e3",
+      "type": "text",
+      "text": "{'name': '支持流式输出'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f9473c38",
+      "type": "text",
+      "text": "{'name': '高级功能', 'children': [{'name': '运行Python代码'}, {'name': '对话检索'}, {'name': '移动端适配'}, {'name': '文件图片引用'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e2d55d5a",
+      "type": "text",
+      "text": "{'name': '运行Python代码'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f28cba40",
+      "type": "text",
+      "text": "{'name': '对话检索'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "ebd208a1",
+      "type": "text",
+      "text": "{'name': '移动端适配'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "ab153828",
+      "type": "text",
+      "text": "{'name': '文件图片引用'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "7ab99202",
+      "type": "text",
+      "text": "{'name': '配置流程', 'children': [{'name': '修改配置文件'}, {'name': '启用API服务'}, {'name': '设置API密钥'}, {'name': 'WebUI后台添加连接'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "eb420008",
+      "type": "text",
+      "text": "{'name': '修改配置文件'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "5ffa78d6",
+      "type": "text",
+      "text": "{'name': '启用API服务'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "8250a0da",
+      "type": "text",
+      "text": "{'name': '设置API密钥'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "139873cf",
+      "type": "text",
+      "text": "{'name': 'WebUI后台添加连接'}",
+      "x": 750,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "70c0e2f8",
+      "type": "text",
+      "text": "{'name': '省Token配置技巧', 'children': [{'name': '核心思路', 'children': [{'name': '主副模型分离'}, {'name': '主模型处理复杂任务'}, {'name': '副模型处理辅助任务'}]}, {'name': '辅助任务细分', 'children': [{'name': '任务批准'}, {'name': '文本压缩'}, {'name': 'MCP调用'}, {'name': '会话搜索'}, {'name': '网页抓取'}]}, {'name': '推荐方案', 'children': [{'name': '副模型选用Gemini 1.5 Flash'}]}]}",
+      "x": 250,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "1dbdbca0",
+      "type": "text",
+      "text": "{'name': '核心思路', 'children': [{'name': '主副模型分离'}, {'name': '主模型处理复杂任务'}, {'name': '副模型处理辅助任务'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "1d02dd87",
+      "type": "text",
+      "text": "{'name': '主副模型分离'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "1a1cb4a9",
+      "type": "text",
+      "text": "{'name': '主模型处理复杂任务'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "7741360c",
+      "type": "text",
+      "text": "{'name': '副模型处理辅助任务'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "5f35877c",
+      "type": "text",
+      "text": "{'name': '辅助任务细分', 'children': [{'name': '任务批准'}, {'name': '文本压缩'}, {'name': 'MCP调用'}, {'name': '会话搜索'}, {'name': '网页抓取'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "0e839f9a",
+      "type": "text",
+      "text": "{'name': '任务批准'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "375e7116",
+      "type": "text",
+      "text": "{'name': '文本压缩'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c6ff20d3",
+      "type": "text",
+      "text": "{'name': 'MCP调用'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "5bc697da",
+      "type": "text",
+      "text": "{'name': '会话搜索'}",
+      "x": 750,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "de5d8a1e",
+      "type": "text",
+      "text": "{'name': '网页抓取'}",
+      "x": 750,
+      "y": 560,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "2b3ef63a",
+      "type": "text",
+      "text": "{'name': '推荐方案', 'children': [{'name': '副模型选用Gemini 1.5 Flash'}]}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f3eabe94",
+      "type": "text",
+      "text": "{'name': '副模型选用Gemini 1.5 Flash'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "be7286c4",
+      "type": "text",
+      "text": "{'name': '产品对比', 'children': [{'name': '稳定性', 'children': [{'name': '碾压OpenCloud(小龙虾)'}, {'name': '更新不引入Bug'}]}]}",
+      "x": 250,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "31759777",
+      "type": "text",
+      "text": "{'name': '稳定性', 'children': [{'name': '碾压OpenCloud(小龙虾)'}, {'name': '更新不引入Bug'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "812160d3",
+      "type": "text",
+      "text": "{'name': '碾压OpenCloud(小龙虾)'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "634bed43",
+      "type": "text",
+      "text": "{'name': '更新不引入Bug'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "81e0b70a",
+      "fromNode": "e9989119",
+      "toNode": "f3cab790"
+    },
+    {
+      "id": "f211475c",
+      "fromNode": "f3cab790",
+      "toNode": "729baa69"
+    },
+    {
+      "id": "eeb6d73a",
+      "fromNode": "729baa69",
+      "toNode": "4c7a2123"
+    },
+    {
+      "id": "98a78e77",
+      "fromNode": "f3cab790",
+      "toNode": "31680b78"
+    },
+    {
+      "id": "eb8b6282",
+      "fromNode": "31680b78",
+      "toNode": "6697ed6c"
+    },
+    {
+      "id": "efdf6122",
+      "fromNode": "31680b78",
+      "toNode": "7cedda1c"
+    },
+    {
+      "id": "a1f7a867",
+      "fromNode": "f3cab790",
+      "toNode": "63891db9"
+    },
+    {
+      "id": "33cde4c1",
+      "fromNode": "63891db9",
+      "toNode": "54fd6935"
+    },
+    {
+      "id": "a4332fb1",
+      "fromNode": "63891db9",
+      "toNode": "4afff997"
+    },
+    {
+      "id": "6f169ce8",
+      "fromNode": "63891db9",
+      "toNode": "2a62bdb8"
+    },
+    {
+      "id": "29a8d268",
+      "fromNode": "e9989119",
+      "toNode": "c7162c78"
+    },
+    {
+      "id": "c5d70226",
+      "fromNode": "c7162c78",
+      "toNode": "670b5461"
+    },
+    {
+      "id": "34aa7ab0",
+      "fromNode": "670b5461",
+      "toNode": "aefb735f"
+    },
+    {
+      "id": "e2fce613",
+      "fromNode": "670b5461",
+      "toNode": "4988d216"
+    },
+    {
+      "id": "a0bc72a3",
+      "fromNode": "670b5461",
+      "toNode": "a9178ba2"
+    },
+    {
+      "id": "1fcfa46b",
+      "fromNode": "670b5461",
+      "toNode": "069fd2e3"
+    },
+    {
+      "id": "36c4faea",
+      "fromNode": "c7162c78",
+      "toNode": "f9473c38"
+    },
+    {
+      "id": "22d8d8e3",
+      "fromNode": "f9473c38",
+      "toNode": "e2d55d5a"
+    },
+    {
+      "id": "a0607195",
+      "fromNode": "f9473c38",
+      "toNode": "f28cba40"
+    },
+    {
+      "id": "caf65d45",
+      "fromNode": "f9473c38",
+      "toNode": "ebd208a1"
+    },
+    {
+      "id": "1c93e9ce",
+      "fromNode": "f9473c38",
+      "toNode": "ab153828"
+    },
+    {
+      "id": "096055f1",
+      "fromNode": "c7162c78",
+      "toNode": "7ab99202"
+    },
+    {
+      "id": "2caa3180",
+      "fromNode": "7ab99202",
+      "toNode": "eb420008"
+    },
+    {
+      "id": "f3038cc4",
+      "fromNode": "7ab99202",
+      "toNode": "5ffa78d6"
+    },
+    {
+      "id": "c0224388",
+      "fromNode": "7ab99202",
+      "toNode": "8250a0da"
+    },
+    {
+      "id": "a5026e70",
+      "fromNode": "7ab99202",
+      "toNode": "139873cf"
+    },
+    {
+      "id": "a25d0480",
+      "fromNode": "e9989119",
+      "toNode": "70c0e2f8"
+    },
+    {
+      "id": "6970d8fc",
+      "fromNode": "70c0e2f8",
+      "toNode": "1dbdbca0"
+    },
+    {
+      "id": "7079de0a",
+      "fromNode": "1dbdbca0",
+      "toNode": "1d02dd87"
+    },
+    {
+      "id": "d4d3408a",
+      "fromNode": "1dbdbca0",
+      "toNode": "1a1cb4a9"
+    },
+    {
+      "id": "7e6955ac",
+      "fromNode": "1dbdbca0",
+      "toNode": "7741360c"
+    },
+    {
+      "id": "5cfee9bb",
+      "fromNode": "70c0e2f8",
+      "toNode": "5f35877c"
+    },
+    {
+      "id": "21dd2f14",
+      "fromNode": "5f35877c",
+      "toNode": "0e839f9a"
+    },
+    {
+      "id": "10e21cac",
+      "fromNode": "5f35877c",
+      "toNode": "375e7116"
+    },
+    {
+      "id": "49d2baf4",
+      "fromNode": "5f35877c",
+      "toNode": "c6ff20d3"
+    },
+    {
+      "id": "a0d5d1a5",
+      "fromNode": "5f35877c",
+      "toNode": "5bc697da"
+    },
+    {
+      "id": "30554846",
+      "fromNode": "5f35877c",
+      "toNode": "de5d8a1e"
+    },
+    {
+      "id": "275f6199",
+      "fromNode": "70c0e2f8",
+      "toNode": "2b3ef63a"
+    },
+    {
+      "id": "10b793c2",
+      "fromNode": "2b3ef63a",
+      "toNode": "f3eabe94"
+    },
+    {
+      "id": "79b1d4f8",
+      "fromNode": "e9989119",
+      "toNode": "be7286c4"
+    },
+    {
+      "id": "7d0b83c8",
+      "fromNode": "be7286c4",
+      "toNode": "31759777"
+    },
+    {
+      "id": "904985c4",
+      "fromNode": "31759777",
+      "toNode": "812160d3"
+    },
+    {
+      "id": "e253bb50",
+      "fromNode": "31759777",
+      "toNode": "634bed43"
+    }
+  ]
+}
