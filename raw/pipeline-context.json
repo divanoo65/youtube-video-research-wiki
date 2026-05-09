@@ -1,13 +1,1 @@
-{
-  "pipeline_id": "pipe-d7ffa5c",
-  "stage_b": {
-    "run_id": "gh-25603706953-1",
-    "start_time": "2026-05-09T14:38:10Z",
-    "end_time": "2026-05-09T14:40:06Z",
-    "duration_s": 116,
-    "api_calls": "unknown",
-    "videos_processed": 1,
-    "reports_generated": 1,
-    "mindmaps_generated": 1
-  }
-}
+{}
