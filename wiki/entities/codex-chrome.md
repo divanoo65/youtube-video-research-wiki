@@ -36,7 +36,7 @@ Codex Chrome 是由 Open AI 前沿研究团队开发（依托 Deep Research 和 
 ## 关系网络
 
 - [[gpt-5.5|GPT-5.5]] — Codex 的核心推理引擎，两者深度集成，提供 Fast 和 Medium 模式。
-- [[Computer Use]] — Codex 是 OpenAI “计算机使用”技术的实际产品化体现，将研究能力转化为可用工具。
+- [[computer-use]] — Codex 是 OpenAI “计算机使用”技术的实际产品化体现，将研究能力转化为可用工具。
 - [[MCP模型上下文协议]] — Codex 支持该协议，作为绕过站点安全策略的替代方案（如连接淘宝客户端）。
 - [[多标签并行处理]] — Codex 最核心的概念能力。
 - [[后台静默运行]] — Codex 区别于传统 AI 代理的关键特性。
@@ -49,4 +49,4 @@ Codex Chrome 是由 Open AI 前沿研究团队开发（依托 Deep Research 和 
 
 ## 出现的视频来源
 
-- [[Codex Chrome 插件功能实测与深度解析简报]]
+- [[Codex-Chrome-插件功能实测与深度解析简报]]

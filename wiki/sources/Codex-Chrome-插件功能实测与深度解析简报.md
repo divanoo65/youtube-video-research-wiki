@@ -62,6 +62,6 @@ Codex Chrome 插件是 AI 代理从文本交互向“计算机使用（Computer 
 
 - [[多标签并行处理]]
 - [[后台静默运行]]
-- [[Computer Use]]
+- [[computer-use]]
 - [[DOM渲染数据获取]]
 - [[MCP模型上下文协议]]
