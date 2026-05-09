@@ -9,5 +9,18 @@
     "videos_processed": 3,
     "reports_generated": 3,
     "mindmaps_generated": 3
+  },
+  "stage_c": {
+    "run_id": "gh-25599372433-1",
+    "start_time": "2026-05-09T10:56:30Z",
+    "end_time": "2026-05-09T11:00:24Z",
+    "duration_s": 234,
+    "api_calls": 1,
+    "pages_created": 37,
+    "sources": 3,
+    "entities": 10,
+    "concepts": 22,
+    "comparisons": 1,
+    "overviews": 1
   }
 }
