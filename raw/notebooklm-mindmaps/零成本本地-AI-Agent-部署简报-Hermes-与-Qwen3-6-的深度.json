@@ -1,0 +1,107 @@
+{
+  "name": "本地最强 Agent 组合 (Hermes + Qwen3.6)",
+  "children": [
+    {
+      "name": "方案优势",
+      "children": [
+        {
+          "name": "完全免费 (零成本)"
+        },
+        {
+          "name": "无限 Token"
+        },
+        {
+          "name": "数据隐私安全"
+        },
+        {
+          "name": "24小时在线助手"
+        },
+        {
+          "name": "支持远程对话 (手机端)"
+        }
+      ]
+    },
+    {
+      "name": "部署环境准备",
+      "children": [
+        {
+          "name": "Windows Powershell (管理员)"
+        },
+        {
+          "name": "安装 Linux 子系统 (WSL)"
+        },
+        {
+          "name": "安装 Ubuntu 24.04"
+        },
+        {
+          "name": "显卡驱动更新 (N卡直通)"
+        },
+        {
+          "name": "安装 Python 与 pip"
+        }
+      ]
+    },
+    {
+      "name": "本地大模型部署 (Llama-cpp)",
+      "children": [
+        {
+          "name": "安装 CUDA 工具包"
+        },
+        {
+          "name": "配置环境变量与编译"
+        },
+        {
+          "name": "模型选择 (Qwen系列)",
+          "children": [
+            {
+              "name": "Qwen3.6 27B (大显存)"
+            },
+            {
+              "name": "Qwen3.5 0.8B/2B/4B/9B (中小显存)"
+            }
+          ]
+        },
+        {
+          "name": "关闭深度思考模式 (加速对接)"
+        }
+      ]
+    },
+    {
+      "name": "Hermes Agent 配置",
+      "children": [
+        {
+          "name": "一键安装脚本"
+        },
+        {
+          "name": "自定义 API 模式"
+        },
+        {
+          "name": "Base URL (Localhost:8080/v1)"
+        },
+        {
+          "name": "对接第三方工具 (Telegram)"
+        },
+        {
+          "name": "BotFather 获取 Token"
+        }
+      ]
+    },
+    {
+      "name": "自动化与应用",
+      "children": [
+        {
+          "name": "开机自动启动脚本"
+        },
+        {
+          "name": "代码编写 (如PHP下载站)"
+        },
+        {
+          "name": "定时任务执行"
+        },
+        {
+          "name": "多终端远程控制"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "name": "Hermes Agent vs OpenClaw 对比分析",
+  "children": [
+    {
+      "name": "核心架构与控制中枢",
+      "children": [
+        {
+          "name": "OpenClaw: 中心化 Gateway 网关",
+          "children": [
+            {
+              "name": "后台守护进程"
+            },
+            {
+              "name": "统一分发与管控"
+            },
+            {
+              "name": "高稳定性与可审计性"
+            }
+          ]
+        },
+        {
+          "name": "Hermes: 执行循环驱动",
+          "children": [
+            {
+              "name": "AI Agent执行循环为引擎"
+            },
+            {
+              "name": "闭环驱动学习与改进"
+            },
+            {
+              "name": "天生支持自我进化"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "能力特性与学习机制",
+      "children": [
+        {
+          "name": "自我提升与知识生成",
+          "children": [
+            {
+              "name": "程序化知识抽象"
+            },
+            {
+              "name": "自动生成与优化新技能"
+            },
+            {
+              "name": "Skills Hub 扩展"
+            }
+          ]
+        },
+        {
+          "name": "分层记忆体系",
+          "children": [
+            {
+              "name": "核心持久记忆 (MEMORY.md/USER.md)"
+            },
+            {
+              "name": "会话历史记忆 (SQLite/FTS5)"
+            },
+            {
+              "name": "扩展记忆层 (Honcho)"
+            },
+            {
+              "name": "程序性记忆 (自动技能)"
+            }
+          ]
+        },
+        {
+          "name": "自动化能力",
+          "children": [
+            {
+              "name": "内置 Cron 计划任务"
+            },
+            {
+              "name": "自然语言指定定时任务"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "兼容性与部署",
+      "children": [
+        {
+          "name": "多环境支持",
+          "children": [
+            {
+              "name": "本地/VPS/Docker/SSH"
+            },
+            {
+              "name": "WSL2 (Windows)"
+            }
+          ]
+        },
+        {
+          "name": "模型与交互无关性",
+          "children": [
+            {
+              "name": "支持各类主流大模型"
+            },
+            {
+              "name": "集成多端消息应用 (Telegram/Discord等)"
+            },
+            {
+              "name": "专业 TUI 界面"
+            }
+          ]
+        },
+        {
+          "name": "迁移体验",
+          "children": [
+            {
+              "name": "一键安装脚本"
+            },
+            {
+              "name": "自动检测并迁移 OpenClaw 配置"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "身份定义 (SOUL.md)",
+      "children": [
+        {
+          "name": "Hermes: 全局核心身份, 不绑定目录"
+        },
+        {
+          "name": "OpenClaw: 工作区绑定, 随工作区切换"
+        }
+      ]
+    },
+    {
+      "name": "安全与研究能力",
+      "children": [
+        {
+          "name": "五层纵深防御模型",
+          "children": [
+            {
+              "name": "危险命令审批"
+            },
+            {
+              "name": "容器隔离"
+            },
+            {
+              "name": "SSRF防护"
+            }
+          ]
+        },
+        {
+          "name": "研究基础设施",
+          "children": [
+            {
+              "name": "操作轨迹记录"
+            },
+            {
+              "name": "合成数据生成"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "负面争议",
+      "children": [
+        {
+          "name": "涉嫌抄袭 EvoMap 架构"
+        },
+        {
+          "name": "团队否认并拉黑原作者"
+        }
+      ]
+    }
+  ]
+}
