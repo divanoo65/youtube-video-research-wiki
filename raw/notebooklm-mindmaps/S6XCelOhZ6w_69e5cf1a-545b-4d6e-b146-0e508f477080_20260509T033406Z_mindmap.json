@@ -1,0 +1,125 @@
+{
+  "name": "Hermes Agent 集成 NotebookLM",
+  "children": [
+    {
+      "name": "核心价值",
+      "children": [
+        {
+          "name": "外挂强大知识库"
+        },
+        {
+          "name": "告别Token消耗烦恼"
+        },
+        {
+          "name": "多设备同步"
+        },
+        {
+          "name": "打造个人知识飞轮"
+        }
+      ]
+    },
+    {
+      "name": "集成方式",
+      "children": [
+        {
+          "name": "NotebookRMPY项目",
+          "children": [
+            {
+              "name": "修复Cookie过期Bug"
+            },
+            {
+              "name": "支持Hermes Agent Skill"
+            },
+            {
+              "name": "自然语言指令安装"
+            }
+          ]
+        },
+        {
+          "name": "认证登录",
+          "children": [
+            {
+              "name": "命令行账号登录"
+            },
+            {
+              "name": "Cookie手动导出登录"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "功能特性",
+      "children": [
+        {
+          "name": "内容生成",
+          "children": [
+            {
+              "name": "自动生成幻灯片 (PPT)"
+            },
+            {
+              "name": "生成讲解视频"
+            },
+            {
+              "name": "生成音频播客"
+            },
+            {
+              "name": "生成思维导图 (Mindmap)"
+            },
+            {
+              "name": "生成学习测验 (Quiz)"
+            }
+          ]
+        },
+        {
+          "name": "文档管理",
+          "children": [
+            {
+              "name": "自然语言列出笔记"
+            },
+            {
+              "name": "跨论文检索与总结"
+            },
+            {
+              "name": "自动添加URL/PDF至库"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "系统架构",
+      "children": [
+        {
+          "name": "用户输入层 (聊天/命令行)"
+        },
+        {
+          "name": "Hermes核心层 (意图解析/调度)"
+        },
+        {
+          "name": "Skill层 (NotebookRMPY)"
+        },
+        {
+          "name": "Google NotebookLM云端"
+        }
+      ]
+    },
+    {
+      "name": "应用场景",
+      "children": [
+        {
+          "name": "科研学习 (论文深度研究)"
+        },
+        {
+          "name": "内容创作 (播客/视频)"
+        },
+        {
+          "name": "自动化任务 (AI简报/抓取)"
+        },
+        {
+          "name": "多Agent协作分享"
+        }
+      ]
+    }
+  ]
+}
