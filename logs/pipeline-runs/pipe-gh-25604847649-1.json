@@ -1,0 +1,30 @@
+{
+  "pipeline_id": "pipe-84ae9d8",
+  "stage_b": {
+    "run_id": "gh-25604718773-1",
+    "start_time": "2026-05-09T15:27:40Z",
+    "end_time": "2026-05-09T15:29:25Z",
+    "duration_s": 105,
+    "api_calls": "unknown",
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 1
+  },
+  "stage_c": {
+    "run_id": "gh-25604776884-1",
+    "start_time": "2026-05-09T15:31:07Z",
+    "end_time": "2026-05-09T15:33:39Z",
+    "duration_s": 152,
+    "api_calls": 1,
+    "reports_processed": 1,
+    "pages_created": 8,
+    "prompt_tokens": 6116,
+    "completion_tokens": 9026,
+    "sources": 1,
+    "entities": 2,
+    "concepts": 5,
+    "comparisons": 0,
+    "overviews": 0,
+    "status": "success"
+  }
+}
