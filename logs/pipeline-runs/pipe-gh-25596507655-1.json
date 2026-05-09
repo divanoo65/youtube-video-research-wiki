@@ -1,0 +1,10 @@
+{
+  "run_id": "gh-25596507655-1",
+  "timestamp": "2026-05-09T08:27:00Z",
+  "stages": {
+    "stage_b": {"status": "not_executed", "reason": "pipeline-context.json not found"},
+    "stage_c": {"status": "not_executed", "reason": "pipeline-context.json not found"},
+    "stage_d": {"status": "completed", "tg_notification": "sent"}
+  },
+  "note": "Dual degradation mode: no pipeline-context.json, no run-logs. Video links read from raw/youtube-links/ directly. Notified user of incomplete execution."
+}
