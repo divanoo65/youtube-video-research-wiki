@@ -1,0 +1,15 @@
+{
+  "stage_c": {
+    "run_id": "test-single-deepseek-1778329950",
+    "start_time": "2026-05-09T12:32:30Z",
+    "end_time": "2026-05-09T12:35:25Z",
+    "duration_s": 175,
+    "api_calls": 1,
+    "pages_created": 3,
+    "sources": 3,
+    "entities": 0,
+    "concepts": 0,
+    "comparisons": 0,
+    "overviews": 0
+  }
+}
