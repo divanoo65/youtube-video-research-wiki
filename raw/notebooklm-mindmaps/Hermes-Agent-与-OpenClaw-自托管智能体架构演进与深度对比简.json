@@ -1,0 +1,157 @@
+{
+  "name": "Hermes Agent vs OpenClaw 对比分析",
+  "children": [
+    {
+      "name": "核心架构与控制中枢",
+      "children": [
+        {
+          "name": "OpenClaw: 中心化 Gateway 网关",
+          "children": [
+            {
+              "name": "后台守护进程"
+            },
+            {
+              "name": "统一分发与管控"
+            },
+            {
+              "name": "高稳定性与可审计性"
+            }
+          ]
+        },
+        {
+          "name": "Hermes Agent: 执行循环驱动",
+          "children": [
+            {
+              "name": "同步编排引擎"
+            },
+            {
+              "name": "闭环驱动系统"
+            },
+            {
+              "name": "天生支持自我进化"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "部署与兼容性",
+      "children": [
+        {
+          "name": "极强可移植性 (VPS/Docker/SSH/GPU)"
+        },
+        {
+          "name": "支持主流消息应用 (Telegram/Discord等)"
+        },
+        {
+          "name": "模型无关性 (支持多厂商及自定义端点)"
+        },
+        {
+          "name": "专业 TUI 交互界面"
+        }
+      ]
+    },
+    {
+      "name": "自我提升与技能机制",
+      "children": [
+        {
+          "name": "OpenClaw: 模块化插件",
+          "children": [
+            {
+              "name": "人类开发者编写"
+            },
+            {
+              "name": "工作区/共享插件"
+            }
+          ]
+        },
+        {
+          "name": "Hermes: 程序化知识生成",
+          "children": [
+            {
+              "name": "自动生成新技能"
+            },
+            {
+              "name": "动态记忆层存储"
+            },
+            {
+              "name": "技能中心 (Skills Hub)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "分层记忆体系 (Hermes)",
+      "children": [
+        {
+          "name": "核心持久记忆 (MEMORY.md/USER.md)"
+        },
+        {
+          "name": "会话历史记忆 (SQLite/FTS5全文索引)"
+        },
+        {
+          "name": "扩展记忆层 (Honcho 长期画像)"
+        },
+        {
+          "name": "程序性记忆 (工作流与模式)"
+        }
+      ]
+    },
+    {
+      "name": "自动化与安全性",
+      "children": [
+        {
+          "name": "自动化能力",
+          "children": [
+            {
+              "name": "内置 Cron 计划任务"
+            },
+            {
+              "name": "隔离会话运行"
+            }
+          ]
+        },
+        {
+          "name": "安全防御 (五层模型)",
+          "children": [
+            {
+              "name": "容器隔离与权限审批"
+            },
+            {
+              "name": "SSRF防护与凭证过滤"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "应用场景",
+      "children": [
+        {
+          "name": "个人每日简报机器人"
+        },
+        {
+          "name": "工程运维助手"
+        },
+        {
+          "name": "GitHub 仓库分诊"
+        },
+        {
+          "name": "研究与数据生成 (轨迹记录)"
+        }
+      ]
+    },
+    {
+      "name": "社会争议",
+      "children": [
+        {
+          "name": "EvoMap 抄袭风波"
+        },
+        {
+          "name": "架构借鉴争议"
+        }
+      ]
+    }
+  ]
+}
