@@ -52,7 +52,7 @@ run_id: T-3DlXq9nsQOE
 - [[Agent]]
 
 **关联概念**
-- [[Harness Engineering（约束工程）]]
+- [[约束工程]]
 - [[提示工程]]
 - [[上下文工程]]
 - [[信息边界层]]
