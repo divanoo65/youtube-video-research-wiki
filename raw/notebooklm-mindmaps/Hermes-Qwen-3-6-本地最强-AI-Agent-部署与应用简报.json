@@ -1,0 +1,449 @@
+{
+  "nodes": [
+    {
+      "id": "34f28bb2",
+      "type": "text",
+      "text": "{'name': '本地最强 Agent 组合 (Hermes + Qwen3.6)', 'children': [{'name': '方案优势', 'children': [{'name': '零成本 (TOKEN 自由)'}, {'name': '数据隐私安全'}, {'name': '24小时在线助手'}, {'name': '支持移动端远程对话'}]}, {'name': '环境准备', 'children': [{'name': '安装 Windows Linux 子系统 (WSL2)'}, {'name': '安装 Ubuntu 24.04'}, {'name': '更新 N 卡显卡驱动'}, {'name': '安装 Python 与 pip'}]}, {'name': '本地模型部署 (Llama-cpp)', 'children': [{'name': '安装 CUDA 工具包'}, {'name': '编译 Llama-cpp'}, {'name': '下载 Qwen3.6 27B 模型 (或 3.5 系列)'}, {'name': '启动模型服务 (端口 8080)'}, {'name': '模式选择 (深度思考/正常模式)'}]}, {'name': 'Hermes Agent 安装与配置', 'children': [{'name': '安装 Hermes 程序'}, {'name': '自定义模型服务地址 (V1 接口)'}, {'name': '配置第三方工具 (Telegram)'}, {'name': '使用 BotFather 获取 TOKEN'}, {'name': '设置个人用户 ID'}]}, {'name': '自动化与优化', 'children': [{'name': '设置随系统自动启动'}, {'name': '创建开机自启脚本'}, {'name': '性能优化 (提升每秒 TOKEN 数)'}]}, {'name': '应用场景', 'children': [{'name': '代码编写 (如 PHP 下载中转站)'}, {'name': '逻辑推理与中文理解'}, {'name': '定时任务执行'}, {'name': '移动端远程调用本地算力'}]}]}",
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "03aa75ed",
+      "type": "text",
+      "text": "{'name': '方案优势', 'children': [{'name': '零成本 (TOKEN 自由)'}, {'name': '数据隐私安全'}, {'name': '24小时在线助手'}, {'name': '支持移动端远程对话'}]}",
+      "x": 250,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "fc6be49e",
+      "type": "text",
+      "text": "{'name': '零成本 (TOKEN 自由)'}",
+      "x": 500,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d4b5a687",
+      "type": "text",
+      "text": "{'name': '数据隐私安全'}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "a86e7d6e",
+      "type": "text",
+      "text": "{'name': '24小时在线助手'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "02dcb266",
+      "type": "text",
+      "text": "{'name': '支持移动端远程对话'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "caaa7687",
+      "type": "text",
+      "text": "{'name': '环境准备', 'children': [{'name': '安装 Windows Linux 子系统 (WSL2)'}, {'name': '安装 Ubuntu 24.04'}, {'name': '更新 N 卡显卡驱动'}, {'name': '安装 Python 与 pip'}]}",
+      "x": 250,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "bf36ed45",
+      "type": "text",
+      "text": "{'name': '安装 Windows Linux 子系统 (WSL2)'}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "cfb51c20",
+      "type": "text",
+      "text": "{'name': '安装 Ubuntu 24.04'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "004ada02",
+      "type": "text",
+      "text": "{'name': '更新 N 卡显卡驱动'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "21b8fe22",
+      "type": "text",
+      "text": "{'name': '安装 Python 与 pip'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "1d33cecf",
+      "type": "text",
+      "text": "{'name': '本地模型部署 (Llama-cpp)', 'children': [{'name': '安装 CUDA 工具包'}, {'name': '编译 Llama-cpp'}, {'name': '下载 Qwen3.6 27B 模型 (或 3.5 系列)'}, {'name': '启动模型服务 (端口 8080)'}, {'name': '模式选择 (深度思考/正常模式)'}]}",
+      "x": 250,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "6ab2f590",
+      "type": "text",
+      "text": "{'name': '安装 CUDA 工具包'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "ce6a25c8",
+      "type": "text",
+      "text": "{'name': '编译 Llama-cpp'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e47df4d3",
+      "type": "text",
+      "text": "{'name': '下载 Qwen3.6 27B 模型 (或 3.5 系列)'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b804e318",
+      "type": "text",
+      "text": "{'name': '启动模型服务 (端口 8080)'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "87e0a974",
+      "type": "text",
+      "text": "{'name': '模式选择 (深度思考/正常模式)'}",
+      "x": 500,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "3078247a",
+      "type": "text",
+      "text": "{'name': 'Hermes Agent 安装与配置', 'children': [{'name': '安装 Hermes 程序'}, {'name': '自定义模型服务地址 (V1 接口)'}, {'name': '配置第三方工具 (Telegram)'}, {'name': '使用 BotFather 获取 TOKEN'}, {'name': '设置个人用户 ID'}]}",
+      "x": 250,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "bc82c11e",
+      "type": "text",
+      "text": "{'name': '安装 Hermes 程序'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "02303419",
+      "type": "text",
+      "text": "{'name': '自定义模型服务地址 (V1 接口)'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "feba3ff8",
+      "type": "text",
+      "text": "{'name': '配置第三方工具 (Telegram)'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e56ae7ef",
+      "type": "text",
+      "text": "{'name': '使用 BotFather 获取 TOKEN'}",
+      "x": 500,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "29e73043",
+      "type": "text",
+      "text": "{'name': '设置个人用户 ID'}",
+      "x": 500,
+      "y": 560,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "7c264a00",
+      "type": "text",
+      "text": "{'name': '自动化与优化', 'children': [{'name': '设置随系统自动启动'}, {'name': '创建开机自启脚本'}, {'name': '性能优化 (提升每秒 TOKEN 数)'}]}",
+      "x": 250,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "168bd55d",
+      "type": "text",
+      "text": "{'name': '设置随系统自动启动'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "fd674171",
+      "type": "text",
+      "text": "{'name': '创建开机自启脚本'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "2a26f132",
+      "type": "text",
+      "text": "{'name': '性能优化 (提升每秒 TOKEN 数)'}",
+      "x": 500,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "49cc56c6",
+      "type": "text",
+      "text": "{'name': '应用场景', 'children': [{'name': '代码编写 (如 PHP 下载中转站)'}, {'name': '逻辑推理与中文理解'}, {'name': '定时任务执行'}, {'name': '移动端远程调用本地算力'}]}",
+      "x": 250,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "4feb0182",
+      "type": "text",
+      "text": "{'name': '代码编写 (如 PHP 下载中转站)'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "220805ef",
+      "type": "text",
+      "text": "{'name': '逻辑推理与中文理解'}",
+      "x": 500,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "617fef3d",
+      "type": "text",
+      "text": "{'name': '定时任务执行'}",
+      "x": 500,
+      "y": 560,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "4d5d497d",
+      "type": "text",
+      "text": "{'name': '移动端远程调用本地算力'}",
+      "x": 500,
+      "y": 640,
+      "width": 200,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "9f0c41da",
+      "fromNode": "34f28bb2",
+      "toNode": "03aa75ed"
+    },
+    {
+      "id": "8a36f4cf",
+      "fromNode": "03aa75ed",
+      "toNode": "fc6be49e"
+    },
+    {
+      "id": "5546551e",
+      "fromNode": "03aa75ed",
+      "toNode": "d4b5a687"
+    },
+    {
+      "id": "3c6ffa04",
+      "fromNode": "03aa75ed",
+      "toNode": "a86e7d6e"
+    },
+    {
+      "id": "29c24137",
+      "fromNode": "03aa75ed",
+      "toNode": "02dcb266"
+    },
+    {
+      "id": "93da99c5",
+      "fromNode": "34f28bb2",
+      "toNode": "caaa7687"
+    },
+    {
+      "id": "59daa32f",
+      "fromNode": "caaa7687",
+      "toNode": "bf36ed45"
+    },
+    {
+      "id": "cec345fc",
+      "fromNode": "caaa7687",
+      "toNode": "cfb51c20"
+    },
+    {
+      "id": "e76425e9",
+      "fromNode": "caaa7687",
+      "toNode": "004ada02"
+    },
+    {
+      "id": "3f137b4b",
+      "fromNode": "caaa7687",
+      "toNode": "21b8fe22"
+    },
+    {
+      "id": "54e5f1d1",
+      "fromNode": "34f28bb2",
+      "toNode": "1d33cecf"
+    },
+    {
+      "id": "5a455b5f",
+      "fromNode": "1d33cecf",
+      "toNode": "6ab2f590"
+    },
+    {
+      "id": "7aeb0aab",
+      "fromNode": "1d33cecf",
+      "toNode": "ce6a25c8"
+    },
+    {
+      "id": "e7099665",
+      "fromNode": "1d33cecf",
+      "toNode": "e47df4d3"
+    },
+    {
+      "id": "67806ba8",
+      "fromNode": "1d33cecf",
+      "toNode": "b804e318"
+    },
+    {
+      "id": "3ae3a471",
+      "fromNode": "1d33cecf",
+      "toNode": "87e0a974"
+    },
+    {
+      "id": "d85d16e0",
+      "fromNode": "34f28bb2",
+      "toNode": "3078247a"
+    },
+    {
+      "id": "e52ec876",
+      "fromNode": "3078247a",
+      "toNode": "bc82c11e"
+    },
+    {
+      "id": "4932e269",
+      "fromNode": "3078247a",
+      "toNode": "02303419"
+    },
+    {
+      "id": "642166fc",
+      "fromNode": "3078247a",
+      "toNode": "feba3ff8"
+    },
+    {
+      "id": "804c14f9",
+      "fromNode": "3078247a",
+      "toNode": "e56ae7ef"
+    },
+    {
+      "id": "2ca881fc",
+      "fromNode": "3078247a",
+      "toNode": "29e73043"
+    },
+    {
+      "id": "266395e4",
+      "fromNode": "34f28bb2",
+      "toNode": "7c264a00"
+    },
+    {
+      "id": "51bdd67e",
+      "fromNode": "7c264a00",
+      "toNode": "168bd55d"
+    },
+    {
+      "id": "f29c3510",
+      "fromNode": "7c264a00",
+      "toNode": "fd674171"
+    },
+    {
+      "id": "155ab37d",
+      "fromNode": "7c264a00",
+      "toNode": "2a26f132"
+    },
+    {
+      "id": "c6f2eaba",
+      "fromNode": "34f28bb2",
+      "toNode": "49cc56c6"
+    },
+    {
+      "id": "0225c35e",
+      "fromNode": "49cc56c6",
+      "toNode": "4feb0182"
+    },
+    {
+      "id": "987bcb5f",
+      "fromNode": "49cc56c6",
+      "toNode": "220805ef"
+    },
+    {
+      "id": "f57aa027",
+      "fromNode": "49cc56c6",
+      "toNode": "617fef3d"
+    },
+    {
+      "id": "5c3005e1",
+      "fromNode": "49cc56c6",
+      "toNode": "4d5d497d"
+    }
+  ]
+}
