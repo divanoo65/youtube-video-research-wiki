@@ -1,0 +1,435 @@
+{
+  "nodes": [
+    {
+      "id": "469bfb66",
+      "type": "text",
+      "text": "{'name': 'Codex Chrome 浏览器插件', 'children': [{'name': '核心特性', 'children': [{'name': '多标签页并行处理'}, {'name': '后台自动运行'}, {'name': '不干扰用户主操作'}, {'name': '多Agent协同工作'}, {'name': '连接已登录浏览器环境'}]}, {'name': '技术优势', 'children': [{'name': '模型能力强 (GPT-5.5)'}, {'name': '技术积淀 (Computer Use/CDP)'}, {'name': '处理速度极快 (Fast模式)'}, {'name': 'DOM数据获取 (突破防护)'}]}, {'name': '实测演示案例', 'children': [{'name': '论坛数据采集', 'children': [{'name': '抓取开发者社区帖子'}, {'name': '生成结构化Excel表格'}, {'name': '自动数据验证'}]}, {'name': '报销流程自动化', 'children': [{'name': '匹配Gmail邮件与PDF收据'}, {'name': '自动填表并提交系统'}]}, {'name': '跨平台比价', 'children': [{'name': '京东/淘宝价格查询'}, {'name': '多店铺销量对比'}]}, {'name': '内容创作与分发', 'children': [{'name': '博客要点总结'}, {'name': 'AI生成插图及文案'}, {'name': '自动上传社交平台'}]}]}, {'name': '安装与配置', 'children': [{'name': '从WBD Tools入口安装'}, {'name': '开启文件访问权限 (File URLS)'}, {'name': '手机App即将推出'}]}]}",
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "9187bf27",
+      "type": "text",
+      "text": "{'name': '核心特性', 'children': [{'name': '多标签页并行处理'}, {'name': '后台自动运行'}, {'name': '不干扰用户主操作'}, {'name': '多Agent协同工作'}, {'name': '连接已登录浏览器环境'}]}",
+      "x": 250,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "3e25ad20",
+      "type": "text",
+      "text": "{'name': '多标签页并行处理'}",
+      "x": 500,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "2dfa9adc",
+      "type": "text",
+      "text": "{'name': '后台自动运行'}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "2debd24c",
+      "type": "text",
+      "text": "{'name': '不干扰用户主操作'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "56d587bb",
+      "type": "text",
+      "text": "{'name': '多Agent协同工作'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "6268d8a4",
+      "type": "text",
+      "text": "{'name': '连接已登录浏览器环境'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "8ca0a2f4",
+      "type": "text",
+      "text": "{'name': '技术优势', 'children': [{'name': '模型能力强 (GPT-5.5)'}, {'name': '技术积淀 (Computer Use/CDP)'}, {'name': '处理速度极快 (Fast模式)'}, {'name': 'DOM数据获取 (突破防护)'}]}",
+      "x": 250,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "79ecfecb",
+      "type": "text",
+      "text": "{'name': '模型能力强 (GPT-5.5)'}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "fbb98441",
+      "type": "text",
+      "text": "{'name': '技术积淀 (Computer Use/CDP)'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e6233211",
+      "type": "text",
+      "text": "{'name': '处理速度极快 (Fast模式)'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d439517a",
+      "type": "text",
+      "text": "{'name': 'DOM数据获取 (突破防护)'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d84e5db5",
+      "type": "text",
+      "text": "{'name': '实测演示案例', 'children': [{'name': '论坛数据采集', 'children': [{'name': '抓取开发者社区帖子'}, {'name': '生成结构化Excel表格'}, {'name': '自动数据验证'}]}, {'name': '报销流程自动化', 'children': [{'name': '匹配Gmail邮件与PDF收据'}, {'name': '自动填表并提交系统'}]}, {'name': '跨平台比价', 'children': [{'name': '京东/淘宝价格查询'}, {'name': '多店铺销量对比'}]}, {'name': '内容创作与分发', 'children': [{'name': '博客要点总结'}, {'name': 'AI生成插图及文案'}, {'name': '自动上传社交平台'}]}]}",
+      "x": 250,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "0ba62636",
+      "type": "text",
+      "text": "{'name': '论坛数据采集', 'children': [{'name': '抓取开发者社区帖子'}, {'name': '生成结构化Excel表格'}, {'name': '自动数据验证'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "288992cd",
+      "type": "text",
+      "text": "{'name': '抓取开发者社区帖子'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "9470f8b9",
+      "type": "text",
+      "text": "{'name': '生成结构化Excel表格'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "ecf54174",
+      "type": "text",
+      "text": "{'name': '自动数据验证'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f0d58276",
+      "type": "text",
+      "text": "{'name': '报销流程自动化', 'children': [{'name': '匹配Gmail邮件与PDF收据'}, {'name': '自动填表并提交系统'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "487aa91a",
+      "type": "text",
+      "text": "{'name': '匹配Gmail邮件与PDF收据'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "ddd3c6ce",
+      "type": "text",
+      "text": "{'name': '自动填表并提交系统'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "aeb3cd5c",
+      "type": "text",
+      "text": "{'name': '跨平台比价', 'children': [{'name': '京东/淘宝价格查询'}, {'name': '多店铺销量对比'}]}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "3ea1db3a",
+      "type": "text",
+      "text": "{'name': '京东/淘宝价格查询'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "bb61b375",
+      "type": "text",
+      "text": "{'name': '多店铺销量对比'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b1d12a2c",
+      "type": "text",
+      "text": "{'name': '内容创作与分发', 'children': [{'name': '博客要点总结'}, {'name': 'AI生成插图及文案'}, {'name': '自动上传社交平台'}]}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "3e9a2d9d",
+      "type": "text",
+      "text": "{'name': '博客要点总结'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "46683c88",
+      "type": "text",
+      "text": "{'name': 'AI生成插图及文案'}",
+      "x": 750,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "69911b5c",
+      "type": "text",
+      "text": "{'name': '自动上传社交平台'}",
+      "x": 750,
+      "y": 560,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "7cf3caef",
+      "type": "text",
+      "text": "{'name': '安装与配置', 'children': [{'name': '从WBD Tools入口安装'}, {'name': '开启文件访问权限 (File URLS)'}, {'name': '手机App即将推出'}]}",
+      "x": 250,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "7ca79659",
+      "type": "text",
+      "text": "{'name': '从WBD Tools入口安装'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "0f793f33",
+      "type": "text",
+      "text": "{'name': '开启文件访问权限 (File URLS)'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "a801466a",
+      "type": "text",
+      "text": "{'name': '手机App即将推出'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "d72d0be4",
+      "fromNode": "469bfb66",
+      "toNode": "9187bf27"
+    },
+    {
+      "id": "8e2d7966",
+      "fromNode": "9187bf27",
+      "toNode": "3e25ad20"
+    },
+    {
+      "id": "b29ff300",
+      "fromNode": "9187bf27",
+      "toNode": "2dfa9adc"
+    },
+    {
+      "id": "79a1418c",
+      "fromNode": "9187bf27",
+      "toNode": "2debd24c"
+    },
+    {
+      "id": "fc3dfb93",
+      "fromNode": "9187bf27",
+      "toNode": "56d587bb"
+    },
+    {
+      "id": "38e67f49",
+      "fromNode": "9187bf27",
+      "toNode": "6268d8a4"
+    },
+    {
+      "id": "b8768bcf",
+      "fromNode": "469bfb66",
+      "toNode": "8ca0a2f4"
+    },
+    {
+      "id": "0f3f83db",
+      "fromNode": "8ca0a2f4",
+      "toNode": "79ecfecb"
+    },
+    {
+      "id": "69287366",
+      "fromNode": "8ca0a2f4",
+      "toNode": "fbb98441"
+    },
+    {
+      "id": "6ed52b0b",
+      "fromNode": "8ca0a2f4",
+      "toNode": "e6233211"
+    },
+    {
+      "id": "65ae33bc",
+      "fromNode": "8ca0a2f4",
+      "toNode": "d439517a"
+    },
+    {
+      "id": "a43d020f",
+      "fromNode": "469bfb66",
+      "toNode": "d84e5db5"
+    },
+    {
+      "id": "fff9f51e",
+      "fromNode": "d84e5db5",
+      "toNode": "0ba62636"
+    },
+    {
+      "id": "58c1ef50",
+      "fromNode": "0ba62636",
+      "toNode": "288992cd"
+    },
+    {
+      "id": "c652203f",
+      "fromNode": "0ba62636",
+      "toNode": "9470f8b9"
+    },
+    {
+      "id": "93f6ab51",
+      "fromNode": "0ba62636",
+      "toNode": "ecf54174"
+    },
+    {
+      "id": "9352f951",
+      "fromNode": "d84e5db5",
+      "toNode": "f0d58276"
+    },
+    {
+      "id": "0e986427",
+      "fromNode": "f0d58276",
+      "toNode": "487aa91a"
+    },
+    {
+      "id": "d9e4dce4",
+      "fromNode": "f0d58276",
+      "toNode": "ddd3c6ce"
+    },
+    {
+      "id": "96e9f308",
+      "fromNode": "d84e5db5",
+      "toNode": "aeb3cd5c"
+    },
+    {
+      "id": "32dafacd",
+      "fromNode": "aeb3cd5c",
+      "toNode": "3ea1db3a"
+    },
+    {
+      "id": "61331036",
+      "fromNode": "aeb3cd5c",
+      "toNode": "bb61b375"
+    },
+    {
+      "id": "60ce51e1",
+      "fromNode": "d84e5db5",
+      "toNode": "b1d12a2c"
+    },
+    {
+      "id": "29d0cae0",
+      "fromNode": "b1d12a2c",
+      "toNode": "3e9a2d9d"
+    },
+    {
+      "id": "b85e7bc7",
+      "fromNode": "b1d12a2c",
+      "toNode": "46683c88"
+    },
+    {
+      "id": "8741adc8",
+      "fromNode": "b1d12a2c",
+      "toNode": "69911b5c"
+    },
+    {
+      "id": "0e92e8ff",
+      "fromNode": "469bfb66",
+      "toNode": "7cf3caef"
+    },
+    {
+      "id": "46946574",
+      "fromNode": "7cf3caef",
+      "toNode": "7ca79659"
+    },
+    {
+      "id": "273d4caf",
+      "fromNode": "7cf3caef",
+      "toNode": "0f793f33"
+    },
+    {
+      "id": "6b9b3dff",
+      "fromNode": "7cf3caef",
+      "toNode": "a801466a"
+    }
+  ]
+}
