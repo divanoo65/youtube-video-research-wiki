@@ -1,0 +1,150 @@
+{
+  "name": "Hermes Agent vs OpenClaw 对比分析",
+  "children": [
+    {
+      "name": "研发背景与理念",
+      "children": [
+        {
+          "name": "Nous Research 团队",
+          "children": [
+            {
+              "name": "开源优先与去中心化"
+            },
+            {
+              "name": "DisTrO 分布式训练"
+            },
+            {
+              "name": "仿真环境研究 (WorldSim/Doomscroll)"
+            }
+          ]
+        },
+        {
+          "name": "Hermes 4 模型驱动"
+        }
+      ]
+    },
+    {
+      "name": "核心架构差异",
+      "children": [
+        {
+          "name": "OpenClaw: Gateway 为中心",
+          "children": [
+            {
+              "name": "中心化控制器"
+            },
+            {
+              "name": "高稳定性与可审计性"
+            }
+          ]
+        },
+        {
+          "name": "Hermes Agent: 执行循环为中心",
+          "children": [
+            {
+              "name": "同步编排引擎"
+            },
+            {
+              "name": "天然支持自我进化"
+            },
+            {
+              "name": "模型无关性与跨平台部署"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "自我提升与技能机制",
+      "children": [
+        {
+          "name": "程序化知识生成"
+        },
+        {
+          "name": "自动生成新技能 (Skills)"
+        },
+        {
+          "name": "Skills Hub 扩展中心"
+        },
+        {
+          "name": "从记住事实到记住方法"
+        }
+      ]
+    },
+    {
+      "name": "分层记忆体系",
+      "children": [
+        {
+          "name": "第一层：核心持久记忆 (MEMORY.md/USER.md)"
+        },
+        {
+          "name": "第二层：会话历史记忆 (SQLite/FTS5)"
+        },
+        {
+          "name": "第三层：扩展记忆层 (Honcho)"
+        },
+        {
+          "name": "第四层：程序性记忆 (自动技能)"
+        }
+      ]
+    },
+    {
+      "name": "自动化与安全防护",
+      "children": [
+        {
+          "name": "内置 Cron 计划任务系统"
+        },
+        {
+          "name": "五层纵深防御模型"
+        },
+        {
+          "name": "危险命令审批与容器隔离"
+        }
+      ]
+    },
+    {
+      "name": "部署与兼容性",
+      "children": [
+        {
+          "name": "一键安装脚本"
+        },
+        {
+          "name": "WSL2/Linux 运行环境"
+        },
+        {
+          "name": "多消息平台集成 (TG/Discord/Slack)"
+        },
+        {
+          "name": "支持 OpenClaw 无缝迁移"
+        }
+      ]
+    },
+    {
+      "name": "应用场景",
+      "children": [
+        {
+          "name": "个人每日简报机器人"
+        },
+        {
+          "name": "工程运维助手"
+        },
+        {
+          "name": "GitHub 分诊助手"
+        },
+        {
+          "name": "智能体研究基础设施"
+        }
+      ]
+    },
+    {
+      "name": "行业风波",
+      "children": [
+        {
+          "name": "涉嫌抄袭 EvoMap 项目争议"
+        },
+        {
+          "name": "架构借鉴与代码实现争议"
+        }
+      ]
+    }
+  ]
+}
