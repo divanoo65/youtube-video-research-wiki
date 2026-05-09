@@ -1,4 +1,4 @@
--- 
+---
 title: Hermes Agent 与 OpenClaw 技术深度对比简报
 type: source
 tags: [Hermes Agent, OpenClaw, Nous Research, EvoMap, 智能体对比]
@@ -8,7 +8,7 @@ created: 2026-05-09
 updated: 2026-05-09
 layer: L1
 confidence: high
---
+---
 
 # Hermes Agent 与 OpenClaw 技术深度对比简报
 
