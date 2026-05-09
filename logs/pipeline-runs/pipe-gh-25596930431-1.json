@@ -1,0 +1,26 @@
+{
+  "pipeline_id": "pipe-f53b4d9",
+  "stage_b": {
+    "run_id": "gh-25596567116-1",
+    "start_time": "2026-05-09T08:30:54Z",
+    "end_time": "2026-05-09T08:35:00Z",
+    "duration_s": 246,
+    "api_calls": "unknown",
+    "videos_processed": 3,
+    "reports_generated": 3,
+    "mindmaps_generated": 3
+  },
+  "stage_c": {
+    "run_id": "gh-25596671735-1",
+    "start_time": "2026-05-09T08:36:07Z",
+    "end_time": "2026-05-09T08:47:55Z",
+    "duration_s": 708,
+    "api_calls": "from会话统计",
+    "pages_created": 22,
+    "sources": 3,
+    "entities": 8,
+    "concepts": 8,
+    "comparisons": 1,
+    "overviews": 2
+  }
+}
