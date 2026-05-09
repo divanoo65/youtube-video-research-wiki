@@ -1,1 +1,31 @@
 # Wiki Log
+
+## 2026-05-09
+- Run ID: `gh-25596621759-1`
+- Type: Stage C — 首次增量构建
+- 新增 Source: 3 个
+  - GPT-5-5-Instant-深度分析简报-核心特性与实测性能评估
+  - Hermes-Agent-与-OpenClaw-深度对比简报
+  - 基于-Hermes-与-Qwen-3-6-的本地-AI-Agent-部署与应用指
+- 新增 Entity: 8 个
+  - openai
+  - gpt-5-5-instant
+  - hermes-agent
+  - openclaw
+  - nous-research
+  - qwen-3-6
+  - llama-cpp
+  - evomap
+- 新增 Concept: 8 个
+  - 执行循环驱动架构
+  - 程序化知识生成
+  - 分层记忆体系
+  - 幻觉率
+  - Token自由
+  - 自我纠错机制
+  - 五层纵深防御
+  - chat-latest-API
+- 新增 Comparison: 1 个
+  - hermes-agent-vs-openclaw
+- 新增 Overview: 1 个
+  - Hermes-Agent-综合概述
