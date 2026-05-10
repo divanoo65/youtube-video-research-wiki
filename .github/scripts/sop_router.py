@@ -97,7 +97,10 @@ def call_webhook(route: str, payload: dict, base_url: str, secret: str) -> bool:
 
 def main():
     # Read environment
-    base_url = os.environ.get("HERMES_WEBHOOK_BASE", "https://hermes-webhooks.vyibc.com/webhooks")
+    # 支持多个 webhook 地址（逗号分隔），所有地址都会收到通知
+    base_urls = [u.strip() for u in os.environ.get(
+        "HERMES_WEBHOOK_BASE", "https://hermes-webhooks.vyibc.com/webhooks"
+    ).split(",") if u.strip()]
     secret = os.environ.get("HERMES_SOP_SECRET", "")
     before_sha = os.environ.get("BEFORE_SHA", "")
     after_sha = os.environ.get("AFTER_SHA", "HEAD")
@@ -194,13 +197,22 @@ def main():
         "build_mode": stage_params.get("build_mode", "incremental"),
     }
 
-    success = call_webhook(webhook_route, payload, base_url, secret)
+    # 广播到所有配置的 webhook 地址
+    results = []
+    for base_url in base_urls:
+        ok = call_webhook(webhook_route, payload, base_url, secret)
+        results.append((base_url, ok))
 
-    if not success:
-        print(f"[sop_router] Webhook call failed for stage {stage_name}")
+    succeeded = [u for u, ok in results if ok]
+    failed = [u for u, ok in results if not ok]
+
+    if failed:
+        print(f"[sop_router] Failed endpoints ({len(failed)}): {failed}")
+    if not succeeded:
+        print(f"[sop_router] All webhook calls failed for stage {stage_name}")
         sys.exit(1)
 
-    print(f"[sop_router] Successfully triggered stage: {stage_name}")
+    print(f"[sop_router] Successfully triggered stage: {stage_name} → {len(succeeded)}/{len(results)} endpoints")
 
 
 if __name__ == "__main__":
