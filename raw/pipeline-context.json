@@ -9,5 +9,23 @@
     "videos_processed": 1,
     "reports_generated": 1,
     "mindmaps_generated": 1
+  },
+  "stage_c": {
+    "run_id": "gh-25658045849-1",
+    "task_id": "T-3DlXq9nsQOE",
+    "start_time": "2026-05-11T08:08:39Z",
+    "end_time": "2026-05-11T08:09:55Z",
+    "duration_s": 75,
+    "api_calls": 1,
+    "reports_processed": 1,
+    "pages_created": 7,
+    "prompt_tokens": 7981,
+    "completion_tokens": 8251,
+    "sources": 1,
+    "entities": 0,
+    "concepts": 4,
+    "comparisons": 1,
+    "overviews": 1,
+    "status": "success"
   }
 }

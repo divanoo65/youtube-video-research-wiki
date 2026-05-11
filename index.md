@@ -1,12 +1,13 @@
 # Wiki Index
 
 > YouTube 视频研究知识图谱。所有 wiki 页面按类型分类索引。
-> Last updated: 2026-05-11 | Total pages: 40
+> Last updated: 2026-05-11 | Total pages: 47
 
 ## Sources
 - [[Harness-Engineering-深度简报-构建稳定-可落地的-AI-Agent系统|Harness Engineering 深度简报：构建稳定、可落地的 AI Agent 系统]] — 深入剖析 Harness Engineering 概念，提出 Agent = Model + Harness 的核心公式，并给出六层成熟架构及行业最佳实践。
 - [[Hermes-Agent-高级玩法与部署优化简报]] — 本视频介绍了Hermes Agent的稳定性优势、通过Ollama集成云端免费模型实现零资源部署、使用Open WebUI优化交互体验，以及通过主副模型策略降低Token消耗成本。
 - [[跨越视界的探索者深空影像录核心简报|跨越视界的探索者：深空影像录——核心简报]] — 本简报深入分析现代天文观测技术（尤其是JWST）如何带领人类跨越视觉极限，重构对宇宙起源的理解。
+- [[Harness-Engineering-深度解析报告-核心概念与实战|Harness Engineering 深度解析：核心概念与实战]] — 深入剖析 Harness Engineering 概念，提出 Agent = Model + Harness 的核心公式，并给出 OpenAI 和 Anthropic 的实战案例及行业争议。
 
 ## Entities
 - [[Anthropic]] — 美国人工智能公司，以 AI 安全研究闻名，提出 Context Reflected 和独立评估者模式等 Harness 实践。
@@ -46,11 +47,17 @@
 - [[代表颜色技术|代表颜色技术（Representative Color）]] — 深空影像处理中将不可见红外波段映射为可见光颜色的方法，通过赋予不同滤光片特定RGB通道生成色彩准确且科学可解释的伪色图像。
 - [[宇宙黎明|宇宙黎明（Cosmic Dawn）]] — 宇宙大爆炸后约1-4亿年第一批恒星和星系开始形成的时期，红外观测是其核心研究手段。
 - [[多信使天文学|多信使天文学（Multi-messenger Astronomy）]] — 利用电磁辐射、引力波、中微子和宇宙射线等多种信使同时观测宇宙现象的方法。
+- [[F-Harness架构]] — Anthropic 提出的多 Agent 协作架构，通过 Planner、Generator、Evaluator 角色分离提升长程任务质量。
+- [[单一事实来源]] — OpenAI 提出的数据管理原则，将所有技术决策和知识文档化并集中存放在代码仓库。
+- [[吸收效应]] — 随着大模型能力增强，原本需要外部 Harness 解决的问题逐渐被模型内置吸收的现象。
+- [[技术债自动清理]] — OpenAI 通过后台任务定期扫描代码库和文档，自动修复重复代码和过时文档的实践。
 
 ## Comparisons
 - [[Hermes-Agent-vs-OpenCloud]] — 从稳定性、更新策略、社区认可度等维度对比两个AI Agent框架。
 - [[哈勃空间望远镜-vs-詹姆斯韦伯空间望远镜|哈勃空间望远镜 vs 詹姆斯·韦伯空间望远镜]] — 从主镜口径、工作波段、工作温度、科学核心等维度对比哈勃与韦伯两台标志性空间望远镜。
+- [[OpenAI-vs-Anthropic|OpenAI vs Anthropic: Harness Engineering 实践对比]] — 对比 OpenAI 和 Anthropic 在 Harness Engineering 上的不同实践路径。
 
 ## Overview
+- [[Harness-Engineering-综述|Harness Engineering 综述]] — 综合现有 Harness Engineering 相关视频分析，梳理核心概念、实战案例、争议及未来趋势。
 
 ## Queries
