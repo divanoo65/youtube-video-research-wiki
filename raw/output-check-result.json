@@ -1,6 +1,6 @@
 {
-  "run_id": "gh-25683886017-1",
-  "checked_at": "2026-05-11T16:44:32Z",
+  "run_id": "gh-25684492564-1",
+  "checked_at": "2026-05-11T16:55:54Z",
   "must_pass": {
     "has_analysis": true,
     "report_length_ok": true,
@@ -17,7 +17,7 @@
   "details": [],
   "stats": {
     "new_analysis_files": 1,
-    "new_wiki_pages": 9,
+    "new_wiki_pages": 10,
     "new_sources": 1,
     "new_concepts": 5,
     "report_length": 2774
