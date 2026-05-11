@@ -6,7 +6,7 @@ added_at: 2026-05-11T16:41:52Z
 report: raw/notebooklm-analysis/蜂群思维-多Agent协作架构的-版本答案-基于Anthropic-Manage.md
 mindmap: raw/notebooklm-mindmaps/蜂群思维-多Agent协作架构的-版本答案-基于Anthropic-Manage.md
 wiki_source: （Stage C 生成后更新）
-quality: pending
+quality: fail
 ---
 
 # 蜂群思维：多Agent协作架构的“版本答案”——基于Anthropic Managed Agents的深度解析

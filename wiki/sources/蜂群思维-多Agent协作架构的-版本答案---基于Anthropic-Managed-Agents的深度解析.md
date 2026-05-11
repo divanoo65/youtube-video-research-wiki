@@ -1,5 +1,6 @@
 ```markdown
 ---
+quality: fail
 title: "蜂群思维：多Agent协作架构的“版本答案”——基于Anthropic Managed Agents的深度解析"
 type: video-analysis
 tags:
