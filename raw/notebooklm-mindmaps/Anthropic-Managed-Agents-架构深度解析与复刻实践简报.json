@@ -1,0 +1,477 @@
+{
+  "nodes": [
+    {
+      "id": "e774e629",
+      "type": "text",
+      "text": "{'name': '多Agent协作架构（蜂群架构）', 'children': [{'name': '核心理念：解耦（Decoupling）', 'children': [{'name': '解耦大脑与双手', 'children': [{'name': '大脑：大模型的规划决策'}, {'name': '双手：执行代码的独立沙盒'}]}, {'name': '宠物 vs 牛马：从持久绑定转向随时销毁重建'}, {'name': '应对模型进化速度：避免过度编写补丁代码'}]}, {'name': 'Anthropic 四层解耦架构', 'children': [{'name': 'Agent 模板层', 'children': [{'name': '定义模型、工具与提示词'}, {'name': '静态配置实体'}]}, {'name': 'Session 会话层', 'children': [{'name': '动态运行状态（对话、线程、文件）'}, {'name': '支持 Fork、回滚与克隆'}]}, {'name': 'Coordinator 编排层', 'children': [{'name': '任务拆分与派发'}, {'name': '管理 Agent 花名册（最多20个）'}]}, {'name': 'Session Store 云端存储层', 'children': [{'name': '记忆从本地移至云端（如Redis）'}, {'name': 'Agent 彻底无状态化'}]}]}, {'name': '实践应用与技术栈', 'children': [{'name': '实现方式', 'children': [{'name': 'Docker 容器化（Worker节点）'}, {'name': '任务图（Task Graph）预定义流程'}, {'name': '多模型组合（大小模型协作）'}]}, {'name': '关键基础设施', 'children': [{'name': 'MCP服务器'}, {'name': '毫秒级启动沙盒（如Cube Sandbox）'}, {'name': '托管 Agent 服务（Managed Agents）'}]}]}, {'name': '未来趋势与反思', 'children': [{'name': 'Token 效率优化（Token Efficiency）'}, {'name': '企业基础设施化（Agent as OS）'}, {'name': '计算资源分配变革'}, {'name': '从个人工具向企业级 AGI 落地演进'}]}]}",
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "35bb6495",
+      "type": "text",
+      "text": "{'name': '核心理念：解耦（Decoupling）', 'children': [{'name': '解耦大脑与双手', 'children': [{'name': '大脑：大模型的规划决策'}, {'name': '双手：执行代码的独立沙盒'}]}, {'name': '宠物 vs 牛马：从持久绑定转向随时销毁重建'}, {'name': '应对模型进化速度：避免过度编写补丁代码'}]}",
+      "x": 250,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "ab3959ae",
+      "type": "text",
+      "text": "{'name': '解耦大脑与双手', 'children': [{'name': '大脑：大模型的规划决策'}, {'name': '双手：执行代码的独立沙盒'}]}",
+      "x": 500,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "3d6586db",
+      "type": "text",
+      "text": "{'name': '大脑：大模型的规划决策'}",
+      "x": 750,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "48f9eb8f",
+      "type": "text",
+      "text": "{'name': '双手：执行代码的独立沙盒'}",
+      "x": 750,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "ea56e9f3",
+      "type": "text",
+      "text": "{'name': '宠物 vs 牛马：从持久绑定转向随时销毁重建'}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "6a814ca1",
+      "type": "text",
+      "text": "{'name': '应对模型进化速度：避免过度编写补丁代码'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "3d9f4c7a",
+      "type": "text",
+      "text": "{'name': 'Anthropic 四层解耦架构', 'children': [{'name': 'Agent 模板层', 'children': [{'name': '定义模型、工具与提示词'}, {'name': '静态配置实体'}]}, {'name': 'Session 会话层', 'children': [{'name': '动态运行状态（对话、线程、文件）'}, {'name': '支持 Fork、回滚与克隆'}]}, {'name': 'Coordinator 编排层', 'children': [{'name': '任务拆分与派发'}, {'name': '管理 Agent 花名册（最多20个）'}]}, {'name': 'Session Store 云端存储层', 'children': [{'name': '记忆从本地移至云端（如Redis）'}, {'name': 'Agent 彻底无状态化'}]}]}",
+      "x": 250,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e58552ab",
+      "type": "text",
+      "text": "{'name': 'Agent 模板层', 'children': [{'name': '定义模型、工具与提示词'}, {'name': '静态配置实体'}]}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "156d8be1",
+      "type": "text",
+      "text": "{'name': '定义模型、工具与提示词'}",
+      "x": 750,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "62df9ba2",
+      "type": "text",
+      "text": "{'name': '静态配置实体'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "414ff6a6",
+      "type": "text",
+      "text": "{'name': 'Session 会话层', 'children': [{'name': '动态运行状态（对话、线程、文件）'}, {'name': '支持 Fork、回滚与克隆'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d65d7901",
+      "type": "text",
+      "text": "{'name': '动态运行状态（对话、线程、文件）'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b34c746e",
+      "type": "text",
+      "text": "{'name': '支持 Fork、回滚与克隆'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f78fdee4",
+      "type": "text",
+      "text": "{'name': 'Coordinator 编排层', 'children': [{'name': '任务拆分与派发'}, {'name': '管理 Agent 花名册（最多20个）'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "5971d92d",
+      "type": "text",
+      "text": "{'name': '任务拆分与派发'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "caedf21c",
+      "type": "text",
+      "text": "{'name': '管理 Agent 花名册（最多20个）'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "8ec91f81",
+      "type": "text",
+      "text": "{'name': 'Session Store 云端存储层', 'children': [{'name': '记忆从本地移至云端（如Redis）'}, {'name': 'Agent 彻底无状态化'}]}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "37cdde98",
+      "type": "text",
+      "text": "{'name': '记忆从本地移至云端（如Redis）'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "4d53e84b",
+      "type": "text",
+      "text": "{'name': 'Agent 彻底无状态化'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "4bfafffb",
+      "type": "text",
+      "text": "{'name': '实践应用与技术栈', 'children': [{'name': '实现方式', 'children': [{'name': 'Docker 容器化（Worker节点）'}, {'name': '任务图（Task Graph）预定义流程'}, {'name': '多模型组合（大小模型协作）'}]}, {'name': '关键基础设施', 'children': [{'name': 'MCP服务器'}, {'name': '毫秒级启动沙盒（如Cube Sandbox）'}, {'name': '托管 Agent 服务（Managed Agents）'}]}]}",
+      "x": 250,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "42570f4b",
+      "type": "text",
+      "text": "{'name': '实现方式', 'children': [{'name': 'Docker 容器化（Worker节点）'}, {'name': '任务图（Task Graph）预定义流程'}, {'name': '多模型组合（大小模型协作）'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "faeea3a6",
+      "type": "text",
+      "text": "{'name': 'Docker 容器化（Worker节点）'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e8c7a1f0",
+      "type": "text",
+      "text": "{'name': '任务图（Task Graph）预定义流程'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "a27d46d6",
+      "type": "text",
+      "text": "{'name': '多模型组合（大小模型协作）'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "a099ec38",
+      "type": "text",
+      "text": "{'name': '关键基础设施', 'children': [{'name': 'MCP服务器'}, {'name': '毫秒级启动沙盒（如Cube Sandbox）'}, {'name': '托管 Agent 服务（Managed Agents）'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "6075164a",
+      "type": "text",
+      "text": "{'name': 'MCP服务器'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "861c88c9",
+      "type": "text",
+      "text": "{'name': '毫秒级启动沙盒（如Cube Sandbox）'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "a7c1f72f",
+      "type": "text",
+      "text": "{'name': '托管 Agent 服务（Managed Agents）'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "331552b6",
+      "type": "text",
+      "text": "{'name': '未来趋势与反思', 'children': [{'name': 'Token 效率优化（Token Efficiency）'}, {'name': '企业基础设施化（Agent as OS）'}, {'name': '计算资源分配变革'}, {'name': '从个人工具向企业级 AGI 落地演进'}]}",
+      "x": 250,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d9d95ce7",
+      "type": "text",
+      "text": "{'name': 'Token 效率优化（Token Efficiency）'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c13a4b4d",
+      "type": "text",
+      "text": "{'name': '企业基础设施化（Agent as OS）'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b801d4db",
+      "type": "text",
+      "text": "{'name': '计算资源分配变革'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "1a80e4a8",
+      "type": "text",
+      "text": "{'name': '从个人工具向企业级 AGI 落地演进'}",
+      "x": 500,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "6749b677",
+      "fromNode": "e774e629",
+      "toNode": "35bb6495"
+    },
+    {
+      "id": "db3b4d4a",
+      "fromNode": "35bb6495",
+      "toNode": "ab3959ae"
+    },
+    {
+      "id": "b427e16d",
+      "fromNode": "ab3959ae",
+      "toNode": "3d6586db"
+    },
+    {
+      "id": "7f048440",
+      "fromNode": "ab3959ae",
+      "toNode": "48f9eb8f"
+    },
+    {
+      "id": "823fadb6",
+      "fromNode": "35bb6495",
+      "toNode": "ea56e9f3"
+    },
+    {
+      "id": "56efc5ce",
+      "fromNode": "35bb6495",
+      "toNode": "6a814ca1"
+    },
+    {
+      "id": "32322ec9",
+      "fromNode": "e774e629",
+      "toNode": "3d9f4c7a"
+    },
+    {
+      "id": "8e73cd27",
+      "fromNode": "3d9f4c7a",
+      "toNode": "e58552ab"
+    },
+    {
+      "id": "3e46aead",
+      "fromNode": "e58552ab",
+      "toNode": "156d8be1"
+    },
+    {
+      "id": "1fe4de11",
+      "fromNode": "e58552ab",
+      "toNode": "62df9ba2"
+    },
+    {
+      "id": "7ec1d8a3",
+      "fromNode": "3d9f4c7a",
+      "toNode": "414ff6a6"
+    },
+    {
+      "id": "17dfae27",
+      "fromNode": "414ff6a6",
+      "toNode": "d65d7901"
+    },
+    {
+      "id": "3f9e0888",
+      "fromNode": "414ff6a6",
+      "toNode": "b34c746e"
+    },
+    {
+      "id": "e7f67cb8",
+      "fromNode": "3d9f4c7a",
+      "toNode": "f78fdee4"
+    },
+    {
+      "id": "d6ff2e75",
+      "fromNode": "f78fdee4",
+      "toNode": "5971d92d"
+    },
+    {
+      "id": "c67628c7",
+      "fromNode": "f78fdee4",
+      "toNode": "caedf21c"
+    },
+    {
+      "id": "5f4f540b",
+      "fromNode": "3d9f4c7a",
+      "toNode": "8ec91f81"
+    },
+    {
+      "id": "78ad6e3d",
+      "fromNode": "8ec91f81",
+      "toNode": "37cdde98"
+    },
+    {
+      "id": "b5b21c87",
+      "fromNode": "8ec91f81",
+      "toNode": "4d53e84b"
+    },
+    {
+      "id": "2bb1a7e4",
+      "fromNode": "e774e629",
+      "toNode": "4bfafffb"
+    },
+    {
+      "id": "fc09e00e",
+      "fromNode": "4bfafffb",
+      "toNode": "42570f4b"
+    },
+    {
+      "id": "47c40b73",
+      "fromNode": "42570f4b",
+      "toNode": "faeea3a6"
+    },
+    {
+      "id": "677d3a2d",
+      "fromNode": "42570f4b",
+      "toNode": "e8c7a1f0"
+    },
+    {
+      "id": "3506b89d",
+      "fromNode": "42570f4b",
+      "toNode": "a27d46d6"
+    },
+    {
+      "id": "13122a9e",
+      "fromNode": "4bfafffb",
+      "toNode": "a099ec38"
+    },
+    {
+      "id": "275a8537",
+      "fromNode": "a099ec38",
+      "toNode": "6075164a"
+    },
+    {
+      "id": "a69f5f11",
+      "fromNode": "a099ec38",
+      "toNode": "861c88c9"
+    },
+    {
+      "id": "7a5648a7",
+      "fromNode": "a099ec38",
+      "toNode": "a7c1f72f"
+    },
+    {
+      "id": "89d72d58",
+      "fromNode": "e774e629",
+      "toNode": "331552b6"
+    },
+    {
+      "id": "e6c86c35",
+      "fromNode": "331552b6",
+      "toNode": "d9d95ce7"
+    },
+    {
+      "id": "a540484e",
+      "fromNode": "331552b6",
+      "toNode": "c13a4b4d"
+    },
+    {
+      "id": "2078bf51",
+      "fromNode": "331552b6",
+      "toNode": "b801d4db"
+    },
+    {
+      "id": "597f4bf8",
+      "fromNode": "331552b6",
+      "toNode": "1a80e4a8"
+    }
+  ]
+}
