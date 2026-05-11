@@ -1,4 +1,5 @@
 ---
+quality_flags: ["concept_depth"]
 video_id: 4kgkYAGPuD0
 title: Anthropic Managed Agents 架构深度解析与复刻实践简报
 url: https://youtu.be/4kgkYAGPuD0
@@ -6,7 +7,7 @@ added_at: 2026-05-11T12:08:24Z
 report: raw/notebooklm-analysis/Anthropic-Managed-Agents-架构深度解析与复刻实践简报.md
 mindmap: raw/notebooklm-mindmaps/Anthropic-Managed-Agents-架构深度解析与复刻实践简报.md
 wiki_source: （Stage C 生成后更新）
-quality: pending
+quality: warn
 ---
 
 # Anthropic Managed Agents 架构深度解析与复刻实践简报
