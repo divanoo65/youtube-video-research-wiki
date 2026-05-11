@@ -1,27 +1,25 @@
 {
-  "run_id": "gh-25683638721-1",
-  "checked_at": "2026-05-11T16:44:06Z",
+  "run_id": "gh-25683886017-1",
+  "checked_at": "2026-05-11T16:44:32Z",
   "must_pass": {
     "has_analysis": true,
     "report_length_ok": true,
     "title_match": true,
-    "has_wiki_source": false
+    "has_wiki_source": true
   },
   "warnings": {
     "concept_depth": true,
     "wikilink_density": true,
     "has_datasource": true
   },
-  "verdict": "fail",
-  "action": "human_review",
-  "details": [
-    "❌ 无 wiki/sources 页面（Stage C 可能未完成）"
-  ],
+  "verdict": "pass",
+  "action": "proceed",
+  "details": [],
   "stats": {
     "new_analysis_files": 1,
-    "new_wiki_pages": 0,
-    "new_sources": 0,
-    "new_concepts": 0,
+    "new_wiki_pages": 9,
+    "new_sources": 1,
+    "new_concepts": 5,
     "report_length": 2774
   }
 }
