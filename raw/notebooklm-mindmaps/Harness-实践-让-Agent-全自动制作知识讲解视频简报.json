@@ -1,0 +1,491 @@
+{
+  "nodes": [
+    {
+      "id": "efda22d5",
+      "type": "text",
+      "text": "{'name': 'Harness 实践：Agent 全自动制作知识讲解视频', 'children': [{'name': '核心理念：可控性与稳健性', 'children': [{'name': '网页技术 vs 视频模型', 'children': [{'name': '网页编码更可控 (字体、配速、精准数字)'}, {'name': '成本更低，表现更稳定'}]}, {'name': 'Harness 架构核心', 'children': [{'name': 'Skill：Agent 的操作手册'}, {'name': '机制：环境边界、检查点、自检与修复'}]}]}, {'name': '制作流程 (四个阶段)', 'children': [{'name': '阶段一：内容编写', 'children': [{'name': '口播稿：短句口语化，第二人称'}, {'name': '开发计划：细粒度步骤与画面大纲'}]}, {'name': '阶段二：网页开发', 'children': [{'name': '首章开发与人工验收 (建立基准)'}, {'name': '后续章节并行开发 (多 Agent/Subagent)'}, {'name': '视觉统一 (全局变量、独立 CSS)'}]}, {'name': '阶段三：音频合成', 'children': [{'name': '提取音频合成清单'}, {'name': '调用 TTS/CLI 批量生成音频'}]}, {'name': '阶段四：视频录制', 'children': [{'name': '手动模式：自读录音'}, {'name': '自动模式：按音频节奏自动翻页录屏'}]}]}, {'name': 'Agent 系统组成', 'children': [{'name': '上下文管理：按需读档，防止注意力稀释'}, {'name': '状态与记忆：通过 outline.md 保持连续性'}, {'name': '协作模式', 'children': [{'name': 'Subagent：任务分发，结果导向'}, {'name': 'Agent Teams：小组讨论，反馈循环'}]}, {'name': '评估与观测：独立 Reviewer Agent 严格自检'}]}, {'name': '实战工具栈', 'children': [{'name': 'Core Agent：Claude Code / Cursor'}, {'name': '模型适配：MiniMax (高性价比、多模态)'}, {'name': '中间件：CC-Switch (切换自定义模型)'}, {'name': '环境管理：Tmux (多终端可视化管理)'}, {'name': '技能库：Garden Skills (Web Video Presentation)'}]}]}",
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e8b941cf",
+      "type": "text",
+      "text": "{'name': '核心理念：可控性与稳健性', 'children': [{'name': '网页技术 vs 视频模型', 'children': [{'name': '网页编码更可控 (字体、配速、精准数字)'}, {'name': '成本更低，表现更稳定'}]}, {'name': 'Harness 架构核心', 'children': [{'name': 'Skill：Agent 的操作手册'}, {'name': '机制：环境边界、检查点、自检与修复'}]}]}",
+      "x": 250,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "cebc99f7",
+      "type": "text",
+      "text": "{'name': '网页技术 vs 视频模型', 'children': [{'name': '网页编码更可控 (字体、配速、精准数字)'}, {'name': '成本更低，表现更稳定'}]}",
+      "x": 500,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e90194ab",
+      "type": "text",
+      "text": "{'name': '网页编码更可控 (字体、配速、精准数字)'}",
+      "x": 750,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "85ba5852",
+      "type": "text",
+      "text": "{'name': '成本更低，表现更稳定'}",
+      "x": 750,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f01db09a",
+      "type": "text",
+      "text": "{'name': 'Harness 架构核心', 'children': [{'name': 'Skill：Agent 的操作手册'}, {'name': '机制：环境边界、检查点、自检与修复'}]}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "4dd61a66",
+      "type": "text",
+      "text": "{'name': 'Skill：Agent 的操作手册'}",
+      "x": 750,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "a6ef9a79",
+      "type": "text",
+      "text": "{'name': '机制：环境边界、检查点、自检与修复'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e2ee1d0d",
+      "type": "text",
+      "text": "{'name': '制作流程 (四个阶段)', 'children': [{'name': '阶段一：内容编写', 'children': [{'name': '口播稿：短句口语化，第二人称'}, {'name': '开发计划：细粒度步骤与画面大纲'}]}, {'name': '阶段二：网页开发', 'children': [{'name': '首章开发与人工验收 (建立基准)'}, {'name': '后续章节并行开发 (多 Agent/Subagent)'}, {'name': '视觉统一 (全局变量、独立 CSS)'}]}, {'name': '阶段三：音频合成', 'children': [{'name': '提取音频合成清单'}, {'name': '调用 TTS/CLI 批量生成音频'}]}, {'name': '阶段四：视频录制', 'children': [{'name': '手动模式：自读录音'}, {'name': '自动模式：按音频节奏自动翻页录屏'}]}]}",
+      "x": 250,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "6b443cf3",
+      "type": "text",
+      "text": "{'name': '阶段一：内容编写', 'children': [{'name': '口播稿：短句口语化，第二人称'}, {'name': '开发计划：细粒度步骤与画面大纲'}]}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "bb581960",
+      "type": "text",
+      "text": "{'name': '口播稿：短句口语化，第二人称'}",
+      "x": 750,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "9f0ff9dd",
+      "type": "text",
+      "text": "{'name': '开发计划：细粒度步骤与画面大纲'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "79b9a77d",
+      "type": "text",
+      "text": "{'name': '阶段二：网页开发', 'children': [{'name': '首章开发与人工验收 (建立基准)'}, {'name': '后续章节并行开发 (多 Agent/Subagent)'}, {'name': '视觉统一 (全局变量、独立 CSS)'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d866dca7",
+      "type": "text",
+      "text": "{'name': '首章开发与人工验收 (建立基准)'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "90a454c6",
+      "type": "text",
+      "text": "{'name': '后续章节并行开发 (多 Agent/Subagent)'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "99e141ed",
+      "type": "text",
+      "text": "{'name': '视觉统一 (全局变量、独立 CSS)'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f5f6ea23",
+      "type": "text",
+      "text": "{'name': '阶段三：音频合成', 'children': [{'name': '提取音频合成清单'}, {'name': '调用 TTS/CLI 批量生成音频'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "a353cca2",
+      "type": "text",
+      "text": "{'name': '提取音频合成清单'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c41a5a3d",
+      "type": "text",
+      "text": "{'name': '调用 TTS/CLI 批量生成音频'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "7d9c355e",
+      "type": "text",
+      "text": "{'name': '阶段四：视频录制', 'children': [{'name': '手动模式：自读录音'}, {'name': '自动模式：按音频节奏自动翻页录屏'}]}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "3f683eb8",
+      "type": "text",
+      "text": "{'name': '手动模式：自读录音'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "fe4180ce",
+      "type": "text",
+      "text": "{'name': '自动模式：按音频节奏自动翻页录屏'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "681c8c9c",
+      "type": "text",
+      "text": "{'name': 'Agent 系统组成', 'children': [{'name': '上下文管理：按需读档，防止注意力稀释'}, {'name': '状态与记忆：通过 outline.md 保持连续性'}, {'name': '协作模式', 'children': [{'name': 'Subagent：任务分发，结果导向'}, {'name': 'Agent Teams：小组讨论，反馈循环'}]}, {'name': '评估与观测：独立 Reviewer Agent 严格自检'}]}",
+      "x": 250,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "2bb286af",
+      "type": "text",
+      "text": "{'name': '上下文管理：按需读档，防止注意力稀释'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "7eebad56",
+      "type": "text",
+      "text": "{'name': '状态与记忆：通过 outline.md 保持连续性'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d94b9770",
+      "type": "text",
+      "text": "{'name': '协作模式', 'children': [{'name': 'Subagent：任务分发，结果导向'}, {'name': 'Agent Teams：小组讨论，反馈循环'}]}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "21286ee3",
+      "type": "text",
+      "text": "{'name': 'Subagent：任务分发，结果导向'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d1542671",
+      "type": "text",
+      "text": "{'name': 'Agent Teams：小组讨论，反馈循环'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "59a16334",
+      "type": "text",
+      "text": "{'name': '评估与观测：独立 Reviewer Agent 严格自检'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "58ca4c0a",
+      "type": "text",
+      "text": "{'name': '实战工具栈', 'children': [{'name': 'Core Agent：Claude Code / Cursor'}, {'name': '模型适配：MiniMax (高性价比、多模态)'}, {'name': '中间件：CC-Switch (切换自定义模型)'}, {'name': '环境管理：Tmux (多终端可视化管理)'}, {'name': '技能库：Garden Skills (Web Video Presentation)'}]}",
+      "x": 250,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "41b4f0c6",
+      "type": "text",
+      "text": "{'name': 'Core Agent：Claude Code / Cursor'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "447485a1",
+      "type": "text",
+      "text": "{'name': '模型适配：MiniMax (高性价比、多模态)'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d7aa8d69",
+      "type": "text",
+      "text": "{'name': '中间件：CC-Switch (切换自定义模型)'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "fe73144c",
+      "type": "text",
+      "text": "{'name': '环境管理：Tmux (多终端可视化管理)'}",
+      "x": 500,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "2e982953",
+      "type": "text",
+      "text": "{'name': '技能库：Garden Skills (Web Video Presentation)'}",
+      "x": 500,
+      "y": 560,
+      "width": 200,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "907407f1",
+      "fromNode": "efda22d5",
+      "toNode": "e8b941cf"
+    },
+    {
+      "id": "b3fc388a",
+      "fromNode": "e8b941cf",
+      "toNode": "cebc99f7"
+    },
+    {
+      "id": "788fa83d",
+      "fromNode": "cebc99f7",
+      "toNode": "e90194ab"
+    },
+    {
+      "id": "a3b841a6",
+      "fromNode": "cebc99f7",
+      "toNode": "85ba5852"
+    },
+    {
+      "id": "4b7242d9",
+      "fromNode": "e8b941cf",
+      "toNode": "f01db09a"
+    },
+    {
+      "id": "f596a9a6",
+      "fromNode": "f01db09a",
+      "toNode": "4dd61a66"
+    },
+    {
+      "id": "021a51ab",
+      "fromNode": "f01db09a",
+      "toNode": "a6ef9a79"
+    },
+    {
+      "id": "35756f42",
+      "fromNode": "efda22d5",
+      "toNode": "e2ee1d0d"
+    },
+    {
+      "id": "6300a3a2",
+      "fromNode": "e2ee1d0d",
+      "toNode": "6b443cf3"
+    },
+    {
+      "id": "29e90463",
+      "fromNode": "6b443cf3",
+      "toNode": "bb581960"
+    },
+    {
+      "id": "06c35c8d",
+      "fromNode": "6b443cf3",
+      "toNode": "9f0ff9dd"
+    },
+    {
+      "id": "ef6e9224",
+      "fromNode": "e2ee1d0d",
+      "toNode": "79b9a77d"
+    },
+    {
+      "id": "5ed1151f",
+      "fromNode": "79b9a77d",
+      "toNode": "d866dca7"
+    },
+    {
+      "id": "27270874",
+      "fromNode": "79b9a77d",
+      "toNode": "90a454c6"
+    },
+    {
+      "id": "19700f58",
+      "fromNode": "79b9a77d",
+      "toNode": "99e141ed"
+    },
+    {
+      "id": "11b50821",
+      "fromNode": "e2ee1d0d",
+      "toNode": "f5f6ea23"
+    },
+    {
+      "id": "f98db0f8",
+      "fromNode": "f5f6ea23",
+      "toNode": "a353cca2"
+    },
+    {
+      "id": "81c740d4",
+      "fromNode": "f5f6ea23",
+      "toNode": "c41a5a3d"
+    },
+    {
+      "id": "7501015f",
+      "fromNode": "e2ee1d0d",
+      "toNode": "7d9c355e"
+    },
+    {
+      "id": "0c702939",
+      "fromNode": "7d9c355e",
+      "toNode": "3f683eb8"
+    },
+    {
+      "id": "ec4a5b00",
+      "fromNode": "7d9c355e",
+      "toNode": "fe4180ce"
+    },
+    {
+      "id": "b2def7cb",
+      "fromNode": "efda22d5",
+      "toNode": "681c8c9c"
+    },
+    {
+      "id": "73b9fbf9",
+      "fromNode": "681c8c9c",
+      "toNode": "2bb286af"
+    },
+    {
+      "id": "777cba98",
+      "fromNode": "681c8c9c",
+      "toNode": "7eebad56"
+    },
+    {
+      "id": "ed103605",
+      "fromNode": "681c8c9c",
+      "toNode": "d94b9770"
+    },
+    {
+      "id": "edd69f15",
+      "fromNode": "d94b9770",
+      "toNode": "21286ee3"
+    },
+    {
+      "id": "e2527fac",
+      "fromNode": "d94b9770",
+      "toNode": "d1542671"
+    },
+    {
+      "id": "8bd92cb2",
+      "fromNode": "681c8c9c",
+      "toNode": "59a16334"
+    },
+    {
+      "id": "ae6d47c3",
+      "fromNode": "efda22d5",
+      "toNode": "58ca4c0a"
+    },
+    {
+      "id": "e2fb2683",
+      "fromNode": "58ca4c0a",
+      "toNode": "41b4f0c6"
+    },
+    {
+      "id": "3400e57d",
+      "fromNode": "58ca4c0a",
+      "toNode": "447485a1"
+    },
+    {
+      "id": "25636470",
+      "fromNode": "58ca4c0a",
+      "toNode": "d7aa8d69"
+    },
+    {
+      "id": "da45753f",
+      "fromNode": "58ca4c0a",
+      "toNode": "fe73144c"
+    },
+    {
+      "id": "91de0930",
+      "fromNode": "58ca4c0a",
+      "toNode": "2e982953"
+    }
+  ]
+}
