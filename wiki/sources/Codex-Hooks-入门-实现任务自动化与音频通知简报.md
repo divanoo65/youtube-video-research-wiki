@@ -1,4 +1,5 @@
 ---
+quality: fail
 title: Codex Hooks 入门：实现任务自动化与音频通知简报
 type: source
 tags: [codex-hooks, 自动化, 音频通知, OpenAI]

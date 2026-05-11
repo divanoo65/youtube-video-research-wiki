@@ -1,4 +1,5 @@
 ---
+quality: fail
 title: Harness Engineering 深度解析：核心概念与实战
 type: source
 tags: [harness-engineering, openai, anthropic, ai-agent, 上下文工程]

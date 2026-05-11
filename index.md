@@ -1,7 +1,7 @@
 # Wiki Index
 
 > YouTube 视频研究知识图谱。所有 wiki 页面按类型分类索引。
-> Last updated: 2026-05-11 | Total pages: 52
+> Last updated: 2026-05-11 | Total pages: 56
 
 ## Sources
 - [[Harness-Engineering-深度简报-构建稳定-可落地的-AI-Agent系统|Harness Engineering 深度简报：构建稳定、可落地的 AI Agent 系统]] — 深入剖析 Harness Engineering 概念，提出 Agent = Model + Harness 的核心公式，并给出六层成熟架构及行业最佳实践。
@@ -9,6 +9,7 @@
 - [[跨越视界的探索者深空影像录核心简报|跨越视界的探索者：深空影像录——核心简报]] — 本简报深入分析现代天文观测技术（尤其是JWST）如何带领人类跨越视觉极限，重构对宇宙起源的理解。
 - [[Harness-Engineering-深度解析报告-核心概念与实战|Harness Engineering 深度解析：核心概念与实战]] — 深入剖析 Harness Engineering 概念，提出 Agent = Model + Harness 的核心公式，并给出 OpenAI 和 Anthropic 的实战案例及行业争议。
 - [[Codex-Hooks-入门-实现任务自动化与音频通知简报|Codex Hooks 入门：实现任务自动化与音频通知简报]] — 介绍如何利用 Codex Hooks 在任务生命周期关键节点触发音频通知，解决长时间任务授权等待问题，并作为自动化工作流的入口。
+- [[Anthropic-Managed-Agents-架构深度解析与复刻实践简报|Anthropic Managed Agents 架构深度解析与复刻实践简报]] — 深度解析 Anthropic 的 "Managed Agents" 架构，探讨 AI Agent 从个人工具向企业基础设施的范式转移。
 
 ## Entities
 - [[Anthropic]] — 美国人工智能公司，以 AI 安全研究闻名，提出 Context Reflected 和独立评估者模式等 Harness 实践。
@@ -56,6 +57,9 @@
 - [[Codex-Hooks生命周期]] — Codex Hooks 定义的六个标准化任务生命周期节点，用于精准触发自动化脚本。
 - [[Codex-Hooks部署范围]] — Codex Hooks 支持项目级与全局级两种配置作用域，分别适用于单一项目和用户所有项目的自动化规则。
 - [[Codex-Hooks信任机制]] — Codex Hooks 的安全机制，要求用户在新配置后手动审查并授权，防止恶意脚本自动执行。
+- [[多标签并行处理]] — 一种通过多标签并行处理提高任务执行效率的技术方法。
+- [[无状态化]] — 一种通过消除状态依赖提高系统稳定性和可扩展性的技术方法。
+- [[沙盒技术]] — 一种通过隔离执行环境确保系统安全性和稳定性的技术方法。
 
 ## Comparisons
 - [[Hermes-Agent-vs-OpenCloud]] — 从稳定性、更新策略、社区认可度等维度对比两个AI Agent框架。
