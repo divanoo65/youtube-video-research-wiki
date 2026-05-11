@@ -1,0 +1,29 @@
+{
+  "run_id": "gh-25683548095-1",
+  "checked_at": "2026-05-11T16:38:00Z",
+  "must_pass": {
+    "has_analysis": false,
+    "report_length_ok": true,
+    "title_match": true,
+    "has_wiki_source": true
+  },
+  "warnings": {
+    "concept_depth": false,
+    "wikilink_density": false,
+    "has_datasource": true
+  },
+  "verdict": "fail",
+  "action": "human_review",
+  "details": [
+    "❌ 无分析文件（Stage B 可能未完成）",
+    "⚠️ Concept 页平均字数偏低（0 < 800）",
+    "⚠️ wikilink 密度低（平均 0.0 < 3）"
+  ],
+  "stats": {
+    "new_analysis_files": 0,
+    "new_wiki_pages": 12,
+    "new_sources": 1,
+    "new_concepts": 5,
+    "report_length": 0
+  }
+}

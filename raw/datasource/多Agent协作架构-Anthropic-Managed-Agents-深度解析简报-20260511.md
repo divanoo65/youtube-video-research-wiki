@@ -1,4 +1,5 @@
 ---
+quality_flags: ["concept_depth", "wikilink_density"]
 video_id: 4kgkYAGPuD0
 title: 多Agent协作架构：Anthropic Managed Agents 深度解析简报
 url: https://youtu.be/4kgkYAGPuD0?si=ASZKshiLU3fCatbU
@@ -6,7 +7,7 @@ added_at: 2026-05-11T12:45:50Z
 report: raw/notebooklm-analysis/多Agent协作架构-Anthropic-Managed-Agents-深度解析.md
 mindmap: raw/notebooklm-mindmaps/多Agent协作架构-Anthropic-Managed-Agents-深度解析.md
 wiki_source: （Stage C 生成后更新）
-quality: pending
+quality: fail
 ---
 
 # 多Agent协作架构：Anthropic Managed Agents 深度解析简报
