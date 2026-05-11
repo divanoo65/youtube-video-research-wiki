@@ -1,73 +1,104 @@
 ---
 title: Agent vs Session
-type: comparison
-tags: [agent, session, architecture, decoupling, managed-agents, knowledge-graph]
-sources: [6733c4ed-cdb0-420d-9a4a-a920fd1e7f03]
+type: concept
+tags: [agent, session, architecture, managed-agents, decoupling]
+summary: 静态模板与动态执行分离
+sources:
+  - 6733c4ed-cdb0-420d-9a4a-a920fd1e7f03
 created: 2026-05-11
 updated: 2026-05-11
 layer: L2
 confidence: high
-reasoning: 基于Anthropic Managed Agents架构中Agent与Session的实体分离原则，结合蜂群思维报告中的具体技术描述，归纳出两者在定义、生命周期、职责、存储方式等维度的对比。
+reasoning: 基于Anthropic Managed Agents架构文档及实践报告归纳
 ---
 
 # Agent vs Session：静态模板与动态执行分离
 
-在 [[蜂群思维-多Agent协作架构]] 中，**Agent** 与 **Session** 被定义为两个完全不同的实体。这种分离是“脑手解耦”架构的核心支柱之一，也是实现Agent规模化、无状态化、高可靠性的基础。简单来说：**Agent负责“我是谁”，Session负责“我在干什么”**。
+在 [[Managed Agents]] 架构中，**Agent** 与 **Session** 被定义为两个完全不同的实体，这是实现“脑手解耦”与无状态化的核心设计。简单来说：**Agent 定义“我是谁”，Session 记录“我在干什么”**。
 
-## 对比总览
+## 核心对比
 
-| 维度 | Agent | Session |
-|------|-------|---------|
-| **本质** | 静态配置模板 | 动态执行实例 |
-| **生命周期** | 持久存在，可复用 | 按需创建，可销毁 |
-| **职责** | 定义身份、工具、模型、系统提示词 | 承载对话线程、记忆挂载、文件操作 |
-| **状态** | 无状态 | 有状态（动态上下文） |
-| **存储位置** | 配置文件 / 代码库 | 云端上下文存储（Session Store） |
-| **可扩展性** | 一个Agent可被多个Session引用 | 一个Session只属于一个Agent |
-| **故障影响** | 不影响运行中的Session | Session故障可独立销毁重建 |
-| **典型操作** | 创建、更新、版本管理 | 创建、Fork、回滚、克隆、恢复 |
+| 维度 | Agent（静态模板） | Session（动态执行） |
+|------|-------------------|---------------------|
+| **本质** | 配置模板 | 运行时实例 |
+| **状态** | 无状态，不存储动态数据 | 有状态，承载对话线程与记忆 |
+| **生命周期** | 持久存在，可复用 | 按需创建，任务结束后可销毁 |
+| **核心内容** | 身份、工具列表、模型选择、System Prompt | 对话历史、文件操作、记忆挂载 |
+| **可扩展性** | 一个模板可被多个Session引用 | 一个Session只对应一个Agent模板 |
+| **故障隔离** | 模板错误影响所有实例 | Session崩溃不影响其他Session |
 
-## 详细解读
+## 架构意义
 
-### Agent：静态模板
+### 1. 从“宠物”到“牛马”的转变
+传统Agent开发将模型逻辑、上下文记忆与本地环境深度绑定，一旦环境配置出错或记忆冗余，系统便会崩溃。通过Agent与Session的分离：
 
-Agent 是一个**声明式配置**，它定义了：
-- **身份**：Agent的名称、角色描述（如“代码审查员”、“搜索专家”）
-- **工具集**：可调用的工具列表（如代码执行器、搜索引擎、MCP服务器）
-- **模型**：使用的底层模型（如Claude 3.5 Sonnet、GPT-4o）
-- **系统提示词**：指导Agent行为的核心指令
+- **Agent作为静态模板**：定义Agent的身份、使用的工具、模型及系统提示词。它不存储任何动态数据，仅作为配置模板存在。
+- **Session作为动态执行单元**：承载对话线程、记忆挂载和文件操作。同一个Agent模板可以同时启动多个独立的Session，互不干扰。
 
-Agent 本身**不存储任何动态数据**。它就像一个“模具”，可以被反复使用来创建多个独立的执行实例。在代码层面，Agent通常以JSON或YAML配置文件的形式存在，属于[[知识图谱]]中的L1事实层。
+这种设计使得Agent不再是需要精心呵护的“宠物”，而是可随时销毁并重建的“牛马”。
 
-### Session：动态执行
+### 2. 无状态化与沙盒执行
+每一项执行任务都在独立的沙盒（如Docker或高性能沙盒Cube Sandbox）中运行。如果任务出错或环境污染，系统直接销毁该沙盒并重新拉起干净的环境。Session作为执行载体，天然支持这种无状态化模式：
 
-Session 是 Agent 的**运行时实例**，它承载了：
-- **对话线程**：用户与Agent之间的完整对话历史
-- **记忆挂载**：当前会话中积累的短期记忆和上下文
-- **文件操作**：在沙盒环境中创建、修改、删除的文件
+- **销毁重建**：Session崩溃时，只需基于Agent模板重新创建新Session
+- **环境隔离**：每个Session拥有独立的沙盒环境，互不污染
+- **快速恢复**：通过[[Session Store]]实现上下文云端化，Session可随时从云端恢复
 
-Session 是有状态的，但它的状态是**可隔离、可重置**的。如果某个Session因为上下文污染或执行错误而“变笨”，编排者可以直接销毁该Session并创建一个新的干净Session，而无需重启Agent本身。
+### 3. 编排者模式下的分工
+在[[Coordinator]]模式中，Agent与Session的分离使得编排者可以灵活调度：
 
-### 为什么需要分离？
+- **一个编排者**管理多个Agent模板（最多20个）
+- **每个Agent模板**可同时运行多个Session实例
+- **不同Session**可执行不同任务，互不干扰
 
-1. **故障隔离**：传统架构中，Agent的崩溃往往意味着整个系统的崩溃。分离后，Session的故障被限制在沙盒内，Agent模板不受影响。
-2. **并发扩展**：同一个Agent模板可以同时启动数百个独立的Session，每个Session处理不同的用户请求或任务，互不干扰。
-3. **状态管理**：Session的状态可以 Fork、回滚、克隆、恢复，编排者可以随时“回到”Agent最聪明的状态，这在[[Session Store]]的支持下成为可能。
-4. **模型升级**：当底层模型升级时，只需更新Agent模板，所有基于该模板的Session会自动受益，无需修改执行逻辑。
+例如，一个编码Agent模板可以同时运行：
+- Session A：处理项目X的代码编写
+- Session B：处理项目Y的代码审查
+- Session C：处理项目Z的测试用例
 
-## 实践中的例子
+## 实践示例
 
-在蜂群思维架构中，一个典型的场景是：
-- **Agent模板**：定义一个“代码审查员”Agent，配置了代码分析工具、审查规则提示词和Claude 3.5模型。
-- **Session实例**：当有10个Pull Request需要审查时，编排者会创建10个独立的Session，每个Session加载同一个Agent模板，但各自拥有独立的对话线程和文件沙盒。
-- **故障处理**：如果某个Session在审查过程中因为代码格式异常而崩溃，编排者直接销毁该Session，重新创建一个新的Session继续审查，其他9个Session不受影响。
+### Agent定义（静态模板）
+```yaml
+agent:
+  id: code-assistant-v2
+  model: claude-3-opus
+  tools:
+    - code_interpreter
+    - file_editor
+    - web_search
+  system_prompt: "你是一个专业的代码助手，擅长Python和JavaScript开发。"
+```
+
+### Session创建（动态执行）
+```yaml
+session:
+  id: session-20260511-001
+  agent: code-assistant-v2
+  context:
+    - project: "电商平台重构"
+    - task: "实现用户认证模块"
+    - memory: "已阅读项目文档，了解现有架构"
+  sandbox: cube-sandbox-001
+  status: running
+```
+
+## 关键语录
+
+> “Session负责我在干什么，Agent负责我是谁。”
+
+这句话形象地解释了静态配置（Agent）与动态运行状态（Session）之间的解耦关系。在[[蜂群思维]]架构中，这种分离使得系统具备极高的弹性和可扩展性。
+
+## 技术启示
+
+1. **模板复用**：Agent模板可版本化管理，支持灰度发布和A/B测试
+2. **资源优化**：Session按需创建，避免资源浪费
+3. **故障隔离**：单个Session崩溃不影响其他Session和Agent模板
+4. **状态管理**：通过[[Session Store]]实现上下文云端化，支持Fork、回滚、克隆等操作
 
 ## 相关概念
 
-- [[脑手解耦]]：Agent与Session分离是脑手解耦的具体实现。
-- [[编排者模式]]：编排者负责管理多个Agent和Session的协作。
-- [[上下文解耦]]：Session Store实现了上下文的云端化，进一步强化了无状态特性。
-
-## 总结
-
-Agent与Session的分离，本质上是**“配置”与“运行时”**的解耦。这种设计使得Agent系统具备了企业级基础设施所需的稳定性、可扩展性和可维护性。正如报告中所说：“要把Agent当牛马去用，而不是当宠物去养”——牛马（Session）可以随时替换，而牛马的定义（Agent）保持不变。
+- [[Managed Agents]] - 整体架构框架
+- [[Coordinator]] - 编排者模式
+- [[Session Store]] - 上下文云端存储
+- [[脑手解耦]] - 架构设计原则
