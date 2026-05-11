@@ -10,7 +10,9 @@
     "status": "success",
     "language": "zh_Hans",
     "notebook_id": "c540b11e-b3f1-4576-9565-646adf073150",
-    "urls_attempted": ["https://www.youtube.com/watch?v=Nms56KhvIQw"],
+    "urls_attempted": [
+      "https://www.youtube.com/watch?v=Nms56KhvIQw"
+    ],
     "videos_processed": 1,
     "api_calls": [],
     "generated_files": [
@@ -31,5 +33,23 @@
       }
     ],
     "errors": []
+  },
+  "stage_c": {
+    "run_id": "gh-25691626855-1",
+    "task_id": "T-Nms56KhvIQw",
+    "start_time": "2026-05-11T19:14:42Z",
+    "end_time": "2026-05-11T19:16:14Z",
+    "duration_s": 91,
+    "api_calls": 1,
+    "reports_processed": 1,
+    "pages_created": 9,
+    "prompt_tokens": 6288,
+    "completion_tokens": 8577,
+    "sources": 1,
+    "entities": 3,
+    "concepts": 4,
+    "comparisons": 1,
+    "overviews": 0,
+    "status": "success"
   }
 }
