@@ -1,0 +1,491 @@
+{
+  "nodes": [
+    {
+      "id": "e9d4d8ff",
+      "type": "text",
+      "text": "{'name': 'Sulphur 2 无审查 AI 视频模型', 'children': [{'name': '模型特点', 'children': [{'name': '完全免费开源'}, {'name': '100% 无审查'}, {'name': '支持本地部署'}, {'name': '硬件需求低 (8G显存)'}, {'name': '支持文生视频'}, {'name': '支持图生视频'}]}, {'name': '环境准备', 'children': [{'name': '下载最新版 CF 客户端'}, {'name': '安装并运行客户端'}, {'name': '配置硬件 (N卡/A卡/CPU)'}, {'name': '设置自动更新与文件目录'}]}, {'name': '模型下载与配置', 'children': [{'name': '主模型 (Checkpoints)', 'children': [{'name': 'BF16 精度 (46G, 高配)'}, {'name': 'FP8 精度 (27G, 8G显存推荐)'}, {'name': '量化版 (极低配置)'}]}, {'name': '附加组件', 'children': [{'name': '加速器 (需大显存)'}, {'name': 'GGUF 文本提词量化器'}]}, {'name': '文件存放', 'children': [{'name': '主模型放入 Models/checkpoints'}, {'name': '提词器放入 Models/GGUF'}]}]}, {'name': '使用步骤', 'children': [{'name': '加载 LTX2.3 模板'}, {'name': '上传底图 (图生视频)'}, {'name': '切换主模型为无审查模型'}, {'name': '编写提示词 (Prompt)'}, {'name': '调整分辨率与时长'}, {'name': '点击运行生成'}]}, {'name': '输出与管理', 'children': [{'name': '自动配置音效'}, {'name': '视频存放于 output/V 文件夹'}, {'name': '支持拖入工作流文件'}]}]}",
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c9d81a59",
+      "type": "text",
+      "text": "{'name': '模型特点', 'children': [{'name': '完全免费开源'}, {'name': '100% 无审查'}, {'name': '支持本地部署'}, {'name': '硬件需求低 (8G显存)'}, {'name': '支持文生视频'}, {'name': '支持图生视频'}]}",
+      "x": 250,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "53f6b088",
+      "type": "text",
+      "text": "{'name': '完全免费开源'}",
+      "x": 500,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "68aeea3e",
+      "type": "text",
+      "text": "{'name': '100% 无审查'}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "1bb9b673",
+      "type": "text",
+      "text": "{'name': '支持本地部署'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b74892d6",
+      "type": "text",
+      "text": "{'name': '硬件需求低 (8G显存)'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "bb7b6bca",
+      "type": "text",
+      "text": "{'name': '支持文生视频'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "74350f1f",
+      "type": "text",
+      "text": "{'name': '支持图生视频'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "8f64a6a7",
+      "type": "text",
+      "text": "{'name': '环境准备', 'children': [{'name': '下载最新版 CF 客户端'}, {'name': '安装并运行客户端'}, {'name': '配置硬件 (N卡/A卡/CPU)'}, {'name': '设置自动更新与文件目录'}]}",
+      "x": 250,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "7360f715",
+      "type": "text",
+      "text": "{'name': '下载最新版 CF 客户端'}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "a18a51bf",
+      "type": "text",
+      "text": "{'name': '安装并运行客户端'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "059c74e6",
+      "type": "text",
+      "text": "{'name': '配置硬件 (N卡/A卡/CPU)'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "1db7966d",
+      "type": "text",
+      "text": "{'name': '设置自动更新与文件目录'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "deeb0bb2",
+      "type": "text",
+      "text": "{'name': '模型下载与配置', 'children': [{'name': '主模型 (Checkpoints)', 'children': [{'name': 'BF16 精度 (46G, 高配)'}, {'name': 'FP8 精度 (27G, 8G显存推荐)'}, {'name': '量化版 (极低配置)'}]}, {'name': '附加组件', 'children': [{'name': '加速器 (需大显存)'}, {'name': 'GGUF 文本提词量化器'}]}, {'name': '文件存放', 'children': [{'name': '主模型放入 Models/checkpoints'}, {'name': '提词器放入 Models/GGUF'}]}]}",
+      "x": 250,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e1360ec4",
+      "type": "text",
+      "text": "{'name': '主模型 (Checkpoints)', 'children': [{'name': 'BF16 精度 (46G, 高配)'}, {'name': 'FP8 精度 (27G, 8G显存推荐)'}, {'name': '量化版 (极低配置)'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "1032ad8e",
+      "type": "text",
+      "text": "{'name': 'BF16 精度 (46G, 高配)'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b31fd2c4",
+      "type": "text",
+      "text": "{'name': 'FP8 精度 (27G, 8G显存推荐)'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "0a793e45",
+      "type": "text",
+      "text": "{'name': '量化版 (极低配置)'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "770b388a",
+      "type": "text",
+      "text": "{'name': '附加组件', 'children': [{'name': '加速器 (需大显存)'}, {'name': 'GGUF 文本提词量化器'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "905344d1",
+      "type": "text",
+      "text": "{'name': '加速器 (需大显存)'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c4982d52",
+      "type": "text",
+      "text": "{'name': 'GGUF 文本提词量化器'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "ad4070e5",
+      "type": "text",
+      "text": "{'name': '文件存放', 'children': [{'name': '主模型放入 Models/checkpoints'}, {'name': '提词器放入 Models/GGUF'}]}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b4fc30fb",
+      "type": "text",
+      "text": "{'name': '主模型放入 Models/checkpoints'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "15d4a098",
+      "type": "text",
+      "text": "{'name': '提词器放入 Models/GGUF'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c07faafd",
+      "type": "text",
+      "text": "{'name': '使用步骤', 'children': [{'name': '加载 LTX2.3 模板'}, {'name': '上传底图 (图生视频)'}, {'name': '切换主模型为无审查模型'}, {'name': '编写提示词 (Prompt)'}, {'name': '调整分辨率与时长'}, {'name': '点击运行生成'}]}",
+      "x": 250,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "039ab671",
+      "type": "text",
+      "text": "{'name': '加载 LTX2.3 模板'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "8a38a53e",
+      "type": "text",
+      "text": "{'name': '上传底图 (图生视频)'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "70c48392",
+      "type": "text",
+      "text": "{'name': '切换主模型为无审查模型'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "2f4cbb38",
+      "type": "text",
+      "text": "{'name': '编写提示词 (Prompt)'}",
+      "x": 500,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "610d1098",
+      "type": "text",
+      "text": "{'name': '调整分辨率与时长'}",
+      "x": 500,
+      "y": 560,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "ea921d93",
+      "type": "text",
+      "text": "{'name': '点击运行生成'}",
+      "x": 500,
+      "y": 640,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c48754dc",
+      "type": "text",
+      "text": "{'name': '输出与管理', 'children': [{'name': '自动配置音效'}, {'name': '视频存放于 output/V 文件夹'}, {'name': '支持拖入工作流文件'}]}",
+      "x": 250,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b09e9bf0",
+      "type": "text",
+      "text": "{'name': '自动配置音效'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c980f2c4",
+      "type": "text",
+      "text": "{'name': '视频存放于 output/V 文件夹'}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "d2192a34",
+      "type": "text",
+      "text": "{'name': '支持拖入工作流文件'}",
+      "x": 500,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "31b4bd2b",
+      "fromNode": "e9d4d8ff",
+      "toNode": "c9d81a59"
+    },
+    {
+      "id": "5f3da3de",
+      "fromNode": "c9d81a59",
+      "toNode": "53f6b088"
+    },
+    {
+      "id": "dd4d9d99",
+      "fromNode": "c9d81a59",
+      "toNode": "68aeea3e"
+    },
+    {
+      "id": "48a6a17e",
+      "fromNode": "c9d81a59",
+      "toNode": "1bb9b673"
+    },
+    {
+      "id": "bfd28ee6",
+      "fromNode": "c9d81a59",
+      "toNode": "b74892d6"
+    },
+    {
+      "id": "b5d4eb1f",
+      "fromNode": "c9d81a59",
+      "toNode": "bb7b6bca"
+    },
+    {
+      "id": "c18e2bba",
+      "fromNode": "c9d81a59",
+      "toNode": "74350f1f"
+    },
+    {
+      "id": "bd978dd9",
+      "fromNode": "e9d4d8ff",
+      "toNode": "8f64a6a7"
+    },
+    {
+      "id": "a8330fde",
+      "fromNode": "8f64a6a7",
+      "toNode": "7360f715"
+    },
+    {
+      "id": "a15b4310",
+      "fromNode": "8f64a6a7",
+      "toNode": "a18a51bf"
+    },
+    {
+      "id": "02648c4b",
+      "fromNode": "8f64a6a7",
+      "toNode": "059c74e6"
+    },
+    {
+      "id": "bdc46e32",
+      "fromNode": "8f64a6a7",
+      "toNode": "1db7966d"
+    },
+    {
+      "id": "9e4a6ca5",
+      "fromNode": "e9d4d8ff",
+      "toNode": "deeb0bb2"
+    },
+    {
+      "id": "39ca19a3",
+      "fromNode": "deeb0bb2",
+      "toNode": "e1360ec4"
+    },
+    {
+      "id": "e6f5fa96",
+      "fromNode": "e1360ec4",
+      "toNode": "1032ad8e"
+    },
+    {
+      "id": "1addd67c",
+      "fromNode": "e1360ec4",
+      "toNode": "b31fd2c4"
+    },
+    {
+      "id": "eed0590c",
+      "fromNode": "e1360ec4",
+      "toNode": "0a793e45"
+    },
+    {
+      "id": "e0aa8497",
+      "fromNode": "deeb0bb2",
+      "toNode": "770b388a"
+    },
+    {
+      "id": "21f6797b",
+      "fromNode": "770b388a",
+      "toNode": "905344d1"
+    },
+    {
+      "id": "2130fd33",
+      "fromNode": "770b388a",
+      "toNode": "c4982d52"
+    },
+    {
+      "id": "83f43bda",
+      "fromNode": "deeb0bb2",
+      "toNode": "ad4070e5"
+    },
+    {
+      "id": "295b0d58",
+      "fromNode": "ad4070e5",
+      "toNode": "b4fc30fb"
+    },
+    {
+      "id": "69a0ae23",
+      "fromNode": "ad4070e5",
+      "toNode": "15d4a098"
+    },
+    {
+      "id": "488d99c8",
+      "fromNode": "e9d4d8ff",
+      "toNode": "c07faafd"
+    },
+    {
+      "id": "10b2aeb7",
+      "fromNode": "c07faafd",
+      "toNode": "039ab671"
+    },
+    {
+      "id": "c68ef652",
+      "fromNode": "c07faafd",
+      "toNode": "8a38a53e"
+    },
+    {
+      "id": "31448fcc",
+      "fromNode": "c07faafd",
+      "toNode": "70c48392"
+    },
+    {
+      "id": "9ccfa0da",
+      "fromNode": "c07faafd",
+      "toNode": "2f4cbb38"
+    },
+    {
+      "id": "a4f29558",
+      "fromNode": "c07faafd",
+      "toNode": "610d1098"
+    },
+    {
+      "id": "fd9500c2",
+      "fromNode": "c07faafd",
+      "toNode": "ea921d93"
+    },
+    {
+      "id": "16ecab25",
+      "fromNode": "e9d4d8ff",
+      "toNode": "c48754dc"
+    },
+    {
+      "id": "d5ff0e93",
+      "fromNode": "c48754dc",
+      "toNode": "b09e9bf0"
+    },
+    {
+      "id": "67595752",
+      "fromNode": "c48754dc",
+      "toNode": "c980f2c4"
+    },
+    {
+      "id": "1a87a18c",
+      "fromNode": "c48754dc",
+      "toNode": "d2192a34"
+    }
+  ]
+}
