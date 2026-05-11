@@ -31,8 +31,18 @@ pipeline:
     params:
       build_mode: incremental
 
+  - stage: output-check
+    trigger: wiki/sources/**
+    webhook_route: sop-output-check
+    params: {}
+
   - stage: tg-notify
     trigger: index.md
     webhook_route: sop-tg-notify
     params:
       build_mode: notify
+
+  - stage: retry
+    trigger: raw/retry/**
+    webhook_route: sop-retry
+    params: {}
