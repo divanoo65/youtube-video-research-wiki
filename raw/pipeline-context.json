@@ -1,0 +1,33 @@
+{
+  "stage_c": {
+    "run_id": "gh-25691626855-1",
+    "task_id": "T-Nms56KhvIQw",
+    "start_time": "2026-05-11T19:13:36Z",
+    "end_time": "2026-05-11T19:16:14Z",
+    "duration_s": 158,
+    "api_calls": 1,
+    "reports_processed": 1,
+    "pages_created": 16,
+    "prompt_tokens": 6288,
+    "completion_tokens": 8577,
+    "sources": 1,
+    "entities": 6,
+    "concepts": 8,
+    "comparisons": 1,
+    "overviews": 0,
+    "queries": 0,
+    "status": "success",
+    "note": "16 pages total (9 from this run + 7 from concurrent run on same analysis)"
+  },
+  "stage_b": {
+    "run_id": "gh-25691488557-1",
+    "start_time": "2026-05-11T19:10:00Z",
+    "end_time": "2026-05-11T19:12:30Z",
+    "duration_s": 150,
+    "videos_processed": 1,
+    "status": "success",
+    "processed_urls": [
+      "https://www.youtube.com/watch?v=Nms56KhvIQw"
+    ]
+  }
+}
