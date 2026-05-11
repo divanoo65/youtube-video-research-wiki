@@ -1,1 +1,31 @@
-{"pipeline_id": "pipe-cd34ea9", "stage_b": {"run_id": "gh-25654609665-1", "start_time": "2026-05-11T06:43:23Z", "end_time": "2026-05-11T06:44:18Z", "duration_s": 55, "api_calls": "unknown", "videos_processed": 1, "reports_generated": 1, "mindmaps_generated": 1}}
+{
+  "pipeline_id": "pipe-cd34ea9",
+  "stage_b": {
+    "run_id": "gh-25654609665-1",
+    "start_time": "2026-05-11T06:43:23Z",
+    "end_time": "2026-05-11T06:44:18Z",
+    "duration_s": 55,
+    "api_calls": "unknown",
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 1
+  },
+  "stage_c": {
+    "run_id": "gh-25654742532-1",
+    "task_id": "T-3DlXq9nsQOE",
+    "start_time": "2026-05-11T06:47:33Z",
+    "end_time": "2026-05-11T06:50:19Z",
+    "duration_s": 166,
+    "api_calls": 1,
+    "reports_processed": 1,
+    "pages_created": 8,
+    "prompt_tokens": 6519,
+    "completion_tokens": 8882,
+    "sources": 1,
+    "entities": 2,
+    "concepts": 4,
+    "comparisons": 1,
+    "overviews": 0,
+    "status": "success"
+  }
+}

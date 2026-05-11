@@ -1,15 +1,15 @@
 ---
 task_id: T-3DlXq9nsQOE
-run_id: gh-25608783805-1
+run_id: gh-25654742532-1
 stage: stage_c
-start_time: 2026-05-09T18:38:20Z
-end_time: 2026-05-09T18:41:13Z
-duration_s: 172
-api_calls: 2
-reports_processed: 2
-pages_created: 20
-prompt_tokens: 11774
-completion_tokens: 18666
+start_time: 2026-05-11T06:47:33Z
+end_time: 2026-05-11T06:50:19Z
+duration_s: 166
+api_calls: 1
+reports_processed: 1
+pages_created: 8
+prompt_tokens: 6519
+completion_tokens: 8882
 status: success
 ---
-Reports: 2 | Pages: 20 | Time: 172s
+Reports: 1 | Pages: 8 | Time: 166s

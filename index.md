@@ -1,11 +1,12 @@
 # Wiki Index
 
 > YouTube 视频研究知识图谱。所有 wiki 页面按类型分类索引。
-> Last updated: 2026-05-09 | Total pages: 32
+> Last updated: 2026-05-11 | Total pages: 40
 
 ## Sources
 - [[Harness-Engineering-深度简报-构建稳定-可落地的-AI-Agent系统|Harness Engineering 深度简报：构建稳定、可落地的 AI Agent 系统]] — 深入剖析 Harness Engineering 概念，提出 Agent = Model + Harness 的核心公式，并给出六层成熟架构及行业最佳实践。
 - [[Hermes-Agent-高级玩法与部署优化简报]] — 本视频介绍了Hermes Agent的稳定性优势、通过Ollama集成云端免费模型实现零资源部署、使用Open WebUI优化交互体验，以及通过主副模型策略降低Token消耗成本。
+- [[跨越视界的探索者深空影像录核心简报|跨越视界的探索者：深空影像录——核心简报]] — 本简报深入分析现代天文观测技术（尤其是JWST）如何带领人类跨越视觉极限，重构对宇宙起源的理解。
 
 ## Entities
 - [[Anthropic]] — 美国人工智能公司，以 AI 安全研究闻名，提出 Context Reflected 和独立评估者模式等 Harness 实践。
@@ -15,6 +16,8 @@
 - [[Ollama]] — 一个本地大模型运行和管理工具，集成了Hermes Agent并支持一键部署云端免费模型。
 - [[Open-WebUI]] — 一个开源的类ChatGPT交互界面，可连接Hermes Agent等后端，提供Markdown、代码执行等高级功能。
 - [[OpenCloud]] — 一个与Hermes Agent竞争的AI Agent框架，但以更新频繁、稳定性差著称。
+- [[James-Webb空间望远镜|James Webb Space Telescope (詹姆斯·韦伯空间望远镜)]] — 詹姆斯·韦伯空间望远镜（JWST）是NASA/ESA/CSA合作的红外空间望远镜，工作在拉格朗日L2点，主镜6.5米，用于研究宇宙黎明、恒星形成和系外行星。
+- [[哈勃空间望远镜|Hubble Space Telescope (哈勃空间望远镜)]] — 哈勃空间望远镜（HST）是NASA/ESA合作的空间望远镜，主镜2.4米，工作在可见光、紫外和部分红外波段，自1990年起极大推动了现代天文学发展。
 
 ## Concepts
 - [[Agent]] — 智能体（AI Agent）是能够自主感知环境、做出决策并执行动作的 AI 系统，核心公式为 Agent = Model + Harness。
@@ -39,9 +42,14 @@
 - [[辅助任务分类]] — Hermes Agent将代理运行过程中的非核心操作划分为六大辅助任务，可独立配置模型以降低成本。
 - [[执行编排层]] — Harness 架构的第三层，将原子能力（搜索、总结、写代码等）按逻辑链路串联成闭环流程，包括目标理解、任务串联、输出检查与修正重试。
 - [[提示工程]] — 通过精心设计输入指令（Prompt）来引导 AI 模型产生期望输出的方法论，属于 AI 工程化第一阶段。
+- [[红外观测|红外观测（Infrared Astronomy）]] — 红外观测是探测天体在红外波段辐射的天文方法，能穿透星际尘埃观测恒星形成区和高红移早期宇宙。
+- [[代表颜色技术|代表颜色技术（Representative Color）]] — 深空影像处理中将不可见红外波段映射为可见光颜色的方法，通过赋予不同滤光片特定RGB通道生成色彩准确且科学可解释的伪色图像。
+- [[宇宙黎明|宇宙黎明（Cosmic Dawn）]] — 宇宙大爆炸后约1-4亿年第一批恒星和星系开始形成的时期，红外观测是其核心研究手段。
+- [[多信使天文学|多信使天文学（Multi-messenger Astronomy）]] — 利用电磁辐射、引力波、中微子和宇宙射线等多种信使同时观测宇宙现象的方法。
 
 ## Comparisons
 - [[Hermes-Agent-vs-OpenCloud]] — 从稳定性、更新策略、社区认可度等维度对比两个AI Agent框架。
+- [[哈勃空间望远镜-vs-詹姆斯韦伯空间望远镜|哈勃空间望远镜 vs 詹姆斯·韦伯空间望远镜]] — 从主镜口径、工作波段、工作温度、科学核心等维度对比哈勃与韦伯两台标志性空间望远镜。
 
 ## Overview
 
