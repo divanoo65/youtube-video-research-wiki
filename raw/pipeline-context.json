@@ -1,20 +1,13 @@
 {
-  "stage_c": {
-    "run_id": "gh-25655920729-1",
-    "task_id": "T-3DlXq9nsQOE",
-    "start_time": "2026-05-11T07:17:19Z",
-    "end_time": "2026-05-11T07:22:03Z",
-    "duration_s": 284,
-    "api_calls": 1,
-    "reports_processed": 1,
-    "pages_created": 0,
-    "prompt_tokens": 8155,
-    "completion_tokens": 13492,
-    "sources": 0,
-    "entities": 0,
-    "concepts": 0,
-    "comparisons": 0,
-    "overviews": 0,
-    "status": "success"
+  "pipeline_id": "pipe-0f28d48",
+  "stage_b": {
+    "run_id": "gh-25657942848-1",
+    "start_time": "2026-05-11T08:03:32Z",
+    "end_time": "2026-05-11T08:05:12Z",
+    "duration_s": 100,
+    "api_calls": "unknown",
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 1
   }
 }
