@@ -1,0 +1,24 @@
+{
+  "run_id": "gh-20260511181100",
+  "wiki_path": "/home/zhouhuijuan1987/wiki/youtube-video-research-wiki",
+  "repo": "https://github.com/divanoo65/youtube-video-research-wiki",
+  "stage_b": {
+    "run_id": "gh-20260511181100",
+    "start_time": "20260511T180910Z",
+    "end_time": "20260511T181100Z",
+    "duration_s": 110,
+    "videos_processed": 2,
+    "urls": [
+      "https://www.youtube.com/watch?v=3DlXq9nsQOE&t=353s",
+      "https://www.youtube.com/watch?v=4kgkYAGPuD0"
+    ],
+    "files_generated": [
+      "raw/notebooklm-analysis/Harness-Engineering-技术深度简报-从提示词到系统驾驭的范式转.md",
+      "raw/notebooklm-mindmaps/Harness-Engineering-技术深度简报-从提示词到系统驾驭的范式转.json",
+      "raw/notebooklm-mindmaps/Harness-Engineering-技术深度简报-从提示词到系统驾驭的范式转.md",
+      "raw/notebooklm-analysis/Anthropic-Managed-Agents-架构深度解析与多Agent协作.md",
+      "raw/notebooklm-mindmaps/Anthropic-Managed-Agents-架构深度解析与多Agent协作.json",
+      "raw/notebooklm-mindmaps/Anthropic-Managed-Agents-架构深度解析与多Agent协作.md"
+    ]
+  }
+}
