@@ -11,6 +11,8 @@
 - [[Anthropic|"Anthropic (实体页面)"]]
 
 ## Concepts
+- [[Coordinator模式|Coordinator模式]]
+- [[Token效率|Token效率]]
 - [[脑手解耦|脑手解耦]]
 - [[Managed-Agents|"Managed Agents"]]
 - [[Session-Store|Session Store]]
@@ -18,6 +20,8 @@
 - [[Coordinator编排者|Coordinator编排者]]
 
 ## Comparisons
+- [[宠物vs牛马|宠物 vs 牛马：持久绑定与无状态销毁对比]]
+- [[Agent-vs-Session|Agent vs Session]]
 - [[宠物式Agent-vs-牛马式Agent|宠物式Agent vs 牛马式Agent]]
 
 ## Overview

@@ -1,0 +1,16 @@
+{
+  "stage_c": {
+    "run_id": "verify-fix2",
+    "task_id": "T-fix2",
+    "start_time": "2026-05-11T16:54:36Z",
+    "end_time": "2026-05-11T16:55:18Z",
+    "duration_s": 41,
+    "api_calls": 11,
+    "pages_created": 10,
+    "sources": 1,
+    "entities": 0,
+    "concepts": 5,
+    "comparisons": 2,
+    "overviews": 0
+  }
+}
