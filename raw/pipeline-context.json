@@ -9,5 +9,37 @@
     "videos_processed": 1,
     "reports_generated": 1,
     "mindmaps_generated": 1
+  },
+  "stage_c": {
+    "run_id": "gh-25718149693-1",
+    "start_time": "2026-05-12T06:45:12Z",
+    "end_time": "2026-05-12T06:49:25Z",
+    "duration_s": 253,
+    "llm_calls": 9,
+    "prompt_tokens": 8123,
+    "completion_tokens": 13381,
+    "total_tokens": 21504,
+    "pages_created": 7,
+    "sources": 2,
+    "entities": 12,
+    "concepts": 12,
+    "comparisons": 0,
+    "overviews": 0,
+    "queries": 0,
+    "new_sources": [
+      "Hermes-Agent-高级玩法与优化指南-云端模型-美化界面与-Token"
+    ],
+    "new_entities": [
+      "Hermes Agent (赫美斯)",
+      "Ollama",
+      "Open WebUI",
+      "Gemini 1.5 Flash"
+    ],
+    "new_concepts": [
+      "主副模型策略",
+      "对话压缩"
+    ],
+    "status": "success",
+    "note": "v3 script executed; Phase 3 quality fixes applied (dates, sources, wikilinks)"
   }
 }
