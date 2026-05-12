@@ -1,0 +1,147 @@
+{
+  "name": "Hermes Agent",
+  "children": [
+    {
+      "name": "核心定位与价值",
+      "children": [
+        {
+          "name": "第一个自带“魂”的Agent"
+        },
+        {
+          "name": "自主学习与自进化"
+        },
+        {
+          "name": "无需手动维护规则"
+        },
+        {
+          "name": "主动构建规则与记忆系统"
+        }
+      ]
+    },
+    {
+      "name": "五层架构系统",
+      "children": [
+        {
+          "name": "指令层 (Skills系统)",
+          "children": [
+            {
+              "name": "独立Markdown文档"
+            },
+            {
+              "name": "自动提取经验"
+            }
+          ]
+        },
+        {
+          "name": "约束层 (Permissions+Sandbox)",
+          "children": [
+            {
+              "name": "沙盒运行环境"
+            },
+            {
+              "name": "细粒度工具授权"
+            }
+          ]
+        },
+        {
+          "name": "反馈层 (自改进学习循环)",
+          "children": [
+            {
+              "name": "正反馈回路"
+            },
+            {
+              "name": "用户纠正自动转化规则"
+            }
+          ]
+        },
+        {
+          "name": "记忆层 (三层记忆架构)",
+          "children": [
+            {
+              "name": "会话记忆 (FTS全文索引)"
+            },
+            {
+              "name": "持久记忆 (偏好与习惯)"
+            },
+            {
+              "name": "技能记忆 (方法论与规范)"
+            }
+          ]
+        },
+        {
+          "name": "指派层 (子Agent调度)",
+          "children": [
+            {
+              "name": "Delegation委派机制"
+            },
+            {
+              "name": "多Agent协同工作"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "学习循环机制",
+      "children": [
+        {
+          "name": "策划记忆 (主动决定存储)"
+        },
+        {
+          "name": "自主创建Skill"
+        },
+        {
+          "name": "Skill自感性改进"
+        },
+        {
+          "name": "FTS文件召回"
+        },
+        {
+          "name": "用户建模 (理解偏好)"
+        }
+      ]
+    },
+    {
+      "name": "工具与生态",
+      "children": [
+        {
+          "name": "40多种内置工具"
+        },
+        {
+          "name": "支持MCP协议 (接入外部服务)"
+        },
+        {
+          "name": "支持IM集成 (微信、Telegram等)"
+        },
+        {
+          "name": "本地化存储 (隐私保护)"
+        }
+      ]
+    },
+    {
+      "name": "工具对比",
+      "children": [
+        {
+          "name": "vs Claude Code: 交互式编码 vs 自主运行进化"
+        },
+        {
+          "name": "vs OpenCloud: 手动配置喂养 vs 自动学习长大的龙虾"
+        }
+      ]
+    },
+    {
+      "name": "部署与实操",
+      "children": [
+        {
+          "name": "环境: Windows (需WSL), macOS, Linux"
+        },
+        {
+          "name": "流程: 安装Git -> 运行安装脚本 -> 配置模型API -> 终端运行"
+        },
+        {
+          "name": "交互: 纯终端命令行操作"
+        }
+      ]
+    }
+  ]
+}
