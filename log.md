@@ -11,3 +11,15 @@
 - **llm_calls**: 9 | **tokens**: 21504 | **duration**: 253s
 - **status**: success
 - **log**: logs/webhook-runs/gh-25718149693-1.md
+
+## Run: gh-25719875030-1
+- **stage**: stage_c_v3
+- **topic**: Hermes Agent：自进化 AI 智能体技术简报 (video_id=S5ENjCDfzyA)
+- **date**: 2026-05-12
+- **sources**: raw/notebooklm-analysis/Hermes-Agent-自进化-AI-智能体技术简报.md
+- **new pages**: 15 (1 source + 1 entity + 13 concepts)
+- **entities**: OpenAI
+- **concepts**: 自进化, 闭环学习循环, 策划记忆, 自主创建技能, 自改进, FTS检索召回, 用户建模, 三层记忆架构, 会话记忆, 持久记忆, 技能记忆, 三重约束机制, MCP
+- **llm_calls**: 17 | **tokens**: 39500 | **duration**: 585s
+- **status**: success
+- **log**: logs/webhook-runs/gh-25719875030-1.md

@@ -9,5 +9,43 @@
     "videos_processed": 1,
     "reports_generated": 1,
     "mindmaps_generated": 1
+  },
+  "stage_c": {
+    "run_id": "gh-25719875030-1",
+    "start_time": "2026-05-12T07:28:38Z",
+    "end_time": "2026-05-12T07:38:24Z",
+    "duration_s": 585,
+    "llm_calls": 17,
+    "prompt_tokens": 14887,
+    "completion_tokens": 24613,
+    "pages_created": 41,
+    "sources": 3,
+    "entities": 13,
+    "concepts": 25,
+    "comparisons": 0,
+    "overviews": 0,
+    "queries": 0,
+    "new_sources": [
+      "Hermes-Agent-自进化-AI-智能体技术简报"
+    ],
+    "new_entities": [
+      "OpenAI"
+    ],
+    "new_concepts": [
+      "自进化 (self-evolution)",
+      "闭环学习循环 (learning-cycle)",
+      "策划记忆 (memory-curation)",
+      "自主创建技能 (skill-creation)",
+      "自改进 (self-improvement)",
+      "FTS检索召回 (fts-retrieval)",
+      "用户建模 (user-modeling)",
+      "三层记忆架构 (three-layer-memory-architecture)",
+      "会话记忆 (session-memory)",
+      "持久记忆 (persistent-memory)",
+      "技能记忆 (skill-memory)",
+      "三重约束机制 (triple-constraint-mechanism)",
+      "MCP (Model Context Protocol)"
+    ],
+    "status": "success"
   }
 }
