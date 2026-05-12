@@ -1,6 +1,7 @@
 ---
 title: "Hermes Agent 高级玩法与优化指南：云端模型、美化界面与省 Token 配置方案"
 type: source
+video_url: "https://youtu.be/rBUfD_wvbhw"
 tags:
   - Hermes Agent
   - AI Agent
