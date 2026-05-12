@@ -9,5 +9,22 @@
     "videos_processed": 1,
     "reports_generated": 1,
     "mindmaps_generated": 1
+  },
+  "stage_c": {
+    "run_id": "gh-25708795440-1",
+    "start_time": "2026-05-12T02:05:55Z",
+    "end_time": "2026-05-12T02:14:04Z",
+    "duration_s": 488,
+    "llm_calls": 22,
+    "total_tokens": 46861,
+    "pages_created": 19,
+    "sources": 1,
+    "entities": 8,
+    "concepts": 10,
+    "comparisons": 0,
+    "overviews": 0,
+    "queries": 0,
+    "status": "success",
+    "note": "v3 build with dead link fixes; RAG concept removed (forbidden by TheSchema §4.3)"
   }
 }
