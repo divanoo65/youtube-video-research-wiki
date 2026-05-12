@@ -8,6 +8,7 @@ created: 2026-05-12
 updated: 2026-05-12
 layer: L1
 run_id: gh-25718149693-1
+video_url: https://www.youtube.com/watch?v=rBUfD_wvbhw&t=133s
 ---
 
 ## 执行摘要
