@@ -1,6 +1,7 @@
 ---
 title: Claude Code 上下文工程架构深度解析简报
 type: source
+video_url: https://youtu.be/-zHzzTLZgwI
 tags:
   - Claude Code
   - 上下文工程
