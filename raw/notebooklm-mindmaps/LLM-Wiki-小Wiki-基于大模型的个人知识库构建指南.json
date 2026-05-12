@@ -1,0 +1,477 @@
+{
+  "nodes": [
+    {
+      "id": "8fc03217",
+      "type": "text",
+      "text": "{'name': 'Karpathy LLM-Wiki 知识库', 'children': [{'name': '背景与理念', 'children': [{'name': '创始人: Andrej Karpathy'}, {'name': '核心思想: 将LLM作为编译器'}, {'name': '解决问题: 信息孤岛、数字垃圾、知识无法产生复利'}, {'name': '特点: 结构化、网络化、指数级进化'}]}, {'name': '系统三层架构', 'children': [{'name': '第一层: 原始数据 (Raw Data)', 'children': [{'name': '策略: 只读不写'}, {'name': '来源: 论文、网页收藏、PDF、笔记'}]}, {'name': '第二层: Wiki 产物 (Wiki Artifacts)', 'children': [{'name': '生成方式: LLM自动生成'}, {'name': '包含内容: 实体、概念、双向链接网络'}]}, {'name': '第三层: 规则架构 (Schema)', 'children': [{'name': '功能: 解读内容的说明书'}, {'name': '作用: 将通用LLM调教为专业知识管理员'}]}]}, {'name': '工作流程', 'children': [{'name': '摄入: 自动解析新素材并更新相关页面'}, {'name': '查询与回填: 高质量回答自动存回Wiki实现增值'}, {'name': '健康检查: 定期自动清理矛盾和过时内容'}]}, {'name': '对比传统 RAG', 'children': [{'name': '传统 RAG (解释器模式)', 'children': [{'name': '特点: 静态切片、瞬时记忆'}, {'name': '弱点: 缺乏逻辑关联、不可控黑盒'}]}, {'name': 'LLM-Wiki (编译器模式)', 'children': [{'name': '特点: 长期沉淀、复利增长'}, {'name': '优势: 预建双向连接、白盒可追溯'}]}]}, {'name': '实施工具与目录', 'children': [{'name': '软件: Obsidian, Claude Code, Python, VS Code'}, {'name': '核心目录', 'children': [{'name': 'raw/: 原始输入'}, {'name': 'wiki/: LLM处理后的知识库'}, {'name': 'output/: 查询结果与报告'}, {'name': 'scripts/: 维护脚本'}]}]}]}",
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b5e88811",
+      "type": "text",
+      "text": "{'name': '背景与理念', 'children': [{'name': '创始人: Andrej Karpathy'}, {'name': '核心思想: 将LLM作为编译器'}, {'name': '解决问题: 信息孤岛、数字垃圾、知识无法产生复利'}, {'name': '特点: 结构化、网络化、指数级进化'}]}",
+      "x": 250,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "ba4dabef",
+      "type": "text",
+      "text": "{'name': '创始人: Andrej Karpathy'}",
+      "x": 500,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "586fdb1c",
+      "type": "text",
+      "text": "{'name': '核心思想: 将LLM作为编译器'}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "28aa602b",
+      "type": "text",
+      "text": "{'name': '解决问题: 信息孤岛、数字垃圾、知识无法产生复利'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "fb2dace5",
+      "type": "text",
+      "text": "{'name': '特点: 结构化、网络化、指数级进化'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "02d62d33",
+      "type": "text",
+      "text": "{'name': '系统三层架构', 'children': [{'name': '第一层: 原始数据 (Raw Data)', 'children': [{'name': '策略: 只读不写'}, {'name': '来源: 论文、网页收藏、PDF、笔记'}]}, {'name': '第二层: Wiki 产物 (Wiki Artifacts)', 'children': [{'name': '生成方式: LLM自动生成'}, {'name': '包含内容: 实体、概念、双向链接网络'}]}, {'name': '第三层: 规则架构 (Schema)', 'children': [{'name': '功能: 解读内容的说明书'}, {'name': '作用: 将通用LLM调教为专业知识管理员'}]}]}",
+      "x": 250,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "01da6bfe",
+      "type": "text",
+      "text": "{'name': '第一层: 原始数据 (Raw Data)', 'children': [{'name': '策略: 只读不写'}, {'name': '来源: 论文、网页收藏、PDF、笔记'}]}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "65e8d32f",
+      "type": "text",
+      "text": "{'name': '策略: 只读不写'}",
+      "x": 750,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "88819720",
+      "type": "text",
+      "text": "{'name': '来源: 论文、网页收藏、PDF、笔记'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "8bce946b",
+      "type": "text",
+      "text": "{'name': '第二层: Wiki 产物 (Wiki Artifacts)', 'children': [{'name': '生成方式: LLM自动生成'}, {'name': '包含内容: 实体、概念、双向链接网络'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "66b23025",
+      "type": "text",
+      "text": "{'name': '生成方式: LLM自动生成'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "52336246",
+      "type": "text",
+      "text": "{'name': '包含内容: 实体、概念、双向链接网络'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "89486ea6",
+      "type": "text",
+      "text": "{'name': '第三层: 规则架构 (Schema)', 'children': [{'name': '功能: 解读内容的说明书'}, {'name': '作用: 将通用LLM调教为专业知识管理员'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c0b36fcd",
+      "type": "text",
+      "text": "{'name': '功能: 解读内容的说明书'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "2b31e43f",
+      "type": "text",
+      "text": "{'name': '作用: 将通用LLM调教为专业知识管理员'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "ad1e75f6",
+      "type": "text",
+      "text": "{'name': '工作流程', 'children': [{'name': '摄入: 自动解析新素材并更新相关页面'}, {'name': '查询与回填: 高质量回答自动存回Wiki实现增值'}, {'name': '健康检查: 定期自动清理矛盾和过时内容'}]}",
+      "x": 250,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "23328644",
+      "type": "text",
+      "text": "{'name': '摄入: 自动解析新素材并更新相关页面'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "983eb4f9",
+      "type": "text",
+      "text": "{'name': '查询与回填: 高质量回答自动存回Wiki实现增值'}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "7163488c",
+      "type": "text",
+      "text": "{'name': '健康检查: 定期自动清理矛盾和过时内容'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "2d318e15",
+      "type": "text",
+      "text": "{'name': '对比传统 RAG', 'children': [{'name': '传统 RAG (解释器模式)', 'children': [{'name': '特点: 静态切片、瞬时记忆'}, {'name': '弱点: 缺乏逻辑关联、不可控黑盒'}]}, {'name': 'LLM-Wiki (编译器模式)', 'children': [{'name': '特点: 长期沉淀、复利增长'}, {'name': '优势: 预建双向连接、白盒可追溯'}]}]}",
+      "x": 250,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "bd9f29aa",
+      "type": "text",
+      "text": "{'name': '传统 RAG (解释器模式)', 'children': [{'name': '特点: 静态切片、瞬时记忆'}, {'name': '弱点: 缺乏逻辑关联、不可控黑盒'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "de961b3f",
+      "type": "text",
+      "text": "{'name': '特点: 静态切片、瞬时记忆'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "86d0a7fe",
+      "type": "text",
+      "text": "{'name': '弱点: 缺乏逻辑关联、不可控黑盒'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "9ee297a0",
+      "type": "text",
+      "text": "{'name': 'LLM-Wiki (编译器模式)', 'children': [{'name': '特点: 长期沉淀、复利增长'}, {'name': '优势: 预建双向连接、白盒可追溯'}]}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "4f55d01b",
+      "type": "text",
+      "text": "{'name': '特点: 长期沉淀、复利增长'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "19f3deee",
+      "type": "text",
+      "text": "{'name': '优势: 预建双向连接、白盒可追溯'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "fd84ec79",
+      "type": "text",
+      "text": "{'name': '实施工具与目录', 'children': [{'name': '软件: Obsidian, Claude Code, Python, VS Code'}, {'name': '核心目录', 'children': [{'name': 'raw/: 原始输入'}, {'name': 'wiki/: LLM处理后的知识库'}, {'name': 'output/: 查询结果与报告'}, {'name': 'scripts/: 维护脚本'}]}]}",
+      "x": 250,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "71a39643",
+      "type": "text",
+      "text": "{'name': '软件: Obsidian, Claude Code, Python, VS Code'}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "6647ee61",
+      "type": "text",
+      "text": "{'name': '核心目录', 'children': [{'name': 'raw/: 原始输入'}, {'name': 'wiki/: LLM处理后的知识库'}, {'name': 'output/: 查询结果与报告'}, {'name': 'scripts/: 维护脚本'}]}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b2e89e3f",
+      "type": "text",
+      "text": "{'name': 'raw/: 原始输入'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b78469fe",
+      "type": "text",
+      "text": "{'name': 'wiki/: LLM处理后的知识库'}",
+      "x": 750,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "417d1080",
+      "type": "text",
+      "text": "{'name': 'output/: 查询结果与报告'}",
+      "x": 750,
+      "y": 560,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "34c710f4",
+      "type": "text",
+      "text": "{'name': 'scripts/: 维护脚本'}",
+      "x": 750,
+      "y": 640,
+      "width": 200,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "f0c12324",
+      "fromNode": "8fc03217",
+      "toNode": "b5e88811"
+    },
+    {
+      "id": "81c57587",
+      "fromNode": "b5e88811",
+      "toNode": "ba4dabef"
+    },
+    {
+      "id": "5ed23691",
+      "fromNode": "b5e88811",
+      "toNode": "586fdb1c"
+    },
+    {
+      "id": "bae7c86a",
+      "fromNode": "b5e88811",
+      "toNode": "28aa602b"
+    },
+    {
+      "id": "367d595b",
+      "fromNode": "b5e88811",
+      "toNode": "fb2dace5"
+    },
+    {
+      "id": "75a57621",
+      "fromNode": "8fc03217",
+      "toNode": "02d62d33"
+    },
+    {
+      "id": "7f080498",
+      "fromNode": "02d62d33",
+      "toNode": "01da6bfe"
+    },
+    {
+      "id": "61ccfa5d",
+      "fromNode": "01da6bfe",
+      "toNode": "65e8d32f"
+    },
+    {
+      "id": "5b18df42",
+      "fromNode": "01da6bfe",
+      "toNode": "88819720"
+    },
+    {
+      "id": "e2553ff8",
+      "fromNode": "02d62d33",
+      "toNode": "8bce946b"
+    },
+    {
+      "id": "7f7b3450",
+      "fromNode": "8bce946b",
+      "toNode": "66b23025"
+    },
+    {
+      "id": "a8cecb30",
+      "fromNode": "8bce946b",
+      "toNode": "52336246"
+    },
+    {
+      "id": "c05c7b53",
+      "fromNode": "02d62d33",
+      "toNode": "89486ea6"
+    },
+    {
+      "id": "13d4c72b",
+      "fromNode": "89486ea6",
+      "toNode": "c0b36fcd"
+    },
+    {
+      "id": "a7039692",
+      "fromNode": "89486ea6",
+      "toNode": "2b31e43f"
+    },
+    {
+      "id": "00e42e7a",
+      "fromNode": "8fc03217",
+      "toNode": "ad1e75f6"
+    },
+    {
+      "id": "d08e3d45",
+      "fromNode": "ad1e75f6",
+      "toNode": "23328644"
+    },
+    {
+      "id": "e5438967",
+      "fromNode": "ad1e75f6",
+      "toNode": "983eb4f9"
+    },
+    {
+      "id": "96e3f93d",
+      "fromNode": "ad1e75f6",
+      "toNode": "7163488c"
+    },
+    {
+      "id": "61beed01",
+      "fromNode": "8fc03217",
+      "toNode": "2d318e15"
+    },
+    {
+      "id": "5acdb805",
+      "fromNode": "2d318e15",
+      "toNode": "bd9f29aa"
+    },
+    {
+      "id": "0cd24b22",
+      "fromNode": "bd9f29aa",
+      "toNode": "de961b3f"
+    },
+    {
+      "id": "11289940",
+      "fromNode": "bd9f29aa",
+      "toNode": "86d0a7fe"
+    },
+    {
+      "id": "02bd06ed",
+      "fromNode": "2d318e15",
+      "toNode": "9ee297a0"
+    },
+    {
+      "id": "d01dd4b8",
+      "fromNode": "9ee297a0",
+      "toNode": "4f55d01b"
+    },
+    {
+      "id": "cca5b79c",
+      "fromNode": "9ee297a0",
+      "toNode": "19f3deee"
+    },
+    {
+      "id": "61c51e7d",
+      "fromNode": "8fc03217",
+      "toNode": "fd84ec79"
+    },
+    {
+      "id": "2e3ad609",
+      "fromNode": "fd84ec79",
+      "toNode": "71a39643"
+    },
+    {
+      "id": "56b9087f",
+      "fromNode": "fd84ec79",
+      "toNode": "6647ee61"
+    },
+    {
+      "id": "db907548",
+      "fromNode": "6647ee61",
+      "toNode": "b2e89e3f"
+    },
+    {
+      "id": "26abe88a",
+      "fromNode": "6647ee61",
+      "toNode": "b78469fe"
+    },
+    {
+      "id": "40e3dae4",
+      "fromNode": "6647ee61",
+      "toNode": "417d1080"
+    },
+    {
+      "id": "def7ecfc",
+      "fromNode": "6647ee61",
+      "toNode": "34c710f4"
+    }
+  ]
+}
