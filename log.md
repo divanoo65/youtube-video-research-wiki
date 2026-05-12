@@ -23,3 +23,15 @@
 - **llm_calls**: 17 | **tokens**: 39500 | **duration**: 585s
 - **status**: success
 - **log**: logs/webhook-runs/gh-25719875030-1.md
+
+## Run: gh-25738344167-1
+- **stage**: stage_c_v3
+- **topic**: 企业AI落地新纪元：OpenAI与Anthropic的战略转型简报
+- **date**: 2026-05-12
+- **sources**: raw/notebooklm-analysis/企业-AI-落地新纪元-OpenAI-与-Anthropic-的战略转型简报.md
+- **new pages**: 22 (1 source + 14 entities + 7 concepts)
+- **entities**: accenture, anthropic, bcg, blackstone, claude, deployment-company, frontier-alliances, frontier, gemini, goldman-sachs, gpt, mckinsey, openai, tpg
+- **concepts**: 信任的重新定义, 决策结构, 权限框架, 标准作业程序, 棕地项目, 落地竞赛, 责任问题
+- **llm_calls**: 22 | **duration**: 630s
+- **status**: success
+- **log**: logs/webhook-runs/gh-25738344167-1.md
