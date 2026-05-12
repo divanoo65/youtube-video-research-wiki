@@ -1,0 +1,547 @@
+{
+  "nodes": [
+    {
+      "id": "e6833b4d",
+      "type": "text",
+      "text": "{'name': 'Hermes Agent 高级玩法', 'children': [{'name': '核心优势', 'children': [{'name': '稳定性碾压 OpenCloud'}, {'name': '更新无崩溃/Bug'}, {'name': '官方中文名: 赫美斯'}]}, {'name': 'Ollama 云端免费模型', 'children': [{'name': '内置部署', 'children': [{'name': '下载安装 Ollama'}, {'name': '一键命令运行'}]}, {'name': '云端使用', 'children': [{'name': '选择模型 (如 Minimax)'}, {'name': '登录账号连接设备'}, {'name': '不占用本地资源'}]}]}, {'name': 'Open WebUI 美化界面', 'children': [{'name': '核心功能', 'children': [{'name': '保存绘画记录/历史'}, {'name': '完美解析 Markdown'}, {'name': '支持代码块运行'}, {'name': '语音输出与流式显示'}]}, {'name': '配置步骤', 'children': [{'name': '执行官方安装命令'}, {'name': '开启 Agent API 服务'}, {'name': '设置 API 访问密码'}, {'name': '添加本地接口连接'}]}, {'name': '多端交互', 'children': [{'name': '电脑端完美交互'}, {'name': '手机端 IP 访问'}, {'name': '内网穿透远程访问'}]}]}, {'name': '省 Token 配置方案', 'children': [{'name': '主副模型机制', 'children': [{'name': '主模型: 处理复杂任务'}, {'name': '副模型: 处理简单/辅助任务'}]}, {'name': '具体配置项', 'children': [{'name': '任务分类: 批准、压缩、MCP、视觉等'}, {'name': '推荐副模型: Gemini 1.5 Flash'}]}, {'name': '操作方法', 'children': [{'name': '修改配置文件'}, {'name': '指定不同任务的 API Key/ID'}, {'name': '重启 Gateway 生效'}]}]}]}",
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "0b583d79",
+      "type": "text",
+      "text": "{'name': '核心优势', 'children': [{'name': '稳定性碾压 OpenCloud'}, {'name': '更新无崩溃/Bug'}, {'name': '官方中文名: 赫美斯'}]}",
+      "x": 250,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "eaa4a417",
+      "type": "text",
+      "text": "{'name': '稳定性碾压 OpenCloud'}",
+      "x": 500,
+      "y": 0,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "9b989fe0",
+      "type": "text",
+      "text": "{'name': '更新无崩溃/Bug'}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e5c270d2",
+      "type": "text",
+      "text": "{'name': '官方中文名: 赫美斯'}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "5c708549",
+      "type": "text",
+      "text": "{'name': 'Ollama 云端免费模型', 'children': [{'name': '内置部署', 'children': [{'name': '下载安装 Ollama'}, {'name': '一键命令运行'}]}, {'name': '云端使用', 'children': [{'name': '选择模型 (如 Minimax)'}, {'name': '登录账号连接设备'}, {'name': '不占用本地资源'}]}]}",
+      "x": 250,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "ca85e260",
+      "type": "text",
+      "text": "{'name': '内置部署', 'children': [{'name': '下载安装 Ollama'}, {'name': '一键命令运行'}]}",
+      "x": 500,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "35d711a3",
+      "type": "text",
+      "text": "{'name': '下载安装 Ollama'}",
+      "x": 750,
+      "y": 80,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "63145593",
+      "type": "text",
+      "text": "{'name': '一键命令运行'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "4605327c",
+      "type": "text",
+      "text": "{'name': '云端使用', 'children': [{'name': '选择模型 (如 Minimax)'}, {'name': '登录账号连接设备'}, {'name': '不占用本地资源'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "bb3621f3",
+      "type": "text",
+      "text": "{'name': '选择模型 (如 Minimax)'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "8a386b56",
+      "type": "text",
+      "text": "{'name': '登录账号连接设备'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "ead0d46d",
+      "type": "text",
+      "text": "{'name': '不占用本地资源'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f5720389",
+      "type": "text",
+      "text": "{'name': 'Open WebUI 美化界面', 'children': [{'name': '核心功能', 'children': [{'name': '保存绘画记录/历史'}, {'name': '完美解析 Markdown'}, {'name': '支持代码块运行'}, {'name': '语音输出与流式显示'}]}, {'name': '配置步骤', 'children': [{'name': '执行官方安装命令'}, {'name': '开启 Agent API 服务'}, {'name': '设置 API 访问密码'}, {'name': '添加本地接口连接'}]}, {'name': '多端交互', 'children': [{'name': '电脑端完美交互'}, {'name': '手机端 IP 访问'}, {'name': '内网穿透远程访问'}]}]}",
+      "x": 250,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "55367d69",
+      "type": "text",
+      "text": "{'name': '核心功能', 'children': [{'name': '保存绘画记录/历史'}, {'name': '完美解析 Markdown'}, {'name': '支持代码块运行'}, {'name': '语音输出与流式显示'}]}",
+      "x": 500,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "7aae369c",
+      "type": "text",
+      "text": "{'name': '保存绘画记录/历史'}",
+      "x": 750,
+      "y": 160,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e305db8d",
+      "type": "text",
+      "text": "{'name': '完美解析 Markdown'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "0a688b5a",
+      "type": "text",
+      "text": "{'name': '支持代码块运行'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f9e37ea0",
+      "type": "text",
+      "text": "{'name': '语音输出与流式显示'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "c376dd23",
+      "type": "text",
+      "text": "{'name': '配置步骤', 'children': [{'name': '执行官方安装命令'}, {'name': '开启 Agent API 服务'}, {'name': '设置 API 访问密码'}, {'name': '添加本地接口连接'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "0ded8829",
+      "type": "text",
+      "text": "{'name': '执行官方安装命令'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "0280a9d1",
+      "type": "text",
+      "text": "{'name': '开启 Agent API 服务'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "6f806c59",
+      "type": "text",
+      "text": "{'name': '设置 API 访问密码'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "de8fb5ff",
+      "type": "text",
+      "text": "{'name': '添加本地接口连接'}",
+      "x": 750,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "03fb64d2",
+      "type": "text",
+      "text": "{'name': '多端交互', 'children': [{'name': '电脑端完美交互'}, {'name': '手机端 IP 访问'}, {'name': '内网穿透远程访问'}]}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "26f420f7",
+      "type": "text",
+      "text": "{'name': '电脑端完美交互'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "0e0de835",
+      "type": "text",
+      "text": "{'name': '手机端 IP 访问'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f1457118",
+      "type": "text",
+      "text": "{'name': '内网穿透远程访问'}",
+      "x": 750,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "49e7a133",
+      "type": "text",
+      "text": "{'name': '省 Token 配置方案', 'children': [{'name': '主副模型机制', 'children': [{'name': '主模型: 处理复杂任务'}, {'name': '副模型: 处理简单/辅助任务'}]}, {'name': '具体配置项', 'children': [{'name': '任务分类: 批准、压缩、MCP、视觉等'}, {'name': '推荐副模型: Gemini 1.5 Flash'}]}, {'name': '操作方法', 'children': [{'name': '修改配置文件'}, {'name': '指定不同任务的 API Key/ID'}, {'name': '重启 Gateway 生效'}]}]}",
+      "x": 250,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "f027ba57",
+      "type": "text",
+      "text": "{'name': '主副模型机制', 'children': [{'name': '主模型: 处理复杂任务'}, {'name': '副模型: 处理简单/辅助任务'}]}",
+      "x": 500,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "20281352",
+      "type": "text",
+      "text": "{'name': '主模型: 处理复杂任务'}",
+      "x": 750,
+      "y": 240,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "87ca28d9",
+      "type": "text",
+      "text": "{'name': '副模型: 处理简单/辅助任务'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "6ae861f2",
+      "type": "text",
+      "text": "{'name': '具体配置项', 'children': [{'name': '任务分类: 批准、压缩、MCP、视觉等'}, {'name': '推荐副模型: Gemini 1.5 Flash'}]}",
+      "x": 500,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "38989e82",
+      "type": "text",
+      "text": "{'name': '任务分类: 批准、压缩、MCP、视觉等'}",
+      "x": 750,
+      "y": 320,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "6fee209c",
+      "type": "text",
+      "text": "{'name': '推荐副模型: Gemini 1.5 Flash'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "8386a9a2",
+      "type": "text",
+      "text": "{'name': '操作方法', 'children': [{'name': '修改配置文件'}, {'name': '指定不同任务的 API Key/ID'}, {'name': '重启 Gateway 生效'}]}",
+      "x": 500,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "b80cfddb",
+      "type": "text",
+      "text": "{'name': '修改配置文件'}",
+      "x": 750,
+      "y": 400,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "e7a7ae0f",
+      "type": "text",
+      "text": "{'name': '指定不同任务的 API Key/ID'}",
+      "x": 750,
+      "y": 480,
+      "width": 200,
+      "height": 60
+    },
+    {
+      "id": "be518423",
+      "type": "text",
+      "text": "{'name': '重启 Gateway 生效'}",
+      "x": 750,
+      "y": 560,
+      "width": 200,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "58666b19",
+      "fromNode": "e6833b4d",
+      "toNode": "0b583d79"
+    },
+    {
+      "id": "d6e3d541",
+      "fromNode": "0b583d79",
+      "toNode": "eaa4a417"
+    },
+    {
+      "id": "afe02c54",
+      "fromNode": "0b583d79",
+      "toNode": "9b989fe0"
+    },
+    {
+      "id": "9b099399",
+      "fromNode": "0b583d79",
+      "toNode": "e5c270d2"
+    },
+    {
+      "id": "853be34d",
+      "fromNode": "e6833b4d",
+      "toNode": "5c708549"
+    },
+    {
+      "id": "537e9a2d",
+      "fromNode": "5c708549",
+      "toNode": "ca85e260"
+    },
+    {
+      "id": "397c0d53",
+      "fromNode": "ca85e260",
+      "toNode": "35d711a3"
+    },
+    {
+      "id": "7d76ab0a",
+      "fromNode": "ca85e260",
+      "toNode": "63145593"
+    },
+    {
+      "id": "9d046758",
+      "fromNode": "5c708549",
+      "toNode": "4605327c"
+    },
+    {
+      "id": "661f3f6b",
+      "fromNode": "4605327c",
+      "toNode": "bb3621f3"
+    },
+    {
+      "id": "a7021396",
+      "fromNode": "4605327c",
+      "toNode": "8a386b56"
+    },
+    {
+      "id": "8bd3a64b",
+      "fromNode": "4605327c",
+      "toNode": "ead0d46d"
+    },
+    {
+      "id": "8987fe8b",
+      "fromNode": "e6833b4d",
+      "toNode": "f5720389"
+    },
+    {
+      "id": "630fbd2b",
+      "fromNode": "f5720389",
+      "toNode": "55367d69"
+    },
+    {
+      "id": "8b19668e",
+      "fromNode": "55367d69",
+      "toNode": "7aae369c"
+    },
+    {
+      "id": "371d0136",
+      "fromNode": "55367d69",
+      "toNode": "e305db8d"
+    },
+    {
+      "id": "ab3877c6",
+      "fromNode": "55367d69",
+      "toNode": "0a688b5a"
+    },
+    {
+      "id": "caa9c0a4",
+      "fromNode": "55367d69",
+      "toNode": "f9e37ea0"
+    },
+    {
+      "id": "bf0af3ce",
+      "fromNode": "f5720389",
+      "toNode": "c376dd23"
+    },
+    {
+      "id": "dcc0cadf",
+      "fromNode": "c376dd23",
+      "toNode": "0ded8829"
+    },
+    {
+      "id": "52baaabb",
+      "fromNode": "c376dd23",
+      "toNode": "0280a9d1"
+    },
+    {
+      "id": "efc8f4c6",
+      "fromNode": "c376dd23",
+      "toNode": "6f806c59"
+    },
+    {
+      "id": "206440e3",
+      "fromNode": "c376dd23",
+      "toNode": "de8fb5ff"
+    },
+    {
+      "id": "082a5410",
+      "fromNode": "f5720389",
+      "toNode": "03fb64d2"
+    },
+    {
+      "id": "cafafea5",
+      "fromNode": "03fb64d2",
+      "toNode": "26f420f7"
+    },
+    {
+      "id": "d2b24f8b",
+      "fromNode": "03fb64d2",
+      "toNode": "0e0de835"
+    },
+    {
+      "id": "1b25abb5",
+      "fromNode": "03fb64d2",
+      "toNode": "f1457118"
+    },
+    {
+      "id": "f7a08880",
+      "fromNode": "e6833b4d",
+      "toNode": "49e7a133"
+    },
+    {
+      "id": "8a00ec6d",
+      "fromNode": "49e7a133",
+      "toNode": "f027ba57"
+    },
+    {
+      "id": "eb55cb73",
+      "fromNode": "f027ba57",
+      "toNode": "20281352"
+    },
+    {
+      "id": "2cb57063",
+      "fromNode": "f027ba57",
+      "toNode": "87ca28d9"
+    },
+    {
+      "id": "e980429d",
+      "fromNode": "49e7a133",
+      "toNode": "6ae861f2"
+    },
+    {
+      "id": "46b15b48",
+      "fromNode": "6ae861f2",
+      "toNode": "38989e82"
+    },
+    {
+      "id": "9d20d825",
+      "fromNode": "6ae861f2",
+      "toNode": "6fee209c"
+    },
+    {
+      "id": "064985b6",
+      "fromNode": "49e7a133",
+      "toNode": "8386a9a2"
+    },
+    {
+      "id": "d70e6b38",
+      "fromNode": "8386a9a2",
+      "toNode": "b80cfddb"
+    },
+    {
+      "id": "409f4700",
+      "fromNode": "8386a9a2",
+      "toNode": "e7a7ae0f"
+    },
+    {
+      "id": "fd429d16",
+      "fromNode": "8386a9a2",
+      "toNode": "be518423"
+    }
+  ]
+}
