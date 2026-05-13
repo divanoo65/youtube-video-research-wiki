@@ -1,0 +1,130 @@
+{
+  "name": "Hermes Agent AI 中控台 (HOD)",
+  "children": [
+    {
+      "name": "Dashboard (仪表盘)",
+      "children": [
+        {
+          "name": "Overview: 模型与后端状态"
+        },
+        {
+          "name": "AI 成绩单: 对话/消息/工具调用数"
+        },
+        {
+          "name": "Token 统计: 处理量计算"
+        },
+        {
+          "name": "记忆/Profile 容量条"
+        },
+        {
+          "name": "Growth Delta: 每日成长快照"
+        },
+        {
+          "name": "活动分析: 工具排行榜与折线图"
+        }
+      ]
+    },
+    {
+      "name": "Memory & Sessions (记忆与会话)",
+      "children": [
+        {
+          "name": "工作记忆编辑与删除"
+        },
+        {
+          "name": "User Profile 自动分类"
+        },
+        {
+          "name": "Session 记录与全文搜索"
+        },
+        {
+          "name": "跨平台标识: Telegram/CLI"
+        }
+      ]
+    },
+    {
+      "name": "Cost & Health (成本与健康)",
+      "children": [
+        {
+          "name": "费用统计: 累计与单日美元支出"
+        },
+        {
+          "name": "模型拆解: 各模型费用占比"
+        },
+        {
+          "name": "API Key 状态检查"
+        },
+        {
+          "name": "服务运行状态监控"
+        }
+      ]
+    },
+    {
+      "name": "Pattern & Skills (模式与技能)",
+      "children": [
+        {
+          "name": "Task Clusters: 任务自动分类"
+        },
+        {
+          "name": "24小时活动图"
+        },
+        {
+          "name": "重复 Prompt 闪电提醒 (自动化建议)"
+        },
+        {
+          "name": "Skill 管理: 自定义与内置技能"
+        }
+      ]
+    },
+    {
+      "name": "Automation & Projects (自动化与项目)",
+      "children": [
+        {
+          "name": "Cron Tab: 后台排程任务管理"
+        },
+        {
+          "name": "Project Step: 源码状态与 Git 监控"
+        },
+        {
+          "name": "Agent 监控: 识别电脑运行中的所有 AI"
+        },
+        {
+          "name": "Correction Tab: AI 错题本与纠正记录"
+        }
+      ]
+    },
+    {
+      "name": "Web Chat & UI (交互与界面)",
+      "children": [
+        {
+          "name": "浏览器直接交互"
+        },
+        {
+          "name": "调用真实 Terminal 工具"
+        },
+        {
+          "name": "Theme Picker: 四种主题切换"
+        },
+        {
+          "name": "快捷键: Ctrl+K 搜索/T键切主题"
+        }
+      ]
+    },
+    {
+      "name": "安装步骤",
+      "children": [
+        {
+          "name": "前提: 已安装 Hermes Agent 本体"
+        },
+        {
+          "name": "指令: git clone 项目"
+        },
+        {
+          "name": "指令: ./install 安装环境"
+        },
+        {
+          "name": "启动: 访问生成的链接"
+        }
+      ]
+    }
+  ]
+}
