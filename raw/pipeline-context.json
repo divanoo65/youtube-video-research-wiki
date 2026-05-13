@@ -9,5 +9,20 @@
     "videos_processed": 1,
     "reports_generated": 1,
     "mindmaps_generated": 1
+  },
+  "stage_c": {
+    "run_id": "watchdog-retry-1778671180",
+    "start_time": "2026-05-13T11:19:40Z",
+    "end_time": "2026-05-13T11:22:01Z",
+    "duration_s": 141,
+    "llm_calls": 6,
+    "pages_created": 22,
+    "sources": 1,
+    "entities": 9,
+    "concepts": 12,
+    "comparisons": 0,
+    "prompt_tokens": 5996,
+    "completion_tokens": 12412,
+    "status": "success"
   }
 }
