@@ -1,0 +1,122 @@
+{
+  "name": "Hermes Agent 高级玩法",
+  "children": [
+    {
+      "name": "核心优势",
+      "children": [
+        {
+          "name": "稳定性高"
+        },
+        {
+          "name": "官方中文名：赫美斯"
+        },
+        {
+          "name": "GitHub Star 增速快"
+        }
+      ]
+    },
+    {
+      "name": "Ollama 云端免费模型",
+      "children": [
+        {
+          "name": "内置集成"
+        },
+        {
+          "name": "一键傻瓜式配置"
+        },
+        {
+          "name": "不占用本地资源"
+        },
+        {
+          "name": "支持 Minimax-M2.7 等云端模型"
+        }
+      ]
+    },
+    {
+      "name": "Open WebUI 交互美化",
+      "children": [
+        {
+          "name": "原生支持"
+        },
+        {
+          "name": "功能特点",
+          "children": [
+            {
+              "name": "会话历史保存"
+            },
+            {
+              "name": "Markdown 格式解析"
+            },
+            {
+              "name": "代码块运行"
+            },
+            {
+              "name": "流式输出"
+            },
+            {
+              "name": "手机端适配"
+            }
+          ]
+        },
+        {
+          "name": "配置步骤",
+          "children": [
+            {
+              "name": "启用 API 服务"
+            },
+            {
+              "name": "设置 API 密码"
+            },
+            {
+              "name": "添加本地连接 (8642)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "省 Token 配置技巧",
+      "children": [
+        {
+          "name": "主副模型架构",
+          "children": [
+            {
+              "name": "主模型：完成复杂任务"
+            },
+            {
+              "name": "副模型：处理辅助/简单任务"
+            }
+          ]
+        },
+        {
+          "name": "辅助任务细分",
+          "children": [
+            {
+              "name": "批准与压缩"
+            },
+            {
+              "name": "MCP 调用"
+            },
+            {
+              "name": "Session 搜索"
+            },
+            {
+              "name": "网页与视觉相关"
+            }
+          ]
+        },
+        {
+          "name": "推荐配置",
+          "children": [
+            {
+              "name": "副模型推荐：Gemini 1.5 Flash"
+            },
+            {
+              "name": "多 API Key 管理"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
