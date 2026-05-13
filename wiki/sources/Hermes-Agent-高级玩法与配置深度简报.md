@@ -1,6 +1,7 @@
 ---
 title: Hermes Agent 高级玩法与配置深度简报
 type: source
+video_url: https://www.youtube.com/watch?v=rBUfD_wvbhw
 tags: [Hermes Agent, Ollama, Open WebUI, 主副模型架构, Token节约策略, 辅助任务, 云端模型集成, Gemini 1.5 Flash]
 summary: 本报告总结了 Hermes Agent（赫美斯）的高级配置与玩法，涵盖通过 Ollama 使用免费云端模型、集成 Open WebUI 优化交互体验，以及通过主副模型分离实现 Token 消耗最优化，为追求高效、稳定且低成本 AI 智能体体验的用户提供完整指南。
 sources: raw/notebooklm-analysis/Hermes-Agent-高级玩法与配置深度简报.md
