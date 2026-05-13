@@ -9,5 +9,20 @@
     "videos_processed": 1,
     "reports_generated": 1,
     "mindmaps_generated": 1
+  },
+  "stage_c": {
+    "run_id": "gh-25797355957-1",
+    "start_time": "2026-05-13T11:52:39Z",
+    "end_time": "2026-05-13T12:00:45Z",
+    "duration_s": 486,
+    "llm_calls": 26,
+    "pages_created": 24,
+    "sources": 1,
+    "entities": 8,
+    "concepts": 15,
+    "comparisons": 0,
+    "prompt_tokens": 22915,
+    "completion_tokens": 40006,
+    "status": "success"
   }
 }

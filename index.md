@@ -1,39 +1,35 @@
 # YouTube Video Research Wiki
 Last updated: 2026-05-13
-Total pages: 26
+Total pages: 24
 
 ## Sources
-- [[Harness实践-Agent全自动知识讲解视频生成技术简报]]
+- [[Anthropic-Managed-Agents-架构与多Agent协作演进]]
 
 ## Entities
-- [[cc-switch]]
-- [[tmux]]
-- [[harness]]
-- [[web-video-presentation-skill]]
+- [[claude]]
+- [[tencent]]
+- [[palantir]]
 - [[claude-code]]
-- [[minimax-cli]]
+- [[cube-sandbox]]
 - [[codex]]
-- [[cursor]]
-- [[minimax]]
+- [[anthropic]]
+- [[openai]]
 
 ## Concepts
-- [[评估与观测]]
-- [[驾驭工程]]
-- [[状态与记忆]]
-- [[执行与编排]]
-- [[物理隔离]]
-- [[Agent技能]]
-- [[代理团队]]
-- [[约束与恢复]]
-- [[全自动模式]]
-- [[自检修复]]
-- [[网页编码]]
-- [[人工审核点]]
-- [[Agent团队]]
-- [[最小切片修复]]
-- [[音频模式]]
-- [[工具系统]]
-- [[上下文管理]]
-- [[子代理]]
+- [[牛马模式]]
+- [[宠物模式]]
+- [[会话与代理分离]]
+- [[记忆存储独立管理]]
+- [[协调者模式]]
+- [[四层解耦结构]]
+- [[毫秒级沙盒]]
+- [[任务拆分与派发]]
+- [[动态容器化]]
+- [[无状态化]]
+- [[模型组合优化]]
+- [[脑手解耦]]
+- [[蜂群协作]]
+- [[前线部署工程师]]
+- [[托管代理架构]]
 
 ## Mindmaps
