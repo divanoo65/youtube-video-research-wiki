@@ -1,16 +1,16 @@
 # YouTube Video Research Wiki
 Last updated: 2026-05-13
-Total pages: 19
+Total pages: 7
 
 ## Sources
-- [[agent-skills-深度解析-prototype-与-handoff-技能包]]
+- [[agent-skills-深度解析-prototype-与-handoff-技能包及其在-ai-开发中的应用]]
 - [[智能体编排与蜂群架构分析报告-anthropic-managed-agents-的解耦范式]]
 - [[智能体编排与蜂群架构分析报告]]
-- [[agent-skills-深度解析]]
 - [[hugging-face-永久免费云服务器与-ai-项目部署指南简报]]
 
 ## Entities
 - [[claude]]
+- [[github]]
 - [[redis]]
 - [[matt-pocock]]
 - [[prototype-skill]]
@@ -51,12 +51,14 @@ Total pages: 19
 - [[选择而非生成]]
 - [[状态回滚与复制]]
 - [[静态网页托管]]
+- [[技能包]]
 - [[交接技能]]
 - [[四层解耦架构]]
 - [[快速原型化]]
 - [[无状态化]]
 - [[会话上下文持久化]]
 - [[交付协议]]
+- [[意图导向]]
 - [[脑手解耦]]
 - [[容器化部署]]
 - [[混合模型策略]]
