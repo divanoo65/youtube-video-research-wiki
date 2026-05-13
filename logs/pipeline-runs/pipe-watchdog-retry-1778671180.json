@@ -16,13 +16,8 @@
     "end_time": "2026-05-13T11:22:01Z",
     "duration_s": 141,
     "llm_calls": 6,
-    "pages_created": 22,
-    "sources": 1,
-    "entities": 9,
-    "concepts": 12,
-    "comparisons": 0,
-    "prompt_tokens": 5996,
-    "completion_tokens": 12412,
+    "total_tokens": 18408,
+    "pages_created": 4,
     "status": "success"
   }
 }
