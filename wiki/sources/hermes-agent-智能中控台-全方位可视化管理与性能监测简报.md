@@ -7,6 +7,7 @@ sources: raw/notebooklm-analysis/Hermes-Agent-智能中控台-全方位可视化
 created: 2026-05-13
 updated: 2026-05-13
 layer: L1
+video_url: https://youtu.be/78YQMfgPlwA
 run_id: gh-25824413215-1
 ---
 
