@@ -1,1 +1,13 @@
-{}
+{
+  "pipeline_id": "0hM2SkHZ2UU-20260513T101233",
+  "stage_b": {
+    "run_id": "watchdog-retry-1778670797",
+    "start_time": "2026-05-13T11:13:25Z",
+    "end_time": "2026-05-13T11:14:57Z",
+    "duration_s": 92,
+    "api_calls": "unknown",
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 1
+  }
+}
