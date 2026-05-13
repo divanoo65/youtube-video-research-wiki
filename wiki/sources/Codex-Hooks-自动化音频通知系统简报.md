@@ -16,6 +16,7 @@ created: 2026-05-13
 updated: 2026-05-14
 layer: L1
 run_id: gh-25785667171-1
+video_url: https://youtu.be/-jcUGGN2LFA
 ---
 
 # Codex Hooks 自动化音频通知系统简报

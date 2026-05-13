@@ -7,6 +7,9 @@
     "duration_s": 76,
     "api_calls": "unknown",
     "videos_processed": 1,
+    "processed_urls": [
+      "https://youtu.be/-jcUGGN2LFA?si=6DjpQsTUcRzoT82G"
+    ],
     "reports_generated": 1,
     "mindmaps_generated": 1
   },
