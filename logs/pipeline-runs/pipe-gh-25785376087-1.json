@@ -8,7 +8,10 @@
     "api_calls": "unknown",
     "videos_processed": 1,
     "reports_generated": 1,
-    "mindmaps_generated": 1
+    "mindmaps_generated": 1,
+    "processed_urls": [
+      "https://youtu.be/4kgkYAGPuD0?si=ASZKshiLU3fCatbU"
+    ]
   },
   "stage_c": {
     "run_id": "gh-25785024175-1",

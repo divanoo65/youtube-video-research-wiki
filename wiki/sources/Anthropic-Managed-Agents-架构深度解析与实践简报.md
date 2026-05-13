@@ -1,6 +1,7 @@
 ---
 title: "Anthropic Managed Agents 架构深度解析与实践简报"
 type: source
+video_url: https://youtu.be/4kgkYAGPuD0
 tags:
   - AI Agents
   - 架构设计
