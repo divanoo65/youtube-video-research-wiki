@@ -1,0 +1,119 @@
+{
+  "name": "多Agent协作架构（蜂群架构）",
+  "children": [
+    {
+      "name": "核心理念：解耦",
+      "children": [
+        {
+          "name": "解耦脑（模型）与手（沙盒）"
+        },
+        {
+          "name": "宠物 vs 牛马理论"
+        },
+        {
+          "name": "无状态执行环境"
+        },
+        {
+          "name": "解决模型进化与代码过时矛盾"
+        }
+      ]
+    },
+    {
+      "name": "四层解耦结构",
+      "children": [
+        {
+          "name": "Agent (静态模板)",
+          "children": [
+            {
+              "name": "定义工具与模型"
+            },
+            {
+              "name": "系统提示词"
+            }
+          ]
+        },
+        {
+          "name": "Session (动态实例)",
+          "children": [
+            {
+              "name": "对话线程"
+            },
+            {
+              "name": "独立运行环境"
+            }
+          ]
+        },
+        {
+          "name": "Coordinator (协调编排)",
+          "children": [
+            {
+              "name": "任务拆分与派发"
+            },
+            {
+              "name": "管理Agent花名册"
+            }
+          ]
+        },
+        {
+          "name": "Session Store (云端记忆)",
+          "children": [
+            {
+              "name": "上下文解耦"
+            },
+            {
+              "name": "状态回滚与克隆"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "技术实现与工具",
+      "children": [
+        {
+          "name": "Anthropic Managed Agents"
+        },
+        {
+          "name": "Docker/Worker节点"
+        },
+        {
+          "name": "毫秒级启动沙盒 (Cube Sandbox)"
+        },
+        {
+          "name": "任务图 (Task Graph) 编排"
+        }
+      ]
+    },
+    {
+      "name": "应用优势",
+      "children": [
+        {
+          "name": "Token Efficiency (Token效率)"
+        },
+        {
+          "name": "大规模并发协作"
+        },
+        {
+          "name": "异构模型组合"
+        },
+        {
+          "name": "自动化复杂流程 (编码/Review/测试)"
+        }
+      ]
+    },
+    {
+      "name": "行业趋势",
+      "children": [
+        {
+          "name": "Agent操作系统化"
+        },
+        {
+          "name": "从个人工具转向企业基础设施"
+        },
+        {
+          "name": "计算资源计价变革"
+        }
+      ]
+    }
+  ]
+}
