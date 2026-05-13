@@ -1,0 +1,92 @@
+{
+  "name": "多Agent协作架构（蜂群架构）",
+  "children": [
+    {
+      "name": "核心理念：解耦",
+      "children": [
+        {
+          "name": "脑手分离：规划决策与执行环境解耦"
+        },
+        {
+          "name": "宠物 vs 牛马：从精心养护到随时销毁重建"
+        },
+        {
+          "name": "四层解耦结构",
+          "children": [
+            {
+              "name": "Agent：静态模板（模型、工具、提示词）"
+            },
+            {
+              "name": "Session：动态运行实体（对话、线程、挂载文件）"
+            },
+            {
+              "name": "Memory Store：挂载式记忆"
+            },
+            {
+              "name": "Session Store：云端无状态上下文"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Anthropic Managed Agents 架构",
+      "children": [
+        {
+          "name": "Coordinator：协调者/指挥官（拆解与派活）"
+        },
+        {
+          "name": "Worker：执行节点（Docker容器/沙盒）"
+        },
+        {
+          "name": "关键模块",
+          "children": [
+            {
+              "name": "Agents & Environments"
+            },
+            {
+              "name": "Sessions & Skills"
+            },
+            {
+              "name": "Memory Stores & Vaults"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "技术实现与优势",
+      "children": [
+        {
+          "name": "状态管理：支持Fork、回滚与克隆"
+        },
+        {
+          "name": "并发协作：多Agent同步/异步任务图"
+        },
+        {
+          "name": "Token Efficiency：大小模型组合优化"
+        },
+        {
+          "name": "基础设施：毫秒级启动沙盒（如Cube Sandbox）"
+        }
+      ]
+    },
+    {
+      "name": "未来趋势",
+      "children": [
+        {
+          "name": "Agent 操作系统化"
+        },
+        {
+          "name": "企业级基础设施化"
+        },
+        {
+          "name": "计算资源分配变革"
+        },
+        {
+          "name": "FDE：新型职业兴起"
+        }
+      ]
+    }
+  ]
+}
