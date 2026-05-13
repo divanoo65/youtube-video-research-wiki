@@ -1,25 +1,37 @@
 # YouTube Video Research Wiki
 Last updated: 2026-05-13
-Total pages: 2
+Total pages: 19
 
 ## Sources
+- [[agent-skills-深度解析-prototype-与-handoff-技能包]]
+- [[智能体编排与蜂群架构分析报告-anthropic-managed-agents-的解耦范式]]
 - [[智能体编排与蜂群架构分析报告]]
 - [[agent-skills-深度解析]]
+- [[hugging-face-永久免费云服务器与-ai-项目部署指南简报]]
 
 ## Entities
 - [[claude]]
 - [[redis]]
 - [[matt-pocock]]
+- [[prototype-skill]]
 - [[openai-frontier]]
+- [[hugging-face]]
 - [[palantir-aip]]
 - [[agent-skills]]
+- [[handoff-skill]]
+- [[grok]]
+- [[hugging-face-spaces]]
+- [[claude-3-5-sonnet]]
+- [[chatgpt]]
 - [[mcp]]
 - [[managed-agents]]
 - [[docker]]
 - [[claude-code]]
 - [[codex]]
+- [[jupyterlab]]
 - [[tencent-cube-sandbox]]
 - [[anthropic]]
+- [[gradio]]
 
 ## Concepts
 - [[会话交接]]
@@ -28,21 +40,28 @@ Total pages: 2
 - [[基础设施思维]]
 - [[宠物模式]]
 - [[记忆存储]]
+- [[分布式部署]]
 - [[沙盒环境]]
 - [[跨会话协作]]
 - [[前瞻部署工程师]]
 - [[任务图]]
+- [[云端算力资源]]
 - [[多方案变体]]
 - [[蜂群架构]]
 - [[选择而非生成]]
 - [[状态回滚与复制]]
+- [[静态网页托管]]
 - [[交接技能]]
 - [[四层解耦架构]]
+- [[快速原型化]]
 - [[无状态化]]
+- [[会话上下文持久化]]
 - [[交付协议]]
 - [[脑手解耦]]
+- [[容器化部署]]
 - [[混合模型策略]]
 - [[协调者]]
+- [[远程终端管理]]
 - [[令牌效率]]
 - [[原型技能]]
 
