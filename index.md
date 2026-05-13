@@ -1,26 +1,25 @@
 # YouTube Video Research Wiki
 Last updated: 2026-05-13
-Total pages: 15
+Total pages: 14
 
 ## Sources
-- [[anthropic-managed-agents-架构深度解析与复刻实践简报]]
+- [[multi-agent-协作架构深度解析-anthropic-managed-agents-与蜂群模式实践简报]]
 
 ## Entities
-- [[claude]]
-- [[redis]]
-- [[palantir-aip]]
-- [[mcp]]
+- [[palantir]]
+- [[managed-agents]]
 - [[docker]]
 - [[cube-sandbox]]
 - [[anthropic]]
+- [[openai]]
 
 ## Concepts
-- [[任务图]]
-- [[前置部署工程师]]
-- [[编排者]]
+- [[forward-deployed-engineer]]
+- [[宠物与牛马模型]]
+- [[蜂群模式]]
+- [[多agent协作]]
 - [[无状态化]]
-- [[智能体操作系统]]
 - [[脑手解耦]]
-- [[托管智能体]]
+- [[协调者]]
 
 ## Mindmaps
