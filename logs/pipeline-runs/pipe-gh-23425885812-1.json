@@ -6,6 +6,9 @@
     "end_time": "2026-05-13T20:04:24Z",
     "duration_s": 62,
     "api_calls": "unknown",
+    "processed_urls": [
+      "https://www.youtube.com/watch?v=4kgkYAGPuD0"
+    ],
     "videos_processed": 1,
     "reports_generated": 1,
     "mindmaps_generated": 1

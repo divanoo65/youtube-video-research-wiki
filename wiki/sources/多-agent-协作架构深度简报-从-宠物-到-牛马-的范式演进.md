@@ -10,6 +10,7 @@ tags:
 summary: 本报告深度解析了从“宠物”模式向“牛马”模式演进的 Agent 协作架构，强调了通过解耦“大脑”与“双手”实现无状态化、可扩展的 Agent 集群，并提出了基于 Session Store 的记忆管理与任务图编排策略。
 sources:
   - raw/notebooklm-analysis/多-Agent-协作架构深度简报-从-宠物-到-牛马-的范式演进.md
+video_url: https://youtu.be/4kgkYAGPuD0
 created: 2026-05-13
 updated: 2026-05-13
 layer: L1
