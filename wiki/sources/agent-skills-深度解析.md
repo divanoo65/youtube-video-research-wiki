@@ -1,6 +1,7 @@
 ---
 title: "Agent Skills 深度解析：Prototype 与 Handoff 技能包"
 type: source
+video_url: https://youtu.be/k25upneqwF0
 tags:
   - AI开发
   - Agent Skills
