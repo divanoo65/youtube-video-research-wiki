@@ -1,5 +1,6 @@
 ---
 title: Hugging Face 永久免费云服务器与 AI 项目部署指南简报
+video_url: https://youtu.be/Ahfe-BW1cFc
 type: source
 tags:
   - AI
