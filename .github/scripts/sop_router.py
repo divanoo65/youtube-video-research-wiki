@@ -155,7 +155,7 @@ def main():
     stage_name = matched_stage["stage"]
 
     # Guard: Stage D (tg-notify) should only trigger when Stage C just completed.
-    # Check that the triggering commit came from Stage C (message contains "wiki graph").
+    # Check that the triggering commit came from Stage C (message contains "stage-c done").
     # This prevents reset commits or manual index.md edits from spuriously triggering Stage D.
     if stage_name == "tg-notify":
         import subprocess as _sp
