@@ -1,35 +1,36 @@
 # YouTube Video Research Wiki
 Last updated: 2026-05-13
-Total pages: 24
+Total pages: 25
 
 ## Sources
-- [[Anthropic-Managed-Agents-架构与多Agent协作演进]]
+- [[智能体编排与蜂群架构分析报告]]
 
 ## Entities
 - [[claude]]
-- [[tencent]]
-- [[palantir]]
-- [[claude-code]]
-- [[cube-sandbox]]
-- [[codex]]
+- [[redis]]
+- [[openai-frontier]]
+- [[palantir-aip]]
+- [[mcp]]
+- [[managed-agents]]
+- [[docker]]
+- [[tencent-cube-sandbox]]
 - [[anthropic]]
-- [[openai]]
 
 ## Concepts
 - [[牛马模式]]
+- [[基础设施思维]]
 - [[宠物模式]]
-- [[会话与代理分离]]
-- [[记忆存储独立管理]]
-- [[协调者模式]]
-- [[四层解耦结构]]
-- [[毫秒级沙盒]]
-- [[任务拆分与派发]]
-- [[动态容器化]]
+- [[记忆存储]]
+- [[沙盒环境]]
+- [[前瞻部署工程师]]
+- [[任务图]]
+- [[蜂群架构]]
+- [[状态回滚与复制]]
+- [[四层解耦架构]]
 - [[无状态化]]
-- [[模型组合优化]]
 - [[脑手解耦]]
-- [[蜂群协作]]
-- [[前线部署工程师]]
-- [[托管代理架构]]
+- [[混合模型策略]]
+- [[协调者]]
+- [[令牌效率]]
 
 ## Mindmaps
