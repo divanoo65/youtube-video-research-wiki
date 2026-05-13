@@ -1,0 +1,31 @@
+{
+  "stage_c": {
+    "run_id": "benchmark-gemini-1",
+    "start_time": "2026-05-13T19:05:27Z",
+    "end_time": "2026-05-13T19:06:19Z",
+    "duration_s": 52,
+    "llm_calls": 11,
+    "pages_created": 59,
+    "sources": 4,
+    "entities": 23,
+    "concepts": 32,
+    "comparisons": 0,
+    "prompt_tokens": 17501,
+    "completion_tokens": 11079,
+    "status": "success"
+  },
+  "stage_b": {
+    "run_id": "gh-25818983820-1",
+    "start_time": "2026-05-13T12:57:17Z",
+    "end_time": "2026-05-13T18:39:48Z",
+    "duration_s": 234,
+    "api_calls": "unknown",
+    "videos_processed": 3,
+    "processed_urls": [
+      "https://youtu.be/4kgkYAGPuD0",
+      "https://youtube.com/watch?v=k25upneqwF0",
+      "https://youtu.be/Ahfe-BW1cFc"
+    ],
+    "status": "success"
+  }
+}
