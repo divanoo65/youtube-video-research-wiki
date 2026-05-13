@@ -163,7 +163,7 @@ def main():
             ["git", "log", "-1", "--format=%s", after_sha],
             capture_output=True, text=True
         ).stdout.strip()
-        if "wiki graph" not in commit_msg.lower():
+        if "stage-c done" not in commit_msg.lower():
             print(f"[sop_router] Stage D guard: commit '{commit_msg}' is not from Stage C, skipping.")
             return
         print(f"[sop_router] Stage D guard: confirmed Stage C commit, proceeding.")
@@ -176,6 +176,16 @@ def main():
     notify = sop.get("notify", {}).get("telegram", {})
     notebooklm_params = stage_params.get("notebooklm", {})
 
+    # 从 commit message 提取 pipeline_id（格式：[pipe:VIDEO_ID-TIMESTAMP]）
+    import subprocess as _sp2, re as _re
+    commit_msg_full = _sp2.run(
+        ["git", "log", "-1", "--format=%s", after_sha],
+        capture_output=True, text=True
+    ).stdout.strip()
+    pipe_match = _re.search(r'\[pipe:([^\]]+)\]', commit_msg_full)
+    pipeline_id = pipe_match.group(1) if pipe_match else ""
+    print(f"[sop_router] pipeline_id: {pipeline_id or '(none)'}")
+
     effective_repo = repo or sop.get("repo", "")
     payload = {
         "stage": stage_name,
@@ -185,6 +195,7 @@ def main():
         "sha": after_sha,
         "before": before_sha,
         "run_id": run_id,
+        "pipeline_id": pipeline_id,
         "tg_token_env": notify.get("token_env", "TELEGRAM_BOT_TOKEN"),
         "tg_chat_id": notify.get("chat_id", ""),
         # NotebookLM params
