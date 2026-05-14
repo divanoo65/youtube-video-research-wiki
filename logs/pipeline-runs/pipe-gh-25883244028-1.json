@@ -7,8 +7,10 @@
     "duration_s": 105,
     "api_calls": "unknown",
     "videos_processed": 1,
+    "processed_urls": ["https://youtu.be/Lh1KrgjnZcE"],
     "reports_generated": 1,
-    "mindmaps_generated": 1
+    "mindmaps_generated": 1,
+    "status": "success"
   },
   "stage_c": {
     "run_id": "gh-25883244028-1",

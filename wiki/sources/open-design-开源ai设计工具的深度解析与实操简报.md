@@ -12,6 +12,7 @@ sources:
   - "raw/notebooklm-analysis/Open-Design-开源-AI-设计工具的深度解析与实操简报.md"
 created: "2026-05-14T20:15:20Z"
 updated: "2026-05-14T20:15:20Z"
+video_url: "https://youtu.be/Lh1KrgjnZcE"
 layer: L1
 run_id: "gh-25883244028-1"
 ---
