@@ -1,0 +1,104 @@
+{
+  "name": "Hermes Agent AI 中控台 (Dashboard)",
+  "children": [
+    {
+      "name": "Dashboard (总览仪表盘)",
+      "children": [
+        {
+          "name": "Overview: 模型、后端与运行时间"
+        },
+        {
+          "name": "AI 成绩单: 对话数、消息数、工具调用、Token处理"
+        },
+        {
+          "name": "内存状态: state.db 数据库大小与用户画像占用"
+        },
+        {
+          "name": "成长曲线: 每日快照对比 (Growth Delta)"
+        },
+        {
+          "name": "活动分析: 工具排行、每日活动量折线图"
+        }
+      ]
+    },
+    {
+      "name": "Memory & Sessions (记忆与会话)",
+      "children": [
+        {
+          "name": "工作记忆: Agent 运行时的中间记忆"
+        },
+        {
+          "name": "用户画像: 存储用户相关信息"
+        },
+        {
+          "name": "管理功能: 直接编辑、删除或新增记忆条目"
+        },
+        {
+          "name": "会话记录: 完整对话历史、来源区分 (Telegram/CLI)"
+        },
+        {
+          "name": "全文检索: 搜索标题与内文关键字"
+        }
+      ]
+    },
+    {
+      "name": "Cost & System (成本与系统)",
+      "children": [
+        {
+          "name": "费用统计: 今日消费与累计美元总额"
+        },
+        {
+          "name": "模型明细: 按不同模型 (如 Opus) 拆分费用"
+        },
+        {
+          "name": "Health 状态: API Key 状态与服务运行监控"
+        }
+      ]
+    },
+    {
+      "name": "Skills & Automation (技能与自动化)",
+      "children": [
+        {
+          "name": "技能管理: 80个技能分类与自定义技能 (Custom)"
+        },
+        {
+          "name": "Cron 任务: 背景自动跑任务管理 (摘要、检查、备份)"
+        },
+        {
+          "name": "Pattern 分析: 任务聚类与高频 Prompt 自动识别"
+        },
+        {
+          "name": "Project Step: 自动侦测项目源码与 Git 状态"
+        }
+      ]
+    },
+    {
+      "name": "Advanced Features (高级功能)",
+      "children": [
+        {
+          "name": "Correction: 错题本 (记录并修正 AI 的错误)"
+        },
+        {
+          "name": "Wchat: 浏览器内直接与 Hermes 聊天"
+        },
+        {
+          "name": "快捷操作: T 键切换主题、Ctrl+K 快速搜索跳转"
+        }
+      ]
+    },
+    {
+      "name": "Installation (安装配置)",
+      "children": [
+        {
+          "name": "前提: 需先安装 Hermes Agent 本体"
+        },
+        {
+          "name": "步骤: Git Clone 项目 -> 运行 install 指令"
+        },
+        {
+          "name": "自动化: 自动构建虚拟环境、安装套件、前端 Build"
+        }
+      ]
+    }
+  ]
+}
