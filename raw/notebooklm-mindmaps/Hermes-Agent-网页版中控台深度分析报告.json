@@ -1,0 +1,147 @@
+{
+  "name": "Hermes Agent AI 中控台 (Dashboard)",
+  "children": [
+    {
+      "name": "Dashboard (总览)",
+      "children": [
+        {
+          "name": "模型与后端状态"
+        },
+        {
+          "name": "state.db 数据库大小"
+        },
+        {
+          "name": "AI 成绩单 (对话/消息/工具调用)"
+        },
+        {
+          "name": "Token 处理总量"
+        },
+        {
+          "name": "成长曲线 (每日快照对比)"
+        },
+        {
+          "name": "常用工具排行榜"
+        }
+      ]
+    },
+    {
+      "name": "Memory & Profile (记忆管理)",
+      "children": [
+        {
+          "name": "Agent 工作记忆"
+        },
+        {
+          "name": "User Profile 用户画像"
+        },
+        {
+          "name": "在线编辑与删除功能"
+        },
+        {
+          "name": "记忆自动分类"
+        }
+      ]
+    },
+    {
+      "name": "Session Steps (对话记录)",
+      "children": [
+        {
+          "name": "完整对话内容查看"
+        },
+        {
+          "name": "多平台标记 (Telegram/CLI)"
+        },
+        {
+          "name": "全文搜索功能"
+        },
+        {
+          "name": "排程任务详情"
+        }
+      ]
+    },
+    {
+      "name": "Cost (费用分析)",
+      "children": [
+        {
+          "name": "累计与今日费用"
+        },
+        {
+          "name": "按模型拆分明细"
+        },
+        {
+          "name": "Opus 等模型占比"
+        }
+      ]
+    },
+    {
+      "name": "Health & Pattern (状态与习惯)",
+      "children": [
+        {
+          "name": "API Key 状态检查"
+        },
+        {
+          "name": "服务运行状态 (Gateway)"
+        },
+        {
+          "name": "Task Clusters 任务分类"
+        },
+        {
+          "name": "24小时活动分布图"
+        },
+        {
+          "name": "重复 Prompt 自动化建议"
+        }
+      ]
+    },
+    {
+      "name": "Skill & Tasks (技能与任务)",
+      "children": [
+        {
+          "name": "Skills 列表与分类"
+        },
+        {
+          "name": "Custom 自定义技能"
+        },
+        {
+          "name": "Cron Tab 后台排程管理"
+        },
+        {
+          "name": "Project Steps 项目状态侦测"
+        }
+      ]
+    },
+    {
+      "name": "Other Features (其他功能)",
+      "children": [
+        {
+          "name": "Correction Tab 错题本"
+        },
+        {
+          "name": "Web Chat 浏览器交互"
+        },
+        {
+          "name": "快捷键 (T/Ctrl+K)"
+        },
+        {
+          "name": "多主题切换"
+        }
+      ]
+    },
+    {
+      "name": "安装与配置",
+      "children": [
+        {
+          "name": "前提：需安装 Hermes Agent 本体"
+        },
+        {
+          "name": "Git Clone 项目"
+        },
+        {
+          "name": "执行 install 指令"
+        },
+        {
+          "name": "自动构建虚拟环境与前端"
+        }
+      ]
+    }
+  ]
+}
