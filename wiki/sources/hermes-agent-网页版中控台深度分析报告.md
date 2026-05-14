@@ -1,4 +1,5 @@
 ---
+video_url: https://www.youtube.com/watch?v=78YQMfgPlwA
 title: Hermes Agent 网页版中控台深度分析报告
 type: source
 tags:
