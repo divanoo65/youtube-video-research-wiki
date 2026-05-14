@@ -1,6 +1,7 @@
 ---
 title: Hermes Agent 高级玩法与优化指南简报
 type: source
+video_url: https://youtu.be/rBUfD_wvbhw
 tags:
   - AI-Agent
   - Hermes-Agent
