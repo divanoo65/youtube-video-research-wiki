@@ -1,0 +1,13 @@
+{
+  "pipeline_id": "rBUfD_wvbhw-20260514T195806",
+  "stage_b": {
+    "run_id": "gh-25882354396-1",
+    "start_time": "2026-05-14T19:58:25Z",
+    "end_time": "2026-05-14T19:59:29Z",
+    "duration_s": 64,
+    "api_calls": "unknown",
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 1
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "name": "Hermes Agent 高级玩法",
+  "children": [
+    {
+      "name": "Ollama 结合使用",
+      "children": [
+        {
+          "name": "内置集成",
+          "children": [
+            {
+              "name": "傻瓜化配置"
+            },
+            {
+              "name": "一键运行命令"
+            }
+          ]
+        },
+        {
+          "name": "免费云端模型",
+          "children": [
+            {
+              "name": "不占用本地资源"
+            },
+            {
+              "name": "推荐模型 Minimax M2.7"
+            },
+            {
+              "name": "登录账号即可使用"
+            }
+          ]
+        },
+        {
+          "name": "本地开源模型",
+          "children": [
+            {
+              "name": "支持多种架构"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Open WebUI 美化与交互",
+      "children": [
+        {
+          "name": "核心优势",
+          "children": [
+            {
+              "name": "原生支持"
+            },
+            {
+              "name": "Markdown 格式解析"
+            },
+            {
+              "name": "会话历史保存"
+            },
+            {
+              "name": "搜索对话记录"
+            }
+          ]
+        },
+        {
+          "name": "功能特性",
+          "children": [
+            {
+              "name": "流式输出"
+            },
+            {
+              "name": "代码块运行 (Python)"
+            },
+            {
+              "name": "文件/截图/网页引用"
+            },
+            {
+              "name": "语音播放"
+            }
+          ]
+        },
+        {
+          "name": "部署步骤",
+          "children": [
+            {
+              "name": "官方仓库命令安装"
+            },
+            {
+              "name": "配置 API 服务与密码"
+            },
+            {
+              "name": "连接 8642 端口"
+            }
+          ]
+        },
+        {
+          "name": "多端访问",
+          "children": [
+            {
+              "name": "手机浏览器访问 IP:8080"
+            },
+            {
+              "name": "内网穿透方案"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Token 节省配置",
+      "children": [
+        {
+          "name": "模型分工原则",
+          "children": [
+            {
+              "name": "主模型：完成复杂任务"
+            },
+            {
+              "name": "副模型：完成简单辅助任务"
+            }
+          ]
+        },
+        {
+          "name": "辅助任务类型",
+          "children": [
+            {
+              "name": "批准与压缩"
+            },
+            {
+              "name": "记忆刷新"
+            },
+            {
+              "name": "MCP 调用"
+            },
+            {
+              "name": "网页搜索与视觉"
+            }
+          ]
+        },
+        {
+          "name": "推荐方案",
+          "children": [
+            {
+              "name": "副模型使用 Gemini 1.5 Flash"
+            },
+            {
+              "name": "大幅度降低费用"
+            }
+          ]
+        },
+        {
+          "name": "配置方式",
+          "children": [
+            {
+              "name": "修改配置文件"
+            },
+            {
+              "name": "使用 Codex 自动配置"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "稳定性与对比",
+      "children": [
+        {
+          "name": "对比 Opencloud",
+          "children": [
+            {
+              "name": "稳定性碾压"
+            },
+            {
+              "name": "更新后 Bug 极少"
+            }
+          ]
+        },
+        {
+          "name": "官方命名",
+          "children": [
+            {
+              "name": "中文名：赫美斯"
+            },
+            {
+              "name": "H 发音"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
