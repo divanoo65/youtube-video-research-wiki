@@ -1,11 +1,13 @@
 # YouTube Video Research Wiki
 Last updated: 2026-05-14
-Total pages: 8
+Total pages: 9
 
 ## Sources
 - [[hermes-agent-网页版中控台深度分析报告]]
 - [[hermes-agent-智能中控台-全方位可视化管理与性能监测简报]]
+- [[hermes-agent-高级玩法与优化指南简报]]
 - [[multi-agent-协作架构深度解析-anthropic-managed-agents-与蜂群模式实践简报]]
+- [[hermes-agent-智能中控台深度分析简报]]
 - [[多-agent-协作架构深度简报-从-宠物-到-牛马-的范式演进]]
 - [[hermes-agent-智能中控台-深度分析简报]]
 
@@ -13,6 +15,7 @@ Total pages: 8
 - [[claude]]
 - [[github]]
 - [[redis]]
+- [[ollama]]
 - [[aip]]
 - [[telegram]]
 - [[hermes-agent]]
@@ -22,9 +25,14 @@ Total pages: 8
 - [[cube-sandbox]]
 - [[mcp-server]]
 - [[codex]]
+- [[gemini-1-5-flash]]
 - [[state-db]]
+- [[openrouter]]
+- [[claude-opus]]
 - [[anthropic]]
 - [[cursor]]
+- [[minimax]]
+- [[open-webui]]
 - [[openai]]
 
 ## Concepts
@@ -36,9 +44,11 @@ Total pages: 8
 - [[多agent协作]]
 - [[任务图]]
 - [[agent-操作系统]]
+- [[自动化技能]]
 - [[错题本机制]]
 - [[用户画像]]
 - [[双域记忆管理]]
+- [[主副模型协作]]
 - [[闪电提示词]]
 - [[四层解耦架构]]
 - [[ai-可视化管理]]
