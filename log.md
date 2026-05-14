@@ -35,3 +35,15 @@
 - **llm_calls**: 22 | **duration**: 630s
 - **status**: success
 - **log**: logs/webhook-runs/gh-25738344167-1.md
+
+## Run: gh-25882435284-1
+- **stage**: stage_c_v3
+- **topic**: Hermes Agent 网页版中控台、智能中控台与高级玩法简报 (video_id=rBUfD_wvbhw)
+- **date**: 2026-05-14
+- **sources**: raw/notebooklm-analysis/Hermes-Agent-网页版中控台深度分析报告.md, raw/notebooklm-analysis/Hermes-Agent-高级玩法与优化指南简报.md, raw/notebooklm-analysis/Hermes-Agent-智能中控台深度分析简报.md
+- **new pages**: 10 (2 sources + 6 entities + 2 concepts)
+- **entities**: Claude Opus, Open WebUI, Gemini 1.5 Flash, Minimax, OpenRouter, Ollama
+- **concepts**: 主副模型协作, 自动化技能
+- **llm_calls**: 13 | **tokens**: 38423 | **duration**: 170s
+- **status**: success
+- **log**: logs/webhook-runs/gh-25882435284-1.md
