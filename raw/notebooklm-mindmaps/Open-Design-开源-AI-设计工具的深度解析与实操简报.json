@@ -1,0 +1,144 @@
+{
+  "name": "Open Design 开源设计工具",
+  "children": [
+    {
+      "name": "核心定位与优势",
+      "children": [
+        {
+          "name": "Claude Design 强力平替"
+        },
+        {
+          "name": "完全免费且开源"
+        },
+        {
+          "name": "本地部署，保护隐私"
+        },
+        {
+          "name": "无订阅限制与额度瓶颈"
+        }
+      ]
+    },
+    {
+      "name": "技术架构与特性",
+      "children": [
+        {
+          "name": "模型支持",
+          "children": [
+            {
+              "name": "Bring Your Own Key (BYOK)"
+            },
+            {
+              "name": "集成 OpenAI/Anthropic"
+            },
+            {
+              "name": "支持开源大模型 (Mini Max)"
+            }
+          ]
+        },
+        {
+          "name": "工具集成",
+          "children": [
+            {
+              "name": "自动检测 CLI 工具"
+            },
+            {
+              "name": "适配 MCP 服务器跨代理协作"
+            },
+            {
+              "name": "无缝对接 Codex/Cloud Code"
+            }
+          ]
+        },
+        {
+          "name": "资产库",
+          "children": [
+            {
+              "name": "32 种可组合技能"
+            },
+            {
+              "name": "72 套完整设计系统"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "主要功能",
+      "children": [
+        {
+          "name": "自然语言转 UI/原型设计"
+        },
+        {
+          "name": "本地文件系统读写"
+        },
+        {
+          "name": "多格式导出 (HTML/PDF/PPT)"
+        },
+        {
+          "name": "交互式区域修改 (注视功能)"
+        },
+        {
+          "name": "实时预览与源码查看"
+        }
+      ]
+    },
+    {
+      "name": "安装与使用流程",
+      "children": [
+        {
+          "name": "环境准备",
+          "children": [
+            {
+              "name": "Node.js 24+ 版本"
+            },
+            {
+              "name": "Windows 需启用 copack"
+            }
+          ]
+        },
+        {
+          "name": "部署步骤",
+          "children": [
+            {
+              "name": "Git 克隆仓库"
+            },
+            {
+              "name": "pnpm install 安装依赖"
+            },
+            {
+              "name": "启动本地链接"
+            }
+          ]
+        },
+        {
+          "name": "项目配置",
+          "children": [
+            {
+              "name": "选择运行模式"
+            },
+            {
+              "name": "配置推理力度与媒体提供商"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "实测表现",
+      "children": [
+        {
+          "name": "清爽灵敏的交互界面"
+        },
+        {
+          "name": "高保真视觉产出"
+        },
+        {
+          "name": "代码整洁无冗余"
+        },
+        {
+          "name": "支持复杂图文排版"
+        }
+      ]
+    }
+  ]
+}
