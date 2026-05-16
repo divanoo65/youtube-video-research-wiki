@@ -1,0 +1,28 @@
+{
+  "pipeline_id": "pipe-a6a03e6",
+  "stage_b": {
+    "run_id": "gh-25968850125-1",
+    "start_time": "2026-05-16T17:51:51Z",
+    "end_time": "2026-05-16T17:52:53Z",
+    "duration_s": 62,
+    "api_calls": "unknown",
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 1
+  },
+  "stage_c": {
+    "run_id": "gh-25968885803-1",
+    "start_time": "2026-05-16T17:55:11Z",
+    "end_time": "2026-05-16T18:00:06Z",
+    "duration_s": 294,
+    "llm_calls": 14,
+    "pages_created": 8,
+    "sources": 9,
+    "entities": 33,
+    "concepts": 38,
+    "comparisons": 0,
+    "prompt_tokens": 27440,
+    "completion_tokens": 27628,
+    "status": "success"
+  }
+}
