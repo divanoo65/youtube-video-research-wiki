@@ -13,6 +13,7 @@ created: 2026-05-16
 updated: 2026-05-16
 layer: L1
 run_id: gh-25968885803-1
+video_url: https://youtu.be/78YQMfgPlwA
 ---
 
 # Hermes Agent AI 控制台：透明化管理与深度分析简报
