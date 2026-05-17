@@ -1,0 +1,167 @@
+{
+  "name": "本地部署语音转文字大模型教程",
+  "children": [
+    {
+      "name": "项目优势",
+      "children": [
+        {
+          "name": "完全本地运行"
+        },
+        {
+          "name": "处理速度极快"
+        },
+        {
+          "name": "支持多国语言"
+        },
+        {
+          "name": "硬件门槛极低"
+        }
+      ]
+    },
+    {
+      "name": "硬件要求",
+      "children": [
+        {
+          "name": "显卡（NVIDIA GPU）",
+          "children": [
+            {
+              "name": "支持老旧/二手显卡"
+            },
+            {
+              "name": "4G显存即可（如GTX960）"
+            }
+          ]
+        },
+        {
+          "name": "CPU（无显卡也可运行但速度慢）"
+        }
+      ]
+    },
+    {
+      "name": "准备工作",
+      "children": [
+        {
+          "name": "Hugging Face账号",
+          "children": [
+            {
+              "name": "搜索并接受许可协议"
+            },
+            {
+              "name": "创建Access Token（需带Read权限）"
+            },
+            {
+              "name": "备份HF Token字符串"
+            }
+          ]
+        },
+        {
+          "name": "环境工具安装",
+          "children": [
+            {
+              "name": "安装Miniconda轻量版"
+            },
+            {
+              "name": "安装CUDA版PyTorch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "部署流程",
+      "children": [
+        {
+          "name": "创建虚拟环境",
+          "children": [
+            {
+              "name": "使用conda创建并激活环境"
+            },
+            {
+              "name": "安装相关依赖库"
+            }
+          ]
+        },
+        {
+          "name": "脚本配置",
+          "children": [
+            {
+              "name": "设置模型存放路径"
+            },
+            {
+              "name": "填写HF Token"
+            },
+            {
+              "name": "修正字幕功能冲突代码"
+            }
+          ]
+        },
+        {
+          "name": "启动与运行",
+          "children": [
+            {
+              "name": "拉取模型文件（约4G）"
+            },
+            {
+              "name": "自动弹出本地网页界面"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "功能测试与结果",
+      "children": [
+        {
+          "name": "测试方式",
+          "children": [
+            {
+              "name": "麦克风实时转录"
+            },
+            {
+              "name": "本地音频文件上传"
+            }
+          ]
+        },
+        {
+          "name": "输出产物",
+          "children": [
+            {
+              "name": "纯文本（TXT）"
+            },
+            {
+              "name": "带时间轴字幕（SRT）"
+            }
+          ]
+        },
+        {
+          "name": "性能表现",
+          "children": [
+            {
+              "name": "准确度高"
+            },
+            {
+              "name": "17分钟音频几分钟转完"
+            },
+            {
+              "name": "优于Whisper模型速度"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "后期处理",
+      "children": [
+        {
+          "name": "导入剪辑软件（如剪映）"
+        },
+        {
+          "name": "手动切分长句"
+        },
+        {
+          "name": "微调对齐准度"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "pipeline_id": "pipe-8706022",
+  "source_url": "https://www.youtube.com/watch?v=OEBTu3DYFmg",
+  "source_type": "youtube",
+  "stage_b": {
+    "run_id": "gh-25998510069-1",
+    "start_time": "2026-05-17T18:01:59Z",
+    "end_time": "2026-05-17T18:03:20Z",
+    "duration_s": 81,
+    "api_calls": "unknown",
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 1,
+    "output_files": [
+      "raw/notebooklm-analysis/开源本地化语音转文字神器部署与分析简报.md",
+      "raw/notebooklm-mindmaps/开源本地化语音转文字神器部署与分析简报.json"
+    ],
+    "source_metadata": {
+      "video_id": "OEBTu3DYFmg",
+      "title": "彻底告别收费平台！33小时录音12分钟转完，开源的最强语音转文字神器本地部署教程",
+      "author": "三十槽",
+      "published_at": "2026-04-26T13:47:49Z",
+      "youtube_url": "https://www.youtube.com/watch?v=OEBTu3DYFmg",
+      "thumbnail": "https://i.ytimg.com/vi/OEBTu3DYFmg/hqdefault.jpg",
+      "source_type": "youtube"
+    }
+  }
+}
