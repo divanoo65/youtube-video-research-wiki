@@ -1,6 +1,6 @@
 # YouTube Video Research Wiki
 Last updated: 2026-05-17
-Total pages: 5
+Total pages: 4
 
 ## Sources
 - [[hermes-agent-网页版中控台深度分析报告]]
@@ -14,6 +14,7 @@ Total pages: 5
 - [[hermes-agent-智能中控台-深度解析与功能简报]]
 - [[多-agent-协作架构深度简报-从-宠物-到-牛马-的范式演进]]
 - [[open-design-开源ai设计工具的深度解析与实操简报]]
+- [[开源-语音转文字-模型-本地部署-与-应用-分析-简报]]
 
 ## Entities
 - [[claude]]
@@ -23,6 +24,7 @@ Total pages: 5
 - [[ollama]]
 - [[cloud-code]]
 - [[cloud]]
+- [[cohere-asr]]
 - [[whisper]]
 - [[opencloud]]
 - [[aip]]
@@ -62,6 +64,8 @@ Total pages: 5
 
 ## Concepts
 - [[零成本部署]]
+- [[组件库冲突修复]]
+- [[模型路径优化]]
 - [[forward-deployed-engineer]]
 - [[token-效率优化]]
 - [[项目扫描]]

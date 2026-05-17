@@ -25,5 +25,27 @@
       "thumbnail": "https://i.ytimg.com/vi/OEBTu3DYFmg/hqdefault.jpg",
       "source_type": "youtube"
     }
+  },
+  "stage_c": {
+    "run_id": "gh-25998926372-1",
+    "start_time": "2026-05-17T18:20:52Z",
+    "end_time": "2026-05-17T18:21:11Z",
+    "duration_s": 19,
+    "llm_calls": 6,
+    "pages_created_total": 104,
+    "pages_new_this_run": 4,
+    "file_paths": [
+      "wiki/concepts/模型路径优化.md",
+      "wiki/concepts/组件库冲突修复.md",
+      "wiki/entities/cohere-asr.md",
+      "wiki/sources/开源-语音转文字-模型-本地部署-与-应用-分析-简报.md"
+    ],
+    "sources": 12,
+    "entities": 44,
+    "concepts": 48,
+    "comparisons": 0,
+    "prompt_tokens": 7815,
+    "completion_tokens": 3930,
+    "status": "success"
   }
 }
