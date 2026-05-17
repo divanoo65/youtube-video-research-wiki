@@ -1,0 +1,509 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "type": "text",
+      "text": "Hermes Agent AI 中控台 (Dashboard)",
+      "x": 0,
+      "y": 792,
+      "width": 280,
+      "height": 52,
+      "color": "6"
+    },
+    {
+      "id": "1",
+      "type": "text",
+      "text": "Dashboard (总览仪表盘)",
+      "x": 360,
+      "y": 144,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "2",
+      "type": "text",
+      "text": "Overview: 模型、后端与运行时间",
+      "x": 680,
+      "y": 0,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "3",
+      "type": "text",
+      "text": "AI 成绩单: 对话数、消息数、工具调用、Token处理",
+      "x": 680,
+      "y": 72,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "4",
+      "type": "text",
+      "text": "内存状态: state.db 数据库大小与用户画像占用",
+      "x": 680,
+      "y": 144,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "5",
+      "type": "text",
+      "text": "成长曲线: 每日快照对比 (Growth Delta)",
+      "x": 680,
+      "y": 216,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "6",
+      "type": "text",
+      "text": "活动分析: 工具排行、每日活动量折线图",
+      "x": 680,
+      "y": 288,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "7",
+      "type": "text",
+      "text": "Memory & Sessions (记忆与会话)",
+      "x": 360,
+      "y": 504,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "8",
+      "type": "text",
+      "text": "工作记忆: Agent 运行时的中间记忆",
+      "x": 680,
+      "y": 360,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "9",
+      "type": "text",
+      "text": "用户画像: 存储用户相关信息",
+      "x": 680,
+      "y": 432,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "10",
+      "type": "text",
+      "text": "管理功能: 直接编辑、删除或新增记忆条目",
+      "x": 680,
+      "y": 504,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "11",
+      "type": "text",
+      "text": "会话记录: 完整对话历史、来源区分 (Telegram/CLI)",
+      "x": 680,
+      "y": 576,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "12",
+      "type": "text",
+      "text": "全文检索: 搜索标题与内文关键字",
+      "x": 680,
+      "y": 648,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "13",
+      "type": "text",
+      "text": "Cost & System (成本与系统)",
+      "x": 360,
+      "y": 792,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "14",
+      "type": "text",
+      "text": "费用统计: 今日消费与累计美元总额",
+      "x": 680,
+      "y": 720,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "15",
+      "type": "text",
+      "text": "模型明细: 按不同模型 (如 Opus) 拆分费用",
+      "x": 680,
+      "y": 792,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "16",
+      "type": "text",
+      "text": "Health 状态: API Key 状态与服务运行监控",
+      "x": 680,
+      "y": 864,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "17",
+      "type": "text",
+      "text": "Skills & Automation (技能与自动化)",
+      "x": 360,
+      "y": 1044,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "18",
+      "type": "text",
+      "text": "技能管理: 80个技能分类与自定义技能 (Custom)",
+      "x": 680,
+      "y": 936,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "19",
+      "type": "text",
+      "text": "Cron 任务: 背景自动跑任务管理 (摘要、检查、备份)",
+      "x": 680,
+      "y": 1008,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "20",
+      "type": "text",
+      "text": "Pattern 分析: 任务聚类与高频 Prompt 自动识别",
+      "x": 680,
+      "y": 1080,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "21",
+      "type": "text",
+      "text": "Project Step: 自动侦测项目源码与 Git 状态",
+      "x": 680,
+      "y": 1152,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "22",
+      "type": "text",
+      "text": "Advanced Features (高级功能)",
+      "x": 360,
+      "y": 1296,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "23",
+      "type": "text",
+      "text": "Correction: 错题本 (记录并修正 AI 的错误)",
+      "x": 680,
+      "y": 1224,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "24",
+      "type": "text",
+      "text": "Wchat: 浏览器内直接与 Hermes 聊天",
+      "x": 680,
+      "y": 1296,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "25",
+      "type": "text",
+      "text": "快捷操作: T 键切换主题、Ctrl+K 快速搜索跳转",
+      "x": 680,
+      "y": 1368,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "26",
+      "type": "text",
+      "text": "Installation (安装配置)",
+      "x": 360,
+      "y": 1512,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "27",
+      "type": "text",
+      "text": "前提: 需先安装 Hermes Agent 本体",
+      "x": 680,
+      "y": 1440,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "28",
+      "type": "text",
+      "text": "步骤: Git Clone 项目 -> 运行 install 指令",
+      "x": 680,
+      "y": 1512,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "29",
+      "type": "text",
+      "text": "自动化: 自动构建虚拟环境、安装套件、前端 Build",
+      "x": 680,
+      "y": 1584,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1-2",
+      "fromNode": "1",
+      "toNode": "2",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e1-3",
+      "fromNode": "1",
+      "toNode": "3",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e1-4",
+      "fromNode": "1",
+      "toNode": "4",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e1-5",
+      "fromNode": "1",
+      "toNode": "5",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e1-6",
+      "fromNode": "1",
+      "toNode": "6",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-1",
+      "fromNode": "0",
+      "toNode": "1",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e7-8",
+      "fromNode": "7",
+      "toNode": "8",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e7-9",
+      "fromNode": "7",
+      "toNode": "9",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e7-10",
+      "fromNode": "7",
+      "toNode": "10",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e7-11",
+      "fromNode": "7",
+      "toNode": "11",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e7-12",
+      "fromNode": "7",
+      "toNode": "12",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-7",
+      "fromNode": "0",
+      "toNode": "7",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e13-14",
+      "fromNode": "13",
+      "toNode": "14",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e13-15",
+      "fromNode": "13",
+      "toNode": "15",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e13-16",
+      "fromNode": "13",
+      "toNode": "16",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-13",
+      "fromNode": "0",
+      "toNode": "13",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e17-18",
+      "fromNode": "17",
+      "toNode": "18",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e17-19",
+      "fromNode": "17",
+      "toNode": "19",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e17-20",
+      "fromNode": "17",
+      "toNode": "20",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e17-21",
+      "fromNode": "17",
+      "toNode": "21",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-17",
+      "fromNode": "0",
+      "toNode": "17",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e22-23",
+      "fromNode": "22",
+      "toNode": "23",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e22-24",
+      "fromNode": "22",
+      "toNode": "24",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e22-25",
+      "fromNode": "22",
+      "toNode": "25",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-22",
+      "fromNode": "0",
+      "toNode": "22",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e26-27",
+      "fromNode": "26",
+      "toNode": "27",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e26-28",
+      "fromNode": "26",
+      "toNode": "28",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e26-29",
+      "fromNode": "26",
+      "toNode": "29",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-26",
+      "fromNode": "0",
+      "toNode": "26",
+      "fromSide": "right",
+      "toSide": "left"
+    }
+  ]
+}
