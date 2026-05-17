@@ -9,5 +9,28 @@
     "videos_processed": 1,
     "reports_generated": 1,
     "mindmaps_generated": 1
+  },
+  "stage_c": {
+    "run_id": "gh-25997909582-1",
+    "start_time": "2026-05-17T17:35:26Z",
+    "end_time": "2026-05-17T17:36:39Z",
+    "duration_s": 73,
+    "llm_calls": 18,
+    "pages_created_total": 91,
+    "pages_new_this_run": 5,
+    "file_paths": [
+      "wiki/concepts/ai-中控台.md",
+      "wiki/entities/cloud.md",
+      "wiki/entities/hod.md",
+      "wiki/sources/hermes-agent-智能中控台-深度解析与功能简报.md",
+      "wiki/sources/hermes-agent-高级玩法与优化指南简报.md"
+    ],
+    "sources": 11,
+    "entities": 37,
+    "concepts": 43,
+    "comparisons": 0,
+    "prompt_tokens": 40162,
+    "completion_tokens": 15675,
+    "status": "success"
   }
 }
