@@ -9,5 +9,31 @@
     "videos_processed": 1,
     "reports_generated": 1,
     "mindmaps_generated": 1
+  },
+  "stage_c": {
+    "run_id": "gh-25994088541-1",
+    "start_time": "2026-05-17T14:52:03Z",
+    "end_time": "2026-05-17T14:53:10Z",
+    "duration_s": 67,
+    "llm_calls": 19,
+    "pages_created_total": 88,
+    "pages_new_this_run": 8,
+    "file_paths": [
+      "wiki/concepts/agent配置agent.md",
+      "wiki/concepts/api-服务化.md",
+      "wiki/concepts/内网穿透.md",
+      "wiki/concepts/零成本部署.md",
+      "wiki/entities/claude-code.md",
+      "wiki/entities/opencloud.md",
+      "wiki/sources/hermes-agent-高级玩法与优化指南简报.md",
+      "wiki/sources/hermes-agent-高级玩法与优化深度简报.md"
+    ],
+    "sources": 11,
+    "entities": 35,
+    "concepts": 42,
+    "comparisons": 0,
+    "prompt_tokens": 35966,
+    "completion_tokens": 15138,
+    "status": "success"
   }
 }

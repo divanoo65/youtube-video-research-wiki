@@ -1,9 +1,10 @@
 # YouTube Video Research Wiki
-Last updated: 2026-05-16
-Total pages: 8
+Last updated: 2026-05-17
+Total pages: 12
 
 ## Sources
 - [[hermes-agent-网页版中控台深度分析报告]]
+- [[hermes-agent-高级玩法与优化深度简报]]
 - [[hermes-agent-智能中控台-全方位可视化管理与性能监测简报]]
 - [[hermes-agent-高级玩法与优化指南简报]]
 - [[hermes-agent-ai-控制台-透明化管理与深度分析简报]]
@@ -11,7 +12,6 @@ Total pages: 8
 - [[Hermes-Agent-高级玩法与优化指南简报]]
 - [[hermes-agent-智能中控台深度分析简报]]
 - [[多-agent-协作架构深度简报-从-宠物-到-牛马-的范式演进]]
-- [[hermes-agent-智能中控台-深度分析简报]]
 - [[open-design-开源ai设计工具的深度解析与实操简报]]
 - [[open-design-开源-ai-设计工具的深度解析与实操简报]]
 
@@ -22,6 +22,7 @@ Total pages: 8
 - [[claude-design]]
 - [[ollama]]
 - [[cloud-code]]
+- [[opencloud]]
 - [[aip]]
 - [[sqlite]]
 - [[gitlab]]
@@ -32,6 +33,7 @@ Total pages: 8
 - [[palantir]]
 - [[managed-agents]]
 - [[docker]]
+- [[claude-code]]
 - [[cube-sandbox]]
 - [[mcp-server]]
 - [[codex]]
@@ -51,9 +53,11 @@ Total pages: 8
 - [[openai]]
 
 ## Concepts
+- [[零成本部署]]
 - [[forward-deployed-engineer]]
 - [[token-效率优化]]
 - [[项目扫描]]
+- [[agent配置agent]]
 - [[沙盒化]]
 - [[宠物与牛马模型]]
 - [[蜂群模式]]
@@ -77,6 +81,7 @@ Total pages: 8
 - [[行为模式分析]]
 - [[会话存储]]
 - [[无状态化]]
+- [[内网穿透]]
 - [[高保真模式]]
 - [[高频指令识别]]
 - [[模型上下文协议]]
@@ -84,6 +89,7 @@ Total pages: 8
 - [[脑手解耦]]
 - [[cron-任务管理]]
 - [[热力图分析]]
+- [[api-服务化]]
 - [[健康检查]]
 - [[成长曲线]]
 - [[自动化任务调度]]
