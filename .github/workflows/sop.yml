@@ -32,4 +32,5 @@ jobs:
           AFTER_SHA: ${{ github.sha }}
           RUN_ID: gh-${{ github.run_id }}-${{ github.run_attempt }}
           REPO: ${{ github.repository }}
+          YOUTUBE_WIKI_TG_TOKEN: ${{ vars.YOUTUBE_WIKI_TG_TOKEN }}
         run: python3 .github/scripts/sop_router.py
