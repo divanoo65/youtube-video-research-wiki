@@ -1,0 +1,3 @@
+{"ts": "2026-05-17T08:26:31Z", "event": "stage_start", "stage": "wiki-build", "pipeline": "youtube-research-wiki"}
+{"ts": "2026-05-17T08:26:32Z", "event": "stage_done", "stage": "wiki-build", "pipeline": "youtube-research-wiki", "duration_s": 294}
+{"ts": "2026-05-17T08:26:33Z", "event": "stage_failed", "stage": "notebooklm-research", "pipeline": "youtube-research-wiki", "error": "NotebookLM timeout"}

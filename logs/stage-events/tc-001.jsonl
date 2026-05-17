@@ -1,0 +1,5 @@
+{"ts": "2026-05-17T08:29:40Z", "event": "stage_start", "stage": "notebooklm-research", "pipeline": "youtube-research-wiki"}
+{"ts": "2026-05-17T08:29:41Z", "event": "stage_done", "stage": "notebooklm-research", "pipeline": "youtube-research-wiki", "duration_s": 62}
+{"ts": "2026-05-17T08:29:42Z", "event": "stage_start", "stage": "wiki-build", "pipeline": "youtube-research-wiki"}
+{"ts": "2026-05-17T08:29:43Z", "event": "stage_done", "stage": "wiki-build", "pipeline": "youtube-research-wiki", "duration_s": 294}
+{"ts": "2026-05-17T08:29:44Z", "event": "stage_failed", "stage": "wiki-build", "pipeline": "youtube-research-wiki", "error": "测试失败场景"}
