@@ -12,6 +12,7 @@ sources:
 created: 2026-05-17
 updated: 2026-05-17
 layer: L1
+video_url: https://youtu.be/78YQMfgPlwA
 run_id: gh-25997909582-1
 ---
 
