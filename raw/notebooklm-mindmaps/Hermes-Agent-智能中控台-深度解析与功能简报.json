@@ -1,0 +1,109 @@
+{
+  "name": "Hermes Agent AI 中控台 (Dashboard)",
+  "children": [
+    {
+      "name": "Dashboard (总览仪表盘)",
+      "children": [
+        {
+          "name": "Overview: 模型、后端与运行天数"
+        },
+        {
+          "name": "state.db: AI 学习数据量/大脑大小"
+        },
+        {
+          "name": "成绩单: 对话数、消息量、工具调用、技能数"
+        },
+        {
+          "name": "Token 消耗统计 (128万)"
+        },
+        {
+          "name": "Growth Delta: 每日快照与成长曲线"
+        }
+      ]
+    },
+    {
+      "name": "Memory & Sessions (记忆与会话)",
+      "children": [
+        {
+          "name": "Memory Tab: 工作记忆与用户画像"
+        },
+        {
+          "name": "记忆编辑: 直接在线修改/删除/添加"
+        },
+        {
+          "name": "Session Steps: 完整对话记录与搜索"
+        },
+        {
+          "name": "全文明细: 支持标题与内文关键字查找"
+        }
+      ]
+    },
+    {
+      "name": "Cost & System (成本与系统)",
+      "children": [
+        {
+          "name": "Cost Tab: 每日/累计费用计算"
+        },
+        {
+          "name": "模型拆分: 不同模型 (如 Opus) 费用名细"
+        },
+        {
+          "name": "Health Tab: API Key 与服务运行状态"
+        }
+      ]
+    },
+    {
+      "name": "Analysis & Skills (分析与技能)",
+      "children": [
+        {
+          "name": "Pattern: 任务分类与活跃时间分析"
+        },
+        {
+          "name": "闪电标记: 识别高频 Prompt 并建议自动化"
+        },
+        {
+          "name": "Skills Tab: 80个技能分类与自定义技能管理"
+        }
+      ]
+    },
+    {
+      "name": "Automation & Projects (自动化与项目)",
+      "children": [
+        {
+          "name": "Cron Tab: 后台排程任务管理 (摘要、扫描、备份)"
+        },
+        {
+          "name": "Project Steps: 自动侦测项目状态与 Git 提交情况"
+        },
+        {
+          "name": "Agent 监控: 识别电脑上运行的所有 AI Agent"
+        }
+      ]
+    },
+    {
+      "name": "Correction & Chat (纠错与交互)",
+      "children": [
+        {
+          "name": "Correction Tab: AI 错题本 (关键/重要/次要纠正)"
+        },
+        {
+          "name": "Web Chat: 直接在浏览器与 Hermes 对话"
+        },
+        {
+          "name": "快捷功能: T 键切换主题, Ctrl+K 搜索跳转"
+        }
+      ]
+    },
+    {
+      "name": "安装与配置",
+      "children": [
+        {
+          "name": "前提: 需先安装并运行 Hermes Agent 本体"
+        },
+        {
+          "name": "步骤: Git Clone 项目 -> install 指令 -> 启动链接"
+        }
+      ]
+    }
+  ]
+}
