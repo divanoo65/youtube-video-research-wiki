@@ -1,0 +1,146 @@
+{
+  "name": "本地语音转文字大模型部署教程",
+  "children": [
+    {
+      "name": "项目优势",
+      "children": [
+        {
+          "name": "完全本地运行"
+        },
+        {
+          "name": "处理速度极快"
+        },
+        {
+          "name": "硬件门槛低"
+        },
+        {
+          "name": "支持多国语言"
+        },
+        {
+          "name": "免费开源"
+        }
+      ]
+    },
+    {
+      "name": "硬件要求",
+      "children": [
+        {
+          "name": "显卡部署 (推荐)"
+        },
+        {
+          "name": "CPU部署 (较慢)"
+        },
+        {
+          "name": "支持老旧显卡 (如GTX 960)"
+        }
+      ]
+    },
+    {
+      "name": "准备工作",
+      "children": [
+        {
+          "name": "Hugging Face配置",
+          "children": [
+            {
+              "name": "注册并登录账号"
+            },
+            {
+              "name": "搜索Cohere模型"
+            },
+            {
+              "name": "同意许可协议"
+            },
+            {
+              "name": "创建具有Read权限的Token"
+            }
+          ]
+        },
+        {
+          "name": "环境安装",
+          "children": [
+            {
+              "name": "下载安装Miniconda"
+            },
+            {
+              "name": "创建虚拟环境 (cohere_asr)"
+            },
+            {
+              "name": "安装CUDA版PyTorch"
+            },
+            {
+              "name": "安装其他依赖库"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "部署与调试",
+      "children": [
+        {
+          "name": "脚本配置",
+          "children": [
+            {
+              "name": "配置系统路径"
+            },
+            {
+              "name": "填入HF Token"
+            }
+          ]
+        },
+        {
+          "name": "运行启动",
+          "children": [
+            {
+              "name": "运行 python app.py"
+            },
+            {
+              "name": "解决字幕功能冲突报错"
+            },
+            {
+              "name": "自动打开Web界面"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "功能使用",
+      "children": [
+        {
+          "name": "输入方式",
+          "children": [
+            {
+              "name": "音频文件上传"
+            },
+            {
+              "name": "麦克风实时输入"
+            }
+          ]
+        },
+        {
+          "name": "输出结果",
+          "children": [
+            {
+              "name": "纯文本 (TXT)"
+            },
+            {
+              "name": "带时间轴字幕 (SRT)"
+            }
+          ]
+        },
+        {
+          "name": "后期处理",
+          "children": [
+            {
+              "name": "导入剪辑软件"
+            },
+            {
+              "name": "手动微调断句"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
