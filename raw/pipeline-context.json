@@ -18,5 +18,28 @@
       "wiki/canvas/开源本地化语音转文字模型部署简报.canvas"
     ],
     "source_metadata": {}
+  },
+  "stage_c": {
+    "run_id": "gh-25999353876-1",
+    "start_time": "2026-05-17T18:39:17Z",
+    "end_time": "2026-05-17T18:39:41Z",
+    "duration_s": 23,
+    "llm_calls": 7,
+    "pages_created_total": 109,
+    "pages_new_this_run": 5,
+    "file_paths": [
+      "wiki/concepts/本地化部署.md",
+      "wiki/concepts/环境隔离.md",
+      "wiki/concepts/硬件兼容性.md",
+      "wiki/concepts/路径管理.md",
+      "wiki/sources/开源-本地化-语音转文字-模型-部署-简报.md"
+    ],
+    "sources": 13,
+    "entities": 44,
+    "concepts": 52,
+    "comparisons": 0,
+    "prompt_tokens": 8813,
+    "completion_tokens": 4673,
+    "status": "success"
   }
 }
