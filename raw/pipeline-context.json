@@ -24,5 +24,27 @@
       "thumbnail": "https://i.ytimg.com/vi/OEBTu3DYFmg/hqdefault.jpg",
       "source_type": "youtube"
     }
+  },
+  "stage_c": {
+    "run_id": "gh-25998555330-1",
+    "start_time": "2026-05-17T18:05:19Z",
+    "end_time": "2026-05-17T18:08:15Z",
+    "duration_s": 176,
+    "llm_calls": 7,
+    "pages_created_total": 100,
+    "pages_new_this_run": 4,
+    "file_paths": [
+      "wiki/concepts/令牌安全.md",
+      "wiki/concepts/低门槛部署.md",
+      "wiki/concepts/语言锁定机制.md",
+      "wiki/entities/capcut.md"
+    ],
+    "sources": 11,
+    "entities": 43,
+    "concepts": 46,
+    "comparisons": 0,
+    "prompt_tokens": 8194,
+    "completion_tokens": 11765,
+    "status": "success"
   }
 }
