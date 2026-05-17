@@ -1,0 +1,662 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "type": "text",
+      "text": "本地部署开源语音转文字工具教程",
+      "x": 0,
+      "y": 900,
+      "width": 280,
+      "height": 52,
+      "color": "6"
+    },
+    {
+      "id": "1",
+      "type": "text",
+      "text": "核心优势",
+      "x": 360,
+      "y": 108,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "2",
+      "type": "text",
+      "text": "完全本地运行",
+      "x": 680,
+      "y": 0,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "3",
+      "type": "text",
+      "text": "处理速度极快",
+      "x": 680,
+      "y": 72,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "4",
+      "type": "text",
+      "text": "支持多国语言",
+      "x": 680,
+      "y": 144,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "5",
+      "type": "text",
+      "text": "硬件门槛极低",
+      "x": 680,
+      "y": 216,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "6",
+      "type": "text",
+      "text": "前期准备",
+      "x": 360,
+      "y": 432,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "7",
+      "type": "text",
+      "text": "硬件要求",
+      "x": 680,
+      "y": 360,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "8",
+      "type": "text",
+      "text": "显卡(老卡/矿卡均可)",
+      "x": 960,
+      "y": 288,
+      "width": 180,
+      "height": 52,
+      "color": "3"
+    },
+    {
+      "id": "9",
+      "type": "text",
+      "text": "4G显存及以上",
+      "x": 960,
+      "y": 360,
+      "width": 180,
+      "height": 52,
+      "color": "3"
+    },
+    {
+      "id": "10",
+      "type": "text",
+      "text": "纯CPU也可运行",
+      "x": 960,
+      "y": 432,
+      "width": 180,
+      "height": 52,
+      "color": "3"
+    },
+    {
+      "id": "11",
+      "type": "text",
+      "text": "账号与Token",
+      "x": 680,
+      "y": 540,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "12",
+      "type": "text",
+      "text": "注册Hugging Face",
+      "x": 960,
+      "y": 504,
+      "width": 180,
+      "height": 52,
+      "color": "3"
+    },
+    {
+      "id": "13",
+      "type": "text",
+      "text": "获取读权限Token",
+      "x": 960,
+      "y": 576,
+      "width": 180,
+      "height": 52,
+      "color": "3"
+    },
+    {
+      "id": "14",
+      "type": "text",
+      "text": "环境搭建",
+      "x": 360,
+      "y": 792,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "15",
+      "type": "text",
+      "text": "基础工具安装",
+      "x": 680,
+      "y": 684,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "16",
+      "type": "text",
+      "text": "安装Miniconda",
+      "x": 960,
+      "y": 648,
+      "width": 180,
+      "height": 52,
+      "color": "3"
+    },
+    {
+      "id": "17",
+      "type": "text",
+      "text": "配置虚拟环境",
+      "x": 960,
+      "y": 720,
+      "width": 180,
+      "height": 52,
+      "color": "3"
+    },
+    {
+      "id": "18",
+      "type": "text",
+      "text": "核心库安装",
+      "x": 680,
+      "y": 864,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "19",
+      "type": "text",
+      "text": "安装带CUDA的PyTorch",
+      "x": 960,
+      "y": 792,
+      "width": 180,
+      "height": 52,
+      "color": "3"
+    },
+    {
+      "id": "20",
+      "type": "text",
+      "text": "安装依赖库",
+      "x": 960,
+      "y": 864,
+      "width": 180,
+      "height": 52,
+      "color": "3"
+    },
+    {
+      "id": "21",
+      "type": "text",
+      "text": "显卡驱动验证",
+      "x": 960,
+      "y": 936,
+      "width": 180,
+      "height": 52,
+      "color": "3"
+    },
+    {
+      "id": "22",
+      "type": "text",
+      "text": "模型部署与配置",
+      "x": 360,
+      "y": 1152,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "23",
+      "type": "text",
+      "text": "下载app.py脚本",
+      "x": 680,
+      "y": 1008,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "24",
+      "type": "text",
+      "text": "配置本地存储路径",
+      "x": 680,
+      "y": 1080,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "25",
+      "type": "text",
+      "text": "填入HF Access Token",
+      "x": 680,
+      "y": 1152,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "26",
+      "type": "text",
+      "text": "首次运行拉取模型",
+      "x": 680,
+      "y": 1224,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "27",
+      "type": "text",
+      "text": "代码bug修复(强制语言/字幕冲突)",
+      "x": 680,
+      "y": 1296,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "28",
+      "type": "text",
+      "text": "使用与测试",
+      "x": 360,
+      "y": 1584,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "29",
+      "type": "text",
+      "text": "操作界面",
+      "x": 680,
+      "y": 1440,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "30",
+      "type": "text",
+      "text": "浏览器本地网页",
+      "x": 960,
+      "y": 1368,
+      "width": 180,
+      "height": 52,
+      "color": "3"
+    },
+    {
+      "id": "31",
+      "type": "text",
+      "text": "上传音频文件",
+      "x": 960,
+      "y": 1440,
+      "width": 180,
+      "height": 52,
+      "color": "3"
+    },
+    {
+      "id": "32",
+      "type": "text",
+      "text": "手动锁定语言",
+      "x": 960,
+      "y": 1512,
+      "width": 180,
+      "height": 52,
+      "color": "3"
+    },
+    {
+      "id": "33",
+      "type": "text",
+      "text": "输出成果",
+      "x": 680,
+      "y": 1620,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "34",
+      "type": "text",
+      "text": "纯文本TXT文件",
+      "x": 960,
+      "y": 1584,
+      "width": 180,
+      "height": 52,
+      "color": "3"
+    },
+    {
+      "id": "35",
+      "type": "text",
+      "text": "带时间轴SRT字幕",
+      "x": 960,
+      "y": 1656,
+      "width": 180,
+      "height": 52,
+      "color": "3"
+    },
+    {
+      "id": "36",
+      "type": "text",
+      "text": "后期处理",
+      "x": 680,
+      "y": 1764,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "37",
+      "type": "text",
+      "text": "导入剪辑软件",
+      "x": 960,
+      "y": 1728,
+      "width": 180,
+      "height": 52,
+      "color": "3"
+    },
+    {
+      "id": "38",
+      "type": "text",
+      "text": "手动切分长字幕",
+      "x": 960,
+      "y": 1800,
+      "width": 180,
+      "height": 52,
+      "color": "3"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1-2",
+      "fromNode": "1",
+      "toNode": "2",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e1-3",
+      "fromNode": "1",
+      "toNode": "3",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e1-4",
+      "fromNode": "1",
+      "toNode": "4",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e1-5",
+      "fromNode": "1",
+      "toNode": "5",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-1",
+      "fromNode": "0",
+      "toNode": "1",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e7-8",
+      "fromNode": "7",
+      "toNode": "8",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e7-9",
+      "fromNode": "7",
+      "toNode": "9",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e7-10",
+      "fromNode": "7",
+      "toNode": "10",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e6-7",
+      "fromNode": "6",
+      "toNode": "7",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e11-12",
+      "fromNode": "11",
+      "toNode": "12",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e11-13",
+      "fromNode": "11",
+      "toNode": "13",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e6-11",
+      "fromNode": "6",
+      "toNode": "11",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-6",
+      "fromNode": "0",
+      "toNode": "6",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e15-16",
+      "fromNode": "15",
+      "toNode": "16",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e15-17",
+      "fromNode": "15",
+      "toNode": "17",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e14-15",
+      "fromNode": "14",
+      "toNode": "15",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e18-19",
+      "fromNode": "18",
+      "toNode": "19",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e18-20",
+      "fromNode": "18",
+      "toNode": "20",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e18-21",
+      "fromNode": "18",
+      "toNode": "21",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e14-18",
+      "fromNode": "14",
+      "toNode": "18",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-14",
+      "fromNode": "0",
+      "toNode": "14",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e22-23",
+      "fromNode": "22",
+      "toNode": "23",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e22-24",
+      "fromNode": "22",
+      "toNode": "24",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e22-25",
+      "fromNode": "22",
+      "toNode": "25",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e22-26",
+      "fromNode": "22",
+      "toNode": "26",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e22-27",
+      "fromNode": "22",
+      "toNode": "27",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-22",
+      "fromNode": "0",
+      "toNode": "22",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e29-30",
+      "fromNode": "29",
+      "toNode": "30",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e29-31",
+      "fromNode": "29",
+      "toNode": "31",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e29-32",
+      "fromNode": "29",
+      "toNode": "32",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e28-29",
+      "fromNode": "28",
+      "toNode": "29",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e33-34",
+      "fromNode": "33",
+      "toNode": "34",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e33-35",
+      "fromNode": "33",
+      "toNode": "35",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e28-33",
+      "fromNode": "28",
+      "toNode": "33",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e36-37",
+      "fromNode": "36",
+      "toNode": "37",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e36-38",
+      "fromNode": "36",
+      "toNode": "38",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e28-36",
+      "fromNode": "28",
+      "toNode": "36",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-28",
+      "fromNode": "0",
+      "toNode": "28",
+      "fromSide": "right",
+      "toSide": "left"
+    }
+  ]
+}

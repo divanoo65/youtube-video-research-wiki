@@ -1,0 +1,143 @@
+{
+  "name": "本地部署开源语音转文字工具教程",
+  "children": [
+    {
+      "name": "核心优势",
+      "children": [
+        {
+          "name": "完全本地运行"
+        },
+        {
+          "name": "处理速度极快"
+        },
+        {
+          "name": "支持多国语言"
+        },
+        {
+          "name": "硬件门槛极低"
+        }
+      ]
+    },
+    {
+      "name": "前期准备",
+      "children": [
+        {
+          "name": "硬件要求",
+          "children": [
+            {
+              "name": "显卡(老卡/矿卡均可)"
+            },
+            {
+              "name": "4G显存及以上"
+            },
+            {
+              "name": "纯CPU也可运行"
+            }
+          ]
+        },
+        {
+          "name": "账号与Token",
+          "children": [
+            {
+              "name": "注册Hugging Face"
+            },
+            {
+              "name": "获取读权限Token"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "环境搭建",
+      "children": [
+        {
+          "name": "基础工具安装",
+          "children": [
+            {
+              "name": "安装Miniconda"
+            },
+            {
+              "name": "配置虚拟环境"
+            }
+          ]
+        },
+        {
+          "name": "核心库安装",
+          "children": [
+            {
+              "name": "安装带CUDA的PyTorch"
+            },
+            {
+              "name": "安装依赖库"
+            },
+            {
+              "name": "显卡驱动验证"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "模型部署与配置",
+      "children": [
+        {
+          "name": "下载app.py脚本"
+        },
+        {
+          "name": "配置本地存储路径"
+        },
+        {
+          "name": "填入HF Access Token"
+        },
+        {
+          "name": "首次运行拉取模型"
+        },
+        {
+          "name": "代码bug修复(强制语言/字幕冲突)"
+        }
+      ]
+    },
+    {
+      "name": "使用与测试",
+      "children": [
+        {
+          "name": "操作界面",
+          "children": [
+            {
+              "name": "浏览器本地网页"
+            },
+            {
+              "name": "上传音频文件"
+            },
+            {
+              "name": "手动锁定语言"
+            }
+          ]
+        },
+        {
+          "name": "输出成果",
+          "children": [
+            {
+              "name": "纯文本TXT文件"
+            },
+            {
+              "name": "带时间轴SRT字幕"
+            }
+          ]
+        },
+        {
+          "name": "后期处理",
+          "children": [
+            {
+              "name": "导入剪辑软件"
+            },
+            {
+              "name": "手动切分长字幕"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
