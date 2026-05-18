@@ -26,5 +26,36 @@
       "thumbnail": "https://i.ytimg.com/vi/96jN2OCOfLs/hqdefault.jpg",
       "source_type": "youtube"
     }
+  },
+  "stage_c": {
+    "run_id": "gh-26049346412-1",
+    "start_time": "2026-05-18T17:27:00Z",
+    "end_time": "2026-05-18T17:27:54Z",
+    "duration_s": 54,
+    "llm_calls": 15,
+    "pages_created_total": 138,
+    "pages_new_this_run": 13,
+    "file_paths": [
+      "wiki/concepts/参差不齐的智能.md",
+      "wiki/concepts/可验证性驱动.md",
+      "wiki/concepts/智能体原生.md",
+      "wiki/concepts/智能体工程.md",
+      "wiki/concepts/氛围编程.md",
+      "wiki/concepts/神经计算机.md",
+      "wiki/concepts/软件2-0.md",
+      "wiki/concepts/软件3-0.md",
+      "wiki/entities/andrej-karpathy.md",
+      "wiki/entities/gemini.md",
+      "wiki/entities/sequoia-capital.md",
+      "wiki/entities/tesla-autopilot.md",
+      "wiki/sources/andrej-karpathy-从-氛围编程-到-智能体工程-的演进.md"
+    ],
+    "sources": 15,
+    "entities": 54,
+    "concepts": 69,
+    "comparisons": 0,
+    "prompt_tokens": 16823,
+    "completion_tokens": 10276,
+    "status": "success"
   }
 }
