@@ -25,7 +25,10 @@
       "youtube_url": "https://www.youtube.com/watch?v=qrguqTRufXw",
       "thumbnail": "https://i.ytimg.com/vi/qrguqTRufXw/hqdefault.jpg",
       "source_type": "youtube"
-    }
+    },
+    "processed_urls": [
+      "https://www.youtube.com/watch?v=qrguqTRufXw"
+    ]
   },
   "stage_c": {
     "run_id": "gh-26049920919-1",

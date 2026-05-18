@@ -14,6 +14,7 @@ created: 2026-05-18
 updated: 2026-05-18
 layer: L1
 run_id: gh-26049920919-1
+video_url: https://youtu.be/qrguqTRufXw
 ---
 
 # Claude Code 与 NotebookLM 高效集成方案简报
