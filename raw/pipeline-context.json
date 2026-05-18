@@ -26,5 +26,35 @@
       "thumbnail": "https://i.ytimg.com/vi/Ahfe-BW1cFc/hqdefault.jpg",
       "source_type": "youtube"
     }
+  },
+  "stage_c": {
+    "run_id": "gh-26011891405-1",
+    "start_time": "2026-05-18T03:29:36Z",
+    "end_time": "2026-05-18T03:35:38Z",
+    "duration_s": 361,
+    "llm_calls": 15,
+    "pages_created_total": 125,
+    "pages_new_this_run": 12,
+    "file_paths": [
+      "wiki/concepts/一键抠图.md",
+      "wiki/concepts/图片反推提示词.md",
+      "wiki/concepts/多账号并行.md",
+      "wiki/concepts/容器加密.md",
+      "wiki/concepts/提示词优化.md",
+      "wiki/concepts/文生图.md",
+      "wiki/concepts/智能扩图.md",
+      "wiki/concepts/远程终端管理.md",
+      "wiki/concepts/静态部署.md",
+      "wiki/entities/chatgpt.md",
+      "wiki/entities/grok.md",
+      "wiki/entities/transformer-js.md"
+    ],
+    "sources": 14,
+    "entities": 50,
+    "concepts": 61,
+    "comparisons": 0,
+    "prompt_tokens": 14954,
+    "completion_tokens": 19301,
+    "status": "success"
   }
 }

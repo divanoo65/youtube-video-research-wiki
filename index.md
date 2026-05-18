@@ -1,11 +1,12 @@
 # YouTube Video Research Wiki
-Last updated: 2026-05-17
-Total pages: 5
+Last updated: 2026-05-18
+Total pages: 13
 
 ## Sources
 - [[hermes-agent-网页版中控台深度分析报告]]
 - [[hermes-agent-高级玩法与优化深度简报]]
 - [[hermes-agent-智能中控台-全方位可视化管理与性能监测简报]]
+- [[hugging-face-spaces-永久免费云服务器使用与-ai-项目部署指南]]
 - [[hermes-agent-ai-控制台-透明化管理与深度分析简报]]
 - [[开源本地化语音转文字神器部署与分析简报]]
 - [[multi-agent-协作架构深度解析-anthropic-managed-agents-与蜂群模式实践简报]]
@@ -37,8 +38,11 @@ Total pages: 5
 - [[telegram]]
 - [[jami-cli]]
 - [[astropy]]
+- [[grok]]
+- [[hugging-face-spaces]]
 - [[hermes-agent]]
 - [[palantir]]
+- [[chatgpt]]
 - [[managed-agents]]
 - [[capcut]]
 - [[docker]]
@@ -47,9 +51,11 @@ Total pages: 5
 - [[mcp-server]]
 - [[codex]]
 - [[gemini-1-5-flash]]
+- [[transformer-js]]
 - [[state-db]]
 - [[fish-audio]]
 - [[open-design]]
+- [[jupyterlab]]
 - [[openrouter]]
 - [[cuda]]
 - [[claude-opus]]
@@ -61,6 +67,7 @@ Total pages: 5
 - [[pnpm]]
 - [[telegram-gateway]]
 - [[open-webui]]
+- [[gradio]]
 - [[openai]]
 
 ## Concepts
@@ -70,10 +77,12 @@ Total pages: 5
 - [[forward-deployed-engineer]]
 - [[token-效率优化]]
 - [[项目扫描]]
+- [[文生图]]
 - [[agent配置agent]]
 - [[沙盒化]]
 - [[宠物与牛马模型]]
 - [[ai-中控台]]
+- [[提示词优化]]
 - [[蜂群模式]]
 - [[模块化插件架构]]
 - [[多agent协作]]
@@ -83,12 +92,16 @@ Total pages: 5
 - [[自带密钥模式]]
 - [[自动化技能]]
 - [[本地化部署]]
+- [[容器加密]]
 - [[错题本机制]]
 - [[用户画像]]
 - [[环境隔离]]
 - [[路径管理]]
+- [[智能扩图]]
 - [[双域记忆管理]]
 - [[主副模型协作]]
+- [[一键抠图]]
+- [[静态部署]]
 - [[闪电提示词]]
 - [[本地优先]]
 - [[四层解耦架构]]
@@ -98,6 +111,7 @@ Total pages: 5
 - [[成本拆分]]
 - [[行为模式分析]]
 - [[令牌安全]]
+- [[图片反推提示词]]
 - [[会话存储]]
 - [[无状态化]]
 - [[内网穿透]]
@@ -115,6 +129,8 @@ Total pages: 5
 - [[硬件兼容性]]
 - [[自动化任务调度]]
 - [[协调者]]
+- [[远程终端管理]]
+- [[多账号并行]]
 - [[工作记忆]]
 
 ## Mindmaps
