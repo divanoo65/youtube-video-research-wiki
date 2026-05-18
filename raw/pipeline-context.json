@@ -26,5 +26,32 @@
       "thumbnail": "https://i.ytimg.com/vi/qrguqTRufXw/hqdefault.jpg",
       "source_type": "youtube"
     }
+  },
+  "stage_c": {
+    "run_id": "gh-26049920919-1",
+    "start_time": "2026-05-18T17:38:24Z",
+    "end_time": "2026-05-18T17:39:04Z",
+    "duration_s": 40,
+    "llm_calls": 11,
+    "pages_created_total": 147,
+    "pages_new_this_run": 9,
+    "file_paths": [
+      "wiki/concepts/技能嵌套.md",
+      "wiki/concepts/私有ai助手.md",
+      "wiki/concepts/自动化研究工作流.md",
+      "wiki/concepts/资料溯源.md",
+      "wiki/concepts/音频概览.md",
+      "wiki/entities/google.md",
+      "wiki/entities/indookmpy.md",
+      "wiki/entities/notebooklm.md",
+      "wiki/sources/claude-code-与-notebooklm-高效集成方案简报.md"
+    ],
+    "sources": 16,
+    "entities": 57,
+    "concepts": 74,
+    "comparisons": 0,
+    "prompt_tokens": 12468,
+    "completion_tokens": 6942,
+    "status": "success"
   }
 }

@@ -1,6 +1,6 @@
 # YouTube Video Research Wiki
 Last updated: 2026-05-18
-Total pages: 13
+Total pages: 9
 
 ## Sources
 - [[hermes-agent-网页版中控台深度分析报告]]
@@ -8,6 +8,7 @@ Total pages: 13
 - [[andrej-karpathy-从-氛围编程-到-智能体工程-的演进]]
 - [[hermes-agent-智能中控台-全方位可视化管理与性能监测简报]]
 - [[hugging-face-spaces-永久免费云服务器使用与-ai-项目部署指南]]
+- [[claude-code-与-notebooklm-高效集成方案简报]]
 - [[hermes-agent-ai-控制台-透明化管理与深度分析简报]]
 - [[开源本地化语音转文字神器部署与分析简报]]
 - [[multi-agent-协作架构深度解析-anthropic-managed-agents-与蜂群模式实践简报]]
@@ -26,6 +27,8 @@ Total pages: 13
 - [[redis]]
 - [[claude-design]]
 - [[ollama]]
+- [[notebooklm]]
+- [[indookmpy]]
 - [[cloud-code]]
 - [[cloud]]
 - [[cohere-asr]]
@@ -42,6 +45,7 @@ Total pages: 13
 - [[jami-cli]]
 - [[astropy]]
 - [[andrej-karpathy]]
+- [[google]]
 - [[grok]]
 - [[hugging-face-spaces]]
 - [[hermes-agent]]
@@ -82,12 +86,14 @@ Total pages: 13
 - [[forward-deployed-engineer]]
 - [[token-效率优化]]
 - [[项目扫描]]
+- [[音频概览]]
 - [[文生图]]
 - [[agent配置agent]]
 - [[沙盒化]]
 - [[宠物与牛马模型]]
 - [[ai-中控台]]
 - [[提示词优化]]
+- [[自动化研究工作流]]
 - [[蜂群模式]]
 - [[模块化插件架构]]
 - [[多agent协作]]
@@ -103,10 +109,12 @@ Total pages: 13
 - [[用户画像]]
 - [[环境隔离]]
 - [[路径管理]]
+- [[技能嵌套]]
 - [[智能扩图]]
 - [[双域记忆管理]]
 - [[主副模型协作]]
 - [[一键抠图]]
+- [[资料溯源]]
 - [[软件2-0]]
 - [[静态部署]]
 - [[闪电提示词]]
@@ -143,6 +151,7 @@ Total pages: 13
 - [[协调者]]
 - [[远程终端管理]]
 - [[多账号并行]]
+- [[私有ai助手]]
 - [[氛围编程]]
 - [[工作记忆]]
 
