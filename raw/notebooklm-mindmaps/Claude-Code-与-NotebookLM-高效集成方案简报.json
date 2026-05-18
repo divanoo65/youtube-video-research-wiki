@@ -1,0 +1,189 @@
+{
+  "name": "Claude Code + NotebookLM 自动化集成",
+  "children": [
+    {
+      "name": "核心工具介绍",
+      "children": [
+        {
+          "name": "NotebookLM",
+          "children": [
+            {
+              "name": "Google AI 研究工具"
+            },
+            {
+              "name": "支持PDF、YouTube、网页"
+            },
+            {
+              "name": "严格基于给定资料回答"
+            },
+            {
+              "name": "生成简报、Podcast、重点"
+            }
+          ]
+        },
+        {
+          "name": "Claude Code",
+          "children": [
+            {
+              "name": "Anthropic 命令行 AI 工具"
+            },
+            {
+              "name": "支持 MCP 模型上下文协议"
+            },
+            {
+              "name": "可操作本地文件与外部服务"
+            }
+          ]
+        },
+        {
+          "name": "MCP (Model Context Protocol)",
+          "children": [
+            {
+              "name": "连接 AI 与外部工具的插头"
+            },
+            {
+              "name": "实现自动化操作 UI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "环境配置步骤",
+      "children": [
+        {
+          "name": "必要准备",
+          "children": [
+            {
+              "name": "Claude 账号"
+            },
+            {
+              "name": "Google 账号"
+            },
+            {
+              "name": "安装 Claude Code"
+            }
+          ]
+        },
+        {
+          "name": "安装 MCP 服务器",
+          "children": [
+            {
+              "name": "下载 notebooklm-mpy"
+            },
+            {
+              "name": "使用 Claude 指令全局安装"
+            }
+          ]
+        },
+        {
+          "name": "账号授权",
+          "children": [
+            {
+              "name": "执行 nlm-login 登录"
+            },
+            {
+              "name": "Google 浏览器页面验证"
+            },
+            {
+              "name": "终端按 Enter 保存状态"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "核心功能演示",
+      "children": [
+        {
+          "name": "自动化流程",
+          "children": [
+            {
+              "name": "YT Search 搜索视频"
+            },
+            {
+              "name": "自动上传至 NotebookLM"
+            },
+            {
+              "name": "生成信息图 (Infographic)"
+            },
+            {
+              "name": "生成总结报告 (Report)"
+            }
+          ]
+        },
+        {
+          "name": "多技能结合",
+          "children": [
+            {
+              "name": "Skill + MCP 联动"
+            },
+            {
+              "name": "多任务并发处理"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "五大应用场景",
+      "children": [
+        {
+          "name": "PDF 知识库",
+          "children": [
+            {
+              "name": "批量处理文档"
+            },
+            {
+              "name": "自动生成摘要与 FAQ"
+            }
+          ]
+        },
+        {
+          "name": "Podcast 脚本",
+          "children": [
+            {
+              "name": "抓取 YouTube 最新视频"
+            },
+            {
+              "name": "生成 Audio Overview 脚本"
+            }
+          ]
+        },
+        {
+          "name": "竞品与市场研究",
+          "children": [
+            {
+              "name": "自动聚合文章与视频"
+            },
+            {
+              "name": "生成深度分析报告"
+            }
+          ]
+        },
+        {
+          "name": "学习笔记自动化",
+          "children": [
+            {
+              "name": "整理课程重点"
+            },
+            {
+              "name": "制作记忆卡片"
+            }
+          ]
+        },
+        {
+          "name": "个人 AI 助手",
+          "children": [
+            {
+              "name": "定期同步个人文件"
+            },
+            {
+              "name": "基于私有数据的自然语言查询"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

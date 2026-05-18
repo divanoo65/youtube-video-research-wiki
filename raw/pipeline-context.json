@@ -1,0 +1,30 @@
+{
+  "pipeline_id": "pipe-5f327f7",
+  "source_url": "",
+  "source_type": "",
+  "delivery_id": "",
+  "stage_b": {
+    "run_id": "gh-26049801194-1",
+    "start_time": "2026-05-18T17:36:06Z",
+    "end_time": "2026-05-18T17:37:25Z",
+    "duration_s": 37,
+    "api_calls": "unknown",
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 1,
+    "output_files": [
+      "raw/notebooklm-analysis/Claude-Code-与-NotebookLM-高效集成方案简报.md",
+      "raw/notebooklm-mindmaps/Claude-Code-与-NotebookLM-高效集成方案简报.json",
+      "wiki/canvas/Claude-Code-与-NotebookLM-高效集成方案简报.canvas"
+    ],
+    "source_metadata": {
+      "video_id": "qrguqTRufXw",
+      "title": "只要用過 Claude Code + NotebookLM 一週，你就再也回不去了",
+      "author": "JayLuxAI | AI 自動化",
+      "published_at": "2026-03-15T04:00:50Z",
+      "youtube_url": "https://www.youtube.com/watch?v=qrguqTRufXw",
+      "thumbnail": "https://i.ytimg.com/vi/qrguqTRufXw/hqdefault.jpg",
+      "source_type": "youtube"
+    }
+  }
+}
