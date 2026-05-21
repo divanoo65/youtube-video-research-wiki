@@ -1,0 +1,148 @@
+{
+  "name": "本地部署最强语音转文字神器教程",
+  "children": [
+    {
+      "name": "核心优势",
+      "children": [
+        {
+          "name": "完全本地运行"
+        },
+        {
+          "name": "免费开源"
+        },
+        {
+          "name": "超快转换速度"
+        },
+        {
+          "name": "支持数十种语言"
+        },
+        {
+          "name": "硬件门槛极低"
+        }
+      ]
+    },
+    {
+      "name": "环境准备",
+      "children": [
+        {
+          "name": "Hugging Face设置",
+          "children": [
+            {
+              "name": "注册并登录账号"
+            },
+            {
+              "name": "搜索Cohere ASR模型"
+            },
+            {
+              "name": "创建Read权限Token"
+            },
+            {
+              "name": "保存hf_开头代码"
+            }
+          ]
+        },
+        {
+          "name": "基础软件安装",
+          "children": [
+            {
+              "name": "下载安装Miniconda"
+            },
+            {
+              "name": "检查Conda版本"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "部署流程",
+      "children": [
+        {
+          "name": "环境配置",
+          "children": [
+            {
+              "name": "创建cohere_asr虚拟环境"
+            },
+            {
+              "name": "激活虚拟环境"
+            },
+            {
+              "name": "根据显卡安装对应CUDA版PyTorch"
+            }
+          ]
+        },
+        {
+          "name": "依赖与测试",
+          "children": [
+            {
+              "name": "安装剩余Dependencies"
+            },
+            {
+              "name": "运行Python脚本验证GPU唤醒"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "应用配置与启动",
+      "children": [
+        {
+          "name": "修改app.py",
+          "children": [
+            {
+              "name": "设置模型保存路径"
+            },
+            {
+              "name": "填入HF Access Token"
+            }
+          ]
+        },
+        {
+          "name": "启动程序",
+          "children": [
+            {
+              "name": "运行python app.py"
+            },
+            {
+              "name": "处理依赖库冲突错误"
+            },
+            {
+              "name": "进入Web交互界面"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "功能测试与结论",
+      "children": [
+        {
+          "name": "输出文件",
+          "children": [
+            {
+              "name": "纯文本TXT"
+            },
+            {
+              "name": "带时间戳SRT"
+            }
+          ]
+        },
+        {
+          "name": "性能评价",
+          "children": [
+            {
+              "name": "低端显卡(GTX 960)完美运行"
+            },
+            {
+              "name": "速度与准确度碾压Whisper"
+            },
+            {
+              "name": "字幕对齐基本准确需微调"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "name": "Hermes Agent 高级玩法",
+  "children": [
+    {
+      "name": "云端免费模型 (Ollama)",
+      "children": [
+        {
+          "name": "特点：不占本地资源、傻瓜式配置"
+        },
+        {
+          "name": "操作：官网下载安装 Ollama"
+        },
+        {
+          "name": "运行：执行内置命令行集成"
+        },
+        {
+          "name": "模型：Mixral-8x7B (云端免费版)"
+        }
+      ]
+    },
+    {
+      "name": "Open WebUI 交互优化",
+      "children": [
+        {
+          "name": "核心优势",
+          "children": [
+            {
+              "name": "保存绘画记录/侧边栏"
+            },
+            {
+              "name": "支持 Markdown 解析"
+            },
+            {
+              "name": "支持流式输出"
+            },
+            {
+              "name": "代码块直接运行"
+            }
+          ]
+        },
+        {
+          "name": "部署步骤",
+          "children": [
+            {
+              "name": "执行官方安装命令"
+            },
+            {
+              "name": "修改配置文件 (启用 API)"
+            },
+            {
+              "name": "设置 API 密码"
+            },
+            {
+              "name": "本地 8080 端口访问"
+            }
+          ]
+        },
+        {
+          "name": "多端访问",
+          "children": [
+            {
+              "name": "手机浏览器通过 IP 访问"
+            },
+            {
+              "name": "支持上传文件/截图"
+            },
+            {
+              "name": "引用网页/对话/知识库"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "节省 Token 配置",
+      "children": [
+        {
+          "name": "策略：主副模型分离",
+          "children": [
+            {
+              "name": "主模型：处理复杂任务"
+            },
+            {
+              "name": "副模型：处理简单辅助任务"
+            }
+          ]
+        },
+        {
+          "name": "辅助任务分类",
+          "children": [
+            {
+              "name": "批准 (Approval)"
+            },
+            {
+              "name": "压缩 (Summarize)"
+            },
+            {
+              "name": "记忆刷新 (Recall)"
+            },
+            {
+              "name": "MCP/Skills 调用"
+            },
+            {
+              "name": "视觉/网页解析"
+            }
+          ]
+        },
+        {
+          "name": "推荐副模型：Gemini 1.5 Flash"
+        }
+      ]
+    },
+    {
+      "name": "项目优势与对比",
+      "children": [
+        {
+          "name": "稳定性：远超 Opencloud (小龙虾)"
+        },
+        {
+          "name": "更迭：更新不崩溃，Bug 少"
+        },
+        {
+          "name": "名称：官方定义中文名为“赫美斯”"
+        }
+      ]
+    }
+  ]
+}

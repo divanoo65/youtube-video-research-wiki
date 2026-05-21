@@ -1,0 +1,151 @@
+{
+  "name": "Claude Code 与 NotebookLM 结合应用",
+  "children": [
+    {
+      "name": "核心工具介绍",
+      "children": [
+        {
+          "name": "NotebookLM",
+          "children": [
+            {
+              "name": "Google AI 研究工具"
+            },
+            {
+              "name": "支持 PDF/YouTube/网页来源"
+            },
+            {
+              "name": "严格基于给定资料回答"
+            }
+          ]
+        },
+        {
+          "name": "Claude Code",
+          "children": [
+            {
+              "name": "Anthropic 命令行工具"
+            },
+            {
+              "name": "支持操作本地文件"
+            },
+            {
+              "name": "通过 MCP 连接外部服务"
+            }
+          ]
+        },
+        {
+          "name": "MCP (Model Context Protocol)",
+          "children": [
+            {
+              "name": "连接 AI 与外部工具的插头"
+            },
+            {
+              "name": "notebooklm-mpy 开源实现"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "安装与配置步骤",
+      "children": [
+        {
+          "name": "准备工作",
+          "children": [
+            {
+              "name": "Claude 账号与 Google 账号"
+            },
+            {
+              "name": "安装 Claude Code"
+            }
+          ]
+        },
+        {
+          "name": "部署 MCP",
+          "children": [
+            {
+              "name": "复制 GitHub 仓库链接"
+            },
+            {
+              "name": "在 Claude 中使用 Global 指令安装"
+            }
+          ]
+        },
+        {
+          "name": "身份认证",
+          "children": [
+            {
+              "name": "终端执行 nlog 登录"
+            },
+            {
+              "name": "Google 授权并保存 Session"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "主要功能演示",
+      "children": [
+        {
+          "name": "自动搜索与导入",
+          "children": [
+            {
+              "name": "YT Search 搜索热门视频"
+            },
+            {
+              "name": "一键同步至 NotebookLM 来源"
+            }
+          ]
+        },
+        {
+          "name": "内容自动生成",
+          "children": [
+            {
+              "name": "生成 Infographic 信息图"
+            },
+            {
+              "name": "生成 Study Guide 总结报告"
+            },
+            {
+              "name": "制作 Podcast 脚本"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "五大延伸应用场景",
+      "children": [
+        {
+          "name": "PDF 知识库自动化整理"
+        },
+        {
+          "name": "内容创作者 Podcast 脚本生成"
+        },
+        {
+          "name": "竞品与市场调研报告"
+        },
+        {
+          "name": "课程视频学习笔记卡片"
+        },
+        {
+          "name": "基于个人文件的私有 AI 助理"
+        }
+      ]
+    },
+    {
+      "name": "核心优势",
+      "children": [
+        {
+          "name": "全自动化：无需手动上传与点击"
+        },
+        {
+          "name": "多技能组合：YT Search + NotebookLM"
+        },
+        {
+          "name": "对话式操作：自然语言控制复杂流程"
+        }
+      ]
+    }
+  ]
+}

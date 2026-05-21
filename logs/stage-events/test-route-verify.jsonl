@@ -1,0 +1,1 @@
+{"ts": "2026-05-21T15:44:02Z", "event": "stage_failed", "stage": "youtube-fetch", "pipeline": "youtube-research-wiki", "error": "fetch_youtube_metadata 退出 FETCH_EXIT_CODE"}

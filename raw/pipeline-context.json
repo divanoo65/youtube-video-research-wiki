@@ -1,22 +1,92 @@
 {
+  "pipeline_id": "pipe-a32f75f",
   "source_url": "https://www.youtube.com/watch?v=96jN2OCOfLs&t=92s",
   "source_type": "youtube",
   "delivery_id": "{delivery_id}",
-  "stage_b_fetch": {
-    "run_id": "gh-26237054132-1",
-    "video_id": "96jN2OCOfLs",
-    "title": "Andrej Karpathy: From Vibe Coding to Agentic Engineering",
-    "author": "Sequoia Capital",
-    "published_at": "2026-04-29T15:21:18Z",
-    "youtube_url": "https://www.youtube.com/watch?v=96jN2OCOfLs",
-    "thumbnail": "https://i.ytimg.com/vi/96jN2OCOfLs/hqdefault.jpg",
-    "meta_file": "raw/youtube-metadata/96jN2OCOfLs.json"
-  },
   "stage_b": {
+    "run_id": "direct-1779378711",
+    "start_time": "2026-05-21T16:17:02Z",
+    "end_time": "2026-05-21T16:17:02Z",
+    "duration_s": 0,
+    "api_calls": "unknown",
+    "videos_processed": 12,
+    "reports_generated": 12,
+    "mindmaps_generated": 12,
+    "output_files": [
+      "raw/notebooklm-analysis/AI-行业动态简报-谷歌-Gemini-3-5-发布与全球-AI-竞速格局分析.md",
+      "raw/notebooklm-analysis/Hermes-Agent-综合管理中控台-全方位可视化与控制解决方案简报.md",
+      "raw/notebooklm-analysis/简报-从氛围编程到智能体工程-Andrej-Karpathy-的人工智能洞察.md",
+      "raw/notebooklm-analysis/简报-从-氛围编程-到-智能体工程-安德烈-卡帕斯-Andrej-Karpath.md",
+      "raw/notebooklm-analysis/简报-从-氛围编程-到代理工程-安德烈-卡帕斯-Andrej-Karpathy.md",
+      "raw/notebooklm-analysis/Hugging-Face-永久免费云服务器使用与-AI-项目部署指南.md",
+      "raw/notebooklm-analysis/开源本地化语音转文字大模型部署与应用简报.md",
+      "raw/notebooklm-analysis/忠诚与承诺的宣言-Rick-Astley-Never-Gonna-Give-Yo.md",
+      "raw/notebooklm-analysis/Claude-Code-与-NotebookLM-协同增效-构建自动化-AI-研.md",
+      "raw/notebooklm-analysis/Hermes-Agent-高级玩法与部署指南-云端模型-交互优化与-Token.md",
+      "raw/notebooklm-analysis/赫美斯-Agent-Hermes-Agent-高级应用与部署简报.md",
+      "raw/notebooklm-analysis/Hermes-Agent-可视化控制台-Dashboard-深度解析报告.md",
+      "raw/notebooklm-mindmaps/AI-行业动态简报-谷歌-Gemini-3-5-发布与全球-AI-竞速格局分析.json",
+      "wiki/canvas/AI-行业动态简报-谷歌-Gemini-3-5-发布与全球-AI-竞速格局分析.canvas",
+      "raw/notebooklm-mindmaps/Hermes-Agent-综合管理中控台-全方位可视化与控制解决方案简报.json",
+      "wiki/canvas/Hermes-Agent-综合管理中控台-全方位可视化与控制解决方案简报.canvas",
+      "raw/notebooklm-mindmaps/简报-从-氛围编程-到代理工程-安德烈-卡帕斯-Andrej-Karpathy.json",
+      "wiki/canvas/简报-从-氛围编程-到代理工程-安德烈-卡帕斯-Andrej-Karpathy.canvas",
+      "raw/notebooklm-mindmaps/简报-从-氛围编程-到代理工程-安德烈-卡帕斯-Andrej-Karpathy.json",
+      "wiki/canvas/简报-从-氛围编程-到代理工程-安德烈-卡帕斯-Andrej-Karpathy.canvas",
+      "raw/notebooklm-mindmaps/简报-从-氛围编程-到代理工程-安德烈-卡帕斯-Andrej-Karpathy.json",
+      "wiki/canvas/简报-从-氛围编程-到代理工程-安德烈-卡帕斯-Andrej-Karpathy.canvas",
+      "raw/notebooklm-mindmaps/Hugging-Face-永久免费云服务器使用与-AI-项目部署指南.json",
+      "wiki/canvas/Hugging-Face-永久免费云服务器使用与-AI-项目部署指南.canvas",
+      "raw/notebooklm-mindmaps/开源本地化语音转文字大模型部署与应用简报.json",
+      "wiki/canvas/开源本地化语音转文字大模型部署与应用简报.canvas",
+      "raw/notebooklm-mindmaps/忠诚与承诺的宣言-Rick-Astley-Never-Gonna-Give-Yo.json",
+      "wiki/canvas/忠诚与承诺的宣言-Rick-Astley-Never-Gonna-Give-Yo.canvas",
+      "raw/notebooklm-mindmaps/Claude-Code-与-NotebookLM-协同增效-构建自动化-AI-研.json",
+      "wiki/canvas/Claude-Code-与-NotebookLM-协同增效-构建自动化-AI-研.canvas",
+      "raw/notebooklm-mindmaps/赫美斯-Agent-Hermes-Agent-高级应用与部署简报.json",
+      "wiki/canvas/赫美斯-Agent-Hermes-Agent-高级应用与部署简报.canvas",
+      "raw/notebooklm-mindmaps/赫美斯-Agent-Hermes-Agent-高级应用与部署简报.json",
+      "wiki/canvas/赫美斯-Agent-Hermes-Agent-高级应用与部署简报.canvas",
+      "raw/notebooklm-mindmaps/Hermes-Agent-可视化控制台-Dashboard-深度解析报告.json",
+      "wiki/canvas/Hermes-Agent-可视化控制台-Dashboard-深度解析报告.canvas"
+    ],
     "source_metadata": {
-      "title": "Andrej Karpathy: From Vibe Coding to Agentic Engineering",
-      "youtube_url": "https://www.youtube.com/watch?v=96jN2OCOfLs",
-      "author": "Sequoia Capital"
+      "1xyZrwPV-xc": {
+        "youtube_url": "https://www.youtube.com/watch?v=1xyZrwPV-xc",
+        "report_title": "AI 行业动态简报：谷歌 Gemini 3.5 发布与全球 AI 竞速格局分析"
+      },
+      "78YQMfgPlwA": {
+        "youtube_url": "https://www.youtube.com/watch?v=78YQMfgPlwA",
+        "report_title": "Hermes Agent 综合管理中控台：全方位可视化与控制解决方案简报"
+      },
+      "96jN2OCOfLs": {
+        "youtube_url": "https://www.youtube.com/watch?v=96jN2OCOfLs&t=92s",
+        "report_title": "简报：从氛围编程到智能体工程——Andrej Karpathy 的人工智能洞察"
+      },
+      "Ahfe-BW1cFc": {
+        "youtube_url": "https://www.youtube.com/watch?v=Ahfe-BW1cFc",
+        "report_title": "Hugging Face 永久免费云服务器使用与 AI 项目部署指南"
+      },
+      "OEBTu3DYFmg": {
+        "youtube_url": "https://www.youtube.com/watch?v=OEBTu3DYFmg",
+        "report_title": "开源本地化语音转文字大模型部署与应用简报"
+      },
+      "dQw4w9WgXcQ": {
+        "youtube_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "report_title": "忠诚与承诺的宣言：Rick Astley《Never Gonna Give You Up》核心内容深度分析简报"
+      },
+      "qrguqTRufXw": {
+        "youtube_url": "https://www.youtube.com/watch?v=qrguqTRufXw",
+        "report_title": "Claude Code 与 NotebookLM 协同增效：构建自动化 AI 研究工作流简报"
+      },
+      "rBUfD_wvbhw": {
+        "youtube_url": "https://www.youtube.com/watch?v=rBUfD_wvbhw&t=133s",
+        "report_title": null
+      },
+      "https://youtu.be/Lh1KrgjnZcE?si=TQs9u0BOXN0n5Za5": {
+        "youtube_url": "https://youtu.be/Lh1KrgjnZcE?si=TQs9u0BOXN0n5Za5",
+        "report_title": null
+      }
     }
   }
 }

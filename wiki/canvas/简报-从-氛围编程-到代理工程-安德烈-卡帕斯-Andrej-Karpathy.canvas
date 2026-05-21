@@ -1,0 +1,492 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "type": "text",
+      "text": "安德烈·卡帕斯：从Vibe Coding到智能体工程",
+      "x": 0,
+      "y": 720,
+      "width": 280,
+      "height": 52,
+      "color": "6"
+    },
+    {
+      "id": "1",
+      "type": "text",
+      "text": "编程范式的演进",
+      "x": 360,
+      "y": 72,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "2",
+      "type": "text",
+      "text": "Software 1.0：人工编写代码",
+      "x": 680,
+      "y": 0,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "3",
+      "type": "text",
+      "text": "Software 2.0：通过数据训练权重",
+      "x": 680,
+      "y": 72,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "4",
+      "type": "text",
+      "text": "Software 3.0：Prompting与LLM计算",
+      "x": 680,
+      "y": 144,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "5",
+      "type": "text",
+      "text": "Vibe Coding",
+      "x": 360,
+      "y": 288,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "6",
+      "type": "text",
+      "text": "提高软件开发的下限",
+      "x": 680,
+      "y": 216,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "7",
+      "type": "text",
+      "text": "基于直觉与信任系统的协作",
+      "x": 680,
+      "y": 288,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "8",
+      "type": "text",
+      "text": "适用于快速构建原型与侧边项目",
+      "x": 680,
+      "y": 360,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "9",
+      "type": "text",
+      "text": "Agentic Engineering (智能体工程)",
+      "x": 360,
+      "y": 540,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "10",
+      "type": "text",
+      "text": "保持专业软件的高质量标准",
+      "x": 680,
+      "y": 432,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "11",
+      "type": "text",
+      "text": "协调多个随机且强大的智能体",
+      "x": 680,
+      "y": 504,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "12",
+      "type": "text",
+      "text": "实现超过10倍的生产力飞跃",
+      "x": 680,
+      "y": 576,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "13",
+      "type": "text",
+      "text": "从单一Chat向Agent原生环境转型",
+      "x": 680,
+      "y": 648,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "14",
+      "type": "text",
+      "text": "LLM的特性与挑战",
+      "x": 360,
+      "y": 828,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "15",
+      "type": "text",
+      "text": "参差不齐的智能 (Jagged Intelligence)",
+      "x": 680,
+      "y": 756,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "16",
+      "type": "text",
+      "text": "可验证领域（代码、数学）表现极佳",
+      "x": 960,
+      "y": 720,
+      "width": 180,
+      "height": 52,
+      "color": "3"
+    },
+    {
+      "id": "17",
+      "type": "text",
+      "text": "不可验证/常识领域存在短板",
+      "x": 960,
+      "y": 792,
+      "width": 180,
+      "height": 52,
+      "color": "3"
+    },
+    {
+      "id": "18",
+      "type": "text",
+      "text": "数据分布依赖：受RL奖励和预训练集影响",
+      "x": 680,
+      "y": 864,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "19",
+      "type": "text",
+      "text": "召唤幽灵而非构建动物：缺乏内在动力",
+      "x": 680,
+      "y": 936,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "20",
+      "type": "text",
+      "text": "未来趋势与基础设施",
+      "x": 360,
+      "y": 1080,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "21",
+      "type": "text",
+      "text": "神经计算机：神经网络作为宿主进程",
+      "x": 680,
+      "y": 1008,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "22",
+      "type": "text",
+      "text": "智能体原生基础设施：传感器与执行器视角",
+      "x": 680,
+      "y": 1080,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "23",
+      "type": "text",
+      "text": "去App化：RAW模型直接处理端到端任务",
+      "x": 680,
+      "y": 1152,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "24",
+      "type": "text",
+      "text": "AI时代的教育与技能",
+      "x": 360,
+      "y": 1332,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "25",
+      "type": "text",
+      "text": "外包思考，但不外包理解",
+      "x": 680,
+      "y": 1224,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "26",
+      "type": "text",
+      "text": "核心能力：审美、判断力、品味、监督",
+      "x": 680,
+      "y": 1296,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "27",
+      "type": "text",
+      "text": "从记忆API细节转向掌握系统架构",
+      "x": 680,
+      "y": 1368,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "28",
+      "type": "text",
+      "text": "招聘变革：看重解决大型项目的实战能力",
+      "x": 680,
+      "y": 1440,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1-2",
+      "fromNode": "1",
+      "toNode": "2",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e1-3",
+      "fromNode": "1",
+      "toNode": "3",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e1-4",
+      "fromNode": "1",
+      "toNode": "4",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-1",
+      "fromNode": "0",
+      "toNode": "1",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e5-6",
+      "fromNode": "5",
+      "toNode": "6",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e5-7",
+      "fromNode": "5",
+      "toNode": "7",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e5-8",
+      "fromNode": "5",
+      "toNode": "8",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-5",
+      "fromNode": "0",
+      "toNode": "5",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e9-10",
+      "fromNode": "9",
+      "toNode": "10",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e9-11",
+      "fromNode": "9",
+      "toNode": "11",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e9-12",
+      "fromNode": "9",
+      "toNode": "12",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e9-13",
+      "fromNode": "9",
+      "toNode": "13",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-9",
+      "fromNode": "0",
+      "toNode": "9",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e15-16",
+      "fromNode": "15",
+      "toNode": "16",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e15-17",
+      "fromNode": "15",
+      "toNode": "17",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e14-15",
+      "fromNode": "14",
+      "toNode": "15",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e14-18",
+      "fromNode": "14",
+      "toNode": "18",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e14-19",
+      "fromNode": "14",
+      "toNode": "19",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-14",
+      "fromNode": "0",
+      "toNode": "14",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e20-21",
+      "fromNode": "20",
+      "toNode": "21",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e20-22",
+      "fromNode": "20",
+      "toNode": "22",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e20-23",
+      "fromNode": "20",
+      "toNode": "23",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-20",
+      "fromNode": "0",
+      "toNode": "20",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e24-25",
+      "fromNode": "24",
+      "toNode": "25",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e24-26",
+      "fromNode": "24",
+      "toNode": "26",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e24-27",
+      "fromNode": "24",
+      "toNode": "27",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e24-28",
+      "fromNode": "24",
+      "toNode": "28",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-24",
+      "fromNode": "0",
+      "toNode": "24",
+      "fromSide": "right",
+      "toSide": "left"
+    }
+  ]
+}

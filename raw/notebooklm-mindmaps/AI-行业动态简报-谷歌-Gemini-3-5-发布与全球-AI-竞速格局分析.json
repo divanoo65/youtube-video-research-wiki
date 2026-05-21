@@ -1,0 +1,121 @@
+{
+  "name": "AI 行业动态与谷歌 IO 大会",
+  "children": [
+    {
+      "name": "谷歌 (Google) 发布会",
+      "children": [
+        {
+          "name": "Gemini 3.5 Flash",
+          "children": [
+            {
+              "name": "速度提升 4 倍"
+            },
+            {
+              "name": "成本降低一半"
+            },
+            {
+              "name": "基准测试表现良好"
+            },
+            {
+              "name": "定位为前瞻版本"
+            }
+          ]
+        },
+        {
+          "name": "Gemini 3.5 Pro",
+          "children": [
+            {
+              "name": "预计下月初发布"
+            },
+            {
+              "name": "期待更强性能"
+            }
+          ]
+        },
+        {
+          "name": "Antigravity 2.0",
+          "children": [
+            {
+              "name": "谷歌版 Codex/桌面端"
+            },
+            {
+              "name": "UI 交互优化"
+            },
+            {
+              "name": "存在登录 Bug"
+            }
+          ]
+        },
+        {
+          "name": "其他亮点",
+          "children": [
+            {
+              "name": "Project Astra 多模态演示"
+            },
+            {
+              "name": "智能眼镜硬件"
+            },
+            {
+              "name": "Agent 管理工具"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OpenAI 动态",
+      "children": [
+        {
+          "name": "Codex 集成至 GPT App"
+        },
+        {
+          "name": "支持手机端调用 AI 工作"
+        },
+        {
+          "name": "奥特曼法律纠纷进展"
+        }
+      ]
+    },
+    {
+      "name": "Anthropic (Claude) 动态",
+      "children": [
+        {
+          "name": "AK (创始成员) 宣布加入"
+        },
+        {
+          "name": "近期大模型更新较少"
+        },
+        {
+          "name": "专注于小功能优化"
+        }
+      ]
+    },
+    {
+      "name": "行业竞争与排行",
+      "children": [
+        {
+          "name": "DeepSeek V4",
+          "children": [
+            {
+              "name": "OpenRouter 排行榜第二"
+            },
+            {
+              "name": "主打物美价廉/高性价比"
+            }
+          ]
+        },
+        {
+          "name": "市场评价",
+          "children": [
+            {
+              "name": "谷歌进度落后竞争对手 2 个月"
+            },
+            {
+              "name": "模型代际差问题"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
