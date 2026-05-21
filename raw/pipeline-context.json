@@ -1,5 +1,27 @@
 {
+  "pipeline_id": "watch-v-78YQMfgPlwA",
   "source_url": "https://www.youtube.com/watch?v=78YQMfgPlwA",
   "source_type": "youtube",
-  "delivery_id": "{delivery_id}"
+  "delivery_id": "{delivery_id}",
+  "stage_b": {
+    "duration_s": 0,
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 1,
+    "processed_urls": [
+      "https://www.youtube.com/watch?v=78YQMfgPlwA"
+    ],
+    "output_files": [
+      "raw/notebooklm-analysis/Hermes-Agent-AI-中控台-全方位可视化监控与管理工具简报.md",
+      "raw/notebooklm-mindmaps/Hermes-Agent-AI-中控台-全方位可视化监控与管理工具简报.json",
+      "wiki/canvas/Hermes-Agent-AI-中控台-全方位可视化监控与管理工具简报.canvas"
+    ],
+    "source_metadata": {
+      "youtube_url": "https://www.youtube.com/watch?v=78YQMfgPlwA"
+    },
+    "run_id": "manual-retry-004",
+    "start_time": "",
+    "end_time": "",
+    "api_calls": "unknown"
+  }
 }
