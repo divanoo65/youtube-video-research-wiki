@@ -1,6 +1,6 @@
 # YouTube Video Research Wiki
 Last updated: 2026-05-21
-Total pages: 9
+Total pages: 13
 
 ## Sources
 - [[hermes-agent-网页版中控台深度分析报告]]
@@ -186,6 +186,7 @@ Total pages: 9
 - [[成本分析]]
 - [[绝不使人哭泣]]
 - [[脑手解耦]]
+- [[情感表达盲目性]]
 - [[cron-任务管理]]
 - [[热力图分析]]
 - [[情感表达的盲目性]]

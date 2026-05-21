@@ -1,0 +1,37 @@
+{
+  "stage_c": {
+    "run_id": "gh-26220414567-1",
+    "start_time": "2026-05-21T10:28:02Z",
+    "end_time": "2026-05-21T10:32:36Z",
+    "duration_s": 273,
+    "llm_calls": 16,
+    "pages_created_total": 201,
+    "pages_new_this_run": 17,
+    "file_paths": [
+      "wiki/concepts/agent-追踪.md",
+      "wiki/concepts/关系承诺框架.md",
+      "wiki/concepts/关系认知.md",
+      "wiki/concepts/博弈规则.md",
+      "wiki/concepts/情感表达的盲目性.md",
+      "wiki/concepts/情感表达盲目性.md",
+      "wiki/concepts/技能掌握情况.md",
+      "wiki/concepts/智能体.md",
+      "wiki/concepts/永不准则.md",
+      "wiki/concepts/绝不使人哭泣.md",
+      "wiki/concepts/绝不告别.md",
+      "wiki/concepts/绝不失望.md",
+      "wiki/concepts/绝不撒谎伤害.md",
+      "wiki/concepts/绝不放弃.md",
+      "wiki/concepts/绝不逃避或遗弃.md",
+      "wiki/concepts/绝对忠诚.md",
+      "wiki/concepts/绝对忠诚承诺架构.md"
+    ],
+    "sources": 18,
+    "entities": 64,
+    "concepts": 119,
+    "comparisons": 0,
+    "prompt_tokens": 22539,
+    "completion_tokens": 15058,
+    "status": "success"
+  }
+}
