@@ -1,0 +1,17 @@
+{
+  "stage_c": {
+    "run_id": "gh-26240386514-1",
+    "status": "initial"
+  },
+  "stage_b": {
+    "run_id": "gh-26240386514-1",
+    "status": "success",
+    "processed_urls": [
+      "https://www.youtube.com/watch?v=96jN2OCOfLs",
+      "https://www.youtube.com/watch?v=rBUfD_wvbhw",
+      "https://www.youtube.com/watch?v=78YQMfgPlwA",
+      "https://www.youtube.com/watch?v=OEBTu3DYFmg"
+    ],
+    "videos_processed": 4
+  }
+}
