@@ -1,5 +1,25 @@
 {
+  "pipeline_id": "pipe-775c704",
   "source_url": "https://www.youtube.com/watch?v=96jN2OCOfLs&t=90s",
   "source_type": "youtube",
-  "delivery_id": "{delivery_id}"
+  "delivery_id": "{delivery_id}",
+  "stage_b": {
+    "run_id": "gh-26227759767-1",
+    "start_time": "2026-05-21T13:06:05Z",
+    "end_time": "2026-05-21T13:10:29Z",
+    "duration_s": 264,
+    "api_calls": "unknown",
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 1,
+    "output_files": [
+      "raw/notebooklm-analysis/简报-从-氛围编程-到代理工程-Andrej-Karpathy-的-AI-范式深.md",
+      "raw/notebooklm-mindmaps/简报-从-氛围编程-到代理工程-Andrej-Karpathy-的-AI-范式深.json",
+      "wiki/canvas/简报-从-氛围编程-到代理工程-Andrej-Karpathy-的-AI-范式深.canvas"
+    ],
+    "source_metadata": {
+      "youtube_url": "https://www.youtube.com/watch?v=96jN2OCOfLs",
+      "report_title": "简报：从“氛围编程”到代理工程 —— Andrej Karpathy 的 AI 范式深度解析"
+    }
+  }
 }
