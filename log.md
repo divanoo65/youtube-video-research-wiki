@@ -59,3 +59,4 @@
 - **llm_calls**: 6 (estimated) | **duration**: 591s (timed out)
 - **status**: partial_success_timeout
 - **log**: logs/webhook-runs/manual-retry-006.md
+- **gh-26215724597-1**: Stage C completed. New pages: 148. Duration: 601s. (Manually completed after timeout)

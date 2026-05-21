@@ -26,18 +26,19 @@
     }
   },
   "stage_c": {
-    "run_id": "manual-retry-006",
+    "run_id": "gh-26215724597-1",
     "start_time": "2026-05-21T08:38:05+00:00",
     "end_time": "2026-05-21T08:47:56Z",
     "duration_s": 591,
     "api_calls": "estimated",
-    "pages_new_this_run": 2,
+    "pages_new_this_run": 148,
     "pages_created_total": 148,
     "output_files": [
       "wiki/sources/Hermes-Agent-AI-中控台-全方位可视化监控与管理管理工具简报.md",
       "wiki/entities/Hermes-Agent-AI-中控台.md",
       "wiki/concepts/AI-中控台.md"
     ],
-    "source_metadata": {}
+    "source_metadata": {},
+    "duration": 601
   }
 }
