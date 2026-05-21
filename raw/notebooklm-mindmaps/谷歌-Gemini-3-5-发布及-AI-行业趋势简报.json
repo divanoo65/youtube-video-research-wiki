@@ -1,0 +1,142 @@
+{
+  "name": "AI 行业动态汇总",
+  "children": [
+    {
+      "name": "Google 最新发布",
+      "children": [
+        {
+          "name": "Gemini 3.5 Flash",
+          "children": [
+            {
+              "name": "速度提升 4 倍"
+            },
+            {
+              "name": "价格降低 50%"
+            },
+            {
+              "name": "多项基准测试表现良好"
+            },
+            {
+              "name": "定位前瞻轻量版"
+            }
+          ]
+        },
+        {
+          "name": "Antigravity 2.0",
+          "children": [
+            {
+              "name": "谷歌版 Codex"
+            },
+            {
+              "name": "桌面端应用"
+            },
+            {
+              "name": "UI 交互优化"
+            },
+            {
+              "name": "目前存在登录 bug"
+            }
+          ]
+        },
+        {
+          "name": "Gemini 3.5 Pro 预告",
+          "children": [
+            {
+              "name": "预计下月初发布"
+            },
+            {
+              "name": "解决任务逻辑能力更强"
+            }
+          ]
+        },
+        {
+          "name": "Google I/O 其他亮点",
+          "children": [
+            {
+              "name": "Project Astra 多模态演示"
+            },
+            {
+              "name": "智能眼镜硬件"
+            },
+            {
+              "name": "AI 助手管理工具"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OpenAI 动态",
+      "children": [
+        {
+          "name": "Codex 集成",
+          "children": [
+            {
+              "name": "已上线 GPT 手机 APP"
+            },
+            {
+              "name": "手机端可调用 AI 完成任务"
+            }
+          ]
+        },
+        {
+          "name": "行业领先地位",
+          "children": [
+            {
+              "name": "GPT-4.7 与 5.5 性能优势"
+            },
+            {
+              "name": "奥特曼法律官司胜诉"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Anthropic (Claude)",
+      "children": [
+        {
+          "name": "人事变动",
+          "children": [
+            {
+              "name": "OpenAI 创始成员 AK 加入"
+            },
+            {
+              "name": "有望提升流量与影响力"
+            }
+          ]
+        },
+        {
+          "name": "现状",
+          "children": [
+            {
+              "name": "近期缺乏重磅大模型更新"
+            },
+            {
+              "name": "主要为小功能迭代"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "其他行业讯息",
+      "children": [
+        {
+          "name": "DeepSeek V4",
+          "children": [
+            {
+              "name": "OpenRouter 排行榜第二名"
+            },
+            {
+              "name": "主打性价比"
+            },
+            {
+              "name": "分为 Flash 与 Pro 版"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

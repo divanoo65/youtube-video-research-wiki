@@ -1,27 +1,28 @@
 {
-  "pipeline_id": "watch-v-78YQMfgPlwA",
+  "pipeline_id": "pipe-f184e6d",
   "source_url": "https://www.youtube.com/watch?v=78YQMfgPlwA",
   "source_type": "youtube",
   "delivery_id": "{delivery_id}",
   "stage_b": {
-    "duration_s": 0,
+    "run_id": "gh-26212472239-1",
+    "start_time": "2026-05-21T07:40:12Z",
+    "end_time": "2026-05-21T07:46:02Z",
+    "duration_s": 63072350,
+    "api_calls": "unknown",
     "videos_processed": 1,
     "reports_generated": 1,
     "mindmaps_generated": 1,
-    "processed_urls": [
-      "https://www.youtube.com/watch?v=78YQMfgPlwA"
-    ],
     "output_files": [
       "raw/notebooklm-analysis/Hermes-Agent-AI-中控台-全方位可视化监控与管理工具简报.md",
       "raw/notebooklm-mindmaps/Hermes-Agent-AI-中控台-全方位可视化监控与管理工具简报.json",
-      "wiki/canvas/Hermes-Agent-AI-中控台-全方位可视化监控与管理工具简报.canvas"
+      "wiki/canvas/Hermes-Agent-AI-中控台-全方位可视化监控与管理工具简报.canvas",
+      "raw/notebooklm-analysis/情感承诺与关系持久性深度简报-核心原则与动态分析.md",
+      "raw/notebooklm-mindmaps/情感承诺与关系持久性深度简报-核心原则与动态分析.json",
+      "wiki/canvas/情感承诺与关系持久性深度简报-核心原则与动态分析.canvas"
     ],
     "source_metadata": {
-      "youtube_url": "https://www.youtube.com/watch?v=78YQMfgPlwA"
-    },
-    "run_id": "manual-retry-004",
-    "start_time": "",
-    "end_time": "",
-    "api_calls": "unknown"
+      "youtube_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "report_title": "情感承诺与关系持久性深度简报：核心原则与动态分析"
+    }
   }
 }
