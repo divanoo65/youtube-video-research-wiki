@@ -1,0 +1,131 @@
+{
+  "name": "Open Design 开源设计工具",
+  "children": [
+    {
+      "name": "核心优势",
+      "children": [
+        {
+          "name": "完全免费"
+        },
+        {
+          "name": "开源灵活"
+        },
+        {
+          "name": "本地化部署"
+        },
+        {
+          "name": "支持Bring Your Own Key"
+        },
+        {
+          "name": "隐私安全"
+        }
+      ]
+    },
+    {
+      "name": "核心功能",
+      "children": [
+        {
+          "name": "多模型集成",
+          "children": [
+            {
+              "name": "Anthropic Claude"
+            },
+            {
+              "name": "OpenAI"
+            },
+            {
+              "name": "开源模型(Minx等)"
+            }
+          ]
+        },
+        {
+          "name": "Agent协作",
+          "children": [
+            {
+              "name": "自动检测AI代理"
+            },
+            {
+              "name": "MCP服务器跨代理协作"
+            }
+          ]
+        },
+        {
+          "name": "设计资产",
+          "children": [
+            {
+              "name": "32种组合技能"
+            },
+            {
+              "name": "72套完整设计系统"
+            }
+          ]
+        },
+        {
+          "name": "导出格式",
+          "children": [
+            {
+              "name": "HTML"
+            },
+            {
+              "name": "PDF"
+            },
+            {
+              "name": "PowerPoint"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "技术特性",
+      "children": [
+        {
+          "name": "本地文件系统读写"
+        },
+        {
+          "name": "模块化设计思想"
+        },
+        {
+          "name": "代码生成整洁(HTML/CSS)"
+        },
+        {
+          "name": "交互式标注修改"
+        }
+      ]
+    },
+    {
+      "name": "部署环境要求",
+      "children": [
+        {
+          "name": "Node.js 24+"
+        },
+        {
+          "name": "Git"
+        },
+        {
+          "name": "pnpm工具"
+        },
+        {
+          "name": "Windows需启用WSL"
+        }
+      ]
+    },
+    {
+      "name": "Claude Design对比",
+      "children": [
+        {
+          "name": "打破付费墙"
+        },
+        {
+          "name": "无额度消耗限制"
+        },
+        {
+          "name": "开放工作流"
+        },
+        {
+          "name": "功能全面对标"
+        }
+      ]
+    }
+  ]
+}

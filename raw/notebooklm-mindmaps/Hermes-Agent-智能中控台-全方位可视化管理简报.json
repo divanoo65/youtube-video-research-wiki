@@ -1,0 +1,140 @@
+{
+  "name": "Hermes Agent AI 中控台 (Dashboard)",
+  "children": [
+    {
+      "name": "Dashboard (核心概览)",
+      "children": [
+        {
+          "name": "模型与后端状态"
+        },
+        {
+          "name": "state.db 数据库大小"
+        },
+        {
+          "name": "AI 成绩单 (对话、消息、工具调用数)"
+        },
+        {
+          "name": "Token 处理统计"
+        },
+        {
+          "name": "成长曲线 (Growth Delta)"
+        },
+        {
+          "name": "常用工具排行榜"
+        }
+      ]
+    },
+    {
+      "name": "Memory & Sessions (记忆与记录)",
+      "children": [
+        {
+          "name": "Memory 管理",
+          "children": [
+            {
+              "name": "工作记忆 (Agent Memory)"
+            },
+            {
+              "name": "用户画像 (User Profile)"
+            },
+            {
+              "name": "可视化编辑与删除"
+            }
+          ]
+        },
+        {
+          "name": "Sessions 记录",
+          "children": [
+            {
+              "name": "全量对话历史"
+            },
+            {
+              "name": "平台区分 (Telegram/CLI)"
+            },
+            {
+              "name": "全文搜索功能"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cost & Health (成本与系统状态)",
+      "children": [
+        {
+          "name": "累计与今日费用统计"
+        },
+        {
+          "name": "按模型拆分明细 (如 Opus)"
+        },
+        {
+          "name": "API Key 状态检测"
+        },
+        {
+          "name": "Gateway 服务运行状态"
+        }
+      ]
+    },
+    {
+      "name": "Skills & Automation (技能与任务)",
+      "children": [
+        {
+          "name": "Skill 列表与分类统计"
+        },
+        {
+          "name": "Custom 技能标识"
+        },
+        {
+          "name": "Cron Tab 排程管理"
+        },
+        {
+          "name": "任务恢复与删除"
+        }
+      ]
+    },
+    {
+      "name": "Advanced Analysis (深度分析)",
+      "children": [
+        {
+          "name": "Task Clusters 任务聚类"
+        },
+        {
+          "name": "24小时活动图"
+        },
+        {
+          "name": "Prompt 闪电 (重复建议自动化)"
+        },
+        {
+          "name": "Correction 错题本"
+        }
+      ]
+    },
+    {
+      "name": "Project & System (项目与系统)",
+      "children": [
+        {
+          "name": "Project Step 自动扫描专案"
+        },
+        {
+          "name": "Git 提交状态识别 (Dirty/Active)"
+        },
+        {
+          "name": "Agent Alive 活跃进程监测"
+        }
+      ]
+    },
+    {
+      "name": "Interaction & UI (交互体验)",
+      "children": [
+        {
+          "name": "Chat Tab 浏览器直接对话"
+        },
+        {
+          "name": "Theme Picker 主题切换"
+        },
+        {
+          "name": "Ctrl+K 快速跳转"
+        }
+      ]
+    }
+  ]
+}

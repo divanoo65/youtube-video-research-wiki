@@ -1,0 +1,128 @@
+{
+  "name": "本地语音转文字工具部署教程",
+  "children": [
+    {
+      "name": "核心优势",
+      "children": [
+        {
+          "name": "处理速度极快"
+        },
+        {
+          "name": "支持10余种语言"
+        },
+        {
+          "name": "硬件门槛极低"
+        },
+        {
+          "name": "完全本地运行"
+        }
+      ]
+    },
+    {
+      "name": "前期准备",
+      "children": [
+        {
+          "name": "Hugging Face账号",
+          "children": [
+            {
+              "name": "注册并登录"
+            },
+            {
+              "name": "搜索特定模型"
+            },
+            {
+              "name": "获取Access Token"
+            },
+            {
+              "name": "勾选Read权限"
+            }
+          ]
+        },
+        {
+          "name": "软件环境",
+          "children": [
+            {
+              "name": "安装Miniconda"
+            },
+            {
+              "name": "配置虚拟环境"
+            },
+            {
+              "name": "安装PyTorch CUDA版"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "部署步骤",
+      "children": [
+        {
+          "name": "创建存放文件夹"
+        },
+        {
+          "name": "激活虚拟环境"
+        },
+        {
+          "name": "安装依赖包"
+        },
+        {
+          "name": "修改app.py配置"
+        },
+        {
+          "name": "填入HF Token"
+        }
+      ]
+    },
+    {
+      "name": "功能测试与优化",
+      "children": [
+        {
+          "name": "验证GPU加速状态"
+        },
+        {
+          "name": "处理模型冲突报错"
+        },
+        {
+          "name": "启动本地Web页面"
+        },
+        {
+          "name": "语言锁定设置"
+        }
+      ]
+    },
+    {
+      "name": "输出成果",
+      "children": [
+        {
+          "name": "逐字精准文本"
+        },
+        {
+          "name": "带时间轴SRT字幕"
+        },
+        {
+          "name": "极速转录体验"
+        }
+      ]
+    },
+    {
+      "name": "模型对比",
+      "children": [
+        {
+          "name": "vs OpenAI Whisper",
+          "children": [
+            {
+              "name": "速度绝对碾压"
+            },
+            {
+              "name": "同步更加稳定"
+            },
+            {
+              "name": "更少出现幻觉/重复"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

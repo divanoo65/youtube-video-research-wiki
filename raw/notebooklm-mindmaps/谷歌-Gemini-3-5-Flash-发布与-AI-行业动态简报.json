@@ -1,0 +1,116 @@
+{
+  "name": "AI 行业动态及谷歌 IO 大会",
+  "children": [
+    {
+      "name": "谷歌 (Google) 更新",
+      "children": [
+        {
+          "name": "Gemini 3.5 Flash",
+          "children": [
+            {
+              "name": "速度提升四倍"
+            },
+            {
+              "name": "成本降低一半"
+            },
+            {
+              "name": "对标 GPT-4.7 与 GPT-5.5"
+            },
+            {
+              "name": "定位：前瞻性轻量模型"
+            }
+          ]
+        },
+        {
+          "name": "Antigravity 2.0",
+          "children": [
+            {
+              "name": "谷歌版 Codex/Cursor"
+            },
+            {
+              "name": "桌面端应用"
+            },
+            {
+              "name": "UI 交互优化"
+            },
+            {
+              "name": "存在登录 Bug 待修"
+            }
+          ]
+        },
+        {
+          "name": "未来计划",
+          "children": [
+            {
+              "name": "下月初发布 3.5 Pro"
+            },
+            {
+              "name": "智能眼镜硬件"
+            },
+            {
+              "name": "秋季发布 AI 代理管理工具"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OpenAI 动态",
+      "children": [
+        {
+          "name": "Codex 集成至 GPT App 端"
+        },
+        {
+          "name": "支持手机端调用 AI 完成工作"
+        },
+        {
+          "name": "产品更新节奏领先行业"
+        }
+      ]
+    },
+    {
+      "name": "Anthropic (Claude) 动态",
+      "children": [
+        {
+          "name": "AK (原 OpenAI 创始成员) 加入"
+        },
+        {
+          "name": "近期大模型更新较慢"
+        },
+        {
+          "name": "侧重小功能迭代"
+        }
+      ]
+    },
+    {
+      "name": "行业排行与趋势",
+      "children": [
+        {
+          "name": "OpenRouter 排行榜",
+          "children": [
+            {
+              "name": "DeepSeek V4 Flash 位列第二"
+            },
+            {
+              "name": "DeepSeek V4 Pro 位列第八"
+            },
+            {
+              "name": "优势：高性价比、多轮交互"
+            }
+          ]
+        },
+        {
+          "name": "当前痛点",
+          "children": [
+            {
+              "name": "模型代差问题"
+            },
+            {
+              "name": "Gemini 3.1 存在过度顺从倾向"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

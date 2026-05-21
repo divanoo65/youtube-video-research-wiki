@@ -1,0 +1,139 @@
+{
+  "name": "Claude Code 与 NotebookLM 的结合应用",
+  "children": [
+    {
+      "name": "工具介绍",
+      "children": [
+        {
+          "name": "NotebookLM",
+          "children": [
+            {
+              "name": "Google AI 研究工具"
+            },
+            {
+              "name": "支持 PDF/YouTube/网页"
+            },
+            {
+              "name": "基于给定资料回答 (不幻觉)"
+            }
+          ]
+        },
+        {
+          "name": "Claude Code",
+          "children": [
+            {
+              "name": "终端 AI 工具"
+            },
+            {
+              "name": "通过 MCP 连接外部服务"
+            },
+            {
+              "name": "自动化操作文件与流程"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "核心技术：MCP",
+      "children": [
+        {
+          "name": "作为工具插座"
+        },
+        {
+          "name": "notebooklm-mpy (开源插件)"
+        },
+        {
+          "name": "连接 Claude 与 NotebookLM"
+        }
+      ]
+    },
+    {
+      "name": "安装与设置步骤",
+      "children": [
+        {
+          "name": "准备工作",
+          "children": [
+            {
+              "name": "Claude 账号"
+            },
+            {
+              "name": "Google 账号"
+            }
+          ]
+        },
+        {
+          "name": "执行流程",
+          "children": [
+            {
+              "name": "下载 NotebookLM MCP"
+            },
+            {
+              "name": "通过 Claude Code 全局安装"
+            },
+            {
+              "name": "终端执行 nlm-auth 登录"
+            },
+            {
+              "name": "Google 账号授权认证"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "实际操作演示 (Demo)",
+      "children": [
+        {
+          "name": "YouTube 视频搜索 (YT Search Skill)"
+        },
+        {
+          "name": "自动添加资料至 NotebookLM"
+        },
+        {
+          "name": "生成可视化信息图 (Infographic)"
+        },
+        {
+          "name": "一键生成总结分析报告"
+        }
+      ]
+    },
+    {
+      "name": "五大应用场景",
+      "children": [
+        {
+          "name": "PDF 知识库自动化"
+        },
+        {
+          "name": "Content/Podcast 脚本生成"
+        },
+        {
+          "name": "竞品与市场研究报告"
+        },
+        {
+          "name": "学习笔记与重点卡片自动化"
+        },
+        {
+          "name": "个人 AI 助手 (私有数据同步)"
+        }
+      ]
+    },
+    {
+      "name": "核心优势",
+      "children": [
+        {
+          "name": "全自动化流程 (无需手动点选)"
+        },
+        {
+          "name": "对话即操作 (自然语言交互)"
+        },
+        {
+          "name": "多工具协同 (Skill + MCP)"
+        },
+        {
+          "name": "零额外费用 (利用现有服务)"
+        }
+      ]
+    }
+  ]
+}
