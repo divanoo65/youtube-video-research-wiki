@@ -47,3 +47,15 @@
 - **llm_calls**: 13 | **tokens**: 38423 | **duration**: 170s
 - **status**: success
 - **log**: logs/webhook-runs/gh-25882435284-1.md
+
+## Run: manual-retry-006
+- **stage**: stage_c_v3
+- **topic**: Hermes Agent AI 中控台 (partial, chunk1 processed)
+- **date**: 2026-05-21
+- **sources**: raw/notebooklm-analysis/Hermes-Agent-AI-中控台-全方位可视化监控与管理工具简报-chunk1.md
+- **new pages**: 2 (estimated)
+- **entities**: (partially extracted)
+- **concepts**: (partially extracted)
+- **llm_calls**: 6 (estimated) | **duration**: 591s (timed out)
+- **status**: partial_success_timeout
+- **log**: logs/webhook-runs/manual-retry-006.md

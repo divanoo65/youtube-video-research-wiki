@@ -24,5 +24,20 @@
       "youtube_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
       "report_title": "情感承诺与关系持久性深度简报：核心原则与动态分析"
     }
+  },
+  "stage_c": {
+    "run_id": "manual-retry-006",
+    "start_time": "2026-05-21T08:38:05+00:00",
+    "end_time": "2026-05-21T08:47:56Z",
+    "duration_s": 591,
+    "api_calls": "estimated",
+    "pages_new_this_run": 2,
+    "pages_created_total": 148,
+    "output_files": [
+      "wiki/sources/Hermes-Agent-AI-中控台-全方位可视化监控与管理管理工具简报.md",
+      "wiki/entities/Hermes-Agent-AI-中控台.md",
+      "wiki/concepts/AI-中控台.md"
+    ],
+    "source_metadata": {}
   }
 }
