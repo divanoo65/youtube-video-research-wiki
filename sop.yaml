@@ -1,5 +1,5 @@
 name: youtube-research-wiki
-version: "1.0"
+version: "2.0"
 wiki_local_path: /home/zhouhuijuan1987/wiki/youtube-video-research-wiki
 repo: divanoo65/youtube-video-research-wiki
 
@@ -14,9 +14,20 @@ terminal_paths:
   - logs/pipeline-runs/**
 
 pipeline:
-  - stage: notebooklm-research
+  - stage: youtube-fetch
     trigger: raw/youtube-links/**
+    webhook_route: sop-youtube-fetch
+    infra:
+      tg_notify: false
+      log_record: true
+    params: {}
+
+  - stage: notebooklm-research
+    trigger: raw/youtube-metadata/**
     webhook_route: sop-notebooklm-research
+    infra:
+      tg_notify: false
+      log_record: true
     params:
       notebooklm:
         outputs: [report, mindmap]
@@ -28,12 +39,18 @@ pipeline:
   - stage: wiki-build
     trigger: raw/notebooklm-analysis/**
     webhook_route: sop-wiki-build
+    infra:
+      tg_notify: false
+      log_record: true
     params:
       build_mode: incremental
 
   - stage: tg-notify
     trigger: index.md
     webhook_route: sop-tg-notify
+    infra:
+      tg_notify: true
+      log_record: true
     params:
       build_mode: notify
 
