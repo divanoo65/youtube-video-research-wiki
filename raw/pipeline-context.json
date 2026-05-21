@@ -5,79 +5,79 @@
   "delivery_id": "{delivery_id}",
   "stage_b": {
     "run_id": "direct-1779378711",
-    "start_time": "2026-05-21T16:17:02Z",
-    "end_time": "2026-05-21T16:17:02Z",
+    "start_time": "2026-05-21T16:19:45Z",
+    "end_time": "2026-05-21T16:19:45Z",
     "duration_s": 0,
     "api_calls": "unknown",
     "videos_processed": 12,
     "reports_generated": 12,
     "mindmaps_generated": 12,
     "output_files": [
-      "raw/notebooklm-analysis/AI-行业动态简报-谷歌-Gemini-3-5-发布与全球-AI-竞速格局分析.md",
-      "raw/notebooklm-analysis/Hermes-Agent-综合管理中控台-全方位可视化与控制解决方案简报.md",
-      "raw/notebooklm-analysis/简报-从氛围编程到智能体工程-Andrej-Karpathy-的人工智能洞察.md",
-      "raw/notebooklm-analysis/简报-从-氛围编程-到-智能体工程-安德烈-卡帕斯-Andrej-Karpath.md",
-      "raw/notebooklm-analysis/简报-从-氛围编程-到代理工程-安德烈-卡帕斯-Andrej-Karpathy.md",
-      "raw/notebooklm-analysis/Hugging-Face-永久免费云服务器使用与-AI-项目部署指南.md",
-      "raw/notebooklm-analysis/开源本地化语音转文字大模型部署与应用简报.md",
-      "raw/notebooklm-analysis/忠诚与承诺的宣言-Rick-Astley-Never-Gonna-Give-Yo.md",
-      "raw/notebooklm-analysis/Claude-Code-与-NotebookLM-协同增效-构建自动化-AI-研.md",
-      "raw/notebooklm-analysis/Hermes-Agent-高级玩法与部署指南-云端模型-交互优化与-Token.md",
-      "raw/notebooklm-analysis/赫美斯-Agent-Hermes-Agent-高级应用与部署简报.md",
       "raw/notebooklm-analysis/Hermes-Agent-可视化控制台-Dashboard-深度解析报告.md",
-      "raw/notebooklm-mindmaps/AI-行业动态简报-谷歌-Gemini-3-5-发布与全球-AI-竞速格局分析.json",
-      "wiki/canvas/AI-行业动态简报-谷歌-Gemini-3-5-发布与全球-AI-竞速格局分析.canvas",
-      "raw/notebooklm-mindmaps/Hermes-Agent-综合管理中控台-全方位可视化与控制解决方案简报.json",
-      "wiki/canvas/Hermes-Agent-综合管理中控台-全方位可视化与控制解决方案简报.canvas",
-      "raw/notebooklm-mindmaps/简报-从-氛围编程-到代理工程-安德烈-卡帕斯-Andrej-Karpathy.json",
-      "wiki/canvas/简报-从-氛围编程-到代理工程-安德烈-卡帕斯-Andrej-Karpathy.canvas",
-      "raw/notebooklm-mindmaps/简报-从-氛围编程-到代理工程-安德烈-卡帕斯-Andrej-Karpathy.json",
-      "wiki/canvas/简报-从-氛围编程-到代理工程-安德烈-卡帕斯-Andrej-Karpathy.canvas",
-      "raw/notebooklm-mindmaps/简报-从-氛围编程-到代理工程-安德烈-卡帕斯-Andrej-Karpathy.json",
-      "wiki/canvas/简报-从-氛围编程-到代理工程-安德烈-卡帕斯-Andrej-Karpathy.canvas",
-      "raw/notebooklm-mindmaps/Hugging-Face-永久免费云服务器使用与-AI-项目部署指南.json",
-      "wiki/canvas/Hugging-Face-永久免费云服务器使用与-AI-项目部署指南.canvas",
-      "raw/notebooklm-mindmaps/开源本地化语音转文字大模型部署与应用简报.json",
-      "wiki/canvas/开源本地化语音转文字大模型部署与应用简报.canvas",
-      "raw/notebooklm-mindmaps/忠诚与承诺的宣言-Rick-Astley-Never-Gonna-Give-Yo.json",
-      "wiki/canvas/忠诚与承诺的宣言-Rick-Astley-Never-Gonna-Give-Yo.canvas",
-      "raw/notebooklm-mindmaps/Claude-Code-与-NotebookLM-协同增效-构建自动化-AI-研.json",
-      "wiki/canvas/Claude-Code-与-NotebookLM-协同增效-构建自动化-AI-研.canvas",
-      "raw/notebooklm-mindmaps/赫美斯-Agent-Hermes-Agent-高级应用与部署简报.json",
-      "wiki/canvas/赫美斯-Agent-Hermes-Agent-高级应用与部署简报.canvas",
-      "raw/notebooklm-mindmaps/赫美斯-Agent-Hermes-Agent-高级应用与部署简报.json",
-      "wiki/canvas/赫美斯-Agent-Hermes-Agent-高级应用与部署简报.canvas",
+      "raw/notebooklm-analysis/Hermes-Agent-AI-中控台综合简报.md",
+      "raw/notebooklm-analysis/Andrej-Karpathy-从-氛围编程-到-智能体工程-的演进.md",
+      "raw/notebooklm-analysis/Andrej-Karpathy-从氛围编程-Vibe-Coding-到智能体工程.md",
+      "raw/notebooklm-analysis/Hugging-Face-免费云服务器-高性能-AI-项目部署与管理简报.md",
+      "raw/notebooklm-analysis/本地化部署开源语音转文字工具技术简报.md",
+      "raw/notebooklm-analysis/彻底告别收费平台-本地部署最强开源语音转文字神器简报.md",
+      "raw/notebooklm-analysis/Never-Gonna-Give-You-Up-深度简报-关于承诺与忠诚的宣言.md",
+      "raw/notebooklm-analysis/赫美斯-Hermes-Agent-高级应用与部署指南-云端集成-界面优化与-To.md",
+      "raw/notebooklm-analysis/Hermes-Agent-高级应用与优化简报.md",
+      "raw/notebooklm-analysis/Open-Design-Claude-Design-的开源强力平替与全流程-AI.md",
+      "raw/notebooklm-analysis/Open-Design-开源-AI-设计系统的深度解析与实操指南.md",
       "raw/notebooklm-mindmaps/Hermes-Agent-可视化控制台-Dashboard-深度解析报告.json",
-      "wiki/canvas/Hermes-Agent-可视化控制台-Dashboard-深度解析报告.canvas"
+      "wiki/canvas/Hermes-Agent-可视化控制台-Dashboard-深度解析报告.canvas",
+      "raw/notebooklm-mindmaps/Hermes-Agent-AI-中控台综合简报.json",
+      "wiki/canvas/Hermes-Agent-AI-中控台综合简报.canvas",
+      "raw/notebooklm-mindmaps/Hugging-Face-免费云服务器-高性能-AI-项目部署与管理简报.json",
+      "wiki/canvas/Hugging-Face-免费云服务器-高性能-AI-项目部署与管理简报.canvas",
+      "raw/notebooklm-mindmaps/Hugging-Face-免费云服务器-高性能-AI-项目部署与管理简报.json",
+      "wiki/canvas/Hugging-Face-免费云服务器-高性能-AI-项目部署与管理简报.canvas",
+      "raw/notebooklm-mindmaps/Hugging-Face-免费云服务器-高性能-AI-项目部署与管理简报.json",
+      "wiki/canvas/Hugging-Face-免费云服务器-高性能-AI-项目部署与管理简报.canvas",
+      "raw/notebooklm-mindmaps/本地化部署开源语音转文字工具技术简报.json",
+      "wiki/canvas/本地化部署开源语音转文字工具技术简报.canvas",
+      "raw/notebooklm-mindmaps/彻底告别收费平台-本地部署最强开源语音转文字神器简报.json",
+      "wiki/canvas/彻底告别收费平台-本地部署最强开源语音转文字神器简报.canvas",
+      "raw/notebooklm-mindmaps/Never-Gonna-Give-You-Up-深度简报-关于承诺与忠诚的宣言.json",
+      "wiki/canvas/Never-Gonna-Give-You-Up-深度简报-关于承诺与忠诚的宣言.canvas",
+      "raw/notebooklm-mindmaps/赫美斯-Hermes-Agent-高级应用与部署指南-云端集成-界面优化与-To.json",
+      "wiki/canvas/赫美斯-Hermes-Agent-高级应用与部署指南-云端集成-界面优化与-To.canvas",
+      "raw/notebooklm-mindmaps/Open-Design-Claude-Design-的开源强力平替与全流程-AI.json",
+      "wiki/canvas/Open-Design-Claude-Design-的开源强力平替与全流程-AI.canvas",
+      "raw/notebooklm-mindmaps/Open-Design-Claude-Design-的开源强力平替与全流程-AI.json",
+      "wiki/canvas/Open-Design-Claude-Design-的开源强力平替与全流程-AI.canvas",
+      "raw/notebooklm-mindmaps/Open-Design-开源-AI-设计系统的深度解析与实操指南.json",
+      "wiki/canvas/Open-Design-开源-AI-设计系统的深度解析与实操指南.canvas"
     ],
     "source_metadata": {
       "1xyZrwPV-xc": {
         "youtube_url": "https://www.youtube.com/watch?v=1xyZrwPV-xc",
-        "report_title": "AI 行业动态简报：谷歌 Gemini 3.5 发布与全球 AI 竞速格局分析"
+        "report_title": "Hermes Agent 可视化控制台（Dashboard）深度解析报告"
       },
       "78YQMfgPlwA": {
         "youtube_url": "https://www.youtube.com/watch?v=78YQMfgPlwA",
-        "report_title": "Hermes Agent 综合管理中控台：全方位可视化与控制解决方案简报"
+        "report_title": "Hermes Agent AI 中控台综合简报"
       },
       "96jN2OCOfLs": {
         "youtube_url": "https://www.youtube.com/watch?v=96jN2OCOfLs&t=92s",
-        "report_title": "简报：从氛围编程到智能体工程——Andrej Karpathy 的人工智能洞察"
+        "report_title": "Andrej Karpathy：从“氛围编程”到“智能体工程”的演进"
       },
       "Ahfe-BW1cFc": {
         "youtube_url": "https://www.youtube.com/watch?v=Ahfe-BW1cFc",
-        "report_title": "Hugging Face 永久免费云服务器使用与 AI 项目部署指南"
+        "report_title": "本地化部署开源语音转文字工具技术简报"
       },
       "OEBTu3DYFmg": {
         "youtube_url": "https://www.youtube.com/watch?v=OEBTu3DYFmg",
-        "report_title": "开源本地化语音转文字大模型部署与应用简报"
+        "report_title": "彻底告别收费平台：本地部署最强开源语音转文字神器简报"
       },
       "dQw4w9WgXcQ": {
         "youtube_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        "report_title": "忠诚与承诺的宣言：Rick Astley《Never Gonna Give You Up》核心内容深度分析简报"
+        "report_title": "《Never Gonna Give You Up》深度简报：关于承诺与忠诚的宣言"
       },
       "qrguqTRufXw": {
         "youtube_url": "https://www.youtube.com/watch?v=qrguqTRufXw",
-        "report_title": "Claude Code 与 NotebookLM 协同增效：构建自动化 AI 研究工作流简报"
+        "report_title": "赫美斯 (Hermes) Agent 高级应用与部署指南：云端集成、界面优化与 Token 成本控制"
       },
       "rBUfD_wvbhw": {
         "youtube_url": "https://www.youtube.com/watch?v=rBUfD_wvbhw&t=133s",

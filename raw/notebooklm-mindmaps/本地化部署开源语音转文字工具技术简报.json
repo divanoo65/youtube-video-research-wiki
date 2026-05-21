@@ -1,0 +1,154 @@
+{
+  "name": "本地语音转文字神器部署教程",
+  "children": [
+    {
+      "name": "核心优势",
+      "children": [
+        {
+          "name": "处理速度快"
+        },
+        {
+          "name": "多语言支持"
+        },
+        {
+          "name": "纯本地运行"
+        },
+        {
+          "name": "硬件门槛低"
+        }
+      ]
+    },
+    {
+      "name": "前期准备",
+      "children": [
+        {
+          "name": "Hugging Face账号",
+          "children": [
+            {
+              "name": "注册登录"
+            },
+            {
+              "name": "搜索特定模型"
+            },
+            {
+              "name": "创建Access Token"
+            },
+            {
+              "name": "保存hf_开头代码"
+            }
+          ]
+        },
+        {
+          "name": "硬件要求",
+          "children": [
+            {
+              "name": "显卡加速 (CUDA)"
+            },
+            {
+              "name": "支持老旧显卡 (如GTX 960)"
+            },
+            {
+              "name": "支持纯CPU运行"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "环境搭建",
+      "children": [
+        {
+          "name": "安装Miniconda",
+          "children": [
+            {
+              "name": "下载轻量版"
+            },
+            {
+              "name": "设置环境变量"
+            }
+          ]
+        },
+        {
+          "name": "创建虚拟环境",
+          "children": [
+            {
+              "name": "环境名: cohere_asr"
+            },
+            {
+              "name": "安装PyTorch与CUDA"
+            },
+            {
+              "name": "验证GPU状态"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "模型部署与配置",
+      "children": [
+        {
+          "name": "脚本修改 (app.py)",
+          "children": [
+            {
+              "name": "设置模型保存路径"
+            },
+            {
+              "name": "填入HF Access Token"
+            }
+          ]
+        },
+        {
+          "name": "安装依赖库"
+        },
+        {
+          "name": "首次运行下载模型 (4.13GB)"
+        }
+      ]
+    },
+    {
+      "name": "功能与使用",
+      "children": [
+        {
+          "name": "主要功能",
+          "children": [
+            {
+              "name": "实时麦克风转录"
+            },
+            {
+              "name": "音频文件上传"
+            },
+            {
+              "name": "语言锁定/自动识别"
+            }
+          ]
+        },
+        {
+          "name": "输出成果",
+          "children": [
+            {
+              "name": "纯文本 (TXT)"
+            },
+            {
+              "name": "带时间戳字幕 (SRT)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "对比与总结",
+      "children": [
+        {
+          "name": "优于Whisper模型"
+        },
+        {
+          "name": "字幕同步更可靠"
+        },
+        {
+          "name": "手动剪辑优化建议"
+        }
+      ]
+    }
+  ]
+}

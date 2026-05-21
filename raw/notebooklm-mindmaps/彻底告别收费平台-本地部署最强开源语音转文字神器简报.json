@@ -1,0 +1,173 @@
+{
+  "name": "本地部署最强语音转文字神器教程",
+  "children": [
+    {
+      "name": "核心优势",
+      "children": [
+        {
+          "name": "高效性能：33小时录音12分钟转完"
+        },
+        {
+          "name": "多语种支持：中英日等十几种语言"
+        },
+        {
+          "name": "完全本地运行：保护隐私，免费使用"
+        },
+        {
+          "name": "极低硬件门槛：支持旧显卡及CPU运行"
+        }
+      ]
+    },
+    {
+      "name": "前期准备",
+      "children": [
+        {
+          "name": "Hugging Face 账号设置",
+          "children": [
+            {
+              "name": "注册并登录"
+            },
+            {
+              "name": "搜索并获取模型权限"
+            },
+            {
+              "name": "创建 Access Token (Read access)"
+            },
+            {
+              "name": "保存 hf_ 开头的代码"
+            }
+          ]
+        },
+        {
+          "name": "软件环境安装",
+          "children": [
+            {
+              "name": "下载并安装 Miniconda (Windows轻量版)"
+            },
+            {
+              "name": "验证安装：conda --version"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "部署步骤",
+      "children": [
+        {
+          "name": "创建虚拟环境",
+          "children": [
+            {
+              "name": "新建空文件夹"
+            },
+            {
+              "name": "创建 cohere_asr 环境"
+            },
+            {
+              "name": "激活虚拟环境"
+            }
+          ]
+        },
+        {
+          "name": "安装依赖",
+          "children": [
+            {
+              "name": "查看 CUDA 版本"
+            },
+            {
+              "name": "安装对应版本的 PyTorch"
+            },
+            {
+              "name": "安装其他相关依赖库"
+            }
+          ]
+        },
+        {
+          "name": "环境测试",
+          "children": [
+            {
+              "name": "验证 GPU 是否被识别"
+            },
+            {
+              "name": "返回 True 即为成功"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "代码配置与启动",
+      "children": [
+        {
+          "name": "修改 app.py",
+          "children": [
+            {
+              "name": "设置模型保存路径 (D盘)"
+            },
+            {
+              "name": "填入 Hugging Face Token"
+            }
+          ]
+        },
+        {
+          "name": "启动程序",
+          "children": [
+            {
+              "name": "执行 python app.py"
+            },
+            {
+              "name": "自动下载 4.13GB 模型"
+            },
+            {
+              "name": "解决库冲突/Bug修复"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "功能使用与产出",
+      "children": [
+        {
+          "name": "Web 交互界面",
+          "children": [
+            {
+              "name": "上传音频或实时录音"
+            },
+            {
+              "name": "选择/锁定语言类型"
+            },
+            {
+              "name": "一键提交任务"
+            }
+          ]
+        },
+        {
+          "name": "结果导出",
+          "children": [
+            {
+              "name": "TXT 纯文本文件"
+            },
+            {
+              "name": "SRT 带时间戳字幕"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "实际效果评价",
+      "children": [
+        {
+          "name": "准确度：文本与标点高度还原"
+        },
+        {
+          "name": "速度：远超 OpenAI Whisper"
+        },
+        {
+          "name": "后期建议：需人工微调字幕断句"
+        }
+      ]
+    }
+  ]
+}

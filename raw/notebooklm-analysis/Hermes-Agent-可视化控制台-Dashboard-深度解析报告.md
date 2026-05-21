@@ -1,9 +1,9 @@
 ---
-video_id: Lh1KrgjnZcE
-video_url: https://youtu.be/Lh1KrgjnZcE?si=TQs9u0BOXN0n5Za5
-source_id: e17459eb-dc7a-4de2-9392-6a8bb6bd4ff5
+video_id: 1xyZrwPV-xc
+video_url: https://www.youtube.com/watch?v=1xyZrwPV-xc
+source_id: 089f937a-9d82-40d8-8745-35f5b7bb6155
 mindmap_file: Hermes-Agent-可视化控制台-Dashboard-深度解析报告.json
-processed_at: 20260521T161035Z
+processed_at: 20260521T161036Z
 ---
 
 # Hermes Agent 可视化控制台（Dashboard）深度解析报告

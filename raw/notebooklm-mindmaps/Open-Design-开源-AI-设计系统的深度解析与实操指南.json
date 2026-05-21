@@ -1,0 +1,114 @@
+{
+  "name": "Open Design 开源设计工具",
+  "children": [
+    {
+      "name": "核心定位与优势",
+      "children": [
+        {
+          "name": "Claude Design 开源平替"
+        },
+        {
+          "name": "完全免费且支持本地部署"
+        },
+        {
+          "name": "自由接入多种大模型 (BYOK)"
+        },
+        {
+          "name": "数据隐私安全"
+        }
+      ]
+    },
+    {
+      "name": "主要功能特性",
+      "children": [
+        {
+          "name": "智能生成能力",
+          "children": [
+            {
+              "name": "自然语言转设计方案"
+            },
+            {
+              "name": "32种技能组合与72套设计系统"
+            },
+            {
+              "name": "高保真视觉产出"
+            }
+          ]
+        },
+        {
+          "name": "集成与协作",
+          "children": [
+            {
+              "name": "Agent 列表无缝集成 (Codex, Cloud Code等)"
+            },
+            {
+              "name": "MCP服务器实现跨代理协作"
+            },
+            {
+              "name": "直接访问本地文件系统"
+            }
+          ]
+        },
+        {
+          "name": "交互与修改",
+          "children": [
+            {
+              "name": "注释功能：框选区域AI迭代"
+            },
+            {
+              "name": "人机协作问卷确认细节"
+            },
+            {
+              "name": "多格式导出 (HTML, PDF, PPT)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "技术架构与安装",
+      "children": [
+        {
+          "name": "环境依赖：Node.js 24+ 版本"
+        },
+        {
+          "name": "Windows建议启用WSL"
+        },
+        {
+          "name": "使用 pnpm 管理依赖"
+        },
+        {
+          "name": "模块化设计思想"
+        }
+      ]
+    },
+    {
+      "name": "配置指南",
+      "children": [
+        {
+          "name": "模型供应商：Anthropic, OpenAI, Minimax等"
+        },
+        {
+          "name": "推理力度调节 (针对Codex优化)"
+        },
+        {
+          "name": "媒体提供商接入 (图片生成/语音接口)"
+        }
+      ]
+    },
+    {
+      "name": "输出质量",
+      "children": [
+        {
+          "name": "专业级排版与黄金比例"
+        },
+        {
+          "name": "整洁的 HTML/CSS 代码"
+        },
+        {
+          "name": "无AI廉价感，符合商用标准"
+        }
+      ]
+    }
+  ]
+}

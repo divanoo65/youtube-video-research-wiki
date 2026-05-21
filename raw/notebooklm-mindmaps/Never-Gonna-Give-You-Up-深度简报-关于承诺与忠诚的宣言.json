@@ -1,0 +1,149 @@
+{
+  "name": "Claude Code + NotebookLM 自动化集成",
+  "children": [
+    {
+      "name": "工具核心介绍",
+      "children": [
+        {
+          "name": "NotebookLM",
+          "children": [
+            {
+              "name": "Google AI 研究工具"
+            },
+            {
+              "name": "支持PDF/YouTube/网页来源"
+            },
+            {
+              "name": "基于给定资料回答 (不幻觉)"
+            },
+            {
+              "name": "生成简报/Podcast/分析"
+            }
+          ]
+        },
+        {
+          "name": "Claude Code",
+          "children": [
+            {
+              "name": "Anthropic 命令行工具"
+            },
+            {
+              "name": "操作本地文件与代码"
+            },
+            {
+              "name": "通过 MCP 连接外部服务"
+            }
+          ]
+        },
+        {
+          "name": "MCP (Model Context Protocol)",
+          "children": [
+            {
+              "name": "外部工具连接标准"
+            },
+            {
+              "name": "实现自然语言操控 UI 流程"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "安装与设置步骤",
+      "children": [
+        {
+          "name": "前置准备",
+          "children": [
+            {
+              "name": "Claude 账号"
+            },
+            {
+              "name": "Google 账号"
+            }
+          ]
+        },
+        {
+          "name": "安装 MCP 服务器",
+          "children": [
+            {
+              "name": "下载 notebooklm-mpy (开源)"
+            },
+            {
+              "name": "在 Claude Code 中全局安装"
+            },
+            {
+              "name": "执行 nlm-auth 进行 Google 认证"
+            }
+          ]
+        },
+        {
+          "name": "技能整合",
+          "children": [
+            {
+              "name": "添加 YT Search Skill"
+            },
+            {
+              "name": "Skill 互相通信与协同"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "主要应用场景",
+      "children": [
+        {
+          "name": "自动化流程",
+          "children": [
+            {
+              "name": "自动搜索 YouTube 视频"
+            },
+            {
+              "name": "自动上传来源至 NotebookLM"
+            },
+            {
+              "name": "自动生成分析报告与图表"
+            }
+          ]
+        },
+        {
+          "name": "进阶用途",
+          "children": [
+            {
+              "name": "批量 PDF 知识库研究"
+            },
+            {
+              "name": "Podcast 脚本自动化生成"
+            },
+            {
+              "name": "竞品与市场调研报告"
+            },
+            {
+              "name": "系统化学习笔记整理"
+            },
+            {
+              "name": "个人私有 AI 助理"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "核心优势",
+      "children": [
+        {
+          "name": "全流程自然语言交互"
+        },
+        {
+          "name": "消除手动上传与等待"
+        },
+        {
+          "name": "多任务并行操作 (Leverage)"
+        },
+        {
+          "name": "免费利用 NotebookLM 算力"
+        }
+      ]
+    }
+  ]
+}
