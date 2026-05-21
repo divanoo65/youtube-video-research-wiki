@@ -26,19 +26,27 @@
     }
   },
   "stage_c": {
-    "run_id": "gh-26215724597-1",
-    "start_time": "2026-05-21T08:38:05+00:00",
-    "end_time": "2026-05-21T08:47:56Z",
-    "duration_s": 591,
-    "api_calls": "estimated",
-    "pages_new_this_run": 148,
-    "pages_created_total": 148,
-    "output_files": [
-      "wiki/sources/Hermes-Agent-AI-中控台-全方位可视化监控与管理管理工具简报.md",
-      "wiki/entities/Hermes-Agent-AI-中控台.md",
-      "wiki/concepts/AI-中控台.md"
+    "run_id": "test-direct-004",
+    "start_time": "2026-05-21T10:23:35Z",
+    "end_time": "2026-05-21T10:26:35Z",
+    "duration_s": 179,
+    "llm_calls": 11,
+    "pages_created_total": 184,
+    "pages_new_this_run": 6,
+    "file_paths": [
+      "wiki/concepts/一致性建立信任.md",
+      "wiki/concepts/任务调度管理.md",
+      "wiki/concepts/成本控制.md",
+      "wiki/concepts/记忆与纠错机制.md",
+      "wiki/concepts/长期认知互解.md",
+      "wiki/entities/hermes-agent-ai-中控台.md"
     ],
-    "source_metadata": {},
-    "duration": 601
+    "sources": 18,
+    "entities": 64,
+    "concepts": 102,
+    "comparisons": 0,
+    "prompt_tokens": 17542,
+    "completion_tokens": 11683,
+    "status": "success"
   }
 }
