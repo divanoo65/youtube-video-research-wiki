@@ -21,5 +21,32 @@
       "youtube_url": "https://www.youtube.com/watch?v=96jN2OCOfLs",
       "report_title": "简报：从“氛围编程”到代理工程 —— Andrej Karpathy 的 AI 范式深度解析"
     }
+  },
+  "stage_c": {
+    "run_id": "gh-26228059981-1",
+    "start_time": "2026-05-21T13:12:00Z",
+    "end_time": "2026-05-21T13:15:11Z",
+    "duration_s": 190,
+    "llm_calls": 11,
+    "pages_created_total": 224,
+    "pages_new_this_run": 9,
+    "file_paths": [
+      "wiki/concepts/可验证领域.md",
+      "wiki/concepts/大型语言模型.md",
+      "wiki/entities/gpt-3-5.md",
+      "wiki/entities/gpt-4.md",
+      "wiki/entities/menugen.md",
+      "wiki/entities/numpy.md",
+      "wiki/entities/openclaw.md",
+      "wiki/entities/twitter.md",
+      "wiki/sources/简报-从-氛围编程-到代理工程-Andrej-Karpathy-的-AI-范式深.md"
+    ],
+    "sources": 20,
+    "entities": 73,
+    "concepts": 131,
+    "comparisons": 0,
+    "prompt_tokens": 15097,
+    "completion_tokens": 8336,
+    "status": "success"
   }
 }

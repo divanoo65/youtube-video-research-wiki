@@ -1,6 +1,6 @@
 # YouTube Video Research Wiki
 Last updated: 2026-05-21
-Total pages: 15
+Total pages: 9
 
 ## Sources
 - [[hermes-agent-网页版中控台深度分析报告]]
@@ -15,6 +15,7 @@ Total pages: 15
 - [[Hermes-Agent-高级玩法与优化指南简报]]
 - [[hermes-agent-智能中控台深度分析简报]]
 - [[hermes-agent-智能中控台-深度解析与功能简报]]
+- [[简报-从-氛围编程-到代理工程-Andrej-Karpathy-的-AI-范式深]]
 - [[hermes-agent-网页版-ai-中控台深度简报]]
 - [[hermes-agent-ai-中控台-全方位可视化监控与管理工具简报]]
 - [[多-agent-协作架构深度简报-从-宠物-到-牛马-的范式演进]]
@@ -26,7 +27,9 @@ Total pages: 15
 ## Entities
 - [[claude]]
 - [[gemini]]
+- [[gpt-3-5]]
 - [[github]]
+- [[menugen]]
 - [[redis]]
 - [[claude-design]]
 - [[ollama]]
@@ -37,11 +40,13 @@ Total pages: 15
 - [[markdown]]
 - [[cloud]]
 - [[cohere-asr]]
+- [[gpt-4]]
 - [[whisper]]
 - [[opencloud]]
 - [[aip]]
 - [[sqlite]]
 - [[pytorch]]
+- [[twitter]]
 - [[gitlab]]
 - [[hugging-face]]
 - [[hod]]
@@ -54,6 +59,7 @@ Total pages: 15
 - [[jami-cli]]
 - [[astropy]]
 - [[andrej-karpathy]]
+- [[openclaw]]
 - [[google]]
 - [[cli]]
 - [[grok]]
@@ -61,6 +67,7 @@ Total pages: 15
 - [[hermes-agent]]
 - [[palantir]]
 - [[chatgpt]]
+- [[numpy]]
 - [[never-gonna-give-you-up]]
 - [[managed-agents]]
 - [[hermes-cloud]]
@@ -158,6 +165,7 @@ Total pages: 15
 - [[资料溯源]]
 - [[软件2-0]]
 - [[静态部署]]
+- [[可验证领域]]
 - [[自动化建议]]
 - [[情感透明度]]
 - [[记忆与纠错机制]]
@@ -177,6 +185,7 @@ Total pages: 15
 - [[浏览器内直接对话]]
 - [[代码库集成]]
 - [[图片反推提示词]]
+- [[大型语言模型]]
 - [[会话存储]]
 - [[无状态化]]
 - [[内网穿透]]
