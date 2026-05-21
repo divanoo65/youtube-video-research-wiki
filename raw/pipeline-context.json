@@ -21,5 +21,37 @@
       "youtube_url": "https://www.youtube.com/watch?v=78YQMfgPlwA",
       "report_title": "Hermes Agent 网页版 AI 中控台深度简报"
     }
+  },
+  "stage_c": {
+    "run_id": "gh-26227141648-1",
+    "start_time": "2026-05-21T12:53:53Z",
+    "end_time": "2026-05-21T12:58:20Z",
+    "duration_s": 267,
+    "llm_calls": 17,
+    "pages_created_total": 215,
+    "pages_new_this_run": 14,
+    "file_paths": [
+      "wiki/concepts/会话.md",
+      "wiki/concepts/工具调用.md",
+      "wiki/concepts/成本难以追踪.md",
+      "wiki/concepts/技能总数.md",
+      "wiki/concepts/操作不可见.md",
+      "wiki/concepts/每日快照.md",
+      "wiki/concepts/活跃度分析.md",
+      "wiki/concepts/直接对话功能.md",
+      "wiki/concepts/记忆可能出错.md",
+      "wiki/concepts/透明化管理.md",
+      "wiki/entities/api-key.md",
+      "wiki/entities/git-status.md",
+      "wiki/entities/hermes-cloud.md",
+      "wiki/sources/hermes-agent-网页版-ai-中控台深度简报.md"
+    ],
+    "sources": 19,
+    "entities": 67,
+    "concepts": 129,
+    "comparisons": 0,
+    "prompt_tokens": 19079,
+    "completion_tokens": 14061,
+    "status": "success"
   }
 }
