@@ -1,5 +1,25 @@
 {
+  "pipeline_id": "pipe-f7a0086",
   "source_url": "https://www.youtube.com/watch?v=78YQMfgPlwA",
   "source_type": "youtube",
-  "delivery_id": "{delivery_id}"
+  "delivery_id": "{delivery_id}",
+  "stage_b": {
+    "run_id": "gh-26227002708-1",
+    "start_time": "2026-05-21T12:51:08Z",
+    "end_time": "2026-05-21T12:52:40Z",
+    "duration_s": 92,
+    "api_calls": "unknown",
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 1,
+    "output_files": [
+      "raw/notebooklm-analysis/Hermes-Agent-网页版-AI-中控台深度简报.md",
+      "raw/notebooklm-mindmaps/Hermes-Agent-网页版-AI-中控台深度简报.json",
+      "wiki/canvas/Hermes-Agent-网页版-AI-中控台深度简报.canvas"
+    ],
+    "source_metadata": {
+      "youtube_url": "https://www.youtube.com/watch?v=78YQMfgPlwA",
+      "report_title": "Hermes Agent 网页版 AI 中控台深度简报"
+    }
+  }
 }
