@@ -5,8 +5,8 @@
   "delivery_id": "{delivery_id}",
   "stage_b": {
     "run_id": "direct-1779378711",
-    "start_time": "2026-05-21T16:19:45Z",
-    "end_time": "2026-05-21T16:19:45Z",
+    "start_time": "2026-05-21T16:21:10Z",
+    "end_time": "2026-05-21T16:21:10Z",
     "duration_s": 0,
     "api_calls": "unknown",
     "videos_processed": 12,
