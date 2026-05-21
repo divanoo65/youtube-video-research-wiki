@@ -1,5 +1,22 @@
 {
   "source_url": "https://www.youtube.com/watch?v=96jN2OCOfLs&t=92s",
   "source_type": "youtube",
-  "delivery_id": "{delivery_id}"
+  "delivery_id": "{delivery_id}",
+  "stage_b_fetch": {
+    "run_id": "manual-test-002",
+    "video_id": "96jN2OCOfLs",
+    "title": "Andrej Karpathy: From Vibe Coding to Agentic Engineering",
+    "author": "Sequoia Capital",
+    "published_at": "2026-04-29T15:21:18Z",
+    "youtube_url": "https://www.youtube.com/watch?v=96jN2OCOfLs",
+    "thumbnail": "https://i.ytimg.com/vi/96jN2OCOfLs/hqdefault.jpg",
+    "meta_file": "raw/youtube-metadata/96jN2OCOfLs.json"
+  },
+  "stage_b": {
+    "source_metadata": {
+      "title": "Andrej Karpathy: From Vibe Coding to Agentic Engineering",
+      "youtube_url": "https://www.youtube.com/watch?v=96jN2OCOfLs",
+      "author": "Sequoia Capital"
+    }
+  }
 }
