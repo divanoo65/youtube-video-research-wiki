@@ -14,10 +14,14 @@
   },
   "stage_b": {
     "source_metadata": {
-      "title": "三款Obsidian必备插件，我每天都在用",
-      "youtube_url": "https://www.youtube.com/watch?v=r11gCir5OLo",
-      "author": "huangyihe"
-    }
+      "error": "No module named 'youtube_metadata'",
+      "url": "https://www.youtube.com/watch?v=r11gCir5OLo"
+    },
+    "output_files": [
+      "raw/notebooklm-analysis/三款Obsidian必备插件-我每天都在用.md",
+      "raw/notebooklm-mindmaps/三款Obsidian必备插件-我每天都在用.json",
+      "wiki/canvas/三款Obsidian必备插件-我每天都在用.canvas"
+    ]
   },
   "pipeline_id": "pipe-90fa385"
 }
