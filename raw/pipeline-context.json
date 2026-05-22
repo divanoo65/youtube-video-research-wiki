@@ -31,5 +31,25 @@
     "youtube_url": "https://www.youtube.com/watch?v=UBFxXy4ouzQ",
     "thumbnail": "https://i.ytimg.com/vi/UBFxXy4ouzQ/hqdefault.jpg",
     "meta_file": "raw/youtube-metadata/UBFxXy4ouzQ.json"
+  },
+  "stage_c": {
+    "run_id": "direct-1779482330",
+    "start_time": "2026-05-22T20:38:57Z",
+    "end_time": "2026-05-22T20:40:11Z",
+    "duration_s": 74,
+    "llm_calls": 4,
+    "pages_created_total": 1370,
+    "pages_new_this_run": 1,
+    "pages_updated_this_run": 0,
+    "file_paths": [
+      "wiki/sources/open-design-claude-design-的开源免费替代方案深度简报.md"
+    ],
+    "sources": 99,
+    "entities": 215,
+    "concepts": 1056,
+    "comparisons": 0,
+    "prompt_tokens": 27767,
+    "completion_tokens": 2527,
+    "status": "success"
   }
 }
