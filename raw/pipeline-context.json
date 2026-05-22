@@ -31,5 +31,25 @@
     "youtube_url": "https://www.youtube.com/watch?v=78YQMfgPlwA",
     "thumbnail": "https://i.ytimg.com/vi/78YQMfgPlwA/hqdefault.jpg",
     "meta_file": "raw/youtube-metadata/78YQMfgPlwA.json"
+  },
+  "stage_c": {
+    "run_id": "direct-1779478718",
+    "start_time": "2026-05-22T19:38:51Z",
+    "end_time": "2026-05-22T19:40:09Z",
+    "duration_s": 78,
+    "llm_calls": 3,
+    "pages_created_total": 1200,
+    "pages_new_this_run": 2,
+    "file_paths": [
+      "wiki/concepts/移动端-ai-工作流.md",
+      "wiki/sources/hermes-agent-中控台-hod-深度解析报告-打造透明化的-ai-核心管理系统.md"
+    ],
+    "sources": 86,
+    "entities": 190,
+    "concepts": 924,
+    "comparisons": 0,
+    "prompt_tokens": 25040,
+    "completion_tokens": 2381,
+    "status": "success"
   }
 }
