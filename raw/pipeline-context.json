@@ -1,5 +1,22 @@
 {
   "source_url": "https://www.youtube.com/watch?v=r11gCir5OLo",
   "source_type": "youtube",
-  "delivery_id": "{delivery_id}"
+  "delivery_id": "{delivery_id}",
+  "stage_b_fetch": {
+    "run_id": "direct-1779420957",
+    "video_id": "r11gCir5OLo",
+    "title": "三款Obsidian必备插件，我每天都在用",
+    "author": "huangyihe",
+    "published_at": "2024-10-19T13:01:04Z",
+    "youtube_url": "https://www.youtube.com/watch?v=r11gCir5OLo",
+    "thumbnail": "https://i.ytimg.com/vi/r11gCir5OLo/hqdefault.jpg",
+    "meta_file": "raw/youtube-metadata/r11gCir5OLo.json"
+  },
+  "stage_b": {
+    "source_metadata": {
+      "title": "三款Obsidian必备插件，我每天都在用",
+      "youtube_url": "https://www.youtube.com/watch?v=r11gCir5OLo",
+      "author": "huangyihe"
+    }
+  }
 }
