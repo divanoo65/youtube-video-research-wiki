@@ -1,0 +1,118 @@
+{
+  "name": "Hermes Agent AI 中控台 (HOD)",
+  "children": [
+    {
+      "name": "Dashboard (仪表盘)",
+      "children": [
+        {
+          "name": "Overview (系统总览)"
+        },
+        {
+          "name": "AI 成绩单 (对话、消息、工具调用数)"
+        },
+        {
+          "name": "记忆容量 (Memory & User Profile)"
+        },
+        {
+          "name": "成长曲线 (每日快照对比)"
+        },
+        {
+          "name": "工具排行榜"
+        },
+        {
+          "name": "每日活动折线图"
+        }
+      ]
+    },
+    {
+      "name": "Memory & Sessions (记忆与对话)",
+      "children": [
+        {
+          "name": "Memory Tab (编辑/删除记忆)"
+        },
+        {
+          "name": "User Profile (个人画像)"
+        },
+        {
+          "name": "Session Steps (完整对话记录)"
+        },
+        {
+          "name": "全文搜索 (标题与内文)"
+        }
+      ]
+    },
+    {
+      "name": "Cost & Health (成本与状态)",
+      "children": [
+        {
+          "name": "Cost Tab (各模型费用明细)"
+        },
+        {
+          "name": "Health Tab (API Key 与服务状态)"
+        }
+      ]
+    },
+    {
+      "name": "Skills & Tasks (技能与任务)",
+      "children": [
+        {
+          "name": "Skills Tab (80个技能分类)"
+        },
+        {
+          "name": "Cron Tab (定时排程管理)"
+        },
+        {
+          "name": "Project Steps (项目代码状态监测)"
+        }
+      ]
+    },
+    {
+      "name": "Analytics (分析功能)",
+      "children": [
+        {
+          "name": "Pattern (使用习惯分析)"
+        },
+        {
+          "name": "Task Clusters (任务自动聚类)"
+        },
+        {
+          "name": "重复 Prompt 识别 (自动化建议)"
+        },
+        {
+          "name": "Correction Tab (AI 错题本)"
+        }
+      ]
+    },
+    {
+      "name": "Management & Interaction (管理与交互)",
+      "children": [
+        {
+          "name": "Profile Step (AI 缩影卡片)"
+        },
+        {
+          "name": "Wchat Tab (浏览器内置聊天)"
+        },
+        {
+          "name": "Agent 监控 (多 Agent 状态追踪)"
+        },
+        {
+          "name": "快捷键 (T换肤, Ctrl+K搜索)"
+        }
+      ]
+    },
+    {
+      "name": "安装步骤",
+      "children": [
+        {
+          "name": "前提: 已安装 Hermes Agent"
+        },
+        {
+          "name": "Git Clone 项目"
+        },
+        {
+          "name": "执行 Install 指令 (自动构建前端)"
+        }
+      ]
+    }
+  ]
+}
