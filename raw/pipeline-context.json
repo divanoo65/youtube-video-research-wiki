@@ -1,5 +1,22 @@
 {
   "source_url": "https://www.youtube.com/watch?v=UBFxXy4ouzQ",
   "source_type": "youtube",
-  "pipeline_id": "UBFxXy4ouzQ-20260522T203456"
+  "pipeline_id": "UBFxXy4ouzQ-20260522T203456",
+  "stage_b_fetch": {
+    "run_id": "direct-1779482099",
+    "video_id": "UBFxXy4ouzQ",
+    "title": "🚀Open Design免费替代Claude Design！开源设计神器：UI/UX原型、PPT制作、网页生成！支持Codex/Claude Code/Antigravity，保姆级教程多场景实战测评",
+    "author": "AI超元域",
+    "published_at": "2026-05-22T14:07:36Z",
+    "youtube_url": "https://www.youtube.com/watch?v=UBFxXy4ouzQ",
+    "thumbnail": "https://i.ytimg.com/vi/UBFxXy4ouzQ/hqdefault.jpg",
+    "meta_file": "raw/youtube-metadata/UBFxXy4ouzQ.json"
+  },
+  "stage_b": {
+    "source_metadata": {
+      "title": "🚀Open Design免费替代Claude Design！开源设计神器：UI/UX原型、PPT制作、网页生成！支持Codex/Claude Code/Antigravity，保姆级教程多场景实战测评",
+      "youtube_url": "https://www.youtube.com/watch?v=UBFxXy4ouzQ",
+      "author": "AI超元域"
+    }
+  }
 }
