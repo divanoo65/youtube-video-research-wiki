@@ -4,20 +4,20 @@
   "delivery_id": "{delivery_id}",
   "pipeline_id": "78YQMfgPlwA-20260522T193336",
   "stage_b_fetch": {
-    "run_id": "direct-1779467200",
-    "video_id": "UBFxXy4ouzQ",
-    "title": "🚀Open Design免费替代Claude Design！开源设计神器：UI/UX原型、PPT制作、网页生成！支持Codex/Claude Code/Antigravity，保姆级教程多场景实战测评",
-    "author": "AI超元域",
-    "published_at": "2026-05-22T14:07:36Z",
-    "youtube_url": "https://www.youtube.com/watch?v=UBFxXy4ouzQ",
-    "thumbnail": "https://i.ytimg.com/vi/UBFxXy4ouzQ/hqdefault.jpg",
-    "meta_file": "raw/youtube-metadata/UBFxXy4ouzQ.json"
+    "run_id": "direct-1779478418",
+    "video_id": "78YQMfgPlwA",
+    "title": "8萬顆星的Hermes Agent少了它根本不能用！3分鐘打造AI中控台",
+    "author": "YAHA学堂",
+    "published_at": "2026-04-17T00:26:18Z",
+    "youtube_url": "https://www.youtube.com/watch?v=78YQMfgPlwA",
+    "thumbnail": "https://i.ytimg.com/vi/78YQMfgPlwA/hqdefault.jpg",
+    "meta_file": "raw/youtube-metadata/78YQMfgPlwA.json"
   },
   "stage_b": {
     "source_metadata": {
-      "title": "🚀Open Design免费替代Claude Design！开源设计神器：UI/UX原型、PPT制作、网页生成！支持Codex/Claude Code/Antigravity，保姆级教程多场景实战测评",
-      "youtube_url": "https://www.youtube.com/watch?v=UBFxXy4ouzQ",
-      "author": "AI超元域"
+      "title": "8萬顆星的Hermes Agent少了它根本不能用！3分鐘打造AI中控台",
+      "youtube_url": "https://www.youtube.com/watch?v=78YQMfgPlwA",
+      "author": "YAHA学堂"
     }
   }
 }
