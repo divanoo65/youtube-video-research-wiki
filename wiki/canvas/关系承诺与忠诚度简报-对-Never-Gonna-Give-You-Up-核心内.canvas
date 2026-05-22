@@ -1,0 +1,373 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "type": "text",
+      "text": "Never Gonna Give You Up (Rick Astley)",
+      "x": 0,
+      "y": 576,
+      "width": 280,
+      "height": 52,
+      "color": "6"
+    },
+    {
+      "id": "1",
+      "type": "text",
+      "text": "核心承诺",
+      "x": 360,
+      "y": 180,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "2",
+      "type": "text",
+      "text": "永不放弃你",
+      "x": 680,
+      "y": 0,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "3",
+      "type": "text",
+      "text": "永不让你失望",
+      "x": 680,
+      "y": 72,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "4",
+      "type": "text",
+      "text": "永不抛弃你",
+      "x": 680,
+      "y": 144,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "5",
+      "type": "text",
+      "text": "永不让你哭泣",
+      "x": 680,
+      "y": 216,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "6",
+      "type": "text",
+      "text": "永不道别",
+      "x": 680,
+      "y": 288,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "7",
+      "type": "text",
+      "text": "永不撒谎伤害你",
+      "x": 680,
+      "y": 360,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "8",
+      "type": "text",
+      "text": "感情基础",
+      "x": 360,
+      "y": 540,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "9",
+      "type": "text",
+      "text": "相识已久",
+      "x": 680,
+      "y": 432,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "10",
+      "type": "text",
+      "text": "知晓规则",
+      "x": 680,
+      "y": 504,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "11",
+      "type": "text",
+      "text": "渴望坦诚",
+      "x": 680,
+      "y": 576,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "12",
+      "type": "text",
+      "text": "两情相悦",
+      "x": 680,
+      "y": 648,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "13",
+      "type": "text",
+      "text": "内心表白",
+      "x": 360,
+      "y": 828,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "14",
+      "type": "text",
+      "text": "全心全意的投入",
+      "x": 680,
+      "y": 720,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "15",
+      "type": "text",
+      "text": "独一无二的深情",
+      "x": 680,
+      "y": 792,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "16",
+      "type": "text",
+      "text": "渴望被理解",
+      "x": 680,
+      "y": 864,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "17",
+      "type": "text",
+      "text": "表达真实感受",
+      "x": 680,
+      "y": 936,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "18",
+      "type": "text",
+      "text": "现状洞察",
+      "x": 360,
+      "y": 1080,
+      "width": 240,
+      "height": 52,
+      "color": "5"
+    },
+    {
+      "id": "19",
+      "type": "text",
+      "text": "内心渴望却害羞",
+      "x": 680,
+      "y": 1008,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "20",
+      "type": "text",
+      "text": "看穿情感的游戏",
+      "x": 680,
+      "y": 1080,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    },
+    {
+      "id": "21",
+      "type": "text",
+      "text": "不应视而不见",
+      "x": 680,
+      "y": 1152,
+      "width": 200,
+      "height": 52,
+      "color": "4"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1-2",
+      "fromNode": "1",
+      "toNode": "2",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e1-3",
+      "fromNode": "1",
+      "toNode": "3",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e1-4",
+      "fromNode": "1",
+      "toNode": "4",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e1-5",
+      "fromNode": "1",
+      "toNode": "5",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e1-6",
+      "fromNode": "1",
+      "toNode": "6",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e1-7",
+      "fromNode": "1",
+      "toNode": "7",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-1",
+      "fromNode": "0",
+      "toNode": "1",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e8-9",
+      "fromNode": "8",
+      "toNode": "9",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e8-10",
+      "fromNode": "8",
+      "toNode": "10",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e8-11",
+      "fromNode": "8",
+      "toNode": "11",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e8-12",
+      "fromNode": "8",
+      "toNode": "12",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-8",
+      "fromNode": "0",
+      "toNode": "8",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e13-14",
+      "fromNode": "13",
+      "toNode": "14",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e13-15",
+      "fromNode": "13",
+      "toNode": "15",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e13-16",
+      "fromNode": "13",
+      "toNode": "16",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e13-17",
+      "fromNode": "13",
+      "toNode": "17",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-13",
+      "fromNode": "0",
+      "toNode": "13",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e18-19",
+      "fromNode": "18",
+      "toNode": "19",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e18-20",
+      "fromNode": "18",
+      "toNode": "20",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e18-21",
+      "fromNode": "18",
+      "toNode": "21",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "e0-18",
+      "fromNode": "0",
+      "toNode": "18",
+      "fromSide": "right",
+      "toSide": "left"
+    }
+  ]
+}

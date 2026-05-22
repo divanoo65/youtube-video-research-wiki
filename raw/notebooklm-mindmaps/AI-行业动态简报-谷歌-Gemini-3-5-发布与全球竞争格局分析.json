@@ -1,0 +1,97 @@
+{
+  "name": "AI 行业动态及谷歌 I/O 大会进展",
+  "children": [
+    {
+      "name": "谷歌 (Google) 更新",
+      "children": [
+        {
+          "name": "Gemini 3.5 Flash",
+          "children": [
+            {
+              "name": "性能提升：速度快四倍"
+            },
+            {
+              "name": "成本优化：价格降低一半"
+            },
+            {
+              "name": "模型定位：前瞻性轻量化模型"
+            },
+            {
+              "name": "下月预告：Gemini 3.5 Pro 发布"
+            }
+          ]
+        },
+        {
+          "name": "Antigravity 2.0",
+          "children": [
+            {
+              "name": "产品定位：谷歌版 Codex 桌面端"
+            },
+            {
+              "name": "UI 改进：向 Codex/Cursor 学习"
+            },
+            {
+              "name": "存在问题：登录 Bug 及稳定性待修"
+            }
+          ]
+        },
+        {
+          "name": "谷歌 I/O 其他内容",
+          "children": [
+            {
+              "name": "Gemini 多模态数据分析"
+            },
+            {
+              "name": "智能硬件：智能眼镜"
+            },
+            {
+              "name": "AI Agent 管理产品"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OpenAI 动态",
+      "children": [
+        {
+          "name": "Codex 集成：已加入 GPT 移动端 APP"
+        },
+        {
+          "name": "手机调用 AI：实现移动办公/任务处理"
+        },
+        {
+          "name": "行业地位：目前仍处于前沿领先"
+        }
+      ]
+    },
+    {
+      "name": "Anthropic (Claude) 进展",
+      "children": [
+        {
+          "name": "人才变动：AK (OpenAI 创始成员) 加入"
+        },
+        {
+          "name": "产品状态：近期更新以小功能为主"
+        },
+        {
+          "name": "竞争态势：相比对手稍显沉寂"
+        }
+      ]
+    },
+    {
+      "name": "模型排行 (OpenRouter)",
+      "children": [
+        {
+          "name": "DeepSeek V4 Flash：冲至第二名"
+        },
+        {
+          "name": "DeepSeek V4 Pro：位列第八名"
+        },
+        {
+          "name": "竞争优势：极高性价比 (物美价廉)"
+        }
+      ]
+    }
+  ]
+}

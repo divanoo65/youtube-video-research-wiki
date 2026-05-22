@@ -1,0 +1,142 @@
+{
+  "name": "Hugging Face 免费云服务器指南",
+  "children": [
+    {
+      "name": "免费资源配置",
+      "children": [
+        {
+          "name": "双核 CPU"
+        },
+        {
+          "name": "16G 内存"
+        },
+        {
+          "name": "50GB - 500GB 硬盘空间"
+        },
+        {
+          "name": "永久免费使用"
+        }
+      ]
+    },
+    {
+      "name": "空间 (Spaces) 创建流程",
+      "children": [
+        {
+          "name": "注册与登录",
+          "children": [
+            {
+              "name": "邮箱注册"
+            },
+            {
+              "name": "人机验证"
+            }
+          ]
+        },
+        {
+          "name": "新建 Space",
+          "children": [
+            {
+              "name": "自定义名称与描述"
+            },
+            {
+              "name": "选择许可证 (License)"
+            }
+          ]
+        },
+        {
+          "name": "选择 SDK",
+          "children": [
+            {
+              "name": "Gradio (Python 交互面板)"
+            },
+            {
+              "name": "Docker (高可玩性容器)"
+            },
+            {
+              "name": "Static (静态项目/前端)"
+            }
+          ]
+        },
+        {
+          "name": "权限设置",
+          "children": [
+            {
+              "name": "Public (公开)"
+            },
+            {
+              "name": "Private (私人)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "推荐开源项目",
+      "children": [
+        {
+          "name": "AI 绘图",
+          "children": [
+            {
+              "name": "文生图 (Prompt Generation)"
+            },
+            {
+              "name": "图片一键扩图"
+            }
+          ]
+        },
+        {
+          "name": "图片处理",
+          "children": [
+            {
+              "name": "图片反推提示词"
+            },
+            {
+              "name": "一键抠图去背"
+            }
+          ]
+        },
+        {
+          "name": "模型应用",
+          "children": [
+            {
+              "name": "文本对话模型"
+            },
+            {
+              "name": "语音转文本/TTS"
+            },
+            {
+              "name": "语言翻译"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "进阶操作",
+      "children": [
+        {
+          "name": "项目克隆 (Duplicate)",
+          "children": [
+            {
+              "name": "复制到个人空间运行"
+            }
+          ]
+        },
+        {
+          "name": "终端管理",
+          "children": [
+            {
+              "name": "部署 JupyterLab"
+            },
+            {
+              "name": "SSH/命令行远程管理"
+            },
+            {
+              "name": "设置访问 Token 密码"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

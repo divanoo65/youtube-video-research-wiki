@@ -1,0 +1,121 @@
+{
+  "name": "Open Design 开源设计工具",
+  "children": [
+    {
+      "name": "核心定位与优势",
+      "children": [
+        {
+          "name": "Claude Design 开源平替"
+        },
+        {
+          "name": "完全免费且灵活"
+        },
+        {
+          "name": "支持本地部署"
+        },
+        {
+          "name": "隐私安全无泄露风险"
+        },
+        {
+          "name": "打破订阅制限制与付费墙"
+        }
+      ]
+    },
+    {
+      "name": "关键功能特性",
+      "children": [
+        {
+          "name": "Bring Your Own Key (BYOK) 模式"
+        },
+        {
+          "name": "多模型集成 (Anthropic, OpenAI, 各种开源大模型)"
+        },
+        {
+          "name": "Agent 模块化设计 (集成 Claude Code, Codex 等)"
+        },
+        {
+          "name": "MCP 服务器 (实现跨代理协作)"
+        },
+        {
+          "name": "内置 32 种技能与 72 套设计系统"
+        },
+        {
+          "name": "多格式导出 (HTML, PDF, PPT)"
+        },
+        {
+          "name": "交互式标注与迭代功能"
+        }
+      ]
+    },
+    {
+      "name": "安装与配置流程",
+      "children": [
+        {
+          "name": "基础环境",
+          "children": [
+            {
+              "name": "Node.js 24 以上版本"
+            },
+            {
+              "name": "Git 环境"
+            },
+            {
+              "name": "Windows 用户需启用 WSL"
+            }
+          ]
+        },
+        {
+          "name": "部署步骤",
+          "children": [
+            {
+              "name": "克隆 GitHub 仓库"
+            },
+            {
+              "name": "pnpm 安装依赖"
+            },
+            {
+              "name": "运行启动命令"
+            },
+            {
+              "name": "浏览器访问本地链接"
+            }
+          ]
+        },
+        {
+          "name": "系统配置",
+          "children": [
+            {
+              "name": "运行模式选择"
+            },
+            {
+              "name": "配置推理代理"
+            },
+            {
+              "name": "接入媒体提供商 (如图片生成 API)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "设计与产出质量",
+      "children": [
+        {
+          "name": "自然语言指令转设计方案"
+        },
+        {
+          "name": "高保真视觉风格"
+        },
+        {
+          "name": "整洁、专业的 HTML/CSS 代码"
+        },
+        {
+          "name": "支持移动端/桌面端优先配置"
+        },
+        {
+          "name": "多层级复杂网站处理能力"
+        }
+      ]
+    }
+  ]
+}

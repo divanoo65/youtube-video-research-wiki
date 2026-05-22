@@ -1,0 +1,122 @@
+{
+  "name": "Open Design 开源设计工具",
+  "children": [
+    {
+      "name": "核心优势",
+      "children": [
+        {
+          "name": "完全免费"
+        },
+        {
+          "name": "开源替代品 (Claude Design)"
+        },
+        {
+          "name": "驱动 16 种 AI Coding CLI"
+        },
+        {
+          "name": "支持 Codex 桌面应用"
+        }
+      ]
+    },
+    {
+      "name": "部署与配置",
+      "children": [
+        {
+          "name": "自动部署 (通过 Codex 提示词)"
+        },
+        {
+          "name": "CLI 选择 (Claude Code/Codex)"
+        },
+        {
+          "name": "多语言支持 (中英文等)"
+        },
+        {
+          "name": "API Key 自定义配置"
+        }
+      ]
+    },
+    {
+      "name": "多场景实战测评",
+      "children": [
+        {
+          "name": "移动端外卖 APP 原型",
+          "children": [
+            {
+              "name": "支持高保真/可点击原型"
+            },
+            {
+              "name": "具备加入购物车等交互"
+            },
+            {
+              "name": "图像生成能力略逊于 Claude"
+            }
+          ]
+        },
+        {
+          "name": "背单词 APP 原型",
+          "children": [
+            {
+              "name": "支持双设备同步显示"
+            },
+            {
+              "name": "具备翻转卡片与测试功能"
+            },
+            {
+              "name": "UI 精细度低于 Claude"
+            }
+          ]
+        },
+        {
+          "name": "Web 仪表盘仪表盘",
+          "children": [
+            {
+              "name": "响应式页面开发"
+            },
+            {
+              "name": "内容丰富度稍显不足"
+            }
+          ]
+        },
+        {
+          "name": "PPT 演示文稿制作",
+          "children": [
+            {
+              "name": "支持多页 PPT 生成"
+            },
+            {
+              "name": "可通过提示词统一主题颜色"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "特色功能",
+      "children": [
+        {
+          "name": "主题切换系统"
+        },
+        {
+          "name": "Comment 局部修改指令"
+        },
+        {
+          "name": "实时画布预览"
+        }
+      ]
+    },
+    {
+      "name": "现状评价",
+      "children": [
+        {
+          "name": "优势：免费、可本地部署、交互性强"
+        },
+        {
+          "name": "劣势：生成速度慢、存在主题切换 Bug"
+        },
+        {
+          "name": "结论：可在一定程度上替代 Claude Design"
+        }
+      ]
+    }
+  ]
+}

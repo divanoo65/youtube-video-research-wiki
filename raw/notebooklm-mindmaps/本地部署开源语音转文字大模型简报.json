@@ -1,0 +1,164 @@
+{
+  "name": "开源本地语音转文字神器部署教程",
+  "children": [
+    {
+      "name": "项目核心优势",
+      "children": [
+        {
+          "name": "完全本地运行"
+        },
+        {
+          "name": "支持10余种语言"
+        },
+        {
+          "name": "极速转换效率"
+        },
+        {
+          "name": "硬件门槛低"
+        }
+      ]
+    },
+    {
+      "name": "准备工作",
+      "children": [
+        {
+          "name": "Hugging Face账号",
+          "children": [
+            {
+              "name": "搜索特定模型字符串"
+            },
+            {
+              "name": "获取Access Token"
+            },
+            {
+              "name": "设置Read权限"
+            }
+          ]
+        },
+        {
+          "name": "软件环境",
+          "children": [
+            {
+              "name": "安装Miniconda"
+            },
+            {
+              "name": "检查Conda版本"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "环境搭建步骤",
+      "children": [
+        {
+          "name": "虚拟环境",
+          "children": [
+            {
+              "name": "创建cohere_asr环境"
+            },
+            {
+              "name": "激活环境"
+            }
+          ]
+        },
+        {
+          "name": "深度学习框架",
+          "children": [
+            {
+              "name": "检查CUDA版本"
+            },
+            {
+              "name": "安装匹配的PyTorch"
+            },
+            {
+              "name": "安装项目依赖库"
+            }
+          ]
+        },
+        {
+          "name": "安装验证",
+          "children": [
+            {
+              "name": "Python命令测试"
+            },
+            {
+              "name": "确认GPU唤醒(True)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "程序配置与运行",
+      "children": [
+        {
+          "name": "脚本修改(app.py)",
+          "children": [
+            {
+              "name": "指定模型下载路径"
+            },
+            {
+              "name": "填入HF_Token"
+            }
+          ]
+        },
+        {
+          "name": "启动与调试",
+          "children": [
+            {
+              "name": "运行python app.py"
+            },
+            {
+              "name": "解决库冲突错误"
+            },
+            {
+              "name": "语言强制锁定功能"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "功能测试与结果",
+      "children": [
+        {
+          "name": "输出文件",
+          "children": [
+            {
+              "name": "TXT纯文本"
+            },
+            {
+              "name": "SRT时间戳字幕"
+            }
+          ]
+        },
+        {
+          "name": "性能表现",
+          "children": [
+            {
+              "name": "17分钟音频数分钟转完"
+            },
+            {
+              "name": "文字准确率极高"
+            },
+            {
+              "name": "对比Whisper速度更快更稳"
+            }
+          ]
+        },
+        {
+          "name": "后期建议",
+          "children": [
+            {
+              "name": "视频软件手动微调"
+            },
+            {
+              "name": "处理断句过长问题"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

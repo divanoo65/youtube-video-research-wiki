@@ -1,0 +1,149 @@
+{
+  "name": "Claude Code + NotebookLM 自动化工作流",
+  "children": [
+    {
+      "name": "核心工具介绍",
+      "children": [
+        {
+          "name": "NotebookLM",
+          "children": [
+            {
+              "name": "AI 研究助手"
+            },
+            {
+              "name": "支持 PDF/YouTube/网页"
+            },
+            {
+              "name": "基于给定资料回答"
+            }
+          ]
+        },
+        {
+          "name": "Claude Code",
+          "children": [
+            {
+              "name": "终端 AI 工具"
+            },
+            {
+              "name": "支持 MCP 连接外部服务"
+            },
+            {
+              "name": "自然语言操作文件/指令"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "环境搭建步骤",
+      "children": [
+        {
+          "name": "必备账户",
+          "children": [
+            {
+              "name": "Claude 账户"
+            },
+            {
+              "name": "Google 账户"
+            }
+          ]
+        },
+        {
+          "name": "安装过程",
+          "children": [
+            {
+              "name": "安装 Claude Code"
+            },
+            {
+              "name": "下载 notebooklm-mcp 开源项目"
+            },
+            {
+              "name": "使用 Claude Code 全局安装"
+            }
+          ]
+        },
+        {
+          "name": "身份验证",
+          "children": [
+            {
+              "name": "执行 nlm-auth 登录"
+            },
+            {
+              "name": "完成 Google 授权"
+            },
+            {
+              "name": "保存 Storage State"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "核心功能与演示",
+      "children": [
+        {
+          "name": "自动化操作",
+          "children": [
+            {
+              "name": "搜索 YouTube 视频"
+            },
+            {
+              "name": "自动添加 Source 至 Notebook"
+            },
+            {
+              "name": "一键生成 Infographic"
+            }
+          ]
+        },
+        {
+          "name": "内容生成",
+          "children": [
+            {
+              "name": "生成研究报告 (Report)"
+            },
+            {
+              "name": "生成学习指南 (Study Guide)"
+            },
+            {
+              "name": "生成 Podcast 脚本"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "进阶应用场景",
+      "children": [
+        {
+          "name": "PDF 知识库自动化整理"
+        },
+        {
+          "name": "内容创作与播客脚本生成"
+        },
+        {
+          "name": "竞品分析与市场研究报告"
+        },
+        {
+          "name": "学习笔记与重点卡片系统"
+        },
+        {
+          "name": "个人私有 AI 知识助理"
+        }
+      ]
+    },
+    {
+      "name": "技术原理",
+      "children": [
+        {
+          "name": "MCP (Model Context Protocol)"
+        },
+        {
+          "name": "Skill 联动 (YT Search + NLM)"
+        },
+        {
+          "name": "自然语言指令转 API 操作"
+        }
+      ]
+    }
+  ]
+}
