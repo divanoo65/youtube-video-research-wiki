@@ -1,7 +1,27 @@
 {
+  "pipeline_id": "UBFxXy4ouzQ-20260522T203456",
   "source_url": "https://www.youtube.com/watch?v=UBFxXy4ouzQ",
   "source_type": "youtube",
-  "pipeline_id": "UBFxXy4ouzQ-20260522T203456",
+  "delivery_id": "",
+  "stage_b": {
+    "run_id": "direct-1779482118",
+    "start_time": "2026-05-22T20:34:57Z",
+    "end_time": "2026-05-22T20:36:20Z",
+    "duration_s": 83,
+    "api_calls": "unknown",
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 1,
+    "output_files": [
+      "raw/notebooklm-analysis/Open-Design-Claude-Design-的开源免费替代方案深度简报.md",
+      "raw/notebooklm-mindmaps/Open-Design-Claude-Design-的开源免费替代方案深度简报.json",
+      "wiki/canvas/Open-Design-Claude-Design-的开源免费替代方案深度简报.canvas"
+    ],
+    "source_metadata": {
+      "youtube_url": "https://www.youtube.com/watch?v=UBFxXy4ouzQ",
+      "report_title": "Open Design：Claude Design 的开源免费替代方案深度简报"
+    }
+  },
   "stage_b_fetch": {
     "run_id": "direct-1779482099",
     "video_id": "UBFxXy4ouzQ",
@@ -11,12 +31,5 @@
     "youtube_url": "https://www.youtube.com/watch?v=UBFxXy4ouzQ",
     "thumbnail": "https://i.ytimg.com/vi/UBFxXy4ouzQ/hqdefault.jpg",
     "meta_file": "raw/youtube-metadata/UBFxXy4ouzQ.json"
-  },
-  "stage_b": {
-    "source_metadata": {
-      "title": "🚀Open Design免费替代Claude Design！开源设计神器：UI/UX原型、PPT制作、网页生成！支持Codex/Claude Code/Antigravity，保姆级教程多场景实战测评",
-      "youtube_url": "https://www.youtube.com/watch?v=UBFxXy4ouzQ",
-      "author": "AI超元域"
-    }
   }
 }

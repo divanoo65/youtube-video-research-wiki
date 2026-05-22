@@ -1,0 +1,132 @@
+{
+  "name": "Open Design 开源设计工具",
+  "children": [
+    {
+      "name": "核心特性",
+      "children": [
+        {
+          "name": "开源免费"
+        },
+        {
+          "name": "支持16种AI Coding CLI"
+        },
+        {
+          "name": "支持Codex桌面应用"
+        },
+        {
+          "name": "保姆级自动部署"
+        }
+      ]
+    },
+    {
+      "name": "实战应用场景",
+      "children": [
+        {
+          "name": "UI/UX原型设计",
+          "children": [
+            {
+              "name": "外卖App原型"
+            },
+            {
+              "name": "单词学习App"
+            },
+            {
+              "name": "多端适配(iPhone/Android)"
+            }
+          ]
+        },
+        {
+          "name": "网页生成",
+          "children": [
+            {
+              "name": "响应式仪表盘"
+            },
+            {
+              "name": "任务管理界面"
+            }
+          ]
+        },
+        {
+          "name": "PPT制作",
+          "children": [
+            {
+              "name": "Slide自动设计"
+            },
+            {
+              "name": "主题统一调整"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "交互与设置",
+      "children": [
+        {
+          "name": "交互深度选择",
+          "children": [
+            {
+              "name": "静态展示"
+            },
+            {
+              "name": "可点击原型"
+            },
+            {
+              "name": "完整交互"
+            }
+          ]
+        },
+        {
+          "name": "多语言支持",
+          "children": [
+            {
+              "name": "简体中文"
+            },
+            {
+              "name": "繁体中文"
+            },
+            {
+              "name": "英文"
+            }
+          ]
+        },
+        {
+          "name": "模型与API配置"
+        },
+        {
+          "name": "Comment功能局部修改"
+        }
+      ]
+    },
+    {
+      "name": "对比与测评 (vs Claude Design)",
+      "children": [
+        {
+          "name": "优势",
+          "children": [
+            {
+              "name": "无额度限制"
+            },
+            {
+              "name": "部署灵活"
+            }
+          ]
+        },
+        {
+          "name": "不足",
+          "children": [
+            {
+              "name": "UI精细度略低"
+            },
+            {
+              "name": "生成速度较慢"
+            },
+            {
+              "name": "存在主题切换Bug"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
