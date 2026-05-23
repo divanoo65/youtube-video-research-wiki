@@ -1,5 +1,5 @@
 # YouTube Video Research Wiki
-Last updated: 2026-05-22
+Last updated: 2026-05-23
 Total pages: 2
 
 ## Sources
@@ -84,6 +84,7 @@ Total pages: 2
 - [[Hugging-Face-永久免费云服务器使用与-AI-项目部署指南.md]]
 - [[open-design-开源ai设计工具的深度解析与实操简报]]
 - [[开源本地化语音转文字大模型部署与应用简报]]
+- [[Obsidian-核心生产力插件深度分析简报]]
 - [[关系承诺与忠诚度分析简报-基于-Never-Gonna-Give-You-Up-文本研究]]
 - [[hugging-face-永久免费云服务器使用与-ai-项目部署指南]]
 - [[简报-从氛围编程到智能体工程-andrej-karpathy-的-人工智能洞察]]
