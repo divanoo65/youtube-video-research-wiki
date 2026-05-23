@@ -1,0 +1,116 @@
+{
+  "name": "Obsidian 三款必备插件",
+  "children": [
+    {
+      "name": "PDF++",
+      "children": [
+        {
+          "name": "阅读与笔记同步",
+          "children": [
+            {
+              "name": "自动摘录内容"
+            },
+            {
+              "name": "手动粘贴模式"
+            }
+          ]
+        },
+        {
+          "name": "标注功能",
+          "children": [
+            {
+              "name": "颜色区分内容"
+            },
+            {
+              "name": "支持多种复制格式"
+            }
+          ]
+        },
+        {
+          "name": "双向跳转",
+          "children": [
+            {
+              "name": "点击链接回溯PDF位置"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Smart Connections",
+      "children": [
+        {
+          "name": "自动反向链接",
+          "children": [
+            {
+              "name": "AI分析笔记相关性"
+            },
+            {
+              "name": "自动推荐关联笔记"
+            }
+          ]
+        },
+        {
+          "name": "嵌入模型 (Embedding)",
+          "children": [
+            {
+              "name": "默认BGE模型"
+            },
+            {
+              "name": "支持OpenAI API"
+            }
+          ]
+        },
+        {
+          "name": "可视化工具",
+          "children": [
+            {
+              "name": "Smart Connection Visualizer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Copilot",
+      "children": [
+        {
+          "name": "多模型支持",
+          "children": [
+            {
+              "name": "GPT-4o / Claude 3.5"
+            },
+            {
+              "name": "本地Ollama (通义千问)"
+            }
+          ]
+        },
+        {
+          "name": "本地知识库",
+          "children": [
+            {
+              "name": "创建笔记索引"
+            },
+            {
+              "name": "长文档问答消化"
+            }
+          ]
+        },
+        {
+          "name": "预设常用功能",
+          "children": [
+            {
+              "name": "文章总结"
+            },
+            {
+              "name": "中英双向翻译"
+            },
+            {
+              "name": "支持快捷键绑定"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
