@@ -1,6 +1,6 @@
 # YouTube Video Research Wiki
-Last updated: 2026-05-23
-Total pages: 2
+Last updated: 2026-05-24
+Total pages: 1
 
 ## Sources
 - [[hermes-agent-智能中控台深度分析简报.md]]
@@ -59,6 +59,7 @@ Total pages: 2
 - [[简报-从-氛围编程-到-智能体工程-安德烈-卡帕斯-的技术洞察]]
 - [[hermes-agent-智能中控台-深度解析与功能简报]]
 - [[open-design-claude-design-的开源免费替代方案深度简报]]
+- [[google-antigravity-2-0-技术简报-迈向多-agent-协作的开发新纪元]]
 - [[hermes-agent-高级应用与优化简报]]
 - [[关系承诺与忠诚度简报-对-Never-Gonna-Give-You-Up-核心内涵的深度分析]]
 - [[开源本地化语音转文字模型部署简报]]

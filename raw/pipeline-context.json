@@ -22,5 +22,25 @@
       "raw/notebooklm-analysis/Google-Antigravity-2-0-技术简报-迈向多-Agent-协作.md",
       "raw/notebooklm-mindmaps/Google-Antigravity-2-0-技术简报-迈向多-Agent-协作.json"
     ]
+  },
+  "stage_c": {
+    "run_id": "manual-bstR13-verify",
+    "start_time": "2026-05-24T08:43:39Z",
+    "end_time": "2026-05-24T08:44:35Z",
+    "duration_s": 56,
+    "llm_calls": 3,
+    "pages_created_total": 1372,
+    "pages_new_this_run": 1,
+    "pages_updated_this_run": 0,
+    "file_paths": [
+      "wiki/sources/google-antigravity-2-0-技术简报-迈向多-agent-协作的开发新纪元.md"
+    ],
+    "sources": 101,
+    "entities": 215,
+    "concepts": 1056,
+    "comparisons": 0,
+    "prompt_tokens": 27329,
+    "completion_tokens": 1478,
+    "status": "success"
   }
 }
