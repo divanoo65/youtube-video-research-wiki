@@ -1,5 +1,22 @@
 {
   "source_url": "https://www.youtube.com/watch?v=bstR13jNtzM",
   "source_type": "youtube",
-  "pipeline_id": "bstR13jNtzM-20260524T070241"
+  "pipeline_id": "bstR13jNtzM-20260524T070241",
+  "stage_b_fetch": {
+    "run_id": "direct-1779606163",
+    "video_id": "bstR13jNtzM",
+    "title": "Google Antigravity 2.0 来了：AI 开发进入多 Agent 时代？",
+    "author": "By Yuya Mei",
+    "published_at": "2026-05-24T00:27:18Z",
+    "youtube_url": "https://www.youtube.com/watch?v=bstR13jNtzM",
+    "thumbnail": "https://i.ytimg.com/vi/bstR13jNtzM/hqdefault.jpg",
+    "meta_file": "raw/youtube-metadata/bstR13jNtzM.json"
+  },
+  "stage_b": {
+    "source_metadata": {
+      "title": "Google Antigravity 2.0 来了：AI 开发进入多 Agent 时代？",
+      "youtube_url": "https://www.youtube.com/watch?v=bstR13jNtzM",
+      "author": "By Yuya Mei"
+    }
+  }
 }
