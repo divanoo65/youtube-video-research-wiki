@@ -1,0 +1,125 @@
+{
+  "name": "Google IDX (Antigravity) 2.0 更新",
+  "children": [
+    {
+      "name": "核心定位转变",
+      "children": [
+        {
+          "name": "从聊天工具到Agent操作系统"
+        },
+        {
+          "name": "Agent控制中心"
+        },
+        {
+          "name": "多Agent并行协作平台"
+        },
+        {
+          "name": "以任务为核心的工作台"
+        }
+      ]
+    },
+    {
+      "name": "Gemini 3.5 Flash 模型",
+      "children": [
+        {
+          "name": "定位：Agentic Workflow (智能体工作流)"
+        },
+        {
+          "name": "特性：速度快 (4倍于同类模型)"
+        },
+        {
+          "name": "优势：支持长任务、多步骤、低成本、高调用"
+        },
+        {
+          "name": "能力：理解项目结构、读写文件、日志修复"
+        }
+      ]
+    },
+    {
+      "name": "主要功能与工具",
+      "children": [
+        {
+          "name": "Antigravity IDE 2.0",
+          "children": [
+            {
+              "name": "全新桌面界面"
+            },
+            {
+              "name": "项目文件夹管理"
+            },
+            {
+              "name": "对话历史记录"
+            },
+            {
+              "name": "自定义模型与Skill设置"
+            }
+          ]
+        },
+        {
+          "name": "新特性",
+          "children": [
+            {
+              "name": "Scheduled Tasks (定时任务)"
+            },
+            {
+              "name": "Sub-agent 监控"
+            },
+            {
+              "name": "Artifacts 实时预览"
+            },
+            {
+              "name": "Background Tasks 自动化"
+            }
+          ]
+        },
+        {
+          "name": "命令行工具 (CLI)",
+          "children": [
+            {
+              "name": "Antigravity CLI 安装"
+            },
+            {
+              "name": "搭配 Claude CLI (宏观计划)"
+            },
+            {
+              "name": "搭配 Codex CLI (Debug/编程)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AI 开发新思维 (三件事)",
+      "children": [
+        {
+          "name": "拆解任务",
+          "children": [
+            {
+              "name": "Research / Architecture"
+            },
+            {
+              "name": "UI / Testing / Deployment"
+            }
+          ]
+        },
+        {
+          "name": "管理 Agent (明确职责)"
+        },
+        {
+          "name": "审核能力 (Review)",
+          "children": [
+            {
+              "name": "文件修改审核"
+            },
+            {
+              "name": "安全风险检查"
+            },
+            {
+              "name": "符合 PRD 目标"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
