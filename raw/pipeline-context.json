@@ -17,6 +17,10 @@
       "title": "Google Antigravity 2.0 来了：AI 开发进入多 Agent 时代？",
       "youtube_url": "https://www.youtube.com/watch?v=bstR13jNtzM",
       "author": "By Yuya Mei"
-    }
+    },
+    "output_files": [
+      "raw/notebooklm-analysis/Google-Antigravity-2-0-技术简报-迈向多-Agent-协作.md",
+      "raw/notebooklm-mindmaps/Google-Antigravity-2-0-技术简报-迈向多-Agent-协作.json"
+    ]
   }
 }
