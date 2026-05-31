@@ -13,10 +13,18 @@
     "meta_file": "raw/youtube-metadata/L_Guz73e6fw.json"
   },
   "stage_b": {
-    "source_metadata": {
-      "title": "Sam Altman: OpenAI CEO on GPT-4, ChatGPT, and the Future of AI | Lex Fridman Podcast #367",
-      "youtube_url": "https://www.youtube.com/watch?v=L_Guz73e6fw",
-      "author": "Lex Fridman"
-    }
+    "duration_s": 53,
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 1,
+    "processed_urls": [
+      "https://www.youtube.com/watch?v=L_Guz73e6fw"
+    ],
+    "output_files": [
+      "raw/notebooklm-analysis/简报-Sam-Altman-论-GPT-4-ChatGPT-与人工智能的未来.md",
+      "raw/notebooklm-mindmaps/简报-Sam-Altman-论-GPT-4-ChatGPT-与人工智能的未来.json",
+      "wiki/canvas/简报-Sam-Altman-论-GPT-4-ChatGPT-与人工智能的未来.canvas"
+    ],
+    "source_metadata": {}
   }
 }
