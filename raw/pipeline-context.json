@@ -3,7 +3,7 @@
   "run_id": "verify-real-20260531",
   "stage": "youtube-fetch",
   "stage_b_fetch": {
-    "run_id": "verify-final-20260531",
+    "run_id": "verify-final-loop",
     "video_id": "L_Guz73e6fw",
     "title": "Sam Altman: OpenAI CEO on GPT-4, ChatGPT, and the Future of AI | Lex Fridman Podcast #367",
     "author": "Lex Fridman",
