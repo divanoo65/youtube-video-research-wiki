@@ -1,11 +1,5 @@
 {
-  "stage_b": {
-    "duration_s": 36,
-    "videos_processed": 1,
-    "reports_generated": 1,
-    "mindmaps_generated": 1,
-    "processed_urls": [
-      "https://www.youtube.com/watch?v=eMlx5fFNoYc"
-    ]
-  }
+  "source_url": "https://www.youtube.com/watch?v=L_Guz73e6fw",
+  "run_id": "verify-real-20260531",
+  "stage": "youtube-fetch"
 }
