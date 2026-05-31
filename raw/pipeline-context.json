@@ -1,0 +1,11 @@
+{
+  "stage_b": {
+    "duration_s": 36,
+    "videos_processed": 1,
+    "reports_generated": 1,
+    "mindmaps_generated": 1,
+    "processed_urls": [
+      "https://www.youtube.com/watch?v=eMlx5fFNoYc"
+    ]
+  }
+}
